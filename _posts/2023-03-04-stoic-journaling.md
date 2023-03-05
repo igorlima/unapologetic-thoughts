@@ -4,9 +4,7 @@ title: stoic journaling
 category: writing
 ---
 
-# Stoic Journaling [^1]
-
-The goal is to cultivate a more mindful and intentional approach to life by reflecting on one’s thoughts, actions, and emotions.
+The goal is to cultivate a more mindful and intentional approach to life by reflecting on one’s thoughts, actions, and emotions. [^1]
 
 Stoic journaling, a form of contemplative writing, is a powerful tool for self-reflection and personal growth.
 

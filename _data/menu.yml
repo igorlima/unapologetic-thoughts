@@ -16,6 +16,14 @@ entries:
       show_more_text: see archive...
       show_more_url: archive.html
 
+  - title: inspirations
+    post_list:
+      category: inspiration
+      limit: 2
+      show_more: true
+      show_more_text: see more posts...
+      show_more_url: inspiration-archive.html
+
   - title: thoughtful
     post_list:
       category: thoughts

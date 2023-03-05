@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Steve Jobs wrote an Email to himself in his last days"
-category: thoughts
+category: inspiration
 ---
 
 This is What it Said [^1] [^2]

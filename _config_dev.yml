@@ -8,7 +8,9 @@ email: lima.igorribeiro@gmail.com # email of site's author
 description: > # description of the site (multiple lines allowed)
   A (nearly) no-CSS, fast, minimalist Jekyll theme.
 
-permalink: /:slug.html
+# https://jekyllrb.com/docs/permalinks/
+# permalink: /:slug.html
+permalink: /:categories/:year/:month/:day/:slug.html
 
 favicon: "logo.png" # name+extension of favicon (which must be put on the root folder)
 # goat_counter: "yoursitename" # put your GoatCounter name if you want to use GoatCounter analytics

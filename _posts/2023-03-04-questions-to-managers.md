@@ -4,9 +4,7 @@ title: "Questions To Ask Managers"
 category: speaking
 ---
 
-# Questions To Ask Managers [^1]
-
-1. What concerns did your team raise last month, and how did you address them?
+1. What concerns did your team raise last month, and how did you address them? [^1]
 2. What was the biggest impact created by your team last month, and what contributed to it?
 3. What issues, conflicts, and disagreements got your significant time and attention? Why were they important?
 4. What were the key takeaways from the discussions you had last month with stakeholders or other cross-functional leaders/managers?

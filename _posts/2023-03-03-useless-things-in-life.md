@@ -4,7 +4,7 @@ title: "Useless Things In Life"
 category: inspiration
 ---
 
-A cluttered to-do list leads to decision fatigue, which gets you stressed.
+A cluttered to-do list leads to decision fatigue, which gets you stressed [^1].
 
 "Analysis paralysis" is a thing. When you’re faced with too many choices or a list of things to do, you’re more likely to feel overwhelmed.
 

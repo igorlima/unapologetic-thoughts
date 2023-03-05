@@ -1,7 +1,7 @@
 ---
 layout: post
 title: stoic journaling
-category: writin
+category: writing
 ---
 
 # Stoic Journaling [^1]

@@ -24,8 +24,8 @@ entries:
       show_more_text: see more posts...
       show_more_url: thoughtful-archive.html
 
-  - title: rss
-    url: feed.xml
+# - title: rss
+#   url: feed.xml
   
   - title: another list
     entries:

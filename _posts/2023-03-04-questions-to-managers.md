@@ -15,7 +15,6 @@ category: speaking
 > _“Meetings are at the heart of an effective organization, and each meeting is an opportunity to clarify issues, set new directions, sharpen focus, create alignment, and move objectives forward.”_ ― Paul Axtell, Meetings Matter
 
 ---
-
 {: data-content="footnotes"}
 
 [^1]: [5 Questions To Ask Your Managers Every Month To Help Them Grow as a Leader](https://betterprogramming.pub/5-questions-to-ask-your-managers-every-month-to-help-them-grow-as-a-leader-4e08b3fa3061)

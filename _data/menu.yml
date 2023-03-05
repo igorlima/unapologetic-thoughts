@@ -16,6 +16,14 @@ entries:
       show_more_text: see archive...
       show_more_url: archive.html
 
+  - title: speaking
+    post_list:
+      category: speaking
+      limit: 2
+      show_more: true
+      show_more_text: see more posts...
+      show_more_url: speaking-archive.html
+
   - title: writing
     post_list:
       category: writing

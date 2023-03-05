@@ -4,6 +4,7 @@ email: lima.igorribeiro@gmail.com # email of site's author
 
 # $> bundle exec jekyll build --config _config_dev.yml
 # $> bundle exec jekyll serve --config _config_dev.yml
+# $> bundle exec jekyll --version
 description: > # description of the site (multiple lines allowed)
   A (nearly) no-CSS, fast, minimalist Jekyll theme.
 
@@ -23,6 +24,10 @@ theme_config:
 sass:
   style: :compressed
 
+destination:      ./_site
+incremental:      false
+regenerate:       true
+
 plugins:
-  # - jekyll-feed
+  - jekyll-feed
   - jekyll-seo-tag

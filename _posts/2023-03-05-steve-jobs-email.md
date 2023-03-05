@@ -34,7 +34,6 @@ totally dependent on them for my life and well being.
 Sent from my iPad
 ```
 
-
 ---
 {: data-content="footnotes"}
 

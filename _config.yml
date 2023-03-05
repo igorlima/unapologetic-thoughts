@@ -24,5 +24,5 @@ sass:
   style: :compressed
 
 plugins:
-  # - jekyll-feed
+  - jekyll-feed
   - jekyll-seo-tag

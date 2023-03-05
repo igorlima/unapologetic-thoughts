@@ -16,6 +16,14 @@ entries:
       show_more_text: see archive...
       show_more_url: archive.html
 
+  - title: writing
+    post_list:
+      category: writing
+      limit: 2
+      show_more: true
+      show_more_text: see more posts...
+      show_more_url: writing-archive.html
+
   - title: inspirations
     post_list:
       category: inspiration

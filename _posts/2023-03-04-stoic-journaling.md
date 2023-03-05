@@ -20,7 +20,6 @@ __*The first step is identifying any negative or irrational thoughts affecting y
 
 
 ---
-
 {: data-content="footnotes"}
 
 [^1]: [Stoic Journaling: How to Make More Sense of Your Thoughts, Emotions And Habits](https://medium.com/personal-growth/stoic-journaling-how-to-make-more-sense-of-your-thoughts-67b6bd8cc473)

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Steve Jobs wrote an Email to himself in his last days"
+title: "Questions To Ask Managers"
 category: speaking
 ---
 

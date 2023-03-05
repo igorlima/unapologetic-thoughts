@@ -2,8 +2,8 @@ title: unapologetic thoughts, please! # name of the site
 author: Igor Lima # name of site's author
 email: lima.igorribeiro@gmail.com # email of site's author
 
-url: https://igorlima.github.io/unapologetic-thoughts # root address of the site
-baseurl: "/unapologetic-thoughts" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
+# $> bundle exec jekyll build --config _config_dev.yml
+# $> bundle exec jekyll serve --config _config_dev.yml
 description: > # description of the site (multiple lines allowed)
   A (nearly) no-CSS, fast, minimalist Jekyll theme.
 

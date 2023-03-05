@@ -24,13 +24,13 @@ entries:
       show_more_text: see more posts...
       show_more_url: inspiration-archive.html
 
-  - title: thoughtful
+  - title: sketch drafting
     post_list:
-      category: thoughts
+      category: sketch
       limit: 2
       show_more: true
       show_more_text: see more posts...
-      show_more_url: thoughtful-archive.html
+      show_more_url: sketch-archive.html
 
 # - title: rss
 #   url: feed.xml

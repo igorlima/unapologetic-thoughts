@@ -22,7 +22,7 @@ entries:
       limit: 2
       show_more: true
       show_more_text: see more posts...
-      show_more_url: likebility-archive.html
+      show_more_url: archive-likebility.html
 
   - title: speaking
     post_list:
@@ -30,7 +30,7 @@ entries:
       limit: 2
       show_more: true
       show_more_text: see more posts...
-      show_more_url: speaking-archive.html
+      show_more_url: archive-speaking.html
 
   - title: writing
     post_list:
@@ -38,7 +38,7 @@ entries:
       limit: 2
       show_more: true
       show_more_text: see more posts...
-      show_more_url: writing-archive.html
+      show_more_url: archive-writing.html
 
   - title: inspirations
     post_list:
@@ -46,7 +46,7 @@ entries:
       limit: 2
       show_more: true
       show_more_text: see more posts...
-      show_more_url: inspiration-archive.html
+      show_more_url: archive-inspiration.html
 
   - title: sketch drafting
     post_list:
@@ -54,7 +54,7 @@ entries:
       limit: 2
       show_more: true
       show_more_text: see more posts...
-      show_more_url: sketch-archive.html
+      show_more_url: archive-sketch.html
 
 # - title: rss
 #   url: feed.xml

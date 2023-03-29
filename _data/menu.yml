@@ -48,6 +48,14 @@ entries:
       show_more_text: see more posts...
       show_more_url: archive-inspiration.html
 
+  - title: technically
+    post_list:
+      category: technical
+      limit: 2
+      show_more: true
+      show_more_text: see more posts...
+      show_more_url: archive-technical.html
+
   - title: sketch drafting
     post_list:
       category: sketch

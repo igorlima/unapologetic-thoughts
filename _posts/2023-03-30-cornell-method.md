@@ -33,6 +33,10 @@ __*Summarize the meeting in no more than two sentences.*__
 
 ![image](https://cdn.sanity.io/images/0e4kwcjv/production/9f70b056349ce880c04e5faf0a6ac87e08b086d9-1297x866.jpg?w=1200&sharp=20&q=42&auto=format&dpr=2)
 
+- Use short sentences, bullets, symbols, and abbreviations to keep your notes concise.
+- Add main topics, ideas, and questions to the cue column.
+- Summarize the meeting in no more than two sentences.
+
 ![image](https://cdn.sanity.io/images/0e4kwcjv/production/9738c6c27946ab2015c0cf616cb3f84b5aec74c7-2181x1348.jpg?w=1200&sharp=20&q=42&auto=format&dpr=2)
 
 

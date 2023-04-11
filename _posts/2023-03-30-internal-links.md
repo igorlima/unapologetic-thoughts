@@ -13,6 +13,13 @@ There is no need to include the file extension when using the `post_url` tag.
     - `{% raw %}{% post_url /subdir/2010-07-21-name-of-post %}{% endraw %}`
 
 
+###  __troubleshooting__
+
+- [post_url generates urls without baseurl](https://github.com/jekyll/jekyll/issues/8887)
+  - _the `post_url` and `link` tags prefixes `site.baseurl` from Jekyll 4.0 onward._
+  - _`{% raw %}{% post_url ... %}{% endraw %}` is meant for posts only. For everything else, please use `{% raw %}{% link ... %}{% endraw %}`_
+  - _`{% raw %}[article 1]({{site.baseurl}}/{% post_url DATE-article1.md %}){% endraw %}`_
+
 ---
 {: data-content="footnotes"}
 

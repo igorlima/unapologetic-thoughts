@@ -5,3 +5,11 @@
 _site
 vendor
 Gemfile.lock
+
+# Ignore vim files
+*~
+*.swp
+*.swo
+
+# MacOS thing
+*.DS_Store

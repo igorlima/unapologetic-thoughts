@@ -8,7 +8,7 @@ This is an example search page!
 Reference:
 - [Fuse Live Demo](https://fusejs.io/demo.html)
 - [Fuse options documentation](https://fusejs.io/api/options.html)
-- the following vim hint is helpful when enabling the option to include the matches - `includeMatches: true`.
+- the following __vim__ hint is helpful when enabling the option to include the matches - `includeMatches: true`.
   - to move the cursor to a match position, use the one character in the [search pattern](https://learnbyexample.gitbooks.io/vim-reference/content/Regular_Expressions.html) `/.` and then move the `N` characters ahead by repeating the last search from the cursor's position.
     - to go to the `Nth` match in the file: type the amount of movement to go ahead, then press the `n` - eg. `78n` `250n`.
     - the dot `.` matches any character except the new line.

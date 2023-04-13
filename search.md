@@ -28,7 +28,7 @@ Reference:
     // minMatchCharLength: 1,
     // location: 0,
     threshold: 0.3,
-    distance: 1000,
+    distance: 10000,
     // useExtendedSearch: false,
     // ignoreLocation: false,
     // ignoreFieldNorm: false,

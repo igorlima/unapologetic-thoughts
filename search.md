@@ -12,7 +12,7 @@ Reference:
 <div class="live-demo" style="width: 100%; margin: 0%;">
   <p>Search</p>
   <input type="text" id="search" style="width: 100%; height: 30px;">
-  <div id="html"></div>
+  <div id="html" style="margin-top: 2%;"></div>
   <p>Config</p>
   <textarea id="config" rows="18" style="width: 100%;" wrap="off">
   {

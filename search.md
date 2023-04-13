@@ -48,9 +48,10 @@ Reference:
   console.log('loading scripts...')
   await Promise.all([
     // https://lodash.com/docs/4.17.21
-    'https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js',
+    // 'https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js',
     // https://caolan.github.io/async/v3/docs.html
-    'https://cdnjs.cloudflare.com/ajax/libs/async/3.2.4/async.min.js',
+    // 'https://cdnjs.cloudflare.com/ajax/libs/async/3.2.4/async.min.js',
+
     // https://www.jsdelivr.com/package/npm/xmltojson
     // CTX.xmlToJSON.parseString('<xml><a>It Works!</a></xml>')
     ['https://cdn.jsdelivr.net/npm/xmltojson@1.3.5/lib/xmlToJSON.min.js', 'xmlToJSON'],

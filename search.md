@@ -128,12 +128,20 @@ Reference:
 
     html.textContent = null
     results.forEach(({item} = {}) => {
-      const {id: [{_text: link}], title: [{_text: title}], content: [{_text: content}]} = item
+      const {
+        link: [{
+          _attr: {
+            href: {_value: link}
+          }
+        }],
+        title: [{_text: title}],
+        content: [{_text: content}]
+      } = item
 
       const html = document.querySelector('#html')
       html.insertAdjacentHTML( 'beforeend', `
         <div style=" display: flex; flex-direction: column; ">
-          <a href="/${link}">${title}</a>
+          <a href="${link}">${title}</a>
           <div style="height: 150px; overflow-x: hidden; overflow-y: auto;">${content}</div>
         </div>
         <br/>

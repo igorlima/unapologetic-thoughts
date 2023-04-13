@@ -134,6 +134,7 @@ Reference:
             href: {_value: link}
           }
         }],
+        id: [{_text: idlink}],
         title: [{_text: title}],
         content: [{_text: content}]
       } = item

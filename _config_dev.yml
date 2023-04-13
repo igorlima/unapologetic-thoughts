@@ -30,6 +30,10 @@ destination:      ./_site
 incremental:      false
 regenerate:       true
 
+# https://github.com/jekyll/jekyll-feed
+feed:
+  posts_limit: 1000
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag

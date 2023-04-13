@@ -71,6 +71,8 @@ entries:
     entries:
       - title: unapologetic
         entries:
+          - title: search
+            url: search
           - title: sketch
             url: archive-sketch
           - title: snippets

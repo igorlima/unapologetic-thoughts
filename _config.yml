@@ -25,6 +25,10 @@ theme_config:
 sass:
   style: :compressed
 
+# https://github.com/jekyll/jekyll-feed
+feed:
+  posts_limit: 1000
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag

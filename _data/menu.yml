@@ -5,6 +5,8 @@ entries:
   - title: info
     entries:
       - title: a (nearly) no-CSS, fast, minimalist Jekyll theme.
+      - title: calendar 2023
+        url: 2023-04-24-calendar-2023
       - title: github repo
         url: https://github.com/igorlima/unapologetic-thoughts
       - title: "used by <a href='https://github.com/igorlima'>ilima</a> and <a href='https://github.com/riggraz/no-style-please/network/dependents'>many others</a>"

@@ -6,7 +6,7 @@ entries:
     entries:
       - title: a (nearly) no-CSS, fast, minimalist Jekyll theme.
       - title: calendar 2023
-        url: calendar-2023
+        url: Calendar 2023
       - title: github repo
         url: https://github.com/igorlima/unapologetic-thoughts
       - title: "used by <a href='https://github.com/igorlima'>ilima</a> and <a href='https://github.com/riggraz/no-style-please/network/dependents'>many others</a>"

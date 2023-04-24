@@ -13,6 +13,7 @@ The simple reason is because, except for the placement of the months in the uppe
 
 
 ## _One page calendar for: **2023**_
+
 | - | - | - | - | - | - | - | - | - | - | - | - |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | . | . | . | . | . |Jan|May|Aug|Feb|Jun|Sep|Apr|
@@ -29,7 +30,9 @@ The simple reason is because, except for the placement of the months in the uppe
 
 
 ## _One page calendar for: **2000**_
+
 A sample for upcoming years
+
 
 | - | - | - | - | - | - | - | - | - | - | - | - |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|

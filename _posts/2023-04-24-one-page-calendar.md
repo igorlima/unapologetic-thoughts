@@ -53,5 +53,7 @@ A sample for upcoming years
 ---
 {: data-content="footnotes"}
 
-[^1]: [Medium: This one-page calendar will change how you view the year]([{{site.baseurl}}{% post_url 2023-03-30-internal-links %}](https://medium.com/starts-with-a-bang/this-one-page-calendar-will-change-how-you-view-the-year-b8ecad85eebd))
-[^2]: [BigThink: This one-page calendar will change how you view the year]([{{site.baseurl}}{% post_url 2023-03-30-internal-links %}]([https://medium.com/starts-with-a-bang/this-one-page-calendar-will-change-how-you-view-the-year-b8ecad85eebd)](https://bigthink.com/starts-with-a-bang/one-page-calendar/))
+
+[^1]: [Medium: This one-page calendar will change how you view the year](https://medium.com/starts-with-a-bang/this-one-page-calendar-will-change-how-you-view-the-year-b8ecad85eebd)
+[^2]: [BigThink: This one-page calendar will change how you view the year](https://bigthink.com/starts-with-a-bang/one-page-calendar/)
+

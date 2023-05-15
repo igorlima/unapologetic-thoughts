@@ -60,8 +60,6 @@ You will have to remember six colors and can think of them in pairs: white and r
 If you are using the Six Hats method just for yourself, switch to the blue hat regularly to assess which hat might be useful next.
 Feeling stuck? Stay within that hat for up to three minutes, see what comes up for you, and then pick the next. This way, you can get unstuck. In the end, you lost ten minutes instead of an hour. Don’t let perfect stand in the way of good enough.
 
-Stay within that hat for up to three minutes, see what comes up for you, and then pick the next. This way, you can get unstuck. In the end, you lost ten minutes instead of an hour. Don’t let perfect stand in the way of good enough.
-
 - __Fact vs. Opinion:__ Blue, White, Red, Blue
 - __Identifying Solutions:__ Blue, Yellow, White, Black, Green, Red, Blue
 - __Free Ideation:__ Blue, Green, Red, Blue

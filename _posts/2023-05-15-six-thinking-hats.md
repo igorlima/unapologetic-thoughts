@@ -10,7 +10,7 @@ Teams and individuals who have learned what the hats are, and why and how to use
 
 You will have to remember six colors and can think of them in pairs: white and red, black and yellow, and green and blue. Before you read on, try to visualize those colors in front of your inner eye. This will increase your memory and lead to faster internalization.
 
-- The White Hat
+- __The White Hat__
   - What it stands for: Facts, Figures / Objectivity / Information Gathering
   - How to remember it: White indicates neutrality, is the color of a lab coat, and reminds you of science.
   - Example questions and statements: “What do/don’t we know?” “How do we want to know?” “How do we get there?” “Is this a fact, a belief, or an opinion?” “How likely is something?”
@@ -19,19 +19,19 @@ You will have to remember six colors and can think of them in pairs: white and r
     - Make sure you are honest and clearly stating when something is a checked or unchecked statement.
     - An unchecked statement is considered a belief. Both of those are allowed under the white hat, but it is important to label something as a belief clearly.
     - What should not be uttered under this hat are opinions, as they are never objective and involve intuitions. One can turn beliefs into facts by verifying them. However, one can’t do that with opinions, which always involve intuition or personal taste. Opinions are still not ruled out, though, but they fall under the red hat.
-- The Red Hat
+- __The Red Hat__
   - What it stands for: Emotions, Feelings, Intuitions / Subjectivity
   - How to remember it: Seeing red points to anger. Anger is an emotion.
   - Example questions and statements: “How do we feel about this problem/solution?” “My gut tells me this is a good solution.” “Taking this approach freaks me out.” “I can’t fully articulate why, but something seems off.”
   - Good to know
     - No one should be asked to justify their feelings, emotions, or intuitions, or provide a logical basis for them.
-- The Black Hat
+- __The Black Hat__
   - What it stands for: Caution, Criticism, Risk Assessment
   - How to remember it: Sombre and serious. It makes us think of the “dark sides.”
   - Example questions and statements: “What might go wrong?” “What are the weaknesses of a solution?” “What new problems might a novel solution bring forward?”
   - Good to know
     - The black hat represents the “natural” mode of (Western) critical thinking. It always adheres to logic. If a critical statement is illogical, it falls under the red hat.
-- The Yellow Hat
+- __The Yellow Hat__
   - What it stands for: Optimism, Benefits, Opportunities / Proposals / Speculations
   - How to remember it: Sun, light, and positive vibes.
   - Example questions and statements: “What is good about this?” “How could it be made possible?” “In the best possible scenario, the return on investment will be tenfold.” “We can do it, because of those three facts identified under the white hat.”
@@ -39,20 +39,20 @@ You will have to remember six colors and can think of them in pairs: white and r
     - It is much easier for us to wear the black hat than the yellow. Our ancient brains are primed to keep us from dangers rather than seek new opportunities.
     - One might say that the black hat is about surviving, while the yellow hat is about thriving. De Bono argues that we need to develop “value sensitivity,” i.e., being as sensitive to value as we already are sensitive to danger.
     - Yellow hat thinking aims for concrete proposals and suggestions.
-- The Green Hat
+- __The Green Hat__
   - What it stands for: Creativity, Idea Generation / Playfulness, Craziness, Inner Child / Possibilities / Provocation
   - How to remember it: Grass, which indicates abundance and growth.
-  - How to remember it: Grass, which indicates abundance and growth.
+  - Example questions and statements: “What is the craziest idea you could come up with?” “Remember that we are wearing the green hat now, so let me start with a very crazy idea here ...” “Under the protection of the green hat, I want to suggest dropping half of our current projects and reducing our team size.”
   - Good to know
     - At first sight, keeping the green and yellow hats apart is not so easy. The green hat is more about unconventional thinking and new ideas rather than thinking positively (yellow hat). It’s about unleashing our inner child and bringing forward crazy ideas that we would usually be afraid to share for fear of being judged.
     - The harm caused by judging others can be quite extreme and is a blind spot for many people. 
-- The Blue Hat
+- __The Blue Hat__
   - What it stands for: Meta, Overview / Process Control, Orchestration / Accountability, Coaching, Discipline / Problem Definition / Summary and Next Steps
   - How to remember it: Sky, which is above all.
   - Example questions and statements: “Please put your blue hats on. Are we getting closer to our desired outcome?” “As wearer of the blue hat, I ask you to put your green hats on. We need some new ideas here.” “I want to summarize what we have so far...”
   - Good to know
     - The blue hat has multiple meta functions, such as defining the goal and purpose of the thinking process or meeting (problem definition).
-    - The blue hat has multiple meta functions, such as defining the goal and purpose of the thinking process or meeting (problem definition).
+    - Due to the nature of this hat, it is typically assigned to a single person, who will keep it for the entire meeting duration.
 
 
 ## Practical sequences to take away
@@ -60,11 +60,14 @@ You will have to remember six colors and can think of them in pairs: white and r
 If you are using the Six Hats method just for yourself, switch to the blue hat regularly to assess which hat might be useful next.
 Feeling stuck? Stay within that hat for up to three minutes, see what comes up for you, and then pick the next. This way, you can get unstuck. In the end, you lost ten minutes instead of an hour. Don’t let perfect stand in the way of good enough.
 
-- Fact vs. Opinion: Blue, White, Red, Blue
-- Identifying Solutions: Blue, Yellow, White, Black, Green, Red, Blue
-- Free Ideation: Blue, Green, Red, Blue
-- Process Improvement: Blue, White, White (other peoples’ views), Yellow, Black, Green, Red, Blue
-- Performance Review: Blue, Red, White, Yellow, Black, Green, Red, Blue
+Stay within that hat for up to three minutes, see what comes up for you, and then pick the next. This way, you can get unstuck. In the end, you lost ten minutes instead of an hour. Don’t let perfect stand in the way of good enough.
+
+- __Fact vs. Opinion:__ Blue, White, Red, Blue
+- __Identifying Solutions:__ Blue, Yellow, White, Black, Green, Red, Blue
+- __Free Ideation:__ Blue, Green, Red, Blue
+- __Process Improvement:__ Blue, White, White (other peoples’ views), Yellow, Black, Green, Red, Blue
+- __Performance Review:__ Blue, Red, White, Yellow, Black, Green, Red, Blue
+
 
 ## Why?
 

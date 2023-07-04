@@ -4,6 +4,8 @@ title: how to run this repo locally
 category: technical
 ---
 
+- [a tmuxp sample]({{site.baseurl}}{% post_url 2013-01-01-tmuxp %})
+
 geek understands the meaning of doing geek stuff
 
 ```sh

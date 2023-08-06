@@ -35,10 +35,13 @@ __Dictionary & Acronym__
 - Vector Database: a vector database is a type of database that stores data as high-dimensional vectors, which are mathematical representations of features or attributes. Each vector has a certain number of dimensions, which can range from tens to thousands, depending on the complexity and granularity of the data.
   - what is used for: vector databases provide the ability to store and retrieve vectors as high-dimensional points. They add additional capabilities for efficient and fast lookup of nearest-neighbors in the N-dimensional space.
 
+__Prompts__
 
+In AI writing, prompts are what the user says to the AI writing tool to create the context they want. Prompts are essentially commands, which specify the parameters of the assignment such as the topic, length, style, and which words to use. [^3]
 
 ---
 {: data-content="footnotes"}
 
 [^1]: [GPT-4 is Finally Here and These Are the Key Things You Must Know](https://medium.com/@ignacio.de.gregorio.noblejas/gpt-4-released-7adb364d0f01)
 [^2]: [Querying Both Structured and Unstructured Data with LlamaIndex and OpenAI](https://betterprogramming.pub/querying-both-structured-and-unstructured-data-with-llamaindex-and-openai-8121c97ba57)
+[^3]: [17 Writing Tasks You Can Do With AI](https://www.grammarly.com/blog/ai-writing-tasks/)

@@ -29,6 +29,10 @@ Now, each side of this square shows how these different personality types share 
 - Likewise, __*on left*__ you have __Blue__ and __Green__, who tend to be reserved and introverted.
 - __*On the right*__ you have __Red__ and __Yellow__, who tend to be extroverted and proactive.
 
+
+![image](https://github.com/igorlima/unapologetic-thoughts/assets/1886786/c9e13a20-5573-4b83-aa6a-e704ff13dd70)
+
+
 ---
 {: data-content="footnotes"}
 

@@ -42,6 +42,10 @@ These four types help to picture them in a two-by-two square, with the top two, 
 
 Now, each side of this square shows how these different personality types share same common traits. __*At the top*__, both __Blue__ and __Red__ tend to place importance on tasks and issues. __*On the bottom*__, __Green__ and __Yellow__ tend to focus on people and relationships. Likewise, __*on left*__ you have __Blue__ and __Green__, who tend to be reserved and introverted. __*On the right*__ you have __Red__ and __Yellow__, who tend to be extroverted and proactive.
 
+
+![image](https://github.com/igorlima/unapologetic-thoughts/assets/1886786/b065150f-a352-4457-a228-686c2418f0a5)
+
+
 ---
 {: data-content="footnotes"}
 

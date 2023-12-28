@@ -13,4 +13,4 @@ Listening does not imply agreeing to their point of view, it’s just letting th
 ---
 {: data-content="footnotes"}
 
-[^1]: [4 Strategies to Give Effective Feedback to a Difficult Person](https://betterprogramming.pub/4-strategies-to-give-effective-feedback-to-a-difficult-person-81e0e349ab67)
+[^1]: [4 Strategies to Give Effective Feedback to a Difficult Person](https://medium.com/better-programming/4-strategies-to-give-effective-feedback-to-a-difficult-person-81e0e349ab67)

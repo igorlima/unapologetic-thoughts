@@ -24,6 +24,8 @@ You need a disagreeable person. Not a jerk -- but somebody who says the honest t
 
 Management is about consistency and order; leadership is about fulflling human needs and creating change.
 
+![image](https://github.com/igorlima/unapologetic-thoughts/assets/1886786/50820d3c-b20d-4a7f-94e0-74bfc32cbbb8)
+
 ---
 {: data-content="footnotes"}
 

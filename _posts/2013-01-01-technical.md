@@ -73,13 +73,13 @@ gpg --keyserver keyserver.ubuntu.com --recv-keys 409B6B1796C275462A1703113804BB8
 \curl -sSL https://get.rvm.io | bash
 # install ruby
 rvm list known
-rvm install "ruby-3.1.3"
+# rvm install "ruby-3.1.3"
 ```
 
 ```
 # manually configure the shell to use rvm
 source /home/opc/.rvm/scripts/rvm
-rvm use "ruby-3.1.3"
+# rvm use "ruby-3.1.3"
 ```
 
 ----

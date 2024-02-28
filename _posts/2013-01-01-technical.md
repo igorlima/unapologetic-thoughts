@@ -69,8 +69,8 @@ Jekyll on Linux [^2] - how to install
 ```sh
 # install gpg keys
 gpg --keyserver keyserver.ubuntu.com --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
-# install rvm (development version)
-\curl -sSL https://get.rvm.io | bash
+# install rvm stable with ruby:
+\curl -sSL https://get.rvm.io | bash -s stable --ruby
 # install ruby
 rvm list known
 # rvm install "ruby-3.1.3"

@@ -4,8 +4,6 @@ title: how to run this repo locally
 category: technical
 ---
 
-- [a tmuxp sample]({{site.baseurl}}{% post_url 2013-01-01-tmuxp %})
-
 geek understands the meaning of doing geek stuff
 
 ```sh
@@ -66,7 +64,28 @@ gem install no-style-please
 
 ----
 
+Jekyll on Linux [^2] - how to install
+
+```sh
+# install gpg keys
+gpg --keyserver keyserver.ubuntu.com --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+# install rvm (development version)
+\curl -sSL https://get.rvm.io | bash
+# install ruby
+rvm list known
+rvm install 3.1.3
+```
+
+```
+# manually configure the shell to use rvm
+source /home/opc/.rvm/scripts/rvm
+rvm use 3.1.3
+```
+
+----
+
 ---
 {: data-content="footnotes"}
 
 [^1]: [Jekyll on macOS](https://jekyllrb.com/docs/installation/macos/)
+[^2]: [Installing RVM](https://rvm.io/rvm/install)

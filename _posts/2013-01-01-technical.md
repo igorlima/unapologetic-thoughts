@@ -14,6 +14,7 @@ bundle exec jekyll serve
 
 # other
 bundle exec jekyll serve --config _config_dev.yml
+bundle exec jekyll serve --config _config_dev.yml --port 8086
 bundle exec jekyll build
 bundle exec jekyll build --config _config_dev.yml
 ```

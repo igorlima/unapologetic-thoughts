@@ -1,0 +1,57 @@
+# UNAPOLOGETIC-THOUGHTS
+
+# HOW TO RUN JEKYLL LOCALLY
+# sudo docker run \
+#   -it \
+#   -p 8080:4000 \
+#   -p 8086:8086 \
+#   --name my-ruby \
+#   --mount src=`pwd`,target=/home/local,type=bind \
+#   --workdir /home/local \
+#   --rm ruby:alpine3.17 sh
+# 
+#  # INSTALL dependencies
+#  apk update && apk add --no-cache build-base
+#  gem install jekyll
+#  gem install no-style-please
+#  bundle install
+# 
+#  # RUN
+#  bundle exec jekyll serve --config _config_dev.yml --host 0.0.0.0
+#  bundle exec jekyll serve --config _config_dev.yml --host 0.0.0.0 --port 8086
+
+FROM ruby:alpine3.17
+WORKDIR /home/local
+RUN apk update && apk add --no-cache build-base
+COPY Gemfile Gemfile.lock ./
+RUN gem install jekyll
+RUN gem install no-style-please --force
+RUN bundle install
+
+# BUILD IMAGE
+# https://docs.docker.com/build/building/multi-platform/
+# list the existing builders
+# docker buildx ls
+# docker build \
+#   -t igorlima/unapologetic-thoughts:0.0.20240302-2254 \
+#   --platform linux/386 \
+#   -f dockerfile-unapologetic-thoughts .
+# docker image rm igorlima/unapologetic-thoughts
+# docker image rm igorlima/unapologetic-thoughts:0.0.20240302-2254
+# docker image ls
+# docker login
+# docker push igorlima/unapologetic-thoughts:0.0.20240302-2254
+#
+# HOW TO RUN JEKYLL LOCALLY
+# sudo docker run \
+#   -it \
+#   -p 8080:4000 \
+#   -p 8086:8086 \
+#   --name my-unapologetic-thoughts \
+#   --mount src=`pwd`,target=/home/local,type=bind \
+#   --workdir /home/local \
+#   --rm igorlima/unapologetic-thoughts:0.0.20240302-2254 sh
+#
+#  # RUN
+#  bundle exec jekyll serve --config _config_dev.yml --host 0.0.0.0
+#  bundle exec jekyll serve --config _config_dev.yml --host 0.0.0.0 --port 8086

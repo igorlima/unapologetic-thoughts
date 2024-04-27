@@ -75,6 +75,8 @@ entries:
         entries:
           - title: search
             url: search
+          - title: quotes
+            url: quotes
           - title: sketch
             url: archive-sketch
           - title: snippets

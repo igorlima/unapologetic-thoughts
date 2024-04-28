@@ -73,14 +73,20 @@ entries:
     entries:
       - title: unapologetic
         entries:
-          - title: search
-            url: search
+          - title: journal springboard
+            url: journal-springboard
+            entries:
+              - title: <i>brainstorm, doodle, and journal</i>
+              - title: <i>a springboard to further exploration</i>
           - title: quotes
             url: quotes
+          - title: search
+            url: search
           - title: sketch
             url: archive-sketch
           - title: snippets
             url: https://snippets.ilima.xyz/
+
   - title: PRO TIP
     entries:
       - title: to edit this menu, edit _data/menu.yml file

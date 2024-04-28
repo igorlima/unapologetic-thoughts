@@ -32,6 +32,7 @@ Proofread and improve the following text. Be casual and positive.
 """
 """
 ```
+- [tones of voice](https://igorlima.github.io/unapologetic-snippets/docs/algorithms-and-data-structures/ai/ai-prompts#list-of-tones-of-voice)
 
 ### Portuguese
 

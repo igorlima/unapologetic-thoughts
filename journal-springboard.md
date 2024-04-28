@@ -21,7 +21,17 @@ To further exploration, brainstorm, doodle, and journal:
 - [Mistral](https://chat.mistral.ai/)
 - [Bing Chat](https://www.bing.com/chat)
 - [Bing Notebook](https://www.bing.com/chat?showntbk=1)
-- [PerplexityAI](https://www.perplexity.ai/)
+- <details markdown="block"><summary><i>more...</i></summary>
+
+  - search
+    - [PerplexityAI](https://www.perplexity.ai/)
+  - RAG
+    - [Google Notebook](https://notebooklm.google/)
+    - [Khoj](https://app.khoj.dev/)
+      - _a copilot to search and chat (using RAG) with your knowledge base (pdf, markdown, org)_
+  - miscellaneous
+    - [Natural Readers](https://www.naturalreaders.com/online/)
+  </details>
 
 ## Writing Prompts
 

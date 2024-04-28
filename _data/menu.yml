@@ -11,6 +11,9 @@ entries:
         url: https://github.com/igorlima/unapologetic-thoughts
       - title: "used by <a href='https://github.com/igorlima'>ilima</a> and <a href='https://github.com/riggraz/no-style-please/network/dependents'>many others</a>"
 
+  - title: JOURNAL SPRINGBOARD
+    url: journal-springboard
+
   - title: all posts
     post_list:
       limit: 5

@@ -29,6 +29,8 @@ To further exploration, brainstorm, doodle, and journal:
     - [Google Notebook](https://notebooklm.google/)
     - [Khoj](https://app.khoj.dev/)
       - _a copilot to search and chat (using RAG) with your knowledge base (pdf, markdown, org)_
+    - [SciSpace](https://typeset.io/)
+      - _a tool that can be used for tasks like summarizing, paraphrasing, and asking questions about text_
   - miscellaneous
     - [Natural Readers](https://www.naturalreaders.com/online/)
   </details>
@@ -51,6 +53,24 @@ Revise e melhore o seguinte texto. Seja casual e positivo.
 """
 """
 ```
+
+## Brainstorming
+
+- An Human-AI Interaction Patterns
+  - _how to engage in conversation with ai: a guide to human-ai interaction_
+  - <details markdown="block"><summary><i>more...</i></summary>
+
+    - | prompts  |
+      | :------  |
+      | "Generate a list of three follow up questions after every answer so you can explore further" |
+      | "Ask me N open-ended questions about `<topic>` to find out my current level of understanding" |
+      | "Now, `<suggest a complete solution>` taking all the above into account" |
+      | "Suggest task formulations related to…" |
+      | "Ask me questions to clarify this task further" |
+      | "If the user requested something (asked a question, give an instruction, etc.), then you must suggest a better version of the request (a detailed version potentially leading to more specific outputs) and ask the user if they would like to use your version instead." |
+      | "Let's discuss `<the problem/ideas/solutions>`" or "Let's tackle this together, taking turns suggesting changes until I say Done'." |
+    </details>
+
 
 ## Journaling
 

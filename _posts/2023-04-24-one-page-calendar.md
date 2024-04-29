@@ -29,7 +29,7 @@ The simple reason is because, except for the placement of the months in the uppe
 | 7 | 14| 21| 28|   |Sat|Sun|Mon|Tue|Wed|Thu|Fri|
 
 
-## _One page calendar for: **2000**_
+## _One page calendar for: **any year**_
 
 A sample for upcoming years
 

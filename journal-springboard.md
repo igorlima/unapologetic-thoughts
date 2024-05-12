@@ -26,7 +26,9 @@ To further exploration, brainstorm, doodle, and journal:
   - search
     - [PerplexityAI](https://www.perplexity.ai/)
   - RAG
-    - [Google Notebook](https://notebooklm.google/)
+    - [Google Notebook LM](https://notebooklm.google/)
+    - [Verba: The Golden RAGtriever](https://verba.weaviate.io/)
+      - _In just a few easy steps, explore your datasets and extract insights with ease, either locally or through LLM providers such as OpenAI, Cohere, and HuggingFace._
     - [Khoj](https://app.khoj.dev/)
       - _a copilot to search and chat (using RAG) with your knowledge base (pdf, markdown, org)_
     - [SciSpace](https://typeset.io/)

@@ -74,6 +74,12 @@ Revise e melhore o seguinte texto. Seja casual e positivo.
     </details>
 
 
+## My Notebooks
+
+- _[steps to publish a notebook]({{site.baseurl}}{% post_url 2024-05-12-steps-to-publish-notebook %})_
+- [AI Prompts]({{site.baseurl}}{% post_url 2023-08-20-ai-writing-prompts %})
+  - [ipynb]({% link notebooks/files/ai-prompts.ipynb %}) / [html]({% link notebooks/html/ai-prompts.html %}) / [nbviewer](https://nbviewer.org/urls/igorlima.github.io/unapologetic-thoughts/notebooks/files/ai-prompts.ipynb)
+
 ## Journaling
 
 Journaling is a way of freeing up your mind, which is usually stuck in a thinking loop. By journaling, you will limit the amount of data that seems to be significant at the momment by saying the essential bit on a paper.

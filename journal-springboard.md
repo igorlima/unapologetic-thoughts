@@ -78,7 +78,7 @@ Revise e melhore o seguinte texto. Seja casual e positivo.
 
 - _[steps to publish a notebook]({{site.baseurl}}{% post_url 2024-05-12-steps-to-publish-notebook %})_
 - [AI Prompts]({{site.baseurl}}{% post_url 2023-08-20-ai-writing-prompts %})
-  - [ipynb]({% link notebooks/files/ai-prompts.ipynb %}) / [html]({% link notebooks/html/ai-prompts.html %}) / [nbviewer](https://nbviewer.org/urls/igorlima.github.io/unapologetic-thoughts/notebooks/files/ai-prompts.ipynb)
+  - [ipynb]({{site.baseurl}}{% link notebooks/files/ai-prompts.ipynb %}) / [html]({{site.baseurl}}{% link notebooks/html/ai-prompts.html %}) / [nbviewer](https://nbviewer.org/urls/igorlima.github.io/unapologetic-thoughts/notebooks/files/ai-prompts.ipynb)
 
 ## Journaling
 

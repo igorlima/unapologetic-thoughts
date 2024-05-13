@@ -6,7 +6,7 @@ category: technical
 
 - Links:
   - [AI Writing Prompts]({{site.baseurl}}{% post_url 2023-08-20-ai-writing-prompts %}) [^1]
-  - [Journal Springboard]({% link journal-springboard.md %}) [^2]
+  - [Journal Springboard]({{site.baseurl}}{% link journal-springboard.md %}) [^2]
 
 ## Notebook Viewer
 
@@ -157,4 +157,4 @@ category: technical
 {: data-content="footnotes"}
 
 [^1]: [AI Writing Prompts]({{site.baseurl}}{% post_url 2023-08-20-ai-writing-prompts %})
-[^2]: [Journal Springboard]({% link journal-springboard.md %})
+[^2]: [Journal Springboard]({{site.baseurl}}{% link journal-springboard.md %})

@@ -7631,7 +7631,7 @@ Password:🗝️
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [17]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
@@ -7657,7 +7657,7 @@ Password:🗝️
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [18]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># pip3 install -I google-generativeai==0.5.2</span>
@@ -7681,6 +7681,49 @@ Password:🗝️
 </div>
 </div>
 </div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=c55a5f01-594a-4088-bf04-1e4af9113987">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [31]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pprint</span>
+<span class="c1"># https://github.com/sigoden/aichat/blob/1e8fc5d269985048d8d3023a615b94a8908571cf/models.yaml#L79</span>
+<span class="k">for</span> <span class="n">model</span> <span class="ow">in</span> <span class="n">genai</span><span class="o">.</span><span class="n">list_models</span><span class="p">():</span>
+  <span class="c1"># pprint.pprint(model)</span>
+  <span class="nb">print</span><span class="p">(</span><span class="n">model</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>models/chat-bison-001
+models/text-bison-001
+models/embedding-gecko-001
+models/gemini-1.0-pro
+models/gemini-1.0-pro-001
+models/gemini-1.0-pro-latest
+models/gemini-1.0-pro-vision-latest
+models/gemini-1.5-pro-latest
+models/gemini-pro
+models/gemini-pro-vision
+models/embedding-001
+models/text-embedding-004
+models/aqa
+</pre>
+</div>
+</div>
+</div>
+</div>
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=46c27937-9d61-4df5-b765-e574995d52f8">
 <div class="jp-Cell-inputWrapper" tabindex="0">
@@ -7692,18 +7735,51 @@ Password:🗝️
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=8e9ddb07-611d-434b-bcde-aa92d5fafa16">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=518c1b89-7784-4a1d-9315-8ca1e72ee5e6">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [19]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">CONTEXT</span> <span class="o">=</span> <span class="kc">None</span>
-<span class="n">PROMPT</span> <span class="o">=</span> <span class="s2">"""</span>
-<span class="s2">What's your name?</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="o">%%writefile</span> prompt.txt
+<span class="n">What</span><span class="s1">'s your name? Is it Gemini</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=ccae0207-f63b-4858-9745-e9cb2e17945f">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">PROMPT</span> <span class="o">=</span> <span class="s2">""</span>
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">"prompt.txt"</span><span class="p">,</span> <span class="s2">"r"</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
+  <span class="n">content</span> <span class="o">=</span> <span class="n">file</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+  <span class="n">PROMPT</span><span class="o">=</span><span class="n">content</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=a98f817d-0061-43f3-90d6-dda4c78bdd4f">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [32]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">PROMPT</span> <span class="o">=</span> <span class="s2">"""</span>
+<span class="s2">What's your name? Is it Gemini</span>
+<span class="se">\"</span><span class="s2">""</span>
 <span class="s2">"""</span>
+<span class="n">CONTEXT</span> <span class="o">=</span> <span class="kc">None</span>
 
 <span class="n">prompt</span> <span class="o">=</span> <span class="n">PROMPT</span>
 <span class="n">model</span> <span class="o">=</span> <span class="n">genai</span><span class="o">.</span><span class="n">GenerativeModel</span><span class="p">(</span><span class="s1">'gemini-pro'</span><span class="p">)</span>
@@ -7727,8 +7803,209 @@ Password:🗝️
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>I am a large language model, trained by Google.
+<pre>No, my name is Gemini, a multi-modal AI language model developed by Google. My name is not Gemini.
 </pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=343f029c-a3ec-4ba5-a3da-1065aba89039">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Cohere">Cohere<a class="anchor-link" href="#Cohere">¶</a></h2>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=422abc53-123d-4577-93f5-9f7db26098ca">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Calls made using Trial keys are free of charge. Trial keys are rate-limited, and cannot be used for commercial purposes.</p>
+<ul>
+<li><a href="https://dashboard.cohere.com/api-keys">https://dashboard.cohere.com/api-keys</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=edd23728-2be9-4ced-b30c-2771b762a22a">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="setup">setup<a class="anchor-link" href="#setup">¶</a></h3>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=7686abe2-7430-461d-9f25-6069b4d51fee">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [24]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">import</span> <span class="nn">getpass</span>
+<span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">'COHERE_API_KEY'</span><span class="p">]</span> <span class="o">=</span> <span class="n">getpass</span><span class="o">.</span><span class="n">getpass</span><span class="p">(</span><span class="s2">"enter COHERE_API_KEY: "</span><span class="p">)</span>
+<span class="c1"># %env</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=d9d98f95-f330-4a6d-936f-8c41554f10ff">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [26]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># pip3 install -I cohere==5.5.0</span>
+<span class="c1"># pip3 install --upgrade --force-reinstall cohere</span>
+<span class="c1"># pip3 show cohere</span>
+<span class="c1"># pip3 index versions cohere</span>
+
+<span class="c1"># Cohere Playground</span>
+<span class="c1"># https://dashboard.cohere.com/playground/chat</span>
+
+<span class="kn">import</span> <span class="nn">cohere</span>
+<span class="kn">import</span> <span class="nn">os</span>
+
+<span class="n">COHERE_API_KEY</span><span class="o">=</span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">"COHERE_API_KEY"</span><span class="p">)</span>
+<span class="n">co</span> <span class="o">=</span> <span class="n">cohere</span><span class="o">.</span><span class="n">Client</span><span class="p">(</span>
+  <span class="n">api_key</span><span class="o">=</span><span class="n">COHERE_API_KEY</span><span class="p">,</span> <span class="c1"># This is your trial API key</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=a7e41820-44cc-4c13-a314-28e8d2ce1dce">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [31]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">cohere</span>
+<span class="kn">import</span> <span class="nn">pprint</span>
+
+<span class="c1"># https://docs.cohere.com/reference/list-models</span>
+<span class="n">models</span> <span class="o">=</span> <span class="n">co</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">list</span><span class="p">()</span>
+<span class="c1"># pprint.pprint(models)</span>
+<span class="k">for</span> <span class="n">model</span> <span class="ow">in</span> <span class="n">models</span><span class="o">.</span><span class="n">models</span><span class="p">:</span>
+  <span class="c1"># pprint.pprint(model)</span>
+  <span class="nb">print</span><span class="p">(</span><span class="n">model</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>embed-english-light-v2.0
+embed-english-v2.0
+rerank-english-v3.0
+command-r
+embed-multilingual-light-v3.0
+command-r-plus
+embed-multilingual-v3.0
+embed-multilingual-v2.0
+command-light-nightly
+rerank-multilingual-v2.0
+embed-english-v3.0
+command
+rerank-multilingual-v3.0
+rerank-english-v2.0
+command-light
+c4ai-aya
+embed-english-light-v3.0
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=2f1e4ab9-e6f9-4887-b36b-a6d29696ac0e">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="playground">playground<a class="anchor-link" href="#playground">¶</a></h3>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=07556486-7fc4-41c6-8091-ed2b0b623ab9">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [35]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">PROMPT</span> <span class="o">=</span> <span class="s2">"""</span>
+<span class="s2">revise e melhore o texto abaixo. Seja gentil e positivo. Use temperatura 1.</span>
+<span class="se">\"</span><span class="s2">""</span>
+<span class="s2">Zé, assim que tiver feito o trabalho de escola me avise? Pretendo usar esse trabalho para estudar pra prova.</span>
+<span class="se">\"</span><span class="s2">""</span>
+<span class="s2">"""</span>
+
+<span class="n">prompt</span> <span class="o">=</span> <span class="n">PROMPT</span>
+<span class="n">stream</span> <span class="o">=</span> <span class="n">co</span><span class="o">.</span><span class="n">chat_stream</span><span class="p">(</span> 
+  <span class="n">model</span><span class="o">=</span><span class="s1">'command-r-plus'</span><span class="p">,</span>
+  <span class="n">message</span><span class="o">=</span><span class="n">prompt</span><span class="p">,</span>
+  <span class="n">temperature</span><span class="o">=</span><span class="mf">0.3</span><span class="p">,</span>
+  <span class="n">chat_history</span><span class="o">=</span><span class="p">[],</span>
+  <span class="n">prompt_truncation</span><span class="o">=</span><span class="s1">'AUTO'</span><span class="p">,</span>
+  <span class="n">connectors</span><span class="o">=</span><span class="p">[{</span><span class="s2">"id"</span><span class="p">:</span><span class="s2">"web-search"</span><span class="p">}]</span>
+<span class="p">)</span> 
+
+<span class="k">for</span> <span class="n">event</span> <span class="ow">in</span> <span class="n">stream</span><span class="p">:</span>
+  <span class="k">if</span> <span class="n">event</span><span class="o">.</span><span class="n">event_type</span> <span class="o">==</span> <span class="s2">"text-generation"</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">event</span><span class="o">.</span><span class="n">text</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s1">''</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>Claro, aqui está uma versão revisada:
+
+Zé, quando você terminar o trabalho de escola, poderia me avisar, por favor? Estou planejando usá-lo como material de estudo para a prova e gostaria de ter acesso a ele o quanto antes. Agradeço sua gentileza em me ajudar com isso.
+
+A temperatura 1 é mantida, com uma linguagem gentil e positiva.</pre>
 </div>
 </div>
 </div>
@@ -7755,12 +8032,34 @@ Password:🗝️
 </div>
 </div>
 </div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=726f49ed-f67e-4bbe-8af2-6cb38550e554">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<ul>
+<li>reference:<ul>
+<li><a href="https://platform.openai.com/docs/libraries">Libraries</a></li>
+<li><a href="https://platform.openai.com/docs/api-reference/introduction?lang=python">API Reference</a></li>
+<li><a href="https://platform.openai.com/docs/libraries/python-library">Python library</a></li>
+<li><a href="https://github.com/openai/openai-python">OpenAI Python API library</a><ul>
+<li><em>The official Python library for the OpenAI API</em></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=2ae47060-ebbf-435d-b42a-445903510874">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [13]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># pip3 install --upgrade openai==1.28.1</span>
@@ -7789,12 +8088,72 @@ Password:🗝️
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [14]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">openai</span> <span class="kn">import</span> <span class="n">OpenAI</span>
-<span class="n">client</span> <span class="o">=</span> <span class="n">OpenAI</span><span class="p">()</span>
+<span class="n">clientOpenAI</span> <span class="o">=</span> <span class="n">OpenAI</span><span class="p">()</span>
 </pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=947ddca6-83bd-4f3f-a7bc-2c965d313cd4">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># https://github.com/sigoden/aichat/blob/1e8fc5d269985048d8d3023a615b94a8908571cf/models.yaml#L79</span>
+<span class="n">models</span> <span class="o">=</span> <span class="n">clientOpenAI</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">list</span><span class="p">()</span>
+<span class="c1"># print(models)</span>
+<span class="k">for</span> <span class="n">model</span> <span class="ow">in</span> <span class="n">models</span><span class="p">:</span>
+  <span class="nb">print</span><span class="p">(</span><span class="n">model</span><span class="o">.</span><span class="n">id</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>dall-e-3
+whisper-1
+davinci-002
+dall-e-2
+gpt-3.5-turbo-16k
+tts-1-hd-1106
+tts-1-hd
+gpt-4
+gpt-4-0613
+gpt-3.5-turbo-1106
+gpt-3.5-turbo-instruct-0914
+gpt-3.5-turbo-instruct
+tts-1
+gpt-3.5-turbo
+gpt-3.5-turbo-0301
+gpt-4-turbo-2024-04-09
+babbage-002
+gpt-4-1106-preview
+gpt-4-0125-preview
+tts-1-1106
+gpt-3.5-turbo-0125
+gpt-4-turbo-preview
+text-embedding-3-large
+text-embedding-3-small
+gpt-3.5-turbo-0613
+text-embedding-ada-002
+gpt-4-1106-vision-preview
+gpt-4-turbo
+gpt-4-vision-preview
+gpt-3.5-turbo-16k-0613
+</pre>
 </div>
 </div>
 </div>
@@ -7818,11 +8177,11 @@ Password:🗝️
 <div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">completion</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">chat</span><span class="o">.</span><span class="n">completions</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">completion</span> <span class="o">=</span> <span class="n">clientOpenAI</span><span class="o">.</span><span class="n">chat</span><span class="o">.</span><span class="n">completions</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
   <span class="n">model</span><span class="o">=</span><span class="s2">"gpt-3.5-turbo"</span><span class="p">,</span>
   <span class="n">messages</span><span class="o">=</span><span class="p">[</span>
     <span class="p">{</span><span class="s2">"role"</span><span class="p">:</span> <span class="s2">"system"</span><span class="p">,</span> <span class="s2">"content"</span><span class="p">:</span> <span class="s2">"You are a poetic assistant, skilled in explaining complex programming concepts with creative flair."</span><span class="p">},</span>
-    <span class="p">{</span><span class="s2">"role"</span><span class="p">:</span> <span class="s2">"user"</span><span class="p">,</span> <span class="s2">"content"</span><span class="p">:</span> <span class="s2">"Compose a poem that explains the concept of recursion in programming."</span><span class="p">}</span>
+    <span class="p">{</span><span class="s2">"role"</span><span class="p">:</span> <span class="s2">"user"</span><span class="p">,</span> <span class="s2">"content"</span><span class="p">:</span> <span class="s2">"Compose a poem that explains the concept of recursion in programming."</span><span class="p">},</span>
   <span class="p">]</span>
 <span class="p">)</span>
 
@@ -7841,30 +8200,30 @@ Password:🗝️
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>In the realm of code where mysteries unfurl,
-Lies a concept that makes programmers twirl.
-Recursion, a loop of elegant design,
-Where a function calls itself, a loop divine.
+<pre>In the heart of code's intricate dance,
+Lies a concept that gives programmers a chance,
+Recursion, a method both clever and rare,
+A game of mirrors in the programming lair.
 
 Like a mirror reflecting its own reflection,
-Recursion repeats with pure perfection.
-Each call delves deeper, a journey profound,
-Until a base case is finally found.
+Recursion calls upon its own direction,
+A function that calls itself to solve a task,
+Creating a looping, recursive mask.
 
-Through recursion's mystical embrace,
-We solve problems with dazzling grace.
-Divide and conquer, the code does roam,
-Unraveling complexities, making them known.
+It's a dance of echoes, a rhythmic beat,
+Repeating steps until the code's complete,
+Like a fractal that deepens with each call,
+Recursion scales up, never to stall.
 
-But beware, oh coder, in this twisting dance,
-Stack overflow lurks, a dangerous chance.
-With recursive bounds, be wise and clear,
-For there's magic and beauty, but danger near.
+From trees to lists, from stacks to queues,
+Recursion weaves through data with ease,
+A powerful tool in the coder's hand,
+Unraveling complexity, a wonderland.
 
-So tread softly, embrace the recursion's call,
-For in its loops lies a wonderous thrall.
-Unlocking the secrets of algorithms grand,
-Recursion, a marvel in programmers' hand.
+So embrace the loop that echoes within,
+Let recursion's magic under your skin,
+For in the world of programming's song,
+Recursion dances gracefully, forever strong.
 </pre>
 </div>
 </div>
@@ -7897,7 +8256,7 @@ Recursion, a marvel in programmers' hand.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [15]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># pip3 install --upgrade mistralai==0.1.8</span>
@@ -7927,7 +8286,7 @@ Recursion, a marvel in programmers' hand.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [13]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [16]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
@@ -7935,10 +8294,59 @@ Recursion, a marvel in programmers' hand.
 <span class="kn">from</span> <span class="nn">mistralai.models.chat_completion</span> <span class="kn">import</span> <span class="n">ChatMessage</span>
 
 <span class="n">api_key</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s2">"MISTRAL_API_KEY"</span><span class="p">]</span>
-<span class="n">model</span> <span class="o">=</span> <span class="s2">"mistral-tiny"</span>
 
-<span class="n">client</span> <span class="o">=</span> <span class="n">MistralClient</span><span class="p">(</span><span class="n">api_key</span><span class="o">=</span><span class="n">api_key</span><span class="p">)</span>
+<span class="c1"># https://docs.mistral.ai/getting-started/models/#api-versioning</span>
+<span class="n">modelMistral</span> <span class="o">=</span> <span class="s2">"mistral-tiny"</span>
+
+<span class="n">clientMistral</span> <span class="o">=</span> <span class="n">MistralClient</span><span class="p">(</span><span class="n">api_key</span><span class="o">=</span><span class="n">api_key</span><span class="p">)</span>
 </pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=576e6d7f-b2b1-47ff-8e17-2e618229f0c6">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [44]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># https://docs.mistral.ai/getting-started/models/#api-versioning</span>
+<span class="c1"># https://github.com/sigoden/aichat/blob/1e8fc5d269985048d8d3023a615b94a8908571cf/models.yaml#L79</span>
+<span class="c1"># print(client.list_models().data)</span>
+<span class="n">models</span> <span class="o">=</span> <span class="n">clientMistral</span><span class="o">.</span><span class="n">list_models</span><span class="p">()</span><span class="o">.</span><span class="n">data</span>
+<span class="k">for</span> <span class="n">model</span> <span class="ow">in</span> <span class="n">models</span><span class="p">:</span>
+  <span class="nb">print</span><span class="p">(</span><span class="n">model</span><span class="o">.</span><span class="n">id</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>open-mistral-7b
+mistral-tiny-2312
+mistral-tiny
+open-mixtral-8x7b
+open-mixtral-8x22b
+open-mixtral-8x22b-2404
+mistral-small-2312
+mistral-small
+mistral-small-2402
+mistral-small-latest
+mistral-medium-latest
+mistral-medium-2312
+mistral-medium
+mistral-large-latest
+mistral-large-2402
+mistral-embed
+</pre>
 </div>
 </div>
 </div>
@@ -7959,11 +8367,11 @@ Recursion, a marvel in programmers' hand.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [14]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [45]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">chat_response</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">chat</span><span class="p">(</span>
-  <span class="n">model</span><span class="o">=</span><span class="n">model</span><span class="p">,</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">chat_response</span> <span class="o">=</span> <span class="n">clientMistral</span><span class="o">.</span><span class="n">chat</span><span class="p">(</span>
+  <span class="n">model</span><span class="o">=</span><span class="n">modelMistral</span><span class="p">,</span>
   <span class="n">messages</span><span class="o">=</span><span class="p">[</span><span class="n">ChatMessage</span><span class="p">(</span><span class="n">role</span><span class="o">=</span><span class="s2">"user"</span><span class="p">,</span> <span class="n">content</span><span class="o">=</span><span class="s2">"What is the best French cheese?"</span><span class="p">)],</span>
 <span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">chat_response</span><span class="o">.</span><span class="n">choices</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">message</span><span class="o">.</span><span class="n">content</span><span class="p">)</span>
@@ -7979,38 +8387,258 @@ Recursion, a marvel in programmers' hand.
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Determining the "best" French cheese is subjective as it depends on personal preferences, as different cheeses offer unique textures, flavors, and aromas. Here are some popular and highly acclaimed French cheeses:
+<pre>Determining the "best" French cheese is subjective, as it depends on personal preferences, as there are various types of French cheese, each with unique flavors and textures. Here are a few popular ones, each with its distinct characteristics:
 
-1. Roquefort: A blue-veined cheese made from sheep's milk. Known for its distinctive pungent aroma, tangy and savory flavor, and creamy texture.
+1. Roquefort: A blue-veined sheep's milk cheese from the Massif Central region. It has a strong, pungent smell and a tangy, savory taste.
 
-2. Comté: A nutty and sweet-tasting hard cheese made from unpasteurized cow's milk. It comes from the Franche-Comté region in eastern France.
+2. Camembert: A soft, creamy, and runny cow's milk cheese from Normandy. It has a strong, earthy flavor with a distinct mushroomy aroma.
 
-3. Camembert: A soft, white-rinded cheese with a rich, earthy, and somewhat tangy flavor. It is often described as tasting like mushrooms.
+3. Comté: A firm, nutty, and slightly sweet cow's milk cheese from Franche-Comté. It has a rich, complex flavor and a smooth, dense texture.
 
-4. Brie de Meaux: A soft, creamy, and buttery cheese with a white rind and a mild, mildly pungent, and slightly sweet flavor. Originates from the region of Île-de-France.
+4. Brie de Meaux: A soft, creamy cow's milk cheese with a velvety white rind and a mild, buttery flavor. It comes from the Île-de-France region.
 
-5. Munster: A soft, pungent, and runny cheese with a distinctive, strong, and somewhat fruity aroma and flavor. It is made from cow's milk and hails from the Alsace region.
+5. Munster: A soft, pungent, and slightly sweet cow's milk cheese from Alsace. It has a mellow, nutty flavor with a distinctive smell.
 
-6. Époisses: A soft, pungent, and runny cheese with a distinctive, strong, and savory aroma and flavor. It is made from cow's milk and comes from the Burgundy region.
-
-7. Chaource: A soft, creamy, and mild cheese with a white rind and a subtle, slightly sweet, and buttery flavor. It is made from cow's milk and comes from the region of Picardy.
-
-These are just a few examples of the diverse range of French cheeses, each with its unique characteristics and appeal. In the end, the best French cheese is the one that you personally enjoy the most.
+To find your favorite French cheese, it's best to try a variety and taste the differences for yourself.
 </pre>
 </div>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=95517e04-e6af-4999-9bb0-58388c08c50f">
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=f032fbb6-0040-4106-9202-32982f6929e1">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Claude">Claude<a class="anchor-link" href="#Claude">¶</a></h2>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=d20212bc-7b73-417f-b10c-4770f4d4ec64">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="setup">setup<a class="anchor-link" href="#setup">¶</a></h3>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=336b141d-4bbe-4e1c-8e76-9bbb7c0af727">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span> 
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># pip3 install --upgrade anthropic==0.25.8</span>
+<span class="c1"># pip3 show anthropic</span>
+<span class="c1"># https://docs.anthropic.com/en/api/client-sdks#python</span>
+
+<span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">import</span> <span class="nn">getpass</span>
+<span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">'ANTHROPIC_API_KEY'</span><span class="p">]</span> <span class="o">=</span> <span class="n">getpass</span><span class="o">.</span><span class="n">getpass</span><span class="p">(</span><span class="s2">"enter ANTHROPIC_API_KEY: "</span><span class="p">)</span>
+<span class="c1"># %env</span>
 </pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=2aa2678e-3c3d-42dd-ad03-125c9a50abc6">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># https://docs.anthropic.com/en/api/client-sdks#python</span>
+<span class="c1"># https://github.com/anthropics/anthropic-sdk-python</span>
+<span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">import</span> <span class="nn">anthropic</span>
+
+<span class="n">api_key</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s2">"ANTHROPIC_API_KEY"</span><span class="p">]</span>
+<span class="n">clientAnthropic</span> <span class="o">=</span> <span class="n">anthropic</span><span class="o">.</span><span class="n">Anthropic</span><span class="p">(</span>
+  <span class="n">api_key</span><span class="o">=</span><span class="n">api_key</span><span class="p">,</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=f8e4bc0a-04b1-4880-949e-8590b9b0c3c3">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="playground">playground<a class="anchor-link" href="#playground">¶</a></h3>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=b34d6582-a9ab-4dd6-9328-500c35a2af69">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [21]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># List of Models</span>
+<span class="c1"># https://docs.anthropic.com/en/docs/models-overview#claude-3-a-new-generation-of-ai</span>
+<span class="c1"># https://github.com/sigoden/aichat/blob/1e8fc5d269985048d8d3023a615b94a8908571cf/models.yaml#L79</span>
+<span class="n">message</span> <span class="o">=</span> <span class="n">clientAnthropic</span><span class="o">.</span><span class="n">messages</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+  <span class="n">model</span><span class="o">=</span><span class="s2">"claude-3-opus-20240229"</span><span class="p">,</span>
+  <span class="c1"># model="claude-instant-1.2",</span>
+  <span class="n">max_tokens</span><span class="o">=</span><span class="mi">1024</span><span class="p">,</span>
+  <span class="n">messages</span><span class="o">=</span><span class="p">[</span>
+    <span class="p">{</span><span class="s2">"role"</span><span class="p">:</span> <span class="s2">"user"</span><span class="p">,</span> <span class="s2">"content"</span><span class="p">:</span> <span class="s2">"Hello, Claude"</span><span class="p">}</span>
+  <span class="p">]</span>
+<span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">message</span><span class="o">.</span><span class="n">content</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>[TextBlock(text="Hello! It's nice to meet you. How are you doing today?", type='text')]
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=7def0ace-e6e1-4a69-b182-22f846945eab">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="All-At-Once">All At Once<a class="anchor-link" href="#All-At-Once">¶</a></h2>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=2cc05030-fed4-417b-847a-a2e357c375e0">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [23]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">PROMPT</span> <span class="o">=</span> <span class="s2">"""</span>
+<span class="s2">Proofread and improve the text below. Be positive and humble.</span>
+<span class="se">\"</span><span class="s2">""</span>
+<span class="s2">Sorry for the delay, I have been busy with something else that was timeconsuming me.</span>
+<span class="se">\"</span><span class="s2">""</span>
+<span class="s2">"""</span>
+<span class="n">prompt</span> <span class="o">=</span> <span class="n">PROMPT</span>
+
+<span class="sd">"""</span>
+<span class="sd">GEMINI</span>
+<span class="sd">"""</span>
+<span class="n">modelGemini</span> <span class="o">=</span> <span class="n">genai</span><span class="o">.</span><span class="n">GenerativeModel</span><span class="p">(</span><span class="s1">'gemini-pro'</span><span class="p">)</span>
+<span class="n">response</span> <span class="o">=</span> <span class="n">modelGemini</span><span class="o">.</span><span class="n">generate_content</span><span class="p">(</span><span class="n">prompt</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"""</span>
+<span class="s2">GEMINI:</span>
+<span class="si">{</span><span class="n">response</span><span class="o">.</span><span class="n">text</span><span class="si">}</span>
+<span class="s2">"""</span><span class="p">)</span>
+
+<span class="sd">"""</span>
+<span class="sd">OPEN AI</span>
+<span class="sd">"""</span>
+<span class="n">completion</span> <span class="o">=</span> <span class="n">clientOpenAI</span><span class="o">.</span><span class="n">chat</span><span class="o">.</span><span class="n">completions</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+  <span class="n">model</span><span class="o">=</span><span class="s2">"gpt-3.5-turbo"</span><span class="p">,</span>
+  <span class="n">messages</span><span class="o">=</span><span class="p">[</span>
+    <span class="p">{</span><span class="s2">"role"</span><span class="p">:</span> <span class="s2">"user"</span><span class="p">,</span> <span class="s2">"content"</span><span class="p">:</span> <span class="n">prompt</span><span class="p">}</span>
+  <span class="p">]</span>
+<span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"""</span>
+<span class="s2">OPEN AI:</span>
+<span class="si">{</span><span class="n">completion</span><span class="o">.</span><span class="n">choices</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">message</span><span class="o">.</span><span class="n">content</span><span class="si">}</span>
+<span class="s2">"""</span>
+<span class="p">)</span>
+
+<span class="sd">"""</span>
+<span class="sd">MISTRAL</span>
+<span class="sd">"""</span>
+<span class="n">chat_response</span> <span class="o">=</span> <span class="n">clientMistral</span><span class="o">.</span><span class="n">chat</span><span class="p">(</span>
+  <span class="n">model</span><span class="o">=</span><span class="n">modelMistral</span><span class="p">,</span>
+  <span class="n">messages</span><span class="o">=</span><span class="p">[</span><span class="n">ChatMessage</span><span class="p">(</span><span class="n">role</span><span class="o">=</span><span class="s2">"user"</span><span class="p">,</span> <span class="n">content</span><span class="o">=</span><span class="n">prompt</span><span class="p">)],</span>
+<span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"""</span>
+<span class="s2">MISTRAL:</span>
+<span class="si">{</span><span class="n">chat_response</span><span class="o">.</span><span class="n">choices</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">message</span><span class="o">.</span><span class="n">content</span><span class="si">}</span>
+<span class="s2">"""</span>
+<span class="p">)</span>
+
+<span class="sd">"""</span>
+<span class="sd">CLAUDE ANTHROPIC</span>
+<span class="sd">"""</span>
+<span class="n">message</span> <span class="o">=</span> <span class="n">clientAnthropic</span><span class="o">.</span><span class="n">messages</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+  <span class="c1"># model="claude-3-opus-20240229",</span>
+  <span class="n">model</span><span class="o">=</span><span class="s2">"claude-instant-1.2"</span><span class="p">,</span>
+  <span class="n">max_tokens</span><span class="o">=</span><span class="mi">1024</span><span class="p">,</span>
+  <span class="n">messages</span><span class="o">=</span><span class="p">[</span>
+    <span class="p">{</span><span class="s2">"role"</span><span class="p">:</span> <span class="s2">"user"</span><span class="p">,</span> <span class="s2">"content"</span><span class="p">:</span> <span class="n">prompt</span><span class="p">}</span>
+  <span class="p">]</span>
+<span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"""</span>
+<span class="s2">CLAUDE ANTHROPIC:</span>
+<span class="si">{</span><span class="n">message</span><span class="o">.</span><span class="n">content</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">text</span><span class="si">}</span>
+<span class="s2">"""</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>
+GEMINI:
+I apologize for the delay. I have been occupied with another time-consuming matter, but I am now available to assist you.
+
+
+OPEN AI:
+I apologize for the delay as I have been preoccupied with another time-consuming task. Thank you for your understanding.
+
+
+MISTRAL:
+I apologize for the delay in response. I've been focused on another project that required my full attention. Please accept my apologies for any inconvenience caused.
+
+
+CLAUDE ANTHROPIC:
+Here is my suggestion:
+
+"Apologies for the delay in responding. I've been focused on another task recently that required more of my time and attention than anticipated. In the future, I will aim to better manage multiple priorities and communicate more promptly."
+
+</pre>
 </div>
 </div>
 </div>

@@ -34,6 +34,21 @@ To further exploration, brainstorm, doodle, and journal:
     </details>
   - search
     - [PerplexityAI](https://www.perplexity.ai/)
+    - [You - Resource Mode](https://you.com/?chatMode=research)
+      - <details markdown="block"><summary><sup><i>more...</i></sup></summary>
+
+        **Research Mode**: Your personal research assistant.
+        - it’s like having a personal research assistant capable of quickly mastering any subject, including real-time news.
+        - how it works:
+          - understands your question and then searches the web for relevant information.
+          - reads and synthesizes the content from 10+ authoritative web pages.
+          - writes a complete report, including comparison tables where appropriate and extensive citations.
+          - suggests follow-up questions for additional insights or expanded analysis of complex concepts
+        - how it saves you time
+          - **for students**: efficiently learn about complex topics, prepare for exams, and get help with your homework.
+          - **for marketers**: quickly create engaging presentations, whitepapers, and blog posts, all backed by authoritative sources.
+          - **for developers**: troubleshoot coding problems and stay up-to-date on the latest technology trends, frameworks, and tools.
+        </details>
   - RAG
     - [Google Notebook LM](https://notebooklm.google/)
     - [Verba: The Golden RAGtriever](https://verba.weaviate.io/)

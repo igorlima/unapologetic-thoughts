@@ -27,6 +27,8 @@ To further exploration, brainstorm, doodle, and journal:
 
     - [Claude AI](https://claude.ai/)
     - [Cohere](https://coral.cohere.com/)
+    - [groq](https://groq.com/)
+      - [groq playground](https://console.groq.com/playground)
     - [Inflection pi AI](https://pi.ai/)
     - [BlackBox AI](https://www.blackbox.ai/)
     - [Phind](https://www.phind.com/)

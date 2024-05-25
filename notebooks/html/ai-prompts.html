@@ -7565,7 +7565,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Using-passwords-in-Jupyter-notebooks">Using passwords in Jupyter notebooks<a class="anchor-link" href="#Using-passwords-in-Jupyter-notebooks">¶</a></h3><p>In Python you can ask the user for input via the <code>input</code> function.</p>
+<h3 id="using-passwords-in-Jupyter-notebooks">using passwords in Jupyter notebooks<a class="anchor-link" href="#using-passwords-in-Jupyter-notebooks">¶</a></h3><p>In Python you can ask the user for input via the <code>input</code> function.</p>
 <div class="highlight"><pre><span></span><span class="n">pwd</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Password:"</span><span class="p">)</span>
 </pre></div>
 <p>When you run this command locally, here's what it might look like:</p>
@@ -7605,13 +7605,24 @@ Password:🗝️
 </div>
 </div>
 </div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=f2450908-88c6-444c-93b4-7e6ba6d3604b">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="LLM">LLM<a class="anchor-link" href="#LLM">¶</a></h2>
+</div>
+</div>
+</div>
+</div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=18eccae4-09ea-42db-b8a1-ed3d7ac2253e">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Gemini">Gemini<a class="anchor-link" href="#Gemini">¶</a></h2>
+<h3 id="Gemini">Gemini<a class="anchor-link" href="#Gemini">¶</a></h3>
 </div>
 </div>
 </div>
@@ -7622,7 +7633,7 @@ Password:🗝️
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="setup">setup<a class="anchor-link" href="#setup">¶</a></h3>
+<h4 id="setup">setup<a class="anchor-link" href="#setup">¶</a></h4>
 </div>
 </div>
 </div>
@@ -7631,7 +7642,7 @@ Password:🗝️
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
@@ -7657,7 +7668,7 @@ Password:🗝️
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [13]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># pip3 install -I google-generativeai==0.5.2</span>
@@ -7731,7 +7742,7 @@ models/aqa
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="playground">playground<a class="anchor-link" href="#playground">¶</a></h3>
+<h4 id="playground">playground<a class="anchor-link" href="#playground">¶</a></h4>
 </div>
 </div>
 </div>
@@ -7758,10 +7769,10 @@ models/aqa
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">PROMPT</span> <span class="o">=</span> <span class="s2">""</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">PROMPT_FROM_FILE</span> <span class="o">=</span> <span class="s2">""</span>
 <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">"prompt.txt"</span><span class="p">,</span> <span class="s2">"r"</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
   <span class="n">content</span> <span class="o">=</span> <span class="n">file</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
-  <span class="n">PROMPT</span><span class="o">=</span><span class="n">content</span>
+  <span class="n">PROMPT_FROM_FILE</span><span class="o">=</span><span class="n">content</span>
 </pre></div>
 </div>
 </div>
@@ -7782,6 +7793,7 @@ models/aqa
 <span class="n">CONTEXT</span> <span class="o">=</span> <span class="kc">None</span>
 
 <span class="n">prompt</span> <span class="o">=</span> <span class="n">PROMPT</span>
+<span class="c1"># prompt = PROMPT_FROM_FILE</span>
 <span class="n">model</span> <span class="o">=</span> <span class="n">genai</span><span class="o">.</span><span class="n">GenerativeModel</span><span class="p">(</span><span class="s1">'gemini-pro'</span><span class="p">)</span>
 <span class="c1"># response = model.generate_content(prompt)</span>
 <span class="n">response</span> <span class="o">=</span> <span class="n">model</span><span class="o">.</span><span class="n">generate_content</span><span class="p">(</span><span class="n">glm</span><span class="o">.</span><span class="n">Content</span><span class="p">(</span>
@@ -7816,7 +7828,7 @@ models/aqa
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Cohere">Cohere<a class="anchor-link" href="#Cohere">¶</a></h2>
+<h3 id="Cohere">Cohere<a class="anchor-link" href="#Cohere">¶</a></h3>
 </div>
 </div>
 </div>
@@ -7841,7 +7853,7 @@ models/aqa
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="setup">setup<a class="anchor-link" href="#setup">¶</a></h3>
+<h4 id="setup">setup<a class="anchor-link" href="#setup">¶</a></h4>
 </div>
 </div>
 </div>
@@ -7850,7 +7862,7 @@ models/aqa
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [24]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
@@ -7876,7 +7888,7 @@ models/aqa
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [26]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [14]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># pip3 install -I cohere==5.5.0</span>
@@ -7957,7 +7969,24 @@ embed-english-light-v3.0
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="playground">playground<a class="anchor-link" href="#playground">¶</a></h3>
+<h4 id="playground">playground<a class="anchor-link" href="#playground">¶</a></h4>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=0026f160-ce9a-4e82-85fe-1af1e9aab8a4">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [38]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">PROMPT_FROM_FILE</span> <span class="o">=</span> <span class="s2">""</span>
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">"prompt.txt"</span><span class="p">,</span> <span class="s2">"r"</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
+  <span class="n">content</span> <span class="o">=</span> <span class="n">file</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+  <span class="n">PROMPT_FROM_FILE</span><span class="o">=</span><span class="n">content</span>
+</pre></div>
+</div>
 </div>
 </div>
 </div>
@@ -7966,7 +7995,7 @@ embed-english-light-v3.0
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [35]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [39]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">PROMPT</span> <span class="o">=</span> <span class="s2">"""</span>
@@ -7976,7 +8005,8 @@ embed-english-light-v3.0
 <span class="se">\"</span><span class="s2">""</span>
 <span class="s2">"""</span>
 
-<span class="n">prompt</span> <span class="o">=</span> <span class="n">PROMPT</span>
+<span class="c1"># prompt = PROMPT</span>
+<span class="n">prompt</span> <span class="o">=</span> <span class="n">PROMPT_FROM_FILE</span>
 <span class="n">stream</span> <span class="o">=</span> <span class="n">co</span><span class="o">.</span><span class="n">chat_stream</span><span class="p">(</span> 
   <span class="n">model</span><span class="o">=</span><span class="s1">'command-r-plus'</span><span class="p">,</span>
   <span class="n">message</span><span class="o">=</span><span class="n">prompt</span><span class="p">,</span>
@@ -8001,11 +8031,365 @@ embed-english-light-v3.0
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Claro, aqui está uma versão revisada:
+<pre>My name is Coral. I am an AI-assistant chatbot developed to help users by providing thorough responses. I am powered by Command, a large language model built by the company Cohere. It's nice to meet you! Is there anything I can help you with today?</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=313818aa-2c54-4577-b9cb-f3bdc382ad57">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="groq">groq<a class="anchor-link" href="#groq">¶</a></h3>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=4aaaa2b0-b5ed-4713-88c3-83e44e6c6db9">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<ul>
+<li><a href="https://groq.com/">https://groq.com/</a></li>
+<li><a href="https://console.groq.com/playground">https://console.groq.com/playground</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=2315ed96-4a02-43d6-8f66-c63398a1be91">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h4 id="setup">setup<a class="anchor-link" href="#setup">¶</a></h4>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=c14da8e6-6721-4235-a112-c4a4bc12b979">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [15]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">import</span> <span class="nn">getpass</span>
+<span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">'GROQ_API_KEY'</span><span class="p">]</span> <span class="o">=</span> <span class="n">getpass</span><span class="o">.</span><span class="n">getpass</span><span class="p">(</span><span class="s2">"enter GROQ_API_KEY: "</span><span class="p">)</span>
+<span class="c1"># %env</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=3964535e-5462-4038-8815-75b78a1a7cf7">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [16]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># pip3 install -I groq==0.8.0</span>
+<span class="c1"># pip3 install --upgrade --force-reinstall groq</span>
+<span class="c1"># pip3 show groq</span>
+<span class="c1"># pip3 index versions groq</span>
 
-Zé, quando você terminar o trabalho de escola, poderia me avisar, por favor? Estou planejando usá-lo como material de estudo para a prova e gostaria de ter acesso a ele o quanto antes. Agradeço sua gentileza em me ajudar com isso.
+<span class="c1"># GROQ Playground</span>
+<span class="c1"># https://console.groq.com/playground</span>
+<span class="c1"># https://groq.com/</span>
 
-A temperatura 1 é mantida, com uma linguagem gentil e positiva.</pre>
+<span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">from</span> <span class="nn">groq</span> <span class="kn">import</span> <span class="n">Groq</span>
+<span class="n">groq_client</span> <span class="o">=</span> <span class="n">Groq</span><span class="p">(</span>
+  <span class="c1"># This is the default and can be omitted</span>
+  <span class="n">api_key</span><span class="o">=</span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">"GROQ_API_KEY"</span><span class="p">),</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=896491d3-42ed-4df0-944b-f5ca6468bc0b">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [50]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># MODELS</span>
+<span class="c1"># https://console.groq.com/docs/models</span>
+<span class="sd">"""</span>
+<span class="sd">curl -X GET "https://api.groq.com/openai/v1/models" \</span>
+<span class="sd">     -H "Authorization: Bearer $GROQ_API_KEY" \</span>
+<span class="sd">     -H "Content-Type: application/json"</span>
+<span class="sd">"""</span>
+
+<span class="kn">import</span> <span class="nn">requests</span>
+<span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">from</span> <span class="nn">pprint</span> <span class="kn">import</span> <span class="n">pprint</span>
+
+<span class="n">api_key</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">"GROQ_API_KEY"</span><span class="p">)</span>
+<span class="n">url</span> <span class="o">=</span> <span class="s2">"https://api.groq.com/openai/v1/models"</span>
+<span class="n">headers</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="s2">"Authorization"</span><span class="p">:</span> <span class="sa">f</span><span class="s2">"Bearer </span><span class="si">{</span><span class="n">api_key</span><span class="si">}</span><span class="s2">"</span><span class="p">,</span>
+  <span class="s2">"Content-Type"</span><span class="p">:</span> <span class="s2">"application/json"</span>
+<span class="p">}</span>
+<span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">headers</span><span class="o">=</span><span class="n">headers</span><span class="p">)</span>
+<span class="n">pprint</span><span class="p">(</span><span class="n">response</span><span class="o">.</span><span class="n">json</span><span class="p">())</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>{'data': [{'active': True,
+           'context_window': 8192,
+           'created': 1693721698,
+           'id': 'gemma-7b-it',
+           'object': 'model',
+           'owned_by': 'Google'},
+          {'active': True,
+           'context_window': 8192,
+           'created': 1693721698,
+           'id': 'llama3-70b-8192',
+           'object': 'model',
+           'owned_by': 'Meta'},
+          {'active': True,
+           'context_window': 8192,
+           'created': 1693721698,
+           'id': 'llama3-8b-8192',
+           'object': 'model',
+           'owned_by': 'Meta'},
+          {'active': True,
+           'context_window': 32768,
+           'created': 1693721698,
+           'id': 'mixtral-8x7b-32768',
+           'object': 'model',
+           'owned_by': 'Mistral AI'}],
+ 'object': 'list'}
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=4264a8ca-2260-45d5-acd7-c822306d4dd3">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h4 id="playground">playground<a class="anchor-link" href="#playground">¶</a></h4>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=c4d16aec-ccb9-4daf-9ffc-b92cae113385">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [45]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">PROMPT</span> <span class="o">=</span> <span class="s2">"""</span>
+<span class="s2">revise e melhore o texto abaixo. Seja gentil e positivo. Use temperatura 1.</span>
+<span class="se">\"</span><span class="s2">""</span>
+<span class="s2">Zé, assim que tiver feito o trabalho de escola me avise? Pretendo usar esse trabalho para estudar pra prova.</span>
+<span class="se">\"</span><span class="s2">""</span>
+<span class="s2">"""</span>
+
+<span class="c1"># prompt = PROMPT</span>
+<span class="n">prompt</span> <span class="o">=</span> <span class="n">PROMPT</span>
+<span class="n">chat_completion</span> <span class="o">=</span> <span class="n">groq_client</span><span class="o">.</span><span class="n">chat</span><span class="o">.</span><span class="n">completions</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+  <span class="n">messages</span><span class="o">=</span><span class="p">[{</span>
+    <span class="s2">"role"</span><span class="p">:</span> <span class="s2">"system"</span><span class="p">,</span>
+    <span class="s2">"content"</span><span class="p">:</span> <span class="s2">"you are a helpful assistant."</span>
+  <span class="p">},</span> <span class="p">{</span>
+    <span class="s2">"role"</span><span class="p">:</span> <span class="s2">"user"</span><span class="p">,</span>
+    <span class="s2">"content"</span><span class="p">:</span> <span class="n">prompt</span><span class="p">,</span>
+  <span class="p">}],</span>
+  <span class="n">model</span><span class="o">=</span><span class="s2">"llama3-8b-8192"</span><span class="p">,</span>
+<span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">chat_completion</span><span class="o">.</span><span class="n">choices</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">message</span><span class="o">.</span><span class="n">content</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>Let's revise the text together
+
+Here's a revised version with a gentle and positive tone:
+
+"Hey, don't forget to remind me when the schoolwork is done so we can study for the exam together!"
+
+How does that sound?
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=7a38a739-5a58-4803-81e5-7e7cca7df6c8">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="perplexity">perplexity<a class="anchor-link" href="#perplexity">¶</a></h3>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=930d276b-22fd-4f3d-bb38-a58260040697">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h4 id="setup">setup<a class="anchor-link" href="#setup">¶</a></h4>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=5178b42d-e004-4776-8c2e-68e39c87e9f4">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">import</span> <span class="nn">getpass</span>
+<span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">'PERPLEXITY_API_KEY'</span><span class="p">]</span> <span class="o">=</span> <span class="n">getpass</span><span class="o">.</span><span class="n">getpass</span><span class="p">(</span><span class="s2">"enter PERPLEXITY_API_KEY: "</span><span class="p">)</span>
+<span class="c1"># %env</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=2c735701-ceeb-4fdb-a6f3-5d51a1db606d">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h4 id="playground">playground<a class="anchor-link" href="#playground">¶</a></h4>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=2bb1bde3-1a2f-4d8a-ac9a-4342231572a0">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [20]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># https://docs.perplexity.ai/docs/getting-started</span>
+<span class="c1"># https://docs.perplexity.ai/docs/model-cards</span>
+<span class="kn">from</span> <span class="nn">openai</span> <span class="kn">import</span> <span class="n">OpenAI</span>
+<span class="kn">import</span> <span class="nn">os</span>
+
+<span class="n">messages</span> <span class="o">=</span> <span class="p">[{</span>
+  <span class="s2">"role"</span><span class="p">:</span> <span class="s2">"system"</span><span class="p">,</span>
+  <span class="s2">"content"</span><span class="p">:</span> <span class="p">(</span>
+    <span class="s2">"You are an artificial intelligence assistant and you need to "</span>
+    <span class="s2">"engage in a helpful, detailed, polite conversation with a user."</span>
+  <span class="p">),</span>
+<span class="p">},</span> <span class="p">{</span>
+  <span class="s2">"role"</span><span class="p">:</span> <span class="s2">"user"</span><span class="p">,</span>
+  <span class="s2">"content"</span><span class="p">:</span> <span class="p">(</span>
+    <span class="s2">"How many stars are in the universe?"</span>
+  <span class="p">),</span>
+<span class="p">}]</span>
+
+<span class="n">perplexity_client</span> <span class="o">=</span> <span class="n">OpenAI</span><span class="p">(</span><span class="n">api_key</span><span class="o">=</span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">"PERPLEXITY_API_KEY"</span><span class="p">),</span> <span class="n">base_url</span><span class="o">=</span><span class="s2">"https://api.perplexity.ai"</span><span class="p">)</span>
+
+<span class="c1"># chat completion without streaming</span>
+<span class="n">response</span> <span class="o">=</span> <span class="n">perplexity_client</span><span class="o">.</span><span class="n">chat</span><span class="o">.</span><span class="n">completions</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+  <span class="n">model</span><span class="o">=</span><span class="s2">"llama-3-sonar-large-32k-online"</span><span class="p">,</span>
+  <span class="n">messages</span><span class="o">=</span><span class="n">messages</span><span class="p">,</span>
+<span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">response</span><span class="o">.</span><span class="n">choices</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">message</span><span class="o">.</span><span class="n">content</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s1">'---'</span><span class="p">)</span>
+<span class="c1"># chat completion with streaming</span>
+<span class="n">response_stream</span> <span class="o">=</span> <span class="n">perplexity_client</span><span class="o">.</span><span class="n">chat</span><span class="o">.</span><span class="n">completions</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+  <span class="n">model</span><span class="o">=</span><span class="s2">"llama-3-sonar-large-32k-online"</span><span class="p">,</span>
+  <span class="n">messages</span><span class="o">=</span><span class="n">messages</span><span class="p">,</span>
+  <span class="n">stream</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+<span class="p">)</span>
+<span class="k">for</span> <span class="n">response</span> <span class="ow">in</span> <span class="n">response_stream</span><span class="p">:</span>
+  <span class="nb">print</span><span class="p">(</span><span class="n">response</span><span class="o">.</span><span class="n">choices</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">delta</span><span class="o">.</span><span class="n">content</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s1">''</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>The number of stars in the universe is a mind-boggling topic that has fascinated humans for centuries. According to estimates from various sources, including NASA and the European Space Agency (ESA), the universe could contain up to **one septillion stars** – that's a one followed by 24 zeros. This number is based on the assumption that there are approximately **2 trillion galaxies** in the observable universe, with each galaxy containing around **100 billion stars** on average.
+
+To put this number into perspective, if we were to count the stars in the universe at a rate of one star per second, it would take us over **6,000 years** to count just the stars in the Milky Way galaxy alone, which is estimated to have over **100 billion stars**. The sheer scale of the universe and the number of stars it contains is truly awe-inspiring.
+
+It's worth noting that these estimates are rough and based on current observations and understanding of the universe. As new data and missions become available, our understanding of the universe and its contents may change, potentially leading to revised estimates of the number of stars.
+
+In summary, the number of stars in the universe is estimated to be around **200 billion trillion**, or **200 sextillion**, which is an almost incomprehensible number that highlights the vastness and complexity of the cosmos.
+---
+The number of stars in the universe is a staggering and difficult to comprehend figure. According to various estimates, there are approximately **200 billion trillion stars** in the universe. This number is derived by multiplying the estimated number of galaxies in the universe (around 2 trillion) by the average number of stars in a typical galaxy (about 100 billion).
+
+The Milky Way, which is just one of the galaxies in the universe, is estimated to contain around **100 billion stars**. This number is based on observations of the galaxy's structure and the diversity of its stars, which come in different sizes and colors. Our Sun is a medium-sized, medium-weight, and medium-hot star, with a surface temperature of about 27 million degrees Fahrenheit (15 million degrees Celsius).
+
+The process of counting the stars in the universe involves several steps. First, astronomers estimate the number of galaxies in the universe by taking detailed pictures of small parts of the sky and counting the galaxies in those pictures. They then multiply this number by the number of pictures needed to photograph the whole sky. Next, they estimate the number of stars in a typical galaxy, like the Milky Way, by measuring the starlight and its color and brightness. Finally, they multiply the number of stars in a typical galaxy by the number of galaxies in the universe to get the total number of stars.
+
+It's worth noting that these estimates are rough and based on current observations and understanding of the universe. The actual number of stars could be higher or lower, and new discoveries and missions, such as the Gaia mission, are helping to refine our understanding of the universe and its contents.</pre>
 </div>
 </div>
 </div>
@@ -8017,7 +8401,7 @@ A temperatura 1 é mantida, com uma linguagem gentil e positiva.</pre>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="OpenAI">OpenAI<a class="anchor-link" href="#OpenAI">¶</a></h2>
+<h3 id="OpenAI">OpenAI<a class="anchor-link" href="#OpenAI">¶</a></h3>
 </div>
 </div>
 </div>
@@ -8028,7 +8412,7 @@ A temperatura 1 é mantida, com uma linguagem gentil e positiva.</pre>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="setup">setup<a class="anchor-link" href="#setup">¶</a></h3>
+<h4 id="setup">setup<a class="anchor-link" href="#setup">¶</a></h4>
 </div>
 </div>
 </div>
@@ -8165,7 +8549,7 @@ gpt-3.5-turbo-16k-0613
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="plaground">plaground<a class="anchor-link" href="#plaground">¶</a></h3>
+<h4 id="plaground">plaground<a class="anchor-link" href="#plaground">¶</a></h4>
 </div>
 </div>
 </div>
@@ -8236,7 +8620,7 @@ Recursion dances gracefully, forever strong.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Mistral">Mistral<a class="anchor-link" href="#Mistral">¶</a></h2>
+<h3 id="Mistral">Mistral<a class="anchor-link" href="#Mistral">¶</a></h3>
 </div>
 </div>
 </div>
@@ -8247,7 +8631,7 @@ Recursion dances gracefully, forever strong.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="setup">setup<a class="anchor-link" href="#setup">¶</a></h3>
+<h4 id="setup">setup<a class="anchor-link" href="#setup">¶</a></h4>
 </div>
 </div>
 </div>
@@ -8358,7 +8742,7 @@ mistral-embed
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="playground">playground<a class="anchor-link" href="#playground">¶</a></h3>
+<h4 id="playground">playground<a class="anchor-link" href="#playground">¶</a></h4>
 </div>
 </div>
 </div>
@@ -8412,7 +8796,7 @@ To find your favorite French cheese, it's best to try a variety and taste the di
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Claude">Claude<a class="anchor-link" href="#Claude">¶</a></h2>
+<h3 id="Claude">Claude<a class="anchor-link" href="#Claude">¶</a></h3>
 </div>
 </div>
 </div>
@@ -8423,7 +8807,7 @@ To find your favorite French cheese, it's best to try a variety and taste the di
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="setup">setup<a class="anchor-link" href="#setup">¶</a></h3>
+<h4 id="setup">setup<a class="anchor-link" href="#setup">¶</a></h4>
 </div>
 </div>
 </div>
@@ -8486,7 +8870,7 @@ To find your favorite French cheese, it's best to try a variety and taste the di
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="playground">playground<a class="anchor-link" href="#playground">¶</a></h3>
+<h4 id="playground">playground<a class="anchor-link" href="#playground">¶</a></h4>
 </div>
 </div>
 </div>
@@ -8535,7 +8919,142 @@ To find your favorite French cheese, it's best to try a variety and taste the di
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="All-At-Once">All At Once<a class="anchor-link" href="#All-At-Once">¶</a></h2>
+<h3 id="All-At-Once">All At Once<a class="anchor-link" href="#All-At-Once">¶</a></h3>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=da5acb5c-cfe1-44b7-a62d-b4465d2cd650">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="sd">"""</span>
+<span class="sd">GEMINI</span>
+<span class="sd">"""</span>
+<span class="k">def</span> <span class="nf">llm_gemini</span><span class="p">(</span><span class="n">prompt</span><span class="p">):</span>
+  <span class="n">modelGemini</span> <span class="o">=</span> <span class="n">genai</span><span class="o">.</span><span class="n">GenerativeModel</span><span class="p">(</span><span class="s1">'gemini-pro'</span><span class="p">)</span>
+  <span class="n">response</span> <span class="o">=</span> <span class="n">modelGemini</span><span class="o">.</span><span class="n">generate_content</span><span class="p">(</span><span class="n">prompt</span><span class="p">)</span>
+  <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"""</span>
+<span class="s2">  GEMINI:</span>
+<span class="s2">  </span><span class="si">{</span><span class="n">response</span><span class="o">.</span><span class="n">text</span><span class="si">}</span>
+<span class="s2">  """</span><span class="p">)</span>
+
+<span class="sd">"""</span>
+<span class="sd">COHERE</span>
+<span class="sd">"""</span>
+<span class="k">def</span> <span class="nf">llm_cohere</span><span class="p">(</span><span class="n">prompt</span><span class="p">):</span>
+  <span class="n">stream</span> <span class="o">=</span> <span class="n">co</span><span class="o">.</span><span class="n">chat_stream</span><span class="p">(</span>
+    <span class="n">model</span><span class="o">=</span><span class="s1">'command-r-plus'</span><span class="p">,</span>
+    <span class="n">message</span><span class="o">=</span><span class="n">prompt</span><span class="p">,</span>
+    <span class="n">temperature</span><span class="o">=</span><span class="mf">0.3</span><span class="p">,</span>
+    <span class="n">chat_history</span><span class="o">=</span><span class="p">[],</span>
+    <span class="n">prompt_truncation</span><span class="o">=</span><span class="s1">'AUTO'</span><span class="p">,</span>
+    <span class="n">connectors</span><span class="o">=</span><span class="p">[{</span><span class="s2">"id"</span><span class="p">:</span><span class="s2">"web-search"</span><span class="p">}]</span>
+  <span class="p">)</span>
+  <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"""</span>
+<span class="s2">  COHERE:</span>
+<span class="s2">  """</span><span class="p">)</span>
+  <span class="k">for</span> <span class="n">event</span> <span class="ow">in</span> <span class="n">stream</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">event</span><span class="o">.</span><span class="n">event_type</span> <span class="o">==</span> <span class="s2">"text-generation"</span><span class="p">:</span>
+      <span class="nb">print</span><span class="p">(</span><span class="n">event</span><span class="o">.</span><span class="n">text</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s1">''</span><span class="p">)</span>
+  <span class="nb">print</span><span class="p">(</span><span class="s2">""</span><span class="p">)</span>
+
+<span class="sd">"""</span>
+<span class="sd">GROQ</span>
+<span class="sd">"""</span>
+<span class="k">def</span> <span class="nf">llm_groq</span><span class="p">(</span><span class="n">prompt</span><span class="p">):</span>
+  <span class="n">chat_completion</span> <span class="o">=</span> <span class="n">groq_client</span><span class="o">.</span><span class="n">chat</span><span class="o">.</span><span class="n">completions</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+    <span class="n">messages</span><span class="o">=</span><span class="p">[{</span>
+      <span class="s2">"role"</span><span class="p">:</span> <span class="s2">"user"</span><span class="p">,</span>
+      <span class="s2">"content"</span><span class="p">:</span> <span class="n">prompt</span><span class="p">,</span>
+    <span class="p">}],</span>
+    <span class="n">model</span><span class="o">=</span><span class="s2">"llama3-8b-8192"</span><span class="p">,</span>
+  <span class="p">)</span>
+  <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"""</span>
+<span class="s2">  GROQ:</span>
+<span class="s2">  </span><span class="si">{</span><span class="n">chat_completion</span><span class="o">.</span><span class="n">choices</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">message</span><span class="o">.</span><span class="n">content</span><span class="si">}</span>
+<span class="s2">  """</span><span class="p">)</span>
+
+<span class="sd">"""</span>
+<span class="sd">PERPLEXITY</span>
+<span class="sd">"""</span>
+<span class="k">def</span> <span class="nf">llm_perplexity</span><span class="p">(</span><span class="n">prompt</span><span class="p">):</span>
+  <span class="n">response</span> <span class="o">=</span> <span class="n">perplexity_client</span><span class="o">.</span><span class="n">chat</span><span class="o">.</span><span class="n">completions</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+    <span class="n">model</span><span class="o">=</span><span class="s2">"llama-3-sonar-large-32k-online"</span><span class="p">,</span>
+    <span class="n">messages</span><span class="o">=</span><span class="p">[{</span>
+      <span class="s2">"role"</span><span class="p">:</span> <span class="s2">"user"</span><span class="p">,</span>
+      <span class="s2">"content"</span><span class="p">:</span> <span class="p">(</span>
+        <span class="n">prompt</span>
+      <span class="p">),</span>
+    <span class="p">}],</span>
+  <span class="p">)</span>
+  <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"""</span>
+<span class="s2">  PERPLEXITY:</span>
+<span class="s2">  </span><span class="si">{</span><span class="n">response</span><span class="o">.</span><span class="n">choices</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">message</span><span class="o">.</span><span class="n">content</span><span class="si">}</span>
+<span class="s2">  """</span><span class="p">)</span>
+
+
+<span class="sd">"""</span>
+<span class="sd">OPEN AI</span>
+<span class="sd">"""</span>
+<span class="k">def</span> <span class="nf">llm_openai</span><span class="p">(</span><span class="n">prompt</span><span class="p">):</span>
+  <span class="n">completion</span> <span class="o">=</span> <span class="n">clientOpenAI</span><span class="o">.</span><span class="n">chat</span><span class="o">.</span><span class="n">completions</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+    <span class="n">model</span><span class="o">=</span><span class="s2">"gpt-3.5-turbo"</span><span class="p">,</span>
+    <span class="n">messages</span><span class="o">=</span><span class="p">[</span>
+      <span class="p">{</span><span class="s2">"role"</span><span class="p">:</span> <span class="s2">"user"</span><span class="p">,</span> <span class="s2">"content"</span><span class="p">:</span> <span class="n">prompt</span><span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">)</span>
+  <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"""</span>
+<span class="s2">  OPEN AI:</span>
+<span class="s2">  </span><span class="si">{</span><span class="n">completion</span><span class="o">.</span><span class="n">choices</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">message</span><span class="o">.</span><span class="n">content</span><span class="si">}</span>
+<span class="s2">  """</span>
+  <span class="p">)</span>
+
+<span class="sd">"""</span>
+<span class="sd">MISTRAL</span>
+<span class="sd">"""</span>
+<span class="k">def</span> <span class="nf">llm_mistral</span><span class="p">(</span><span class="n">prompt</span><span class="p">):</span>
+  <span class="n">chat_response</span> <span class="o">=</span> <span class="n">clientMistral</span><span class="o">.</span><span class="n">chat</span><span class="p">(</span>
+    <span class="n">model</span><span class="o">=</span><span class="n">modelMistral</span><span class="p">,</span>
+    <span class="n">messages</span><span class="o">=</span><span class="p">[</span><span class="n">ChatMessage</span><span class="p">(</span><span class="n">role</span><span class="o">=</span><span class="s2">"user"</span><span class="p">,</span> <span class="n">content</span><span class="o">=</span><span class="n">prompt</span><span class="p">)],</span>
+  <span class="p">)</span>
+  <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"""</span>
+<span class="s2">  MISTRAL:</span>
+<span class="s2">  </span><span class="si">{</span><span class="n">chat_response</span><span class="o">.</span><span class="n">choices</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">message</span><span class="o">.</span><span class="n">content</span><span class="si">}</span>
+<span class="s2">  """</span>
+  <span class="p">)</span>
+
+<span class="sd">"""</span>
+<span class="sd">CLAUDE ANTHROPIC</span>
+<span class="sd">"""</span>
+<span class="k">def</span> <span class="nf">llm_claude</span><span class="p">(</span><span class="n">prompt</span><span class="p">):</span>
+  <span class="n">message</span> <span class="o">=</span> <span class="n">clientAnthropic</span><span class="o">.</span><span class="n">messages</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+    <span class="c1"># model="claude-3-opus-20240229",</span>
+    <span class="n">model</span><span class="o">=</span><span class="s2">"claude-instant-1.2"</span><span class="p">,</span>
+    <span class="n">max_tokens</span><span class="o">=</span><span class="mi">1024</span><span class="p">,</span>
+    <span class="n">messages</span><span class="o">=</span><span class="p">[</span>
+      <span class="p">{</span><span class="s2">"role"</span><span class="p">:</span> <span class="s2">"user"</span><span class="p">,</span> <span class="s2">"content"</span><span class="p">:</span> <span class="n">prompt</span><span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">)</span>
+  <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"""</span>
+<span class="s2">  CLAUDE ANTHROPIC:</span>
+<span class="s2">  </span><span class="si">{</span><span class="n">message</span><span class="o">.</span><span class="n">content</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">text</span><span class="si">}</span>
+<span class="s2">  """</span><span class="p">)</span>
+
+<span class="n">LLM</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="s2">"GEMINI"</span><span class="p">:</span> <span class="n">llm_gemini</span><span class="p">,</span>
+  <span class="s2">"COHERE"</span><span class="p">:</span> <span class="n">llm_cohere</span><span class="p">,</span>
+  <span class="s2">"GROQ"</span><span class="p">:</span> <span class="n">llm_groq</span><span class="p">,</span>
+  <span class="s2">"PERPLEXITY"</span><span class="p">:</span> <span class="n">llm_perplexity</span><span class="p">,</span>
+  <span class="s2">"OPENAI"</span><span class="p">:</span> <span class="n">llm_openai</span><span class="p">,</span>
+  <span class="s2">"MISTRAL"</span><span class="p">:</span> <span class="n">llm_mistral</span><span class="p">,</span>
+  <span class="s2">"CLAUDE"</span><span class="p">:</span> <span class="n">llm_claude</span>
+<span class="p">}</span>
+</pre></div>
+</div>
 </div>
 </div>
 </div>
@@ -8544,7 +9063,7 @@ To find your favorite French cheese, it's best to try a variety and taste the di
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [23]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [17]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">PROMPT</span> <span class="o">=</span> <span class="s2">"""</span>
@@ -8555,59 +9074,9 @@ To find your favorite French cheese, it's best to try a variety and taste the di
 <span class="s2">"""</span>
 <span class="n">prompt</span> <span class="o">=</span> <span class="n">PROMPT</span>
 
-<span class="sd">"""</span>
-<span class="sd">GEMINI</span>
-<span class="sd">"""</span>
-<span class="n">modelGemini</span> <span class="o">=</span> <span class="n">genai</span><span class="o">.</span><span class="n">GenerativeModel</span><span class="p">(</span><span class="s1">'gemini-pro'</span><span class="p">)</span>
-<span class="n">response</span> <span class="o">=</span> <span class="n">modelGemini</span><span class="o">.</span><span class="n">generate_content</span><span class="p">(</span><span class="n">prompt</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"""</span>
-<span class="s2">GEMINI:</span>
-<span class="si">{</span><span class="n">response</span><span class="o">.</span><span class="n">text</span><span class="si">}</span>
-<span class="s2">"""</span><span class="p">)</span>
-
-<span class="sd">"""</span>
-<span class="sd">OPEN AI</span>
-<span class="sd">"""</span>
-<span class="n">completion</span> <span class="o">=</span> <span class="n">clientOpenAI</span><span class="o">.</span><span class="n">chat</span><span class="o">.</span><span class="n">completions</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
-  <span class="n">model</span><span class="o">=</span><span class="s2">"gpt-3.5-turbo"</span><span class="p">,</span>
-  <span class="n">messages</span><span class="o">=</span><span class="p">[</span>
-    <span class="p">{</span><span class="s2">"role"</span><span class="p">:</span> <span class="s2">"user"</span><span class="p">,</span> <span class="s2">"content"</span><span class="p">:</span> <span class="n">prompt</span><span class="p">}</span>
-  <span class="p">]</span>
-<span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"""</span>
-<span class="s2">OPEN AI:</span>
-<span class="si">{</span><span class="n">completion</span><span class="o">.</span><span class="n">choices</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">message</span><span class="o">.</span><span class="n">content</span><span class="si">}</span>
-<span class="s2">"""</span>
-<span class="p">)</span>
-
-<span class="sd">"""</span>
-<span class="sd">MISTRAL</span>
-<span class="sd">"""</span>
-<span class="n">chat_response</span> <span class="o">=</span> <span class="n">clientMistral</span><span class="o">.</span><span class="n">chat</span><span class="p">(</span>
-  <span class="n">model</span><span class="o">=</span><span class="n">modelMistral</span><span class="p">,</span>
-  <span class="n">messages</span><span class="o">=</span><span class="p">[</span><span class="n">ChatMessage</span><span class="p">(</span><span class="n">role</span><span class="o">=</span><span class="s2">"user"</span><span class="p">,</span> <span class="n">content</span><span class="o">=</span><span class="n">prompt</span><span class="p">)],</span>
-<span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"""</span>
-<span class="s2">MISTRAL:</span>
-<span class="si">{</span><span class="n">chat_response</span><span class="o">.</span><span class="n">choices</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">message</span><span class="o">.</span><span class="n">content</span><span class="si">}</span>
-<span class="s2">"""</span>
-<span class="p">)</span>
-
-<span class="sd">"""</span>
-<span class="sd">CLAUDE ANTHROPIC</span>
-<span class="sd">"""</span>
-<span class="n">message</span> <span class="o">=</span> <span class="n">clientAnthropic</span><span class="o">.</span><span class="n">messages</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
-  <span class="c1"># model="claude-3-opus-20240229",</span>
-  <span class="n">model</span><span class="o">=</span><span class="s2">"claude-instant-1.2"</span><span class="p">,</span>
-  <span class="n">max_tokens</span><span class="o">=</span><span class="mi">1024</span><span class="p">,</span>
-  <span class="n">messages</span><span class="o">=</span><span class="p">[</span>
-    <span class="p">{</span><span class="s2">"role"</span><span class="p">:</span> <span class="s2">"user"</span><span class="p">,</span> <span class="s2">"content"</span><span class="p">:</span> <span class="n">prompt</span><span class="p">}</span>
-  <span class="p">]</span>
-<span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"""</span>
-<span class="s2">CLAUDE ANTHROPIC:</span>
-<span class="si">{</span><span class="n">message</span><span class="o">.</span><span class="n">content</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">text</span><span class="si">}</span>
-<span class="s2">"""</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">llm</span> <span class="ow">in</span> <span class="p">[</span><span class="s2">"GEMINI"</span><span class="p">,</span> <span class="s2">"COHERE"</span><span class="p">,</span> <span class="s2">"GROQ"</span><span class="p">,</span> <span class="s2">"PERPLEXITY"</span><span class="p">]:</span>
+<span class="c1"># for llm in ["PERPLEXITY"]:</span>
+  <span class="n">LLM</span><span class="p">[</span><span class="n">llm</span><span class="p">](</span><span class="n">prompt</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -8621,23 +9090,35 @@ To find your favorite French cheese, it's best to try a variety and taste the di
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>
-GEMINI:
-I apologize for the delay. I have been occupied with another time-consuming matter, but I am now available to assist you.
+  GEMINI:
+  Sure, here is an improved version of the text:
 
+"Thank you for your patience. I apologize for the delay in my response. I have been preoccupied with another matter that has required a significant amount of my time and attention."
+  
 
-OPEN AI:
-I apologize for the delay as I have been preoccupied with another time-consuming task. Thank you for your understanding.
+  COHERE:
+  
+Sure! Here is a revised version: 
 
+"My apologies for the delay. I was caught up with some time-consuming tasks, but I am back on track now and ready to assist you." 
 
-MISTRAL:
-I apologize for the delay in response. I've been focused on another project that required my full attention. Please accept my apologies for any inconvenience caused.
+This version maintains a positive and humble tone while also conveying a sense of professionalism and respect for the recipient's time. It also sets a polite and friendly tone for further communication.
 
+  GROQ:
+  What a great start! It's truly wonderful to see you're reaching out. Here's a refined version that captures your tone and intention while making it more polished:
 
-CLAUDE ANTHROPIC:
-Here is my suggestion:
+"I wanted to apologize for the delay. I've been tackling a personal project that consumed most of my time, and I didn't want to compromise on quality. Your patience and understanding are greatly appreciated!"
 
-"Apologies for the delay in responding. I've been focused on another task recently that required more of my time and attention than anticipated. In the future, I will aim to better manage multiple priorities and communicate more promptly."
+Feel free to modify it to fit your personal style and tone. Remember, I'm here to help!
+  
 
+  PERPLEXITY:
+  Here's a revised version of the text:
+
+"I apologize for the delay. I've been fully engaged in another important task that required my attention. I'm now refocused and ready to move forward."
+
+This revised text still acknowledges the delay and expresses regret, but it does so in a more professional and polite manner. It also provides a brief explanation for the delay without making excuses, and it ends on a positive note by indicating that you're now ready to move forward.
+  
 </pre>
 </div>
 </div>

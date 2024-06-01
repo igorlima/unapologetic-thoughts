@@ -51,6 +51,7 @@ To further exploration, brainstorm, doodle, and journal:
           - **for marketers**: quickly create engaging presentations, whitepapers, and blog posts, all backed by authoritative sources.
           - **for developers**: troubleshoot coding problems and stay up-to-date on the latest technology trends, frameworks, and tools.
         </details>
+    - [Tavily](https://app.tavily.com/) [<sup>•</sup>]({{site.baseurl}}{% post_url 2024-06-01-ai-tavily %})
   - RAG
     - [Google Notebook LM](https://notebooklm.google/)
     - [Verba: The Golden RAGtriever](https://verba.weaviate.io/)

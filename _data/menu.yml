@@ -61,6 +61,14 @@ entries:
       show_more_text: see more posts...
       show_more_url: archive-technical.html
 
+  - title: code sample
+    post_list:
+      category: code-sample
+      limit: 2
+      show_more: true
+      show_more_text: see more posts...
+      show_more_url: archive-code-sample.html
+
   - title: sketch drafting
     post_list:
       category: sketch

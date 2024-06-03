@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Message Knowledge Base
+title: AI Knowledge Base for Messages
 category: code-sample
 ---
 

@@ -25,8 +25,8 @@ Doing this helps you become more aware of both your external and internal world.
 
 ## Other resources
 
-- [2023a03m04d stoic journaling]({{site.baseurl}}{% post_url 2023-03-04-stoic-journaling %})
-- [2023a04m04d journal prompts]({{site.baseurl}}{% post_url 2023-04-04-journal-prompts %})
+- [2023a03m04d stoic journaling]({{site.baseurl}}{% post_url 2023/2023-03-04-stoic-journaling %})
+- [2023a04m04d journal prompts]({{site.baseurl}}{% post_url 2023/2023-04-04-journal-prompts %})
 
 ---
 {: data-content="footnotes"}

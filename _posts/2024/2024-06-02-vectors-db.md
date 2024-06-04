@@ -232,4 +232,4 @@ COHERE_API_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx \
 [^2]: [Public code of Dr. Ivan Reznikov used in posts, articles, conferences](https://github.com/IvanReznikov/DataVerse)
 [^3]: [Notebook hosted on Github by Dr. Ivan Reznikov](https://github.com/IvanReznikov/DataVerse/tree/bc1e275499809a7b1e7ddbea0ac1b4ed22d8bf65/Courses/LangChain/Lecture3.%20Talking%20to%20Data)
 [^4]: [Notebook hosted on Google Colab by Dr. Ivan Reznikov](https://colab.research.google.com/drive/1gZ8CfC0n2hNczYfoqynezDkDsMtTmEbi#scrollTo=NhffeyZZlgIw)
-[^5]: [AI Embeddings]({{site.baseurl}}{% post_url 2024-06-02-embeddings %})
+[^5]: [AI Embeddings]({{site.baseurl}}{% post_url 2024/2024-06-02-embeddings %})

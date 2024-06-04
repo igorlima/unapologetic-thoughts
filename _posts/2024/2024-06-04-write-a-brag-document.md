@@ -32,15 +32,17 @@ now used by 60% of our customers and has gotten Y positive feedback”. [^1]
     you think your goals for next year might be.
 - Projects
   - For each one, go through:
-    - _What your contributions were (did you come up with the design? Which
-      components did you build? Was there some useful insight like “wait, we
-      can cut scope and do what we want by doing way less work” that you came
-      up with?)_
-    - _The impact of the project – who was it for? Are there numbers you can
-      attach to it? (saved X dollars? shipped new feature that has helped sell
-      Y big deals? Improved performance by X%? Used by X internal users every
-      day?). Did it support some important non-numeric company goal (required
-      to pass an audit? helped retain an important user?)_
+    - _What your contributions were (did you come up with the design?_
+      - _Which components did you build?_
+      - _Was there some useful insight like “wait, we can cut scope and do what
+        we want by doing way less work” that you came up with?)_
+    - _The impact of the project – who was it for?_
+      - _Are there numbers you can attach to it?_
+        - _(saved X dollars? shipped new feature that has helped sell Y big
+          deals? Improved performance by X%? Used by X internal users every
+          day?)._
+      - _Did it support some important non-numeric company goal?_
+        - _(required to pass an audit? helped retain an important user?)_
 
 ## Outside of work [^1]
 

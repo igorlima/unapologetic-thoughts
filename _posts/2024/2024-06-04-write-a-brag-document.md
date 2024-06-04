@@ -21,7 +21,7 @@ to try to make your work sound better than it is__. Just make it sound exactly a
 good as it is! For example “was the primary contributor to X new feature that’s
 now used by 60% of our customers and has gotten Y positive feedback”. [^1]
 
-## Template
+## Template [^1]
 
 - Goals for this year:
   - List your major goals here! Sharing your goals with your manager &
@@ -42,7 +42,7 @@ now used by 60% of our customers and has gotten Y positive feedback”. [^1]
       day?). Did it support some important non-numeric company goal (required
       to pass an audit? helped retain an important user?)_
 
-## Outside of work
+## Outside of work [^1]
 
 It’s also often useful to track accomplishments outside of work, like:
 - blog posts
@@ -50,7 +50,7 @@ It’s also often useful to track accomplishments outside of work, like:
 - open source work
 - industry recognition
 
-## General prompts
+## General prompts [^1]
 
 If you’re feeling stuck for things to mention, try:
 - If you were trying to convince a friend to come join your company/team, what would you tell them about your work?

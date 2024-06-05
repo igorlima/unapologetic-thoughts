@@ -12,8 +12,8 @@ simpleUsage () {
     -x     | --deactivate-env-py
     -i     | --install-python-modules
     -r     | --rename-ipynb-to-old
-    --rm   | --remove-old-ipynb
     -c     | --convert-notebook-to-html
+    --rm   | --remove-old-ipynb
     --diff | --diff-notebooks
     --open | --open-notebooks
     '

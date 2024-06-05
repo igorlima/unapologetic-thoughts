@@ -51,7 +51,7 @@ To further exploration, brainstorm, doodle, and journal:
           - **for marketers**: quickly create engaging presentations, whitepapers, and blog posts, all backed by authoritative sources.
           - **for developers**: troubleshoot coding problems and stay up-to-date on the latest technology trends, frameworks, and tools.
         </details>
-    - [Tavily](https://app.tavily.com/) [<sup>•</sup>]({{site.baseurl}}{% post_url 2024-06-01-ai-tavily %})
+    - [Tavily](https://app.tavily.com/) [<sup>•</sup>]({{site.baseurl}}{% post_url 2024/2024-06-01-ai-tavily %})
   - RAG
     - [Google Notebook LM](https://notebooklm.google/)
     - [Verba: The Golden RAGtriever](https://verba.weaviate.io/)
@@ -104,8 +104,8 @@ Revise e melhore o seguinte texto. Seja casual e positivo.
 
 ## My Notebooks
 
-- _[steps to publish a notebook]({{site.baseurl}}{% post_url 2024-05-12-steps-to-publish-notebook %})_
-- [AI Prompts]({{site.baseurl}}{% post_url 2023-08-20-ai-writing-prompts %})
+- _[steps to publish a notebook]({{site.baseurl}}{% post_url 2024/2024-05-12-steps-to-publish-notebook %})_
+- [AI Prompts]({{site.baseurl}}{% post_url 2023/2023-08-20-ai-writing-prompts %})
   - [ipynb]({{site.baseurl}}{% link notebooks/files/ai-prompts.ipynb %}) / [html]({{site.baseurl}}{% link notebooks/html/ai-prompts.html %}) / [nbviewer](https://nbviewer.org/urls/igorlima.github.io/unapologetic-thoughts/notebooks/files/ai-prompts.ipynb)
 
 ## Journaling

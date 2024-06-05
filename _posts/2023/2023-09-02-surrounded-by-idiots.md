@@ -51,4 +51,4 @@ Now, each side of this square shows how these different personality types share 
 
 [^1]: [goodreads - Surrounded by Idiots](https://www.goodreads.com/book/show/39101777-surrounded-by-idiots)
 [^2]: [kindle - Surrounded by Idiots](https://www.amazon.com/Surrounded-Idiots-Behavior-Effectively-Communicate/dp/1250179947)
-[^3]: [internal link - four personality types]({{site.baseurl}}{% post_url 2023-09-02-four-personality-types %})
+[^3]: [internal link - four personality types]({{site.baseurl}}{% post_url 2023/2023-09-02-four-personality-types %})

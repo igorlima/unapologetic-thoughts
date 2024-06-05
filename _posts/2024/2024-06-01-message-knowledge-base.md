@@ -14,7 +14,7 @@ meaningful connections. It's a beginning journey in learning and playing around
 with data analysis and pattern recognition.
 
 It all began with a read I previously had [here]({{site.baseurl}}{% post_url
-2024-06-01-ai-cohere-and-pinecone %}).  I'm thrilled to continue learning and
+2024/2024-06-01-ai-cohere-and-pinecone %}).  I'm thrilled to continue learning and
 exploring the topic further! Let me dive in and have some fun learning on this
 journey.
 
@@ -261,4 +261,4 @@ python3 query-messages.py
 ---
 {: data-content="footnotes"}
 
-[^1]: [AI Cohere and Pinecone]({{site.baseurl}}{% post_url 2024-06-01-ai-cohere-and-pinecone %})
+[^1]: [AI Cohere and Pinecone]({{site.baseurl}}{% post_url 2024/2024-06-01-ai-cohere-and-pinecone %})

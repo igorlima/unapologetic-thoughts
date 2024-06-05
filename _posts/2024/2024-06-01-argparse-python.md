@@ -96,5 +96,5 @@ if __name__ == '__main__':
 ---
 {: data-content="footnotes"}
 
-[^1]: [...]({{site.baseurl}}{% post_url 2023-03-30-internal-links %})
+[^1]: [...]({{site.baseurl}}{% post_url 2023/2023-03-30-internal-links %})
 [^2]: [...]({{site.baseurl}}{% link editable.html %})

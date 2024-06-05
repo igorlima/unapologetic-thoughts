@@ -6,7 +6,7 @@ simpleUsage () {
   usage() {
     echo
     echo -e '
-    Usage: $0
+    Usage: '$0'
     -h     | --help
     -e     | --init-env-py
     -x     | --deactivate-env-py

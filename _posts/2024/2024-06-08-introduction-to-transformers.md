@@ -9,7 +9,7 @@ In its most basic sense, the transformer is an encoder-decoder style model.
 The encoder converts an input into an abstract representation which the decoder
 uses to iteratively generate output. [^1]
 
-![]()
+![image](https://github.com/igorlima/unapologetic-thoughts/assets/1886786/516718b1-51fb-43fb-9c88-48d693412358)
 <sup><i>high level representation of how the output of the encoder relates to the decoder</i></sup> [^1]
 
 Generally speaking, encoder-only style models are good at extracting

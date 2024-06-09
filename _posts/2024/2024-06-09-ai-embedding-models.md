@@ -30,6 +30,9 @@ from vertexai.language_models import TextEmbeddingInput, TextEmbeddingModel
 project_id = "PROJECT_ID"
 vertexai.init(project=project_id, location="us-west1")
 
+# https://console.cloud.google.com/vertex-ai/publishers/google/model-garden/textembedding-gecko
+# https://cloud.google.com/vertex-ai/generative-ai/docs/model-reference/text-embeddings
+# https://cloud.google.com/vertex-ai/generative-ai/docs/embeddings/get-text-embeddings
 def embed_text(
   texts: List[str] = ["banana muffins? ", "banana bread? banana muffins?"],
   task: str = "RETRIEVAL_DOCUMENT",

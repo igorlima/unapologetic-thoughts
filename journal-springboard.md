@@ -84,6 +84,16 @@ Revise e melhore o seguinte texto. Seja casual e positivo.
 """
 ```
 
+### A tool to help generate prompts
+
+Super Secret Prompting: The tool writes highly detailed prompts based on your
+input. It’s free to use, and it’s created by
+[Anthropic](https://www.anthropic.com/), the company behind Claude.
+
+- [Anthropic Prompt Generator](https://console.anthropic.com/dashboard): _it
+  takes your simple instructions and turns them into a super detailed prompt._
+
+
 ## Brainstorming
 
 - An Human-AI Interaction Patterns

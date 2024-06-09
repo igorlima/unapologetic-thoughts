@@ -285,6 +285,15 @@ python3 query-data.py
 ```
 </details>
 
+## other external resources
+
+- [Pinecone Documentation](https://docs.pinecone.io/home)
+- [Pinecone Notebooks](https://docs.pinecone.io/examples/notebooks)
+  - [Langchain Retrieval Augmentation](https://colab.research.google.com/github/pinecone-io/examples/blob/master/docs/langchain-retrieval-augmentation.ipynb)
+    - _Give knowledge base information to an LLM using LangChain._
+  - [Semantic Search](https://colab.research.google.com/github/pinecone-io/examples/blob/master/docs/semantic-search.ipynb)
+    - _Perform a simple semantic search._
+
 ---
 {: data-content="footnotes"}
 

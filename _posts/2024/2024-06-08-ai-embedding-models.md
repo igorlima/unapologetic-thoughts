@@ -293,6 +293,22 @@ Supported Models.
 | gemini-pro-vision | Image                               | 60               |
 | embedding-001     | Classification, clustering and more | Unknown          |
 
+List of Task Types.
+
+| `task_type`           | Description                                                                                                         |
+| ---                   | ---                                                                                                                 |
+| `RETRIEVAL_QUERY`     | Specifies the given text is a query in a search or retrieval setting.                                               |
+| `RETRIEVAL_DOCUMENT`  | Specifies the given text is a document in a search or retrieval setting.                                            |
+| `SEMANTIC_SIMILARITY` | Specifies the given text is used for Semantic Textual Similarity (STS).                                             |
+| `CLASSIFICATION`      | Specifies that the embedding is used for classification.                                                            |
+| `CLUSTERING`          | Specifies that the embedding is used for clustering.                                                                |
+| `QUESTION_ANSWERING`  | Specifies that the query embedding is used for answering questions. Use `RETRIEVAL_DOCUMENT` for the document side. |
+| `FACT_VERIFICATION`   | Specifies that the query embedding is used for fact verification.                                                   |
+
+## other embedding models
+
+- [AI Embedding Models - Google VertexAI]({{site.baseurl}}{% post_url 2024/2024-06-09-ai-embedding-models %})
+
 ---
 {: data-content="footnotes"}
 

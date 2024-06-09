@@ -15,9 +15,16 @@ vector database as a proxy to find a relevant context to the query [^2].
 ![image](https://github.com/igorlima/unapologetic-thoughts/assets/1886786/0d812cb4-9862-42b7-a17f-058375be2a58)
 <sup><sup>image source from Medium [^2]</sup></sup>
 
+![]()
+<sup><sup>a hight level RAG sample architecture [^3]</sup></sup>
+
+## other references
+- [Retrieval Augmented Generation - RAG]({{site.baseurl}}{% post_url 2024/2024-06-06-rag %})
+
 ---
 
 {: data-content="footnotes"}
 
 [^1]: [How to improve RAG results in your LLM apps: from basics to advanced](https://bootcamp.uxdesign.cc/how-to-improve-rag-results-in-your-llm-apps-from-basics-to-advanced-822818014144)
 [^2]: [You Can Now Build A Chatbot To Talk To Your Internal Knowledge Base](https://levelup.gitconnected.com/you-can-now-build-a-chatbot-to-talk-to-your-internal-knowledge-base-b6066cacf2d5)
+[^3]: [Level Up your RAG: Tuning Embeddings on Vertex AI](https://medium.com/google-cloud/level-up-your-rag-tuning-embeddings-on-vertex-ai-901bb7f65bd0)

@@ -225,6 +225,10 @@ COHERE_API_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx \
 ```
 </details>
 
+Other Vector Databases:
+- [Milvus DB]({{site.baseurl}}{% post_url 2024/2024-06-08-milvus-vector-db %})
+- [Weaviate DB]({{site.baseurl}}{% post_url 2024/2024-06-08-cohere-and-weaviate %})
+
 ---
 {: data-content="footnotes"}
 

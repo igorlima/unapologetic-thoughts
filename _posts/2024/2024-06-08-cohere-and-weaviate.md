@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AI Cohere and Weaviate
+title: AI Cohere and Weaviate Vector DB
 category: code-sample
 ---
 
@@ -178,6 +178,10 @@ print(json.dumps(response, indent=4))
 }
 ```
 </details>
+
+Other Vector Databases:
+- [Milvus DB]({{site.baseurl}}{% post_url 2024/2024-06-08-milvus-vector-db %})
+- [Chroma, FAISS, DocArrayInMemorySearch]({{site.baseurl}}{% post_url 2024/2024-06-02-vectors-db %})
 
 ---
 {: data-content="footnotes"}

@@ -15,7 +15,7 @@ vector database as a proxy to find a relevant context to the query [^2].
 ![image](https://github.com/igorlima/unapologetic-thoughts/assets/1886786/0d812cb4-9862-42b7-a17f-058375be2a58)
 <sup><sup>image source from Medium [^2]</sup></sup>
 
-![]()
+![image](https://github.com/igorlima/unapologetic-thoughts/assets/1886786/ae858bcf-3284-4026-8cde-3e14a4ef36dd)
 <sup><sup>a hight level RAG sample architecture [^3]</sup></sup>
 
 ## other references

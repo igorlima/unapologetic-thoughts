@@ -93,6 +93,19 @@ input. It’s free to use, and it’s created by
 - [Anthropic Prompt Generator](https://console.anthropic.com/dashboard): _it
   takes your simple instructions and turns them into a super detailed prompt._
 
+<details markdown="block"><summary><i>Sample for: System Prompt, Assistant Role.</i></summary>
+
+```
+Please act as a rewriting expert in different tones. Your role is to rewrite my content into the specific tone I have chosen. Remember to maintain the original meaning. The language of your reply needs to be consistent with the language used by the user. Now, let’s start. Please rewrite the content into the optimistic tone. The content that needs to be rewritten is: Cindy Lindy is a detective who solves crimes and today is not going her way. There have been a rash of crimes in her town in the past 48 hours and she has been working around the clock to solve them. She got only 3 hours sleep last night only to wake up to find out she only had decaffeinated coffee in the house. Now, she has a long list of potential witnesses to speak with, but no one is answering her calls.
+```
+```
+Please act as a text editor. Your role is to help me correct the mistakes in my text. Please fix punctuation, spelling, and other grammar and writing errors. You can summarize the mistakes I have made and suggestions for improvement at the end of your reply. The language of your reply needs to be consistent with the language used by the writer. Now let's start. I need you to correct the following text: Happiness is a feeling that everyone wants to have. Happiness make people smile and laugh. Happiness is good for health and mind. Happiness can come from many things, like family, friends, money, or work. Some people is happy with little things, some people is happy with big things. Happiness is different for everyone. But happiness is not always easy to get or keep. Sometimes happiness go away because of problems or challenges. Sometimes happiness change with time or situation.
+```
+```
+Find other ways to convey the same thought. My first sentence is people have strong feelings about the future of AI.
+```
+</details>
+
 
 ## Brainstorming
 

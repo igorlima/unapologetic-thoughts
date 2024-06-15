@@ -20,6 +20,7 @@ vector database as a proxy to find a relevant context to the query [^2].
 
 ## other references
 - [Retrieval Augmented Generation - RAG]({{site.baseurl}}{% post_url 2024/2024-06-06-rag %})
+- [Choosing between LlamaIndex or LangChain]({{site.baseurl}}{% post_url 2024/2024-06-14-llamaindex-or-langchain %})
 
 ---
 

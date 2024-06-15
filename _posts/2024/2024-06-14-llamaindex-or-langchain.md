@@ -6,23 +6,23 @@ category: code-sample
 
 LlamaIndex is a framework designed to index and query LLMs based on your own custom data.
 
-![image](...)
-LlamaIndex Architecture [^1]
-- https://miro.medium.com/v2/resize:fit:1400/format:webp/1*MRlNUfoklpCls0-yRwnJEg.png
+
+![image](https://github.com/igorlima/unapologetic-thoughts/assets/1886786/9c93dd94-63a8-4c5c-a472-d2571a3f9fd5)
+<sup><i>LlamaIndex Architecture [^1]</sup></i>
 
 
 LangChain is another framework used to build tailored LLMs based on custom data sources.
 
-![image](...)
-Langchain Architecture [^1]
-- https://d11qlje7gx84z0.cloudfront.net/wp-content/uploads/2024/05/3ab6191d-2d39-4aee-8c41-88c42957f030.jpg
+
+![image](https://github.com/igorlima/unapologetic-thoughts/assets/1886786/8804653a-b942-4fea-8643-031011e0f8ba)
+<sup><i>Langchain Architecture [^1]</sup></i>
 
 
 __LlamaIndex vs LangChain: Choosing the Right Framework__
 
-![image](...)
-LLamaIndex vs Langchain key factors [^1]
-- https://miro.medium.com/v2/resize:fit:1280/format:webp/0*Od_-SbaGYXecYIxx.png
+
+![image](https://github.com/igorlima/unapologetic-thoughts/assets/1886786/1c74c040-ef3b-4a1b-9051-e181c8043689)
+<sup><i>LLamaIndex vs Langchain key factors [^1]</sup></i>
 
 
 __What are the Project requirements?__ For a primitive: index, query search and

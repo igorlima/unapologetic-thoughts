@@ -59,6 +59,7 @@ understanding of LLMs and NLP concepts._
 ## other references
 - [Retrieval Augmented Generation - RAG]({{site.baseurl}}{% post_url 2024/2024-06-06-rag %})
 - [RAG usage on an internal knowledge base]({{site.baseurl}}{% post_url 2024/2024-06-04-rag-knowledge-base %})
+- [DSPy - ideas to improve RAG]({{site.baseurl}}{% post_url 2024/2024-06-17-dpsy %})
 
 ---
 {: data-content="footnotes"}

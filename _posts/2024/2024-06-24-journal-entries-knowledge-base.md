@@ -1,7 +1,7 @@
 ---
 layout: post
 title: AI Knowledge Base for Journal Entries
-category: sketch
+category: code-sample
 ---
 
 ## Data Structure

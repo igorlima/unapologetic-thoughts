@@ -258,6 +258,10 @@ python3 query-messages.py
 ```
 </details>
 
+## References
+
+- [AI Knowledge Base for Journal Entries]({{site.baseurl}}{% post_url 2024/2024-06-24-journal-entries-knowledge-base %})
+
 ---
 {: data-content="footnotes"}
 

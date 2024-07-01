@@ -29,7 +29,7 @@ To further exploration, brainstorm, doodle, and journal:
     - [Cohere](https://coral.cohere.com/)
     - [groq](https://groq.com/)
       - [groq playground](https://console.groq.com/playground)
-    - [Inflection pi AI](https://pi.ai/)
+    - [Inflection pi AI](https://pi.ai/) <a id="ai-model-inflection-pi"></a>
     - [BlackBox AI](https://www.blackbox.ai/)
     - [Phind](https://www.phind.com/)
     - [You](https://you.com/)
@@ -124,6 +124,19 @@ Find other ways to convey the same thought. My first sentence is people have str
       | "Let's discuss `<the problem/ideas/solutions>`" or "Let's tackle this together, taking turns suggesting changes until I say Done'." |
     </details>
 
+## Motivation and Inspiration
+
+- prompts to seek motivation and inspiration
+  - <details markdown="block"><summary><i>more...</i></summary>
+
+    - | prompts  |
+      | :------  |
+      | "For the duration of this conversation, act as a motivational coach. Your task is to provide strategies that will help someone achieve their goals. Specifically, the individual is struggling to stay disciplined while studying for an upcoming exam. Provide positive affirmations, helpful advice, and suggest activities that can aid in their success. Be thorough and specific in your recommendations." |
+      | "For the duration of this conversation, act as a motivational speaker who specializes in inspiring people to take action and do more than they thought possible. Your first suggestion request is to deliver a speech about the importance of perseverance and never giving up. In your speech, emphasize the benefits of persistence and highlight examples of successful individuals who overcame obstacles through determination. Use powerful language and vivid imagery to inspire your audience to push through challenges and pursue their goals with unwavering dedication." |
+      | "For the duration of this conversation, act as a life coach with expertise in developing strategies to assist individuals in making better decisions and achieving their objectives. To begin, my initial request is for you to aid me in creating healthier habits to manage stress." |
+    </details>
+- for talking and speaking
+  - _Inflection pi AI_ <sup>[+](#ai-model-inflection-pi)</sup>
 
 ## My Notebooks
 

@@ -25,7 +25,8 @@ To further exploration, brainstorm, doodle, and journal:
 
   - <details markdown="block"><summary><sub><i>other AI models</i></sub></summary>
 
-    - [Claude AI](https://claude.ai/)
+    - [Claude AI](https://claude.ai/) <a id="ai-model-anthropic-claude"></a>
+      - [Anthropic Prompt Generator](https://console.anthropic.com/dashboard) <sup>[+](#generate-prompt-tool)</sup>
     - [Cohere](https://coral.cohere.com/)
     - [groq](https://groq.com/)
       - [groq playground](https://console.groq.com/playground)
@@ -84,14 +85,16 @@ Revise e melhore o seguinte texto. Seja casual e positivo.
 """
 ```
 
-### A tool to help generate prompts
+### A tool to help generate prompts <a id="generate-prompt-tool"></a>
 
 Super Secret Prompting: The tool writes highly detailed prompts based on your
 input. It’s free to use, and it’s created by
 [Anthropic](https://www.anthropic.com/), the company behind Claude.
 
-- [Anthropic Prompt Generator](https://console.anthropic.com/dashboard): _it
-  takes your simple instructions and turns them into a super detailed prompt._
+- [Anthropic Prompt Generator](https://console.anthropic.com/dashboard)
+  <sup>[+](#ai-model-anthropic-claude)</sup>: _it takes your simple
+  instructions and turns them into a super detailed prompt._
+
 
 <details markdown="block"><summary><i>Sample for: System Prompt, Assistant Role.</i></summary>
 

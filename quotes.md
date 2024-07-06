@@ -15,3 +15,15 @@ title: Quotes
 
 > "In the __classism of capitalism__, workers are drugged with a salary into spending their time and energy to create wealth for the wealthy, until firing them creates more wealth than sucking them dry."
 
+> "Proper treatment will cure a cold in seven days, but left to itself a cold will hang on for a week."
+  - Henry Felsen, American writer
+  - <details><summary>...</summary>
+      "Quote about the inevitable and the illusion of control."
+      <br>
+      <br>
+      <i>"Um resfriado adequadamente tratado dura sete dias, mas deixado a si mesmo, cura-se em uma semana."</i>
+      <br>
+      Citação sobre o inevitável e a ilusão de controle.
+    </details>
+
+

@@ -20,6 +20,10 @@ There is no need to include the file extension when using the `post_url` tag.
   - _`{% raw %}{% post_url ... %}{% endraw %}` is meant for posts only. For everything else, please use `{% raw %}{% link ... %}{% endraw %}`_
   - _`{% raw %}[article 1]({{site.baseurl}}/{% post_url DATE-article1.md %}){% endraw %}`_
 
+# Other Resources
+
+- [other Jekyll resources]({{site.baseurl}}{% post_url 2024/2024-07-11-jekyll %})
+
 ---
 {: data-content="footnotes"}
 

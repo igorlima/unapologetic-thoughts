@@ -40,6 +40,7 @@ category: code-sample
 <details markdown="block">
 <summary><i>a snippet</i></summary>
 
+{% raw %}
 ```
 import re
 
@@ -99,11 +100,13 @@ parent: {' '.join(chunks[N][2])}
 
 print('\n'.join(chunks[3][2]))
 ```
+{% endraw %}
 </details>
 
 <details markdown="block">
 <summary><i><code>main.py</code></i></summary>
 
+{% raw %}
 ```
 import pudb, re
 from pprint import pprint as pp
@@ -189,6 +192,7 @@ parent: {' '.join(chunks[N][2])}
 
 print('\n'.join(chunks[3][2]))
 ```
+{% endraw %}
 </details>
 
 ### Output

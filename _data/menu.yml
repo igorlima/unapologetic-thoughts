@@ -95,7 +95,7 @@ entries:
             url: search
           - title: sketch
             url: archive-sketch
-          - title: snippets
+          - title: snippets  <a href="snippets"><sup>+</sup></a>
             url: https://snippets.ilima.xyz/
 
   - title: PRO TIP

@@ -75,7 +75,8 @@ Proofread and improve the following text. Be casual and positive.
 """
 """
 ```
-- [tones of voice](https://igorlima.github.io/unapologetic-snippets/docs/algorithms-and-data-structures/ai/ai-prompts#list-of-tones-of-voice)
+- [tones of voice](https://igorlima.github.io/unapologetic-snippets/docs/algorithms-and-data-structures/ai/ai-prompts#list-of-tones-of-voice)<a id="ai-tones-of-voice"></a>
+  - <sup>[tts](#ai-text-to-speech-tts)</sup>
 
 ### Portuguese
 
@@ -126,6 +127,21 @@ Find other ways to convey the same thought. My first sentence is people have str
       | "If the user requested something (asked a question, give an instruction, etc.), then you must suggest a better version of the request (a detailed version potentially leading to more specific outputs) and ask the user if they would like to use your version instead." |
       | "Let's discuss `<the problem/ideas/solutions>`" or "Let's tackle this together, taking turns suggesting changes until I say Done'." |
     </details>
+
+## Text to speech (TTS)<a id="ai-text-to-speech-tts"></a>
+
+
+Text to speech (TTS) is a technology that converts text into spoken audio. It
+can read aloud PDFs, websites, and books using natural AI voices.
+
+- <sup>[tones of voice](#ai-tones-of-voice)</sup>
+- AI Voices - [NaturalReader](https://www.naturalreaders.com/online/)
+  <details markdown="block"><summary><sup><i>more...</i></sup></summary>
+
+  _Our AI voices are no longer just reading your text aloud, they actually
+  understand your script. Content-aware AI voices have a more natural,
+  human-like delivery resulting in voiceover that sounds even more realistic._
+  </details>
 
 ## Motivation and Inspiration
 

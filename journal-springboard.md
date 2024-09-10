@@ -64,6 +64,14 @@ To further exploration, brainstorm, doodle, and journal:
       - _a tool that can be used for tasks like summarizing, paraphrasing, and asking questions about text_
   - miscellaneous
     - [Natural Readers](https://www.naturalreaders.com/online/)
+    - [Goody 2](https://www.goody2.ai/chat)
+      - <details markdown="block"><summary><sup><i>more...</i></sup></summary>
+
+        - GOODY-2 refuses to answer any questions that could potentially lead to harmful outcomes, no matter how absurd the reasoning.
+        - Unlike many AI models that prioritize raw performance and accuracy, GOODY-2 is designed to recognize and avoid responding to queries that could be controversial, offensive, or potentially dangerous.
+        - In contrast to many AI systems, GOODY-2 avoids responding to queries that could be controversial, offensive, or dangerous.
+        - GOODY-2 is an AI model with a unique design philosophy. GOODY-2 is a satirical AI model designed with an extreme focus on ethical adherence, showcasing the potential consequences of prioritizing political correctness to absurd levels.
+        </details>
   </details>
 
 ## Writing Prompts

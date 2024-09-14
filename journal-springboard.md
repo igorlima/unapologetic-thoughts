@@ -19,12 +19,13 @@ To further exploration, brainstorm, doodle, and journal:
 - [Google Gemini](https://gemini.google.com/app)
 - [ChatGPT](https://chat.openai.com/)
 - [Mistral](https://chat.mistral.ai/)
-- [Bing Chat](https://www.bing.com/chat)
-- [Bing Notebook](https://www.bing.com/chat?showntbk=1)
+- [HyperWrite AI](https://app.hyperwriteai.com/personalassistant) <sup>[+](#ai-model-hyperwrite)</sup>
 - <details markdown="block"><summary><i>more...</i></summary>
 
   - <details markdown="block"><summary><sub><i>other AI models</i></sub></summary>
 
+    - [Bing Chat](https://www.bing.com/chat)
+    - [Bing Notebook](https://www.bing.com/chat?showntbk=1)
     - [Claude AI](https://claude.ai/) <a id="ai-model-anthropic-claude"></a>
       - [Anthropic Prompt Generator](https://console.anthropic.com/dashboard) <sup>[+](#generate-prompt-tool)</sup>
     - [Cohere](https://coral.cohere.com/)
@@ -62,6 +63,15 @@ To further exploration, brainstorm, doodle, and journal:
       - _a copilot to search and chat (using RAG) with your knowledge base (pdf, markdown, org)_
     - [SciSpace](https://typeset.io/)
       - _a tool that can be used for tasks like summarizing, paraphrasing, and asking questions about text_
+  - Personal Assistant
+    - [HyperWrite AI](https://app.hyperwriteai.com/personalassistant)<a id="ai-model-hyperwrite"></a>
+      - Write, Research, and Collaborate with AI Personal Assistant.
+      - <details markdown="block"><summary><sup><i>more...</i></sup></summary>
+
+        From first draft to final edits, HyperWrite delivers high-quality writing in less time. Instantly tap into a wealth of knowledge with real-time search and citations.
+
+        [HyperWrite AI](https://www.hyperwriteai.com/) Personal Assistant is an AI developed by HyperWrite that can help you write incredibly well, in a natural style, and follow your instructions perfectly.
+        </details>
   - miscellaneous
     - [Natural Readers](https://www.naturalreaders.com/online/)
     - [Goody 2](https://www.goody2.ai/chat)

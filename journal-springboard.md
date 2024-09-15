@@ -54,6 +54,18 @@ To further exploration, brainstorm, doodle, and journal:
           - **for developers**: troubleshoot coding problems and stay up-to-date on the latest technology trends, frameworks, and tools.
         </details>
     - [Tavily](https://app.tavily.com/) [<sup>•</sup>]({{site.baseurl}}{% post_url 2024/2024-06-01-ai-tavily %})
+    - [Felo](https://felo.ai/search)
+      - <details markdown="block"><summary><sup><i>more...</i></sup></summary>
+
+        **What is Felo?**
+        Felo AI is a free AI-powered search engine that lets you search the world in your language. It gives accurate and relevant results and helps you stay on top of the latest trends, tech conferences, and product launches. With Felo AI, you can explore the world in a whole new way.
+        </details>
+    - [TurboSeek](https://www.turboseek.io/)
+      - <details markdown="block"><summary><sup><i>more...</i></sup></summary>
+
+        An AI search engine inspired by Perplexity.
+        _TurboSeek is an alternative to perplexity AI, it provides sources, step-by-step results, and similar topics._
+        </details>
   - RAG
     - [Google Notebook LM](https://notebooklm.google/)
     - [Verba: The Golden RAGtriever](https://verba.weaviate.io/)

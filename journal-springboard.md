@@ -75,6 +75,11 @@ To further exploration, brainstorm, doodle, and journal:
       - _a copilot to search and chat (using RAG) with your knowledge base (pdf, markdown, org)_
     - [SciSpace](https://typeset.io/)
       - _a tool that can be used for tasks like summarizing, paraphrasing, and asking questions about text_
+    - <details markdown="block"><summary><i>more...</i></summary>
+
+      - [AIWriter](https://typeset.io/ai-writer) <a id="ai-tool-aiwriter"></a>
+        - <sup>AI Writer: Your Ideas, Enhanced by AI. Add citations, improve your ideas, write with confidence. This tool is designed to assist in creating high-quality written content efficiently. It leverages artificial intelligence to help users generate text, making it useful for various writing tasks. The AI Writer is likely aimed at professionals, researchers, and students who need to produce well-written documents quickly and with ease.</sup>
+      </details>
   - Personal Assistant
     - [HyperWrite AI](https://app.hyperwriteai.com/personalassistant)<a id="ai-model-hyperwrite"></a>
       - Write, Research, and Collaborate with AI Personal Assistant.
@@ -85,6 +90,10 @@ To further exploration, brainstorm, doodle, and journal:
         [HyperWrite AI](https://www.hyperwriteai.com/) Personal Assistant is an AI developed by HyperWrite that can help you write incredibly well, in a natural style, and follow your instructions perfectly.
         </details>
   - miscellaneous
+    - <details markdown="block"><summary><i>Writing</i></summary>
+
+      - AIWriter <sup>[+](#ai-tool-aiwriter)</sup>
+      </details>
     - [Natural Readers](https://www.naturalreaders.com/online/)
     - [Goody 2](https://www.goody2.ai/chat)
       - <details markdown="block"><summary><sup><i>more...</i></sup></summary>

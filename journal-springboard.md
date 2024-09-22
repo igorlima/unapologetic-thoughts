@@ -28,7 +28,8 @@ To further exploration, brainstorm, doodle, and journal:
     - [Bing Notebook](https://www.bing.com/chat?showntbk=1)
     - [Claude AI](https://claude.ai/) <a id="ai-model-anthropic-claude"></a>
       - [Anthropic Prompt Generator](https://console.anthropic.com/dashboard) <sup>[+](#generate-prompt-tool)</sup>
-    - [Cohere](https://coral.cohere.com/)
+    - [Cohere](https://coral.cohere.com/) <a id="ai-model-cohere"></a>
+      - [Cohere Prompt Tuner](https://dashboard.cohere.com/prompt-tuner) <sup>[+](#generate-prompt-tool)</sup>
     - [groq](https://groq.com/)
       - [groq playground](https://console.groq.com/playground)
     - [Inflection pi AI](https://pi.ai/) <a id="ai-model-inflection-pi"></a>
@@ -134,6 +135,8 @@ input. It’s free to use, and it’s created by
 - [Anthropic Prompt Generator](https://console.anthropic.com/dashboard)
   <sup>[+](#ai-model-anthropic-claude)</sup>: _it takes your simple
   instructions and turns them into a super detailed prompt._
+- [Cohere Prompt Tuner](https://dashboard.cohere.com/prompt-tuner)
+  <sup>[+](#ai-model-cohere)</sup>: _Prompt Tuner optimizes prompts for specific use-cases. You can use it to improve a prompt for an existing model, or adapt a prompt to a new model. Simply insert a prompt you want to optimize and add evaluation criteria, then use Prompt Tuner to enhance your prompt._
 
 
 <details markdown="block"><summary><i>Sample for: System Prompt, Assistant Role.</i></summary>

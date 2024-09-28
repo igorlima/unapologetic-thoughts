@@ -19,10 +19,10 @@ To further exploration, brainstorm, doodle, and journal:
 - [Google Gemini](https://gemini.google.com/app)
 - [ChatGPT](https://chat.openai.com/)
 - [Mistral](https://chat.mistral.ai/)
-- [HyperWrite AI](https://app.hyperwriteai.com/personalassistant) <sup>[+](#ai-model-hyperwrite)</sup>
+- [CharacterAI](http://character.ai) <sup>[+](#ai-tool-character)</sup>
 - <details markdown="block"><summary><i>more...</i></summary>
 
-  - <details markdown="block"><summary><sub><i>other AI models</i></sub></summary>
+  - <details markdown="block"><summary>other AI models</summary>
 
     - [Bing Chat](https://www.bing.com/chat)
     - [Bing Notebook](https://www.bing.com/chat?showntbk=1)
@@ -36,8 +36,10 @@ To further exploration, brainstorm, doodle, and journal:
     - [BlackBox AI](https://www.blackbox.ai/)
     - [Phind](https://www.phind.com/)
     - [You](https://you.com/)
+    <!-- other AI models -->
     </details>
-  - search
+  - <details markdown="block"><summary>search</summary>
+
     - [PerplexityAI](https://www.perplexity.ai/)
     - [You - Resource Mode](https://you.com/?chatMode=research)
       - <details markdown="block"><summary><sup><i>more...</i></sup></summary>
@@ -67,7 +69,10 @@ To further exploration, brainstorm, doodle, and journal:
         An AI search engine inspired by Perplexity.
         _TurboSeek is an alternative to perplexity AI, it provides sources, step-by-step results, and similar topics._
         </details>
-  - RAG
+    <!-- search -->
+    </details>
+  - <details markdown="block"><summary>RAG</summary>
+
     - [Google Notebook LM](https://notebooklm.google/)
     - [Verba: The Golden RAGtriever](https://verba.weaviate.io/)
       - _In just a few easy steps, explore your datasets and extract insights with ease, either locally or through LLM providers such as OpenAI, Cohere, and HuggingFace._
@@ -81,7 +86,10 @@ To further exploration, brainstorm, doodle, and journal:
       - [AIWriter](https://typeset.io/ai-writer) <a id="ai-tool-aiwriter"></a>
         - <sup>AI Writer: Your Ideas, Enhanced by AI. Add citations, improve your ideas, write with confidence. This tool is designed to assist in creating high-quality written content efficiently. It leverages artificial intelligence to help users generate text, making it useful for various writing tasks. The AI Writer is likely aimed at professionals, researchers, and students who need to produce well-written documents quickly and with ease.</sup>
       </details>
-  - Personal Assistant
+    <!-- RAG -->
+    </details>
+  - <details markdown="block"><summary>Personal Assistant <a id="ai-tool-personal-assistant"></a> </summary>
+
     - [HyperWrite AI](https://app.hyperwriteai.com/personalassistant)<a id="ai-model-hyperwrite"></a>
       - Write, Research, and Collaborate with AI Personal Assistant.
       - <details markdown="block"><summary><sup><i>more...</i></sup></summary>
@@ -90,10 +98,19 @@ To further exploration, brainstorm, doodle, and journal:
 
         [HyperWrite AI](https://www.hyperwriteai.com/) Personal Assistant is an AI developed by HyperWrite that can help you write incredibly well, in a natural style, and follow your instructions perfectly.
         </details>
-  - miscellaneous
+    - CharacterAI <sup>[+](#ai-tool-character)</sup>
+    <!-- Personal Assistant -->
+    </details>
+  - <details markdown="block"><summary>miscellaneous</summary>
+
     - <details markdown="block"><summary><i>Writing</i></summary>
 
       - AIWriter <sup>[+](#ai-tool-aiwriter)</sup>
+      - [Wordtune](https://www.wordtune.com/)
+        - _it helps rewriting and refining text. Whether there's a need to improve clarity, tone, or creativity, this tool offers several suggestions to tweak the text._
+      - [TextFX](https://textfx.withgoogle.com/)
+        - _it helps overcoming writer's block. Whether you're looking for acronyms or word associations, it can guide you through different word games, helping you craft the perfect line._
+      - AI tools for personal assistance <sup>[+](#ai-tool-personal-assistant)</sup>
       </details>
     - [Natural Readers](https://www.naturalreaders.com/online/)
     - [Goody 2](https://www.goody2.ai/chat)
@@ -104,6 +121,13 @@ To further exploration, brainstorm, doodle, and journal:
         - In contrast to many AI systems, GOODY-2 avoids responding to queries that could be controversial, offensive, or dangerous.
         - GOODY-2 is an AI model with a unique design philosophy. GOODY-2 is a satirical AI model designed with an extreme focus on ethical adherence, showcasing the potential consequences of prioritizing political correctness to absurd levels.
         </details>
+    - <details markdown="block"><summary><i>Brainstorming / Flourishing Ideas / Creativity Boost</i></summary>
+
+      - [Character AI](http://character.ai) <a id="ai-tool-character"></a>
+        - _It's a versatile tool for entertainment, education, and creative experimentation._
+      </details>
+    <!-- miscellaneous -->
+    </details>
   </details>
 
 ## Writing Prompts

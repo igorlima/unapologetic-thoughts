@@ -16,7 +16,8 @@ This is a centralized page to gather thoughts and ideas, draft, sketch, and jot 
 </details>
 
 To further exploration, brainstorm, doodle, and journal:
-- [Google Gemini](https://gemini.google.com/app)
+- [Claude AI](https://claude.ai/) <sup>[+](#ai-model-anthropic-claude)</sup>
+- [Google Gemini](https://gemini.google.com/app) <sup>[+](#ai-model-google-gemini)</sup> <sup>[++](https://aistudio.google.com/app/prompts/new_chat/)</sup>
 - [ChatGPT](https://chat.openai.com/)
 - [Mistral](https://chat.mistral.ai/)
 - [CharacterAI](http://character.ai) <sup>[+](#ai-tool-character)</sup>
@@ -24,6 +25,9 @@ To further exploration, brainstorm, doodle, and journal:
 
   - <details markdown="block"><summary>other AI models</summary>
 
+    - [Google Gemini](https://gemini.google.com/app) <a id="ai-model-google-gemini"></a>
+      - [Google AI Studio](https://aistudio.google.com/app/prompts/new_chat/)
+      - [Google Notebook LM](https://notebooklm.google/) <sup>[+](#ai-other-rag)</sup> <sup>[++](#my-notebooks)</sup>
     - [Bing Chat](https://www.bing.com/chat)
     - [Bing Notebook](https://www.bing.com/chat?showntbk=1)
     - [Claude AI](https://claude.ai/) <a id="ai-model-anthropic-claude"></a>
@@ -71,9 +75,9 @@ To further exploration, brainstorm, doodle, and journal:
         </details>
     <!-- search -->
     </details>
-  - <details markdown="block"><summary>RAG</summary>
+  - <details markdown="block"><summary>RAG</summary> <a id="ai-other-rag"></a>
 
-    - [Google Notebook LM](https://notebooklm.google/)
+    - [Google Notebook LM](https://notebooklm.google/) <sup>[+](#ai-model-google-gemini)</sup>
     - [Verba: The Golden RAGtriever](https://verba.weaviate.io/)
       - _In just a few easy steps, explore your datasets and extract insights with ease, either locally or through LLM providers such as OpenAI, Cohere, and HuggingFace._
     - [Julius AI](https://julius.ai/)
@@ -223,7 +227,7 @@ can read aloud PDFs, websites, and books using natural AI voices.
 - for talking and speaking
   - _Inflection pi AI_ <sup>[+](#ai-model-inflection-pi)</sup>
 
-## My Notebooks
+## My Notebooks  <a id="my-notebooks"></a>
 
 - _[steps to publish a notebook]({{site.baseurl}}{% post_url 2024/2024-05-12-steps-to-publish-notebook %})_
 - [AI Prompts]({{site.baseurl}}{% post_url 2023/2023-08-20-ai-writing-prompts %})

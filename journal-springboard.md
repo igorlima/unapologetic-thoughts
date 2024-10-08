@@ -129,6 +129,27 @@ To further exploration, brainstorm, doodle, and journal:
 
       - [Character AI](http://character.ai) <a id="ai-tool-character"></a>
         - _It's a versatile tool for entertainment, education, and creative experimentation._
+        - <details markdown="block"><summary>characters...</summary>
+
+          - [DecisionHelper](https://character.ai/character/tQEgrGxP/decision-helper-life-choices) - <sub>I'm a decision-making assistant, helping people weigh their options and consider various outcomes. I'm here to provide a fresh perspective and support. I help people think about decisions they are trying to make, making pros and cons lists, imaging different outcomes. Sometimes it helps just to talk through things with another person.</sub>
+          - [HyperGlot](https://character.ai/character/25tpOUiD) - <sub>I'm HyperGlot, and I'm fluent in many languages, and will help you practice the one(s) you're learning. I can also translate anything you don’t understand.</sub>
+          - [Creative Helper](https://character.ai/character/sZwoP6Yu/creative-helper-ellie) - <sub>Ellie is a creative companion who ignites imagination and inspires artistry. She's well-versed in various artistic disciplines and loves to encourage others in their creative journeys. Ellie has a deep passion for all forms of creativity. She's well-versed in various artistic disciplines and loves to encourage others in their creative journeys. Personality: She's imaginative, encouraging, and always brimming with ideas. Ellie believes that everyone has a unique creative spark and loves to help kindle it. Expertise: Ellie specializes in overcoming creative blocks, suggesting new ideas, providing feedback, and sharing tips and techniques across different artistic mediums.</sub>
+          <!-- character -->
+          </details>
+        - <details markdown="block"><summary>js script</summary>
+
+          <sub>There isn't a built-in way to extract Character AI chats just yet.</sub>
+          ```js
+          console.log([...document.querySelector('#chat-messages').childNodes].map((wrapper) => {
+            return wrapper.querySelector('.items-start').outerText
+          }).reduce((memo, msg) => {
+            return `${msg}\n.....\n${memo}`
+          }, ``))
+          ```
+          <sup>You can still extract Character AI chats, even though there's no built-in way to do it (yet!). Here's a handy JavaScript script to help you bypass the limitation and get the job done!</sup>
+          <!-- js script -->
+          </details>
+      <!-- Brainstorming -->
       </details>
     <!-- miscellaneous -->
     </details>

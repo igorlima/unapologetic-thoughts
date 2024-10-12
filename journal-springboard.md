@@ -40,6 +40,10 @@ To further exploration, brainstorm, doodle, and journal:
     - [BlackBox AI](https://www.blackbox.ai/)
     - [Phind](https://www.phind.com/)
     - [You](https://you.com/)
+    - [LLMChat](https://llmchat.co/chat/)
+      - <sup>Most intuitive All-in-one AI chat interface.</sup>
+    - [Huggingface Chat](https://huggingface.co/chat) <sup>[+](https://github.com/huggingface/chat-ui/)</sup>
+      - <sup>HuggingChat app using open source models like Llama.</sup>
     <!-- other AI models -->
     </details>
   - <details markdown="block"><summary>search</summary>
@@ -140,11 +144,14 @@ To further exploration, brainstorm, doodle, and journal:
 
           <sub>There isn't a built-in way to extract Character AI chats just yet.</sub>
           ```js
-          console.log([...document.querySelector('#chat-messages').childNodes].map((wrapper) => {
+          var chat = [...document.querySelector('#chat-messages').childNodes].map((wrapper) => {
             return wrapper.querySelector('.items-start').outerText
           }).reduce((memo, msg) => {
-            return `${msg}\n.....\n${memo}`
-          }, ``))
+            return `${msg}\n\n.....\n\n${memo}`
+          }, ``)
+
+          console.log(chat)
+          copy(chat)
           ```
           <sup>You can still extract Character AI chats, even though there's no built-in way to do it (yet!). Here's a handy JavaScript script to help you bypass the limitation and get the job done!</sup>
           <!-- js script -->

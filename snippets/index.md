@@ -14,7 +14,7 @@ writing.
 
 
 ```sh
-EDITOR=vim nap
+EDITOR=vim NAP_CONFIG=config.yaml nap
 ```
 ```sh
 vim +"help ilima-help-snippets-code"

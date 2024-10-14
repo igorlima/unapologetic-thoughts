@@ -106,6 +106,8 @@ To further exploration, brainstorm, doodle, and journal:
 
         [HyperWrite AI](https://www.hyperwriteai.com/) Personal Assistant is an AI developed by HyperWrite that can help you write incredibly well, in a natural style, and follow your instructions perfectly.
         </details>
+    - [Copy AI](https://app.copy.ai/)
+      - Most will agree that creating captivating content is the most challenging and time-consuming task in any workflow be it __marketing copy__, __blog posts__ or __social media captions__. Luckily, Copy.ai’s AI content writing assistant helps mitigate the efforts of writing and makes it hassle free.
     - CharacterAI <sup>[+](#ai-tool-character)</sup>
     <!-- Personal Assistant -->
     </details>

@@ -20,6 +20,7 @@ To further exploration, brainstorm, doodle, and journal:
 - [Google Gemini](https://gemini.google.com/app) <sup>[+](#ai-model-google-gemini)</sup> <sup>[++](https://aistudio.google.com/app/prompts/new_chat/)</sup>
 - [ChatGPT](https://chat.openai.com/)
 - [Mistral](https://chat.mistral.ai/)
+- [Meta AI](https://www.meta.ai/)
 - [CharacterAI](http://character.ai) <sup>[+](#ai-tool-character)</sup>
 - <details markdown="block"><summary><i>more...</i></summary>
 

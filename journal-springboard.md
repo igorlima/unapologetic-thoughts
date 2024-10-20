@@ -18,7 +18,7 @@ This is a centralized page to gather thoughts and ideas, draft, sketch, and jot 
 To further exploration, brainstorm, doodle, and journal:
 - [Claude AI](https://claude.ai/) <sup>[+](#ai-model-anthropic-claude)</sup>
 - [Google Gemini](https://gemini.google.com/app) <sup>[+](#ai-model-google-gemini)</sup> <sup>[++](https://aistudio.google.com/app/prompts/new_chat/)</sup>
-- [ChatGPT](https://chat.openai.com/)
+- [ChatGPT](https://chat.openai.com/) <sup>[+](https://platform.openai.com/playground)</sup>
 - [Mistral](https://chat.mistral.ai/)
 - [Meta AI](https://www.meta.ai/)
 - [CharacterAI](http://character.ai) <sup>[+](#ai-tool-character)</sup>

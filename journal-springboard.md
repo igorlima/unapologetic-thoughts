@@ -127,6 +127,7 @@ To further exploration, brainstorm, doodle, and journal:
     - [Goody 2](https://www.goody2.ai/chat)
       - <details markdown="block"><summary><sup><i>more...</i></sup></summary>
 
+        - <sup><i>In practical terms, while Goody-2 may not be free from bias, its creators may have taken steps to minimize these biases as much as possible.</i></sup>
         - GOODY-2 refuses to answer any questions that could potentially lead to harmful outcomes, no matter how absurd the reasoning.
         - Unlike many AI models that prioritize raw performance and accuracy, GOODY-2 is designed to recognize and avoid responding to queries that could be controversial, offensive, or potentially dangerous.
         - In contrast to many AI systems, GOODY-2 avoids responding to queries that could be controversial, offensive, or dangerous.

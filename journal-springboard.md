@@ -17,10 +17,11 @@ This is a centralized page to gather thoughts and ideas, draft, sketch, and jot 
 
 To further exploration, brainstorm, doodle, and journal:
 - [Claude AI](https://claude.ai/) <sup>[+](#ai-model-anthropic-claude)</sup>
-- [Google Gemini](https://gemini.google.com/app) <sup>[+](#ai-model-google-gemini)</sup> <sup>[++](https://aistudio.google.com/app/prompts/new_chat/)</sup>
 - [ChatGPT](https://chat.openai.com/) <sup>[+](https://platform.openai.com/playground)</sup>
-- [Mistral](https://chat.mistral.ai/)
+- [Gemini <sup>Google</sup>](https://gemini.google.com/app) <sup>[+](#ai-model-google-gemini)</sup> <sup>[++](https://aistudio.google.com/app/prompts/new_chat/)</sup>
+- [Copilot <sup>Microsoft</sup>](https://copilot.microsoft.com/onboarding)  <sup>[+](#ai-model-microsoft)</sup>
 - [Meta AI](https://www.meta.ai/)
+- [Mistral](https://chat.mistral.ai/)
 - [CharacterAI](http://character.ai) <sup>[+](#ai-tool-character)</sup>
 - <details markdown="block"><summary><i>more...</i></summary>
 
@@ -29,8 +30,13 @@ To further exploration, brainstorm, doodle, and journal:
     - [Google Gemini](https://gemini.google.com/app) <a id="ai-model-google-gemini"></a>
       - [Google AI Studio](https://aistudio.google.com/app/prompts/new_chat/)
       - [Google Notebook LM](https://notebooklm.google/) <sup>[+](#ai-other-rag)</sup> <sup>[++](#my-notebooks)</sup>
-    - [Bing Chat](https://www.bing.com/chat)
-    - [Bing Notebook](https://www.bing.com/chat?showntbk=1)
+    - [Microsoft Copilot](https://copilot.microsoft.com/onboarding) <a id="ai-model-microsoft"></a>
+      - [Enterprise AI](https://copilot.cloud.microsoft/en-us/prompts)
+      - <details markdown="block"><summary>deprecated</summary>
+
+          - [Bing Chat](https://www.bing.com/chat)
+          - [Bing Notebook](https://www.bing.com/chat?showntbk=1)
+        </details>
     - [Claude AI](https://claude.ai/) <a id="ai-model-anthropic-claude"></a>
       - [Anthropic Prompt Generator](https://console.anthropic.com/dashboard) <sup>[+](#generate-prompt-tool)</sup>
     - [Cohere](https://coral.cohere.com/) <a id="ai-model-cohere"></a>

@@ -14,6 +14,7 @@ writing.
 
 
 ```sh
+cd ~/workstation/github/unapologetic-thoughts/snippets
 EDITOR=vim NAP_CONFIG=config.yaml nap
 ```
 ```sh

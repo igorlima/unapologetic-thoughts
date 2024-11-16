@@ -95,7 +95,7 @@ entries:
             url: search
           - title: sketch
             url: archive-sketch
-          - title: snippets  <a href="snippets"><sup>+</sup></a>
+          - title: snippets<a id="aux"></a>  <a href="snippets"><sup><strong>+</strong></sup></a> <a href="https://igorlima.github.io/unapologetic-snippets/docs/algorithms-and-data-structures/snippets"><sup><i>++</i></sup></a>
             url: https://snippets.ilima.xyz/
 
   - title: PRO TIP

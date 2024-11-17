@@ -70,6 +70,9 @@ git diff --no-color > patch.patch
     - `vim -d file1 [file2 ...]`
       ```sh
       vim -d <(cat snippets.json | jq . -) <(git show HEAD~1:./snippets.json | jq . -)
+
+      # sorting by date
+      vim -d <(cat snippets.json | jq ". | sort_by(.date)" -) <(git show HEAD~1:./snippets.json | jq ". | sort_by(.date)" -)
       ```
       ```sh
       vim -d <(git show f87d746:./snippets.json | jq . -) <(git show c147b39:./snippets.json | jq . -)

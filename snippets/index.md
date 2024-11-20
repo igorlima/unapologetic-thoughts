@@ -8,14 +8,11 @@ title: Snippets
   <sup>[++](https://github.com/igorlima/unapologetic-thoughts/tree/master/snippets)</sup>
 
 This is a space to nurture and explore ideas, sketching and drafting freely
-without hesitation. Once an idea takes shape and feels ready, it can move to
-another place: e.g. my broader collection of [**Unapologetic Snippets**](https://igorlima.github.io/unapologetic-snippets/docs/algorithms-and-data-structures/snippets).
-_For now, this is the place to plant seeds and trust they’ll grow over time._ 🌱
+without any hesitation. _Once an idea takes shape and feels ready, it can move to
+another place_.
+<i><sup>**e.g.** my broader collection of [**Unapologetic Snippets**](https://igorlima.github.io/unapologetic-snippets/docs/algorithms-and-data-structures/snippets).</sup></i>
 
-Snippets code refers to small, reusable pieces of source code or text that can
-be easily inserted into a larger program or document. These snippets are
-typically used to save time and reduce repetitive typing when coding or
-writing.
+🌱 _For now, this is the place to plant seeds and trust they’ll grow over time._ 🌱
 
 <details markdown="block"><summary>nap</summary>
 
@@ -143,3 +140,9 @@ export AWS_SECRET_ACCESS_KEY="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 --------
 <!-- git-remote-s3 -->
 </details>
+
+
+<sub>Snippets code refers to small, reusable pieces of source code or text that can
+be easily inserted into a larger program or document. These snippets are
+typically used to save time and reduce repetitive typing when coding or
+writing.</sub>

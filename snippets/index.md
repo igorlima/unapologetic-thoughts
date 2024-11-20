@@ -9,8 +9,8 @@ title: Snippets
 
 This is a space to nurture and explore ideas, sketching and drafting freely
 without hesitation. Once an idea takes shape and feels ready, it can move to
-another place: e.g. my broader collection of Unapologetic Snippets. For now,
-this is the place to plant seeds and trust they’ll grow over time. 🌱
+another place: e.g. my broader collection of [**Unapologetic Snippets**](https://igorlima.github.io/unapologetic-snippets/docs/algorithms-and-data-structures/snippets).
+_For now, this is the place to plant seeds and trust they’ll grow over time._ 🌱
 
 Snippets code refers to small, reusable pieces of source code or text that can
 be easily inserted into a larger program or document. These snippets are

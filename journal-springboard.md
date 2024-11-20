@@ -56,34 +56,47 @@ To further exploration, brainstorm, doodle, and journal:
   - <details markdown="block"><summary>search</summary>
 
     - [PerplexityAI](https://www.perplexity.ai/)
-    - [You - Resource Mode](https://you.com/?chatMode=research)
-      - <details markdown="block"><summary><sup><i>more...</i></sup></summary>
+    - <details markdown="block"><summary>You - Resource Mode</summary>
 
-        **Research Mode**: Your personal research assistant.
-        - it’s like having a personal research assistant capable of quickly mastering any subject, including real-time news.
-        - how it works:
-          - understands your question and then searches the web for relevant information.
-          - reads and synthesizes the content from 10+ authoritative web pages.
-          - writes a complete report, including comparison tables where appropriate and extensive citations.
-          - suggests follow-up questions for additional insights or expanded analysis of complex concepts
-        - how it saves you time
-          - **for students**: efficiently learn about complex topics, prepare for exams, and get help with your homework.
-          - **for marketers**: quickly create engaging presentations, whitepapers, and blog posts, all backed by authoritative sources.
-          - **for developers**: troubleshoot coding problems and stay up-to-date on the latest technology trends, frameworks, and tools.
-        </details>
+      - [link](https://you.com/?chatMode=research)
+
+      **Research Mode**: Your personal research assistant.
+      - it’s like having a personal research assistant capable of quickly mastering any subject, including real-time news.
+      - how it works:
+        - understands your question and then searches the web for relevant information.
+        - reads and synthesizes the content from 10+ authoritative web pages.
+        - writes a complete report, including comparison tables where appropriate and extensive citations.
+        - suggests follow-up questions for additional insights or expanded analysis of complex concepts
+      - how it saves you time
+        - **for students**: efficiently learn about complex topics, prepare for exams, and get help with your homework.
+        - **for marketers**: quickly create engaging presentations, whitepapers, and blog posts, all backed by authoritative sources.
+        - **for developers**: troubleshoot coding problems and stay up-to-date on the latest technology trends, frameworks, and tools.
+      </details>
     - [Tavily](https://app.tavily.com/) [<sup>•</sup>]({{site.baseurl}}{% post_url 2024/2024-06-01-ai-tavily %})
-    - [Felo](https://felo.ai/search)
-      - <details markdown="block"><summary><sup><i>more...</i></sup></summary>
+    - <details markdown="block"><summary>Felo</summary>
 
-        **What is Felo?**
-        Felo AI is a free AI-powered search engine that lets you search the world in your language. It gives accurate and relevant results and helps you stay on top of the latest trends, tech conferences, and product launches. With Felo AI, you can explore the world in a whole new way.
-        </details>
-    - [TurboSeek](https://www.turboseek.io/)
-      - <details markdown="block"><summary><sup><i>more...</i></sup></summary>
+      - [link](https://felo.ai/search)
 
-        An AI search engine inspired by Perplexity.
-        _TurboSeek is an alternative to perplexity AI, it provides sources, step-by-step results, and similar topics._
-        </details>
+      **What is Felo?**
+      Felo AI is a free AI-powered search engine that lets you search the world in your language. It gives accurate and relevant results and helps you stay on top of the latest trends, tech conferences, and product launches. With Felo AI, you can explore the world in a whole new way.
+      </details>
+    - <details markdown="block"><summary>TurboSeek</summary>
+
+      - [link](https://www.turboseek.io/)
+
+      An AI search engine inspired by Perplexity.
+      _TurboSeek is an alternative to perplexity AI, it provides sources, step-by-step results, and similar topics._
+      </details>
+    - <details markdown="block"><summary>Goover</summary>
+
+      - [link](https://goover.ai/)
+
+      Goover — A New Search Engine Challenging Perplexity AI.
+
+      Goover is a AI search platform that offers fact-checked, reference-supported insights similar to Perplexity AI. It provides a reliable, interactive AI experience focused on accuracy and user friendliness.
+      <sup>[+](https://generativeai.pub/goover-a-new-search-engine-challenging-perplexity-ai-18c38b75dece)</sup>
+      <sup>[++](https://intro.goover.ai/)</sup>
+      </details>
     <!-- search -->
     </details>
   - <details markdown="block"><summary>RAG</summary> <a id="ai-other-rag"></a>

@@ -137,6 +137,13 @@ export AWS_ACCESS_KEY_ID="XXXXXXXXXXXXXXXXXXXX"
 export AWS_SECRET_ACCESS_KEY="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 ```
 
+```sh
+export AWS_ACCESS_KEY_ID="A7BVMQYGV282XDSL02NC"
+export AWS_SECRET_ACCESS_KEY="xt90dr1m6mqywieguzw8yc3j6m2tp8uy"
+
+git clone s3://my-git-bucket/my-repo
+```
+
 --------
 <!-- git-remote-s3 -->
 </details>

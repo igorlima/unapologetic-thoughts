@@ -133,6 +133,38 @@ To further exploration, brainstorm, doodle, and journal:
     </details>
   - <details markdown="block"><summary>miscellaneous</summary>
 
+    - <details markdown="block"><summary>Talk to github repo</summary>
+
+      <a id="ai-tool-to-talk-to-github-repo"></a>
+      - <details markdown="block"><summary>greptile</summary>
+
+        - [link](https://app.greptile.com/) <sup>[+](https://www.greptile.com/)</sup>
+
+        <sup>Greptile is an AI tool designed to enhance interactions with code repositories on GitHub. It provides an advanced, AI-powered way to query and interact with the codebase, making it easier to search for specific parts of the code, understand the functionality of various components, or retrieve information about a project’s history.</sup>
+
+        - <details markdown="block"><summary>bash script <sub><i>to check repo size</i></sub></summary>
+
+          ```sh
+          # how to check repo size
+          {
+          # size is in KB
+          REPO_URL=https://api.github.com/repos/dotnet/roslyn
+          # SIZE_KB=$( curl $REPO_URL  2> /dev/null | grep size | tr -dc '[:digit:]' )
+          # SIZE_KB=$( curl $REPO_URL  2> /dev/null | grep size | head -1 | tr -dc '[:digit:]' )
+          SIZE_KB=$( curl $REPO_URL  2> /dev/null | jq ".size" | tr -dc '[:digit:]' )
+          SIZE_MB=$( echo "$SIZE_KB / 1024" | bc -l)
+          SIZE_GB=$( echo "$SIZE_MB / 1024" | bc -l)
+
+          echo "Repo size is:"
+          echo "$SIZE_KB" | xargs -n1 printf "%'.1f KB \n"
+          echo "$SIZE_MB" | xargs -n1 printf "%'.1f MB \n"
+          echo "$SIZE_GB" | xargs -n1 printf "%'.1f GB \n"
+          }
+          ```
+          </details>
+        </details>
+      <!-- talk to github repo -->
+      </details>
     - <details markdown="block"><summary><i>Writing</i></summary>
 
       - AIWriter <sup>[+](#ai-tool-aiwriter)</sup>

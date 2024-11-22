@@ -102,6 +102,22 @@ git diff --no-color > patch.patch
 
 - [ilima vim help file](https://gist.githubusercontent.com/igorlima/90f67ef56912aa16306d9c4bd72b46c3/raw/ilima-help-snippets.txt) <sup>[+](https://gist.github.com/igorlima/90f67ef56912aa16306d9c4bd72b46c3/#file-ilima-help-snippets-txt)</sup>
 
+
+<details markdown="block"><summary><sub>bash script <sup><i>to check repo size</i></sup></sub></summary>
+
+```sh
+# how to check repo size
+# https://stackoverflow.com/questions/8185276/find-size-of-git-repository
+{
+
+git count-objects -vH
+
+}
+```
+<!-- bash script to check repo size -->
+-------
+</details>
+
 ```sh
 mkdir ~/workstation/git-remote-s3
 cd ~/workstation/git-remote-s3
@@ -115,6 +131,10 @@ cd ~/workstation/git-remote-s3
 # pip3 index versions git-remote-s3
 #
 # pip3 install --no-cache --upgrade-strategy eager -I git-remote-s3==0.2.0
+#
+# pip3 install -r requirement.txt
+#
+
 pip3 install git-remote-s3==0.2.0
 
 # VIM dependencies plugin

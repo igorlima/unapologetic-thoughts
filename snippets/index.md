@@ -101,6 +101,7 @@ git diff --no-color > patch.patch
 <a id="git-remote-s3"></a>
 
 - [ilima vim help file](https://gist.githubusercontent.com/igorlima/90f67ef56912aa16306d9c4bd72b46c3/raw/ilima-help-snippets.txt) <sup>[+](https://gist.github.com/igorlima/90f67ef56912aa16306d9c4bd72b46c3/#file-ilima-help-snippets-txt)</sup>
+- [my git-remote-s3 tmuxp yaml]({{site.baseurl}}{% post_url 2013-01-01-tmuxp %}#my-git-remote-s3-tmuxp-yaml)
 
 
 <details markdown="block"><summary><sub>bash script <sup><i>to check repo size</i></sup></sub></summary>
@@ -124,11 +125,12 @@ cd ~/workstation/git-remote-s3
 ```
 
 ```sh
-# python3 -m venv my-s3-git
-# source my-s3-git/bin/activate
+# python3 -m venv my-s3-git-env
+# source my-s3-git-env/bin/activate
 #
 # pip3 show git-remote-s3
 # pip3 index versions git-remote-s3
+# pip3 list
 #
 # pip3 install --no-cache --upgrade-strategy eager -I git-remote-s3==0.2.0
 #

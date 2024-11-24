@@ -89,15 +89,16 @@ entries:
             entries:
               - title: <i>brainstorm, doodle, and journal</i>
               - title: <i>a springboard to further exploration</i>
-          - title: quotes
-            url: quotes
-          - title: search
-            url: search
+          - title: mapping the dots
+            url: pages/dots-mapping
           - title: sketch
             url: archive-sketch
-          - title: snippets<a id="aux"></a>  <a href="snippets"><sup><strong>+</strong></sup></a> <a href="https://igorlima.github.io/unapologetic-snippets/docs/algorithms-and-data-structures/snippets"><sup><i>++</i></sup></a>
-            url: https://snippets.ilima.xyz/
-
+          - title: snippets<a id="aux"></a>  <a href="https://snippets.ilima.xyz/"><sup><strong>+</strong></sup></a> <a href="https://igorlima.github.io/unapologetic-snippets/docs/algorithms-and-data-structures/snippets"><sup><i>++</i></sup></a>
+            url: snippets
+      - title: quotes
+        url: pages/quotes
+      - title: search
+        url: pages/search
   - title: PRO TIP
     entries:
       - title: to edit this menu, edit _data/menu.yml file

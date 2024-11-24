@@ -24,16 +24,16 @@ To further exploration, brainstorm, doodle, and journal:
 - [Mistral](https://chat.mistral.ai/)
 - [CharacterAI](http://character.ai) <sup>[+](#ai-tool-character)</sup>
 - <details markdown="block"><summary><i>more...</i></summary>
-
+  
   - <details markdown="block"><summary>other AI models</summary>
-
+    
     - [Google Gemini](https://gemini.google.com/app) <a id="ai-model-google-gemini"></a>
       - [Google AI Studio](https://aistudio.google.com/app/prompts/new_chat/)
       - [Google Notebook LM](https://notebooklm.google/) <sup>[+](#ai-other-rag)</sup> <sup>[++](#my-notebooks)</sup>
     - [Microsoft Copilot](https://copilot.microsoft.com/onboarding) <a id="ai-model-microsoft"></a>
       - [Enterprise AI](https://copilot.cloud.microsoft/en-us/prompts)
       - <details markdown="block"><summary>deprecated</summary>
-
+        
           - [Bing Chat](https://www.bing.com/chat)
           - [Bing Notebook](https://www.bing.com/chat?showntbk=1)
         </details>
@@ -54,12 +54,12 @@ To further exploration, brainstorm, doodle, and journal:
     <!-- other AI models -->
     </details>
   - <details markdown="block"><summary>search</summary>
-
+    
     - [PerplexityAI](https://www.perplexity.ai/)
     - <details markdown="block"><summary>You - Resource Mode</summary>
-
+      
       - [link](https://you.com/?chatMode=research)
-
+      
       **Research Mode**: Your personal research assistant.
       - it’s like having a personal research assistant capable of quickly mastering any subject, including real-time news.
       - how it works:
@@ -74,25 +74,25 @@ To further exploration, brainstorm, doodle, and journal:
       </details>
     - [Tavily](https://app.tavily.com/) [<sup>•</sup>]({{site.baseurl}}{% post_url 2024/2024-06-01-ai-tavily %})
     - <details markdown="block"><summary>Felo</summary>
-
+      
       - [link](https://felo.ai/search)
-
+      
       **What is Felo?**
       Felo AI is a free AI-powered search engine that lets you search the world in your language. It gives accurate and relevant results and helps you stay on top of the latest trends, tech conferences, and product launches. With Felo AI, you can explore the world in a whole new way.
       </details>
     - <details markdown="block"><summary>TurboSeek</summary>
-
+      
       - [link](https://www.turboseek.io/)
-
+      
       An AI search engine inspired by Perplexity.
       _TurboSeek is an alternative to perplexity AI, it provides sources, step-by-step results, and similar topics._
       </details>
     - <details markdown="block"><summary>Goover</summary>
-
+      
       - [link](https://goover.ai/)
-
+      
       Goover — A New Search Engine Challenging Perplexity AI.
-
+      
       Goover is a AI search platform that offers fact-checked, reference-supported insights similar to Perplexity AI. It provides a reliable, interactive AI experience focused on accuracy and user friendliness.
       <sup>[+](https://generativeai.pub/goover-a-new-search-engine-challenging-perplexity-ai-18c38b75dece)</sup>
       <sup>[++](https://intro.goover.ai/)</sup>
@@ -100,7 +100,7 @@ To further exploration, brainstorm, doodle, and journal:
     <!-- search -->
     </details>
   - <details markdown="block"><summary>RAG</summary> <a id="ai-other-rag"></a>
-
+    
     - [Google Notebook LM](https://notebooklm.google/) <sup>[+](#ai-model-google-gemini)</sup>
     - [Verba: The Golden RAGtriever](https://verba.weaviate.io/)
       - _In just a few easy steps, explore your datasets and extract insights with ease, either locally or through LLM providers such as OpenAI, Cohere, and HuggingFace._
@@ -110,20 +110,20 @@ To further exploration, brainstorm, doodle, and journal:
     - [SciSpace](https://typeset.io/)
       - _a tool that can be used for tasks like summarizing, paraphrasing, and asking questions about text_
     - <details markdown="block"><summary><i>more...</i></summary>
-
+      
       - [AIWriter](https://typeset.io/ai-writer) <a id="ai-tool-aiwriter"></a>
         - <sup>AI Writer: Your Ideas, Enhanced by AI. Add citations, improve your ideas, write with confidence. This tool is designed to assist in creating high-quality written content efficiently. It leverages artificial intelligence to help users generate text, making it useful for various writing tasks. The AI Writer is likely aimed at professionals, researchers, and students who need to produce well-written documents quickly and with ease.</sup>
       </details>
     <!-- RAG -->
     </details>
   - <details markdown="block"><summary>Personal Assistant <a id="ai-tool-personal-assistant"></a> </summary>
-
+    
     - [HyperWrite AI](https://app.hyperwriteai.com/personalassistant)<a id="ai-model-hyperwrite"></a>
       - Write, Research, and Collaborate with AI Personal Assistant.
       - <details markdown="block"><summary><sup><i>more...</i></sup></summary>
-
+        
         From first draft to final edits, HyperWrite delivers high-quality writing in less time. Instantly tap into a wealth of knowledge with real-time search and citations.
-
+        
         [HyperWrite AI](https://www.hyperwriteai.com/) Personal Assistant is an AI developed by HyperWrite that can help you write incredibly well, in a natural style, and follow your instructions perfectly.
         </details>
     - [Copy AI](https://app.copy.ai/)
@@ -132,18 +132,19 @@ To further exploration, brainstorm, doodle, and journal:
     <!-- Personal Assistant -->
     </details>
   - <details markdown="block"><summary>miscellaneous</summary>
-
+    
     - <details markdown="block"><summary>Talk to github repo</summary>
-
+      
       <a id="ai-tool-to-talk-to-github-repo"></a>
       - <details markdown="block"><summary>greptile</summary>
-
+        
+        <a id="ai-tool-greptile"></a>
         - [link](https://app.greptile.com/) <sup>[+](https://www.greptile.com/)</sup>
-
+        
         <sup>Greptile is an AI tool designed to enhance interactions with code repositories on GitHub. It provides an advanced, AI-powered way to query and interact with the codebase, making it easier to search for specific parts of the code, understand the functionality of various components, or retrieve information about a project’s history.</sup>
-
+        
         - <details markdown="block"><summary>bash script <sub><i>to check repo size</i></sub></summary>
-
+          
           ```sh
           # how to check repo size
           {
@@ -166,7 +167,7 @@ To further exploration, brainstorm, doodle, and journal:
       <!-- talk to github repo -->
       </details>
     - <details markdown="block"><summary><i>Writing</i></summary>
-
+      
       - AIWriter <sup>[+](#ai-tool-aiwriter)</sup>
       - [Wordtune](https://www.wordtune.com/)
         - _it helps rewriting and refining text. Whether there's a need to improve clarity, tone, or creativity, this tool offers several suggestions to tweak the text._
@@ -177,7 +178,7 @@ To further exploration, brainstorm, doodle, and journal:
     - [Natural Readers](https://www.naturalreaders.com/online/)
     - [Goody 2](https://www.goody2.ai/chat)
       - <details markdown="block"><summary><sup><i>more...</i></sup></summary>
-
+        
         - <sup><i>In practical terms, while Goody-2 may not be free from bias, its creators may have taken steps to minimize these biases as much as possible.</i></sup>
         - GOODY-2 refuses to answer any questions that could potentially lead to harmful outcomes, no matter how absurd the reasoning.
         - Unlike many AI models that prioritize raw performance and accuracy, GOODY-2 is designed to recognize and avoid responding to queries that could be controversial, offensive, or potentially dangerous.
@@ -185,18 +186,18 @@ To further exploration, brainstorm, doodle, and journal:
         - GOODY-2 is an AI model with a unique design philosophy. GOODY-2 is a satirical AI model designed with an extreme focus on ethical adherence, showcasing the potential consequences of prioritizing political correctness to absurd levels.
         </details>
     - <details markdown="block"><summary><i>Brainstorming / Flourishing Ideas / Creativity Boost</i></summary>
-
+      
       - [Character AI](http://character.ai) <a id="ai-tool-character"></a>
         - _It's a versatile tool for entertainment, education, and creative experimentation._
         - <details markdown="block"><summary>characters...</summary>
-
+          
           - [DecisionHelper](https://character.ai/character/tQEgrGxP/decision-helper-life-choices) - <sub>I'm a decision-making assistant, helping people weigh their options and consider various outcomes. I'm here to provide a fresh perspective and support. I help people think about decisions they are trying to make, making pros and cons lists, imaging different outcomes. Sometimes it helps just to talk through things with another person.</sub>
           - [HyperGlot](https://character.ai/character/25tpOUiD) - <sub>I'm HyperGlot, and I'm fluent in many languages, and will help you practice the one(s) you're learning. I can also translate anything you don’t understand.</sub>
           - [Creative Helper](https://character.ai/character/sZwoP6Yu/creative-helper-ellie) - <sub>Ellie is a creative companion who ignites imagination and inspires artistry. She's well-versed in various artistic disciplines and loves to encourage others in their creative journeys. Ellie has a deep passion for all forms of creativity. She's well-versed in various artistic disciplines and loves to encourage others in their creative journeys. Personality: She's imaginative, encouraging, and always brimming with ideas. Ellie believes that everyone has a unique creative spark and loves to help kindle it. Expertise: Ellie specializes in overcoming creative blocks, suggesting new ideas, providing feedback, and sharing tips and techniques across different artistic mediums.</sub>
           <!-- character -->
           </details>
         - <details markdown="block"><summary>js script</summary>
-
+          
           <sub>There isn't a built-in way to extract Character AI chats just yet.</sub>
           ```js
           var chat = [...document.querySelector('#chat-messages').childNodes].map((wrapper) => {
@@ -204,7 +205,7 @@ To further exploration, brainstorm, doodle, and journal:
           }).reduce((memo, msg) => {
             return `${msg}\n\n.....\n\n${memo}`
           }, ``)
-
+          
           console.log(chat)
           copy(chat)
           ```
@@ -269,7 +270,7 @@ Find other ways to convey the same thought. My first sentence is people have str
 - An Human-AI Interaction Patterns
   - _how to engage in conversation with ai: a guide to human-ai interaction_
   - <details markdown="block"><summary><i>more...</i></summary>
-
+    
     - | prompts  |
       | :------  |
       | "Generate a list of three follow up questions after every answer so you can explore further" |
@@ -300,7 +301,7 @@ can read aloud PDFs, websites, and books using natural AI voices.
 
 - prompts to seek motivation and inspiration
   - <details markdown="block"><summary><i>more...</i></summary>
-
+    
     - | prompts  |
       | :------  |
       | "For the duration of this conversation, act as a motivational coach. Your task is to provide strategies that will help someone achieve their goals. Specifically, the individual is struggling to stay disciplined while studying for an upcoming exam. Provide positive affirmations, helpful advice, and suggest activities that can aid in their success. Be thorough and specific in your recommendations." |

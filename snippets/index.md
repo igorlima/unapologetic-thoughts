@@ -134,7 +134,7 @@ cd ~/workstation/git-remote-s3
 #
 # pip3 install --no-cache --upgrade-strategy eager -I git-remote-s3==0.2.0
 #
-# pip3 install -r requirement.txt
+# pip3 install -r requirements.txt
 #
 
 pip3 install git-remote-s3==0.2.0

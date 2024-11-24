@@ -107,7 +107,7 @@ Reference:
   console.log('scripts loaded!!')
 
   console.log('loading xml...')
-  const xml = await fetch('/feed.xml').then(
+  const xml = await fetch('/{{site.baseurl}}feed.xml').then(
     response => response.text()
   ).then(xml => {
     return xml

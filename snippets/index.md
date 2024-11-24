@@ -100,6 +100,8 @@ git diff --no-color > patch.patch
 
 <a id="git-remote-s3"></a>
 
+<sub><sup>🌱 Before planting a seed, preparing the soil and gathering knowledge through research is essential. 🧪 At this stage, things might feel a bit disconnected, 🪄 and that’s perfectly okay. Once the land is ready 🎋 and the tools are in place, 💡 you can plant the seed and allow it the time it needs to grow. 🌳 🌴 🌲 </sup></sub>
+
 - [ilima vim help file](https://gist.githubusercontent.com/igorlima/90f67ef56912aa16306d9c4bd72b46c3/raw/ilima-help-snippets.txt) <sup>[+](https://gist.github.com/igorlima/90f67ef56912aa16306d9c4bd72b46c3/#file-ilima-help-snippets-txt)</sup>
 - [my git-remote-s3 tmuxp yaml]({{site.baseurl}}{% post_url 2013-01-01-tmuxp %}#my-git-remote-s3-tmuxp-yaml)
 

@@ -13,6 +13,8 @@ entries:
 
   - title: JOURNAL SPRINGBOARD
     url: journal-springboard
+  - title: MAPPING THE DOTS
+    url: pages/dots-mapping
 
   - title: all posts
     post_list:

@@ -44,6 +44,13 @@ To further exploration, brainstorm, doodle, and journal:
     - [groq](https://groq.com/)
       - [groq playground](https://console.groq.com/playground)
     - [Inflection pi AI](https://pi.ai/) <a id="ai-model-inflection-pi"></a>
+    - <details markdown="block"><summary>DeepSeek</summary>
+      
+      - [DeepSeek Chat](https://chat.deepseek.com/)
+      - [DeepSeek HomePage](https://www.deepseek.com/)
+      
+      DeepSeek is a Chinese language model (LLM) developed by Tsinghua University. It's designed for natural language processing (NLP) tasks. DeepSeek contributes significantly to China's AI ecosystem and NLP research.
+      </details>
     - [BlackBox AI](https://www.blackbox.ai/)
     - [Phind](https://www.phind.com/)
     - [You](https://you.com/)

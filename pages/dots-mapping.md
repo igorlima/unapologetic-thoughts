@@ -27,6 +27,15 @@ title: Dots Mapping
       - [s3-remote-git]({{site.baseurl}}{% link snippets/index.md %}#git-remote-s3) [^999]
       </details>
     </details>
+  - <details markdown="block"><summary>resource configuration</summary>
+     
+    <a id="rc-resource-config"></a>
+    - [vimrc]({{site.baseurl}}{% post_url 2024-11-24-vimrc %})
+    - [tmux]({{site.baseurl}}{% post_url 2024-11-24-tmux %})
+    - [tmuxp yaml]({{site.baseurl}}{% post_url 2013-01-01-tmuxp %})
+
+    <sub><sup>The term `rc` stands for _"Run Commands"_ or _"Resource Configuration."_ It refers to configuration files that contain a series of commands or settings. While many of these commands are automatic and don't require user intervention, you can modify files like `.bashrc` or `.vimrc` to customize your environment. These files can store settings for various applications or systems.</sup></sub>
+    </details>
   - [greptile](https://app.greptile.com/) <sup>Talk to GitHub repo [^3]</sup>
   - internet archive
     - [Wayback Machine](https://web.archive.org/)

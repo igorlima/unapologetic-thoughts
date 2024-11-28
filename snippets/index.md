@@ -81,7 +81,7 @@ git diff --no-color > patch.patch
       vim -d <(git show f87d746:./snippets.json | jq . -) <(git show c147b39:./snippets.json | jq . -)
       ```
   - <details markdown="block"> <summary> JSON diff <i>online</i> </summary>
-
+    
     - copy the current JSON
       - `cat snippets.json | pbcopy`
     - copy the previous JSON
@@ -90,6 +90,10 @@ git diff --no-color > patch.patch
       - [https://semanticdiff.com/online-diff/json/](https://semanticdiff.com/online-diff/json/)
       - [https://jsoncompare.org/](https://jsoncompare.org/)
       - [https://jsondiff.com/](https://jsondiff.com/)
+      - <details markdown="block"> <summary>Diff Text</summary>
+         
+        [Diff Text](https://difftext.com/): A Simple Online Diff Checker Tool — Lets you compare by words, characters, or lines and you can toggle show all lines or only changed lines.
+        </details>
     </details>
 
 --------

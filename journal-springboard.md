@@ -53,7 +53,8 @@ To further exploration, brainstorm, doodle, and journal:
         How are you doing today? Can we set up a meeting to talk about our upcoming reunion? Thanks.
         </canvaentity>
         ```
-        
+        ![image](https://github.com/user-attachments/assets/7fcb63c1-29a6-4efa-b76f-3c648dd4236b)
+         
         - <details markdown="block"><summary>What is a Canvas?</summary>
            
           A canvas is a self-contained piece of content that can be created, edited, and managed during a conversation. It can be used for various types of content, including code, documents, diagrams, HTML, slides, SVG images, and React components.

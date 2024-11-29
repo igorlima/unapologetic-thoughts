@@ -21,7 +21,7 @@ To further exploration, brainstorm, doodle, and journal:
 - [Gemini <sup>Google</sup>](https://gemini.google.com/app) <sup>[+](#ai-model-google-gemini)</sup> <sup>[++](https://aistudio.google.com/app/prompts/new_chat/)</sup>
 - [Copilot <sup>Microsoft</sup>](https://copilot.microsoft.com/onboarding)  <sup>[+](#ai-model-microsoft)</sup>
 - [Meta AI](https://www.meta.ai/)
-- [Mistral](https://chat.mistral.ai/)
+- [Mistral](https://chat.mistral.ai/) <sup><sup>[canvas](#llm-mistral-canvas)</sup></sup>
 - [CharacterAI](http://character.ai) <sup>[+](#ai-tool-character)</sup>
 - <details markdown="block"><summary><i>more...</i></summary>
   
@@ -39,6 +39,77 @@ To further exploration, brainstorm, doodle, and journal:
         </details>
     - [Claude AI](https://claude.ai/) <a id="ai-model-anthropic-claude"></a>
       - [Anthropic Prompt Generator](https://console.anthropic.com/dashboard) <sup>[+](#generate-prompt-tool)</sup>
+    - <details markdown="block"><summary>Mistral</summary>
+       
+      - <details markdown="block"><summary>Le Chat - Canvas</summary>
+         
+        <a id="llm-mistral-canvas"></a>
+        <sup><sub>Canvas is a feature that allows you to create and manage self-contained pieces of content that can be rendered separately for better clarity.</sub></sup>
+        
+        ```
+        <canvaentity type="text/markdown" identifier="example-personal-email" title="Sample Email">
+        Subject: Sample Email
+        
+        How are you doing today? Can we set up a meeting to talk about our upcoming reunion? Thanks.
+        </canvaentity>
+        ```
+        
+        - <details markdown="block"><summary>What is a Canvas?</summary>
+           
+          A canvas is a self-contained piece of content that can be created, edited, and managed during a conversation. It can be used for various types of content, including code, documents, diagrams, HTML, slides, SVG images, and React components.
+          </details>
+        - <details markdown="block"><summary>How to Create a Canvas?</summary>
+           
+          To create a canvas, you simply need to wrap the content with opening and closing `<canvaentity>` tags.
+          You also need to provide a unique identifier and a title for the canvas.
+            
+          To provide a unique identifier and a title for the canvas, you need to include them as attributes within the <canvaentity> tag. Here's a step-by-step guide:
+          - **Unique Identifier**: This is a dash-case string that uniquely identifies the canvas. It should be explicit and descriptive of the content.
+          - **Title**: This is a human-readable title that will be displayed to the user.
+           
+          Example:
+          - Let's say you want to create a canvas for a simple HTML website.
+            - Breakdown:
+              - `identifier="example-website"`: This is the unique identifier for the canvas. It should be unique within the conversation.
+              - `type="text/html"`: This specifies the type of content. In this case, it's HTML.
+              - `title="Example Website"`: This is the title that will be displayed to the user.
+           
+          Another Example:
+          - If you want to create a canvas for a Markdown document.
+            - Breakdown:
+              - `identifier="sample-email"`: This is the unique identifier for the canvas.
+              - `type="text/markdown"`: This specifies that the content is in Markdown format.
+              - `title="Sample Email"`: This is the title that will be displayed to the user.
+           
+          Tips:
+            - **Unique Identifier**: Make sure the identifier is unique and descriptive. Avoid using generic names like "canvas1" or "document2".
+            - **Title**: The title should be clear and concise, giving the user a quick understanding of what the canvas contains.
+           
+          Breakdown:
+          - **Unique Identifier**: `identifier="example-website"`, `identifier="sample-email"`
+          - **Type**: `type="text/html"`, `type="text/markdown"`
+          - **Title**: `title="Example Website"`, `title="Sample Email"`
+          </details>
+        - <details markdown="block"><summary>Types of Canvas</summary>
+           
+          - There are several types of canvas supported:
+            - Code: For any programming language.
+              - Use `type="code"`. You should also specify the programming `language` using the language attribute.
+            - Documents: For markdown content like emails, essays, reports, etc.
+              - Use `type="text/markdown"`.
+            - Mermaid Diagrams: For rendering diagrams.
+              - Use `type="mermaid"`.
+            - HTML: For web pages, landing pages, and interactive forms.
+              - Use `type="text/html"`.
+            - Slides: For presentations using the Marp markdown rendering format.
+              - Use `type="slides"`. You should use the **Marp markdown rendering** format.
+            - SVG: For rendering SVG images.
+              - Use `type="image/svg+xml"`.
+            - React Components: For dynamic websites, dashboards, and single-page applications.
+              - Use `type="react"`.
+          </details>
+        </details>
+      </details>
     - [Cohere](https://coral.cohere.com/) <a id="ai-model-cohere"></a>
       - [Cohere Prompt Tuner](https://dashboard.cohere.com/prompt-tuner) <sup>[+](#generate-prompt-tool)</sup>
     - [groq](https://groq.com/)

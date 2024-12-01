@@ -30,6 +30,17 @@ To further exploration, brainstorm, doodle, and journal:
     - [Google Gemini](https://gemini.google.com/app) <a id="ai-model-google-gemini"></a>
       - [Google AI Studio](https://aistudio.google.com/app/prompts/new_chat/)
       - [Google Notebook LM](https://notebooklm.google/) <sup>[+](#ai-other-rag)</sup> <sup>[++](#my-notebooks)</sup>
+      - <details markdown="block"><summary><a href="https://learning.google.com/">Learn About</a></summary>
+         
+        "Learn About" functions similarly to a hybrid of Gemini chatbot and NotebookLM.
+         
+        Users input a topic into a prompt field, receiving a structured response.
+         
+        Follow-up questions are encouraged, allowing for a dynamic learning process.
+         
+        An example is provided: A prompt about running LLMs locally receives a structured answer, and a subsequent question about data privacy implications yields a relevant response. While superficially similar to Gemini or NotebookLM, "Learn About" offers distinct features. Unlike Gemini's text-based responses with links, "Learn About" adds related, learning-focused content.
+         
+        </details>
     - [Microsoft Copilot](https://copilot.microsoft.com/onboarding) <a id="ai-model-microsoft"></a>
       - [Enterprise AI](https://copilot.cloud.microsoft/en-us/prompts)
       - <details markdown="block"><summary>deprecated</summary>

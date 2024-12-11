@@ -357,6 +357,7 @@ Find other ways to convey the same thought. My first sentence is people have str
 
 ## Brainstorming
 
+- [5W1H questions]({{site.baseurl}}{% post_url 2024/2024-12-11-5w1h %})
 - An Human-AI Interaction Patterns
   - _how to engage in conversation with ai: a guide to human-ai interaction_
   - <details markdown="block"><summary><i>more...</i></summary>

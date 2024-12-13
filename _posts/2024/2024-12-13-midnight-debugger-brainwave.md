@@ -19,3 +19,5 @@ Ever had one of those nights where your brain finally figures out how to fix a b
 
 Your brain is a powerhouse, but even CPUs need rest! Recharge, and let those bright ideas flow at the right time. 💡💤
 
+
+![image](https://github.com/user-attachments/assets/8697551b-9ad8-4f41-ab62-a103ecce2c58)

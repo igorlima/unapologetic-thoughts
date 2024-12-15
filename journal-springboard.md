@@ -309,6 +309,7 @@ To further exploration, brainstorm, doodle, and journal:
   </details>
 
 ## Writing Prompts
+<a id="writing-prompts"></a>
 
 ### English
 
@@ -319,6 +320,59 @@ Proofread and improve the following text. Be casual and positive.
 ```
 - [tones of voice](https://igorlima.github.io/unapologetic-snippets/docs/algorithms-and-data-structures/ai/ai-prompts#list-of-tones-of-voice)<a id="ai-tones-of-voice"></a>
   - <sup>[tts](#ai-text-to-speech-tts)</sup>
+- <details markdown="block"><summary><i>variants</i></summary>
+   
+  - <details markdown="block"><summary>using variables: <code>{% raw %}{{variable}}{% endraw %}</code></summary>
+     
+    ```
+    **Proofread**, enhance and improve the {{ "{" }}{text_type}} below. {{ "{" }}{tone}}. Use a randomness level of {{ "{" }}{randomness_level}}.
+    <context>
+    ...
+    </context>
+    Please make it clear and concise.
+    
+    {{ "{" }}{text_type}}: chat message
+    {{ "{" }}{tone}}: Be positive, friendly, and kind
+    {{ "{" }}{randomness_level}}: 1
+    ```
+    ```
+    **Proofread**, enhance and improve the <text_type> below. <tone>. Use a randomness level of <randomness_level>.
+    <context>
+    ...
+    </context>
+    Please make it clear and concise.
+    
+    <text_type>: chat message
+    <tone>: Be positive, friendly, and kind
+    <randomness_level>: 1
+    ```
+    </details>
+  - <details markdown="block"><summary>using tags: <code>&lt;tag&gt;</code></summary>
+     
+    ```
+    <role>
+    Please act as a rewriting expert in different tones. Your role is to rewrite my content into the specific tone I have chosen. Remember to maintain the original meaning. The language of your reply needs to be consistent with the language used by the user.
+    </role>
+    <task>
+    **Proofread**, enhance and improve the context below.
+    <context>
+      <content_type>
+      Github PR comment
+      </content_type>
+      <content>
+      ...
+      </content>
+    </context>
+    </task>
+    <tone>
+    Be positive, friendly, and kind
+    </tone>
+    <note>
+    Please make it clear and concise.
+    </note>
+    ```
+    </details>
+  </details>
 
 ### Portuguese
 
@@ -327,6 +381,59 @@ Revise e melhore o seguinte texto. Seja casual e positivo.
 """
 """
 ```
+- <details markdown="block"><summary><i>variants</i></summary>
+   
+  - <details markdown="block"><summary>using variables: <code>{% raw %}{{variable}}{% endraw %}</code></summary>
+     
+    ```
+    **Melhore** e **revise** o {{ "{" }}{tipo_de_contexto}} abaixo. {{ "{" }}{tom_do_contexto}}. Use o seguinte nivel de aleatoriedade {{ "{" }}{nivel_de_aleatoriedade}}.
+    <contexto>
+    ...
+    </contexto>
+    Por favor, seja claro e conciso.
+    
+    {{ "{" }}{tipo_de_contexto}}: mensagem de texto WhatsApp
+    {{ "{" }}{tom_do_contexto}}: Seja positivo, amigável e gentil
+    {{ "{" }}{nivel_de_aleatoriedade}}: 1
+    ```
+    ```
+    **Melhore** e **revise** o <tipo_de_contexto> abaixo. <tom_do_contexto>. Use o seguinte nivel de aleatoriedade <nivel_de_aleatoriedade>.
+    <contexto>
+    ...
+    </contexto>
+    Por favor, seja claro e conciso.
+    
+    <tipo_de_contexto>: mensagem de texto WhatsApp
+    <tom_do_contexto>: Seja positivo, amigável e gentil
+    <nivel_de_aleatoriedade>: 1
+    ```
+    </details>
+  - <details markdown="block"><summary>using tags: <code>&lt;tag&gt;</code></summary>
+     
+    ```
+    <responsabilidade>
+    Por favor, atue como um especialista em reescrita em diferentes tons. Sua função é reescrever meu conteúdo no tom específico que escolhi. Lembre-se de manter o significado original. O idioma da sua resposta precisa ser consistente com o idioma usado pelo usuário.
+    </responsabilidade>
+    <tarefa>
+    **Revise**, aprimore e melhore o contexto abaixo.
+    <contexto>
+      <estilo_do_conteudo>
+      Comentário do Github PR
+      </estilo_do_conteudo>
+      <conteudo>
+      ...
+      </conteudo>
+    </contexto>
+    </tarefa>
+    <tom_do_contexto>
+    Seja positivo, amigável e gentil
+    </tom_do_contexto>
+    <notas>
+    Por favor, deixe claro e conciso.
+    </notas>
+    ```
+    </details>
+  </details>
 
 ### A tool to help generate prompts <a id="generate-prompt-tool"></a>
 

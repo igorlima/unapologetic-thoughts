@@ -6,18 +6,36 @@ title: Dots Mapping
 **Creating Connections and Tying Together Ideas and Dates**
 
 - <details markdown="block"><summary><i>Mapping the Dots...</i></summary>
-  
+   
   - <details markdown="block"><summary><strong>code</strong></summary>
-    
+     
     - <details markdown="block"><summary><strong>AI</strong></summary>
-      
+       
       - Vector DB
-      - RAG
-        - <sub>`2024a11m24d-rag` [^999] <sub><i>convert pdf to md</i></sub></sub>
-        - <sub>`2024a11m24d-txtai-embeddings` [^999] <sub><i>embedding and search with **txtai**</i></sub></sub>
+      - <details markdown="block"><summary>RAG</summary>
+          
+        - <details markdown="block"><summary>embeddings</summary>
+           
+          - Voyage AI
+            [<sup>+</sup>]({{site.baseurl}}{% post_url 2024/2024-06-08-ai-embedding-models %})
+          - AnyScale AI
+            [<sup>+</sup>]({{site.baseurl}}{% post_url 2024/2024-06-08-ai-embedding-models %})
+          </details>
+        - <details markdown="block"><summary>chunking strategies</summary>
+           
+          - personal knowledge base
+            - journal entries
+              [<sup>+</sup>]({{site.baseurl}}{% post_url 2024/2024-06-24-journal-entries-knowledge-base %})
+            - message timelines
+              [<sup>+</sup>]({{site.baseurl}}{% post_url 2024/2024-06-01-message-knowledge-base %})
+          </details>
+        - draft and sketch
+          - <sub>`2024a11m24d-rag` [^999] <sub><i>convert pdf to md</i></sub></sub>
+          - <sub>`2024a11m24d-txtai-embeddings` [^999] <sub><i>embedding and search with **txtai**</i></sub></sub>
+        </details>
       </details>
     - <details markdown="block"><summary>snippets</summary>
-      
+       
       - cli
         - find
         - awk

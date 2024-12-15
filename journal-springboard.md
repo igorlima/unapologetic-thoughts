@@ -308,7 +308,7 @@ To further exploration, brainstorm, doodle, and journal:
     </details>
   </details>
 
-## Writing Prompts
+## Writing Prompts [<sup>+</sup>](https://igorlima.github.io/unapologetic-snippets/docs/algorithms-and-data-structures/ai/ai-prompts#journal-writing-prompts)
 <a id="writing-prompts"></a>
 
 ### English

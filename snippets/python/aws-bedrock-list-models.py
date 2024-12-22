@@ -1,3 +1,4 @@
+# LIST ALL FOUNDATION MODELS
 import boto3
 from pprint import pprint
 import pudb; # pu.db

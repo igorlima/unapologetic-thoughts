@@ -57,7 +57,9 @@ To further exploration, brainstorm, doodle, and journal:
       - <details markdown="block"><summary>Canvas</summary>
          
         Type a backslash (`/`) and then use the “canvas” command.
-        - [What is the canvas feature in ChatGPT and how do I use it?](https://help.openai.com/en/articles/9930697-what-is-the-canvas-feature-in-chatgpt-and-how-do-i-use-it)
+        
+        ![image](https://github.com/user-attachments/assets/18b08e97-2644-4b35-ba16-e1069c7b3d5f)
+        <sup><sub>- [What is the canvas feature in ChatGPT and how do I use it?](https://help.openai.com/en/articles/9930697-what-is-the-canvas-feature-in-chatgpt-and-how-do-i-use-it)</sub></sup>
         </details>
       </details>
     - <details markdown="block"><summary>Mistral</summary>

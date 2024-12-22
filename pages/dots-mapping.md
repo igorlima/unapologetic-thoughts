@@ -37,11 +37,12 @@ title: Dots Mapping
     - <details markdown="block"><summary>snippets</summary>
        
       - cli
-        - find
-        - awk
-        - sed
-        - jq
-        - fzf
+        - find <sup><sup>[+](...)</sup></sup>
+        - curl <sup><sup>[+](https://igorlima.github.io/unapologetic-snippets/docs/languages/shell/cli-curl)</sup></sup>
+        - awk <sup><sup>[+](https://igorlima.github.io/unapologetic-snippets/docs/languages/shell/awk)</sup></sup>
+        - sed <sup><sup>[+](https://igorlima.github.io/unapologetic-snippets/docs/languages/shell/sed)</sup></sup>
+        - jq <sup><sup>[+](https://igorlima.github.io/unapologetic-snippets/docs/languages/shell/jq)</sup></sup>
+        - fzf <sup><sup>[+](https://igorlima.github.io/unapologetic-snippets/docs/languages/shell/cli-fzf)</sup></sup>
       - [s3-remote-git]({{site.baseurl}}{% link snippets/index.md %}#git-remote-s3) [^999]
       </details>
     </details>

@@ -1,2 +1,6 @@
-# Ignore Python virtual environment
+# ignore python virtual environment
 python/my-test-env*
+
+# ignore media files
+python/*.mp4
+python/*.png

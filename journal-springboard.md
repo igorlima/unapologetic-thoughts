@@ -17,7 +17,7 @@ This is a centralized page to gather thoughts and ideas, draft, sketch, and jot 
 
 To further exploration, brainstorm, doodle, and journal:
 - [Claude AI](https://claude.ai/) <sup>[+](#ai-model-anthropic-claude)</sup>
-- [ChatGPT](https://chat.openai.com/) <sup>[+](https://platform.openai.com/playground)</sup>
+- [ChatGPT](https://chat.openai.com/) <sup>[+](https://platform.openai.com/playground)</sup> <sup>[++](#llm-openai)</sup>
 - [Gemini <sup>Google</sup>](https://gemini.google.com/app) <sup>[+](#ai-model-google-gemini)</sup> <sup>[++](https://aistudio.google.com/app/prompts/new_chat/)</sup>
 - [Copilot <sup>Microsoft</sup>](https://copilot.microsoft.com/onboarding)  <sup>[+](#ai-model-microsoft)</sup>
 - [Meta AI](https://www.meta.ai/)
@@ -50,6 +50,16 @@ To further exploration, brainstorm, doodle, and journal:
         </details>
     - [Claude AI](https://claude.ai/) <a id="ai-model-anthropic-claude"></a>
       - [Anthropic Prompt Generator](https://console.anthropic.com/dashboard) <sup>[+](#generate-prompt-tool)</sup>
+    - <details markdown="block"><summary>OpenAI</summary>
+        
+      <a id="llm-openai"></a>
+       
+      - <details markdown="block"><summary>Canvas</summary>
+         
+        Type a backslash (`/`) and then use the “canvas” command.
+        - [What is the canvas feature in ChatGPT and how do I use it?](https://help.openai.com/en/articles/9930697-what-is-the-canvas-feature-in-chatgpt-and-how-do-i-use-it)
+        </details>
+      </details>
     - <details markdown="block"><summary>Mistral</summary>
        
       - <details markdown="block"><summary>Le Chat - Canvas</summary>

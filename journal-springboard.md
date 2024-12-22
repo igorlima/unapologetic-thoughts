@@ -17,7 +17,7 @@ This is a centralized page to gather thoughts and ideas, draft, sketch, and jot 
 
 To further exploration, brainstorm, doodle, and journal:
 - [Claude AI](https://claude.ai/) <sup>[+](#ai-model-anthropic-claude)</sup>
-- [ChatGPT](https://chat.openai.com/) <sup>[+](https://platform.openai.com/playground)</sup> <sup>[++](#llm-openai)</sup>
+- [ChatGPT](https://chat.openai.com/) <sup>[+](https://platform.openai.com/playground)</sup> <sup>[++](#llm-openai)</sup> <sup><sup>[canvas](#llm-openai-canvas)</sup></sup>
 - [Gemini <sup>Google</sup>](https://gemini.google.com/app) <sup>[+](#ai-model-google-gemini)</sup> <sup>[++](https://aistudio.google.com/app/prompts/new_chat/)</sup>
 - [Copilot <sup>Microsoft</sup>](https://copilot.microsoft.com/onboarding)  <sup>[+](#ai-model-microsoft)</sup>
 - [Meta AI](https://www.meta.ai/)
@@ -56,10 +56,18 @@ To further exploration, brainstorm, doodle, and journal:
        
       - <details markdown="block"><summary>Canvas</summary>
          
-        Type a backslash (`/`) and then use the “canvas” command.
-        
+        <a id="llm-openai-canvas"></a>
+        In your prompt, you can also explicitly request it by including **"use canvas…"**,
+        or by saying **"open a canvas"** or **"open a coding canvas"** for _a blank one_.
+        Or type a backslash **(`/`)** and then use the “canvas” command.
+         
         ![image](https://github.com/user-attachments/assets/18b08e97-2644-4b35-ba16-e1069c7b3d5f)
-        <sup><sub>- [What is the canvas feature in ChatGPT and how do I use it?](https://help.openai.com/en/articles/9930697-what-is-the-canvas-feature-in-chatgpt-and-how-do-i-use-it)</sub></sup>
+        <sup><sub><i>It requires GPT-4. If you reach your GPT-4 limit, you must wait for it to reset to use Canvas.</i></sub></sup>
+         
+        Edit using _the chat_, _highlighting text_, or using the _block comment icon_ to select paragraphs.
+         
+        **What is Canvas?** Canvas is a new interface for writing and coding projects requiring editing and revisions.<br>
+        <sup><sub>[What is the canvas feature in ChatGPT and how do I use it?](https://help.openai.com/en/articles/9930697-what-is-the-canvas-feature-in-chatgpt-and-how-do-i-use-it)</sub></sup>
         </details>
       </details>
     - <details markdown="block"><summary>Mistral</summary>

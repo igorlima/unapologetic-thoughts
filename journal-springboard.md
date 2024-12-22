@@ -32,7 +32,7 @@ To further exploration, brainstorm, doodle, and journal:
       - [Google Notebook LM](https://notebooklm.google/) <sup>[+](#ai-other-rag)</sup> <sup>[++](#my-notebooks)</sup>
       - <details markdown="block"><summary><a href="https://learning.google.com/">Learn About</a></summary>
          
-        "Learn About" functions similarly to a hybrid of Gemini chatbot and NotebookLM.
+        "Learn About" functions similarly to a hybrid of Gemini chatbot and NotebookLM. <sup><sup>[+](https://generativeai.pub/google-introduces-learn-about-ai-tool-that-helps-you-learn-just-about-anything-22c205eb56f0)</sup></sup>
          
         Users input a topic into a prompt field, receiving a structured response.
          

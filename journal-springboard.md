@@ -156,7 +156,7 @@ To further exploration, brainstorm, doodle, and journal:
       </details>
     - [BlackBox AI](https://www.blackbox.ai/)
     - [Phind](https://www.phind.com/)
-    - [You](https://you.com/)
+    - [You](https://you.com/) <sup>[+](#ai-search-model-you-com)</sup>
     - [LLMChat](https://llmchat.co/chat/)
       - <sup>Most intuitive All-in-one AI chat interface.</sup>
     - [Huggingface Chat](https://huggingface.co/chat) <sup>[+](https://github.com/huggingface/chat-ui/)</sup>
@@ -164,10 +164,11 @@ To further exploration, brainstorm, doodle, and journal:
     <!-- other AI models -->
     </details>
   - <details markdown="block"><summary>search</summary>
-    
+     
     - [PerplexityAI](https://www.perplexity.ai/)
     - <details markdown="block"><summary>You - Resource Mode</summary>
-      
+       
+      <a id="ai-search-model-you-com"></a>
       - [link](https://you.com/?chatMode=research)
       
       **Research Mode**: Your personal research assistant.
@@ -183,6 +184,18 @@ To further exploration, brainstorm, doodle, and journal:
         - **for developers**: troubleshoot coding problems and stay up-to-date on the latest technology trends, frameworks, and tools.
       </details>
     - [Tavily](https://app.tavily.com/) [<sup>•</sup>]({{site.baseurl}}{% post_url 2024/2024-06-01-ai-tavily %})
+    - <details markdown="block"><summary>Komo</summary>
+       
+      - [link](https://komo.ai/)
+
+      Komo Search is a modern search engine that emphasizes personalization, privacy, and intelligent results. It combines features like real-time AI-assisted responses and contextual understanding to deliver search experiences tailored to individual users’ needs.
+      </details>
+    - <details markdown="block"><summary>Exa</summary>
+       
+      - [link](https://exa.ai/) <sup>[+](https://exa.sh/search)</sup>
+
+      Exa is a search engine designed to enhance information retrieval for artificial intelligence (AI) applications and large language models (LLMs). Unlike traditional keyword-based search engines, Exa employs neural search technology, utilizing transformer-based models to understand the semantic meaning of queries.
+      </details>
     - <details markdown="block"><summary>Felo</summary>
       
       - [link](https://felo.ai/search)

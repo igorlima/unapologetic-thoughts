@@ -4,3 +4,13 @@ python-llm-ai/my-test-env*
 # ignore media files
 python-llm-ai/*.mp4
 python-llm-ai/*.png
+
+# PYTHON LLM CHUNK
+# ignore python virtual environment
+python-llm-chunk/my-test-env*
+# ignore media files
+python-llm-chunk/*.pdf
+python-llm-chunk/*.md
+!python-llm-chunk/README.md
+# hidden foldes and files
+python-llm-chunk/.*

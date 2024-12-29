@@ -18,6 +18,11 @@ os.environ['LITELLM_LOG'] = 'CRITICAL'
 #   - https://github.com/getomni-ai/zerox
 #   - https://www.libhunt.com/r/zerox
 #   - https://getomni.ai/ocr-demo
+#
+# Improved RAG Document Processing With Markdown
+# • How to read and convert PDFs to Markdown for better RAG results with LLMs
+#  - https://towardsdatascience.com/improved-rag-document-processing-with-markdown-426a2e0dd82b
+
 
 """
 # pip3 show py-zerox

@@ -47,6 +47,11 @@ custom_system_prompt = None
 model = "gemini/gemini-1.5-flash-8b"
 model = "gemini/gemini-1.5-flash"
 model = "gemini/gemini-2.0-flash-exp"
+# AWS Bedrock requires the library `boto3`
+# !pip3 install boto3
+model = "bedrock/amazon.nova-pro-v1:0"
+model = "bedrock/anthropic.claude-3-haiku-20240307-v1:0"
+model = "bedrock/amazon.nova-lite-v1:0"
 
 # Define main async entrypoint
 async def main():
@@ -74,9 +79,13 @@ print("Markdown saved to output-zerox-pdf.md")
 
 """
 HOW TO RUN THIS SCRIPT:
+AWS Bedrock requires the library `boto3`: `pip3 install boto3`
 
 ({
 export GEMINI_API_KEY="XXXXXXXXXXXXXXXXXXXX"
+export AWS_ACCESS_KEY_ID=XXXXXXXXXXXXXXXXXXXX
+export AWS_SECRET_ACCESS_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+export AWS_REGION_NAME=us-west-2
 export LITELLM_LOG=CRITICAL
 python3 pdf-extract-zerox.py
 })

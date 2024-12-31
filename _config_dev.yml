@@ -34,6 +34,12 @@ regenerate:       true
 feed:
   posts_limit: 1000
 
+exclude:
+  - my-env-jupyter/
+  - snippets/post-content/
+  - snippets/python-llm-ai/
+  - snippets/python-llm-chunk/
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag

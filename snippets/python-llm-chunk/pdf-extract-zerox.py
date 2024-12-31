@@ -13,6 +13,12 @@ litellm.set_verbose=False
 # https://github.com/BerriAI/litellm/blob/ea8f0913c2aac4a7b4ec53585cfe9ea04a3282de/litellm/_logging.py#L11
 os.environ['LITELLM_LOG'] = 'CRITICAL'
 
+# https://docs.python.org/3/library/warnings.html
+import warnings
+# https://docs.python.org/3/library/warnings.html#describing-warning-filters
+# `export PYTHONWARNINGS=ignore`
+warnings.simplefilter("ignore")
+
 # zerox github
 # • PDF to Markdown with vision models
 #   - https://github.com/getomni-ai/zerox
@@ -43,6 +49,11 @@ custom_system_prompt = None
 # to override
 # custom_system_prompt = "For the below pdf page, do something..something..." ## example
 
+## system role to use for the vision model
+custom_role = 'user'
+# to override
+# custom_role = "user" ## example
+
 # https://ai.google.dev/gemini-api/docs/models/gemini
 model = "gemini/gemini-1.5-flash-8b"
 model = "gemini/gemini-1.5-flash"
@@ -53,6 +64,8 @@ model = "bedrock/amazon.nova-pro-v1:0"
 model = "bedrock/anthropic.claude-3-haiku-20240307-v1:0"
 model = "bedrock/amazon.nova-lite-v1:0"
 
+model = "groq/llama-3.2-11b-vision-preview"
+
 # Define main async entrypoint
 async def main():
   file_path = "data/input.pdf" ## local filepath and file URL supported
@@ -61,7 +74,8 @@ async def main():
   output_dir = "./data" ## directory to save the consolidated markdown file
   output_dir = None
   result = await zerox(file_path=file_path, model=model, output_dir=output_dir,
-                       custom_system_prompt=custom_system_prompt,select_pages=select_pages, **kwargs)
+                      custom_system_prompt=custom_system_prompt, select_pages=select_pages,
+                      custom_role=custom_role, **kwargs)
   return result
 
 # run the main function:
@@ -83,10 +97,12 @@ AWS Bedrock requires the library `boto3`: `pip3 install boto3`
 
 ({
 export GEMINI_API_KEY="XXXXXXXXXXXXXXXXXXXX"
+export GROQ_API_KEY="XXXXXXXXXXXXXXXXXXXX"
 export AWS_ACCESS_KEY_ID=XXXXXXXXXXXXXXXXXXXX
 export AWS_SECRET_ACCESS_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-export AWS_REGION_NAME=us-west-2
+export AWS_REGION_NAME=us-east-1
 export LITELLM_LOG=CRITICAL
+export PYTHONWARNINGS=ignore
 python3 pdf-extract-zerox.py
 })
 """

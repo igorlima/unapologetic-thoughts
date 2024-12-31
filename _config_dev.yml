@@ -36,8 +36,9 @@ feed:
 
 exclude:
   - my-env-jupyter/
-  - snippets/
-  - !snippets/index.md
+  - snippets/post-content/
+  - snippets/python-llm-ai/
+  - snippets/python-llm-chunk/
 
 plugins:
   - jekyll-feed

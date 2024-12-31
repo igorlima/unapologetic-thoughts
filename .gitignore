@@ -14,5 +14,10 @@ Gemfile.lock
 # MacOS thing
 *.DS_Store
 
+# ------
+# PYTHON
+# ------
 # Ignore Python virtual environment
 my-env-jupyter/
+# Ignore pycache
+__pycache__/

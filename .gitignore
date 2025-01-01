@@ -21,3 +21,5 @@ Gemfile.lock
 my-env-jupyter/
 # Ignore pycache
 __pycache__/
+# ipynb checkpoints
+.ipynb_checkpoints

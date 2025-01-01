@@ -17,8 +17,8 @@ app.get("/", (req, res) => {
 });
 
 process.on('SIGUSR2', () => {
-   const fileName = v8.writeHeapSnapshot();
-   console.log(`Created heapdump file: ${fileName}`);
+  const fileName = v8.writeHeapSnapshot();
+  console.log(`Created heapdump file: ${fileName}`);
 });
 
 app.listen(PORT, () => {

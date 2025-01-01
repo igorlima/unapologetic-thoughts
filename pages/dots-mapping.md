@@ -54,6 +54,8 @@ title: Dots Mapping
     - [tmuxp yaml]({{site.baseurl}}{% post_url 2013-01-01-tmuxp %})
 
     <sub><sup>The term `rc` stands for _"Run Commands"_ or _"Resource Configuration."_ It refers to configuration files that contain a series of commands or settings. While many of these commands are automatic and don't require user intervention, you can modify files like `.bashrc` or `.vimrc` to customize your environment. These files can store settings for various applications or systems.</sup></sub>
+    <br>
+    <sub><sup> **The magic within .dotfiles**.[^4] _Dotfiles allow you to finely tune your tools and system to work exactly as you like. You can add custom aliases, tweak style preferences, enable plugins, and more. For developers and power users especially, dotfiles are an important way to boost productivity through customization._ [^4]</sup></sub>
     </details>
   - [greptile](https://app.greptile.com/) <sup>Talk to GitHub repo [^3]</sup>
   - internet archive
@@ -78,4 +80,5 @@ As ideas grow and expand, with notes scattered here and there, finding a central
 [^1]:   [The PARA Method: The Simple System for Organizing Your Digital Life in Seconds](https://fortelabs.com/blog/para/)
 [^2]:   [PARA Method](https://workflowy.com/systems/para-method/)
 [^3]:   [Greptile]({{site.baseurl}}{% link journal-springboard.md %}#ai-tool-greptile) is an AI tool designed to interact with a GitHub repo, helping to [discover new ways]({{site.baseurl}}{% link journal-springboard.md %}#ai-tool-to-talk-to-github-repo) to connect the dots.
+[^4]:   [The Ultimate Guide to Mastering Dotfiles](https://www.daytona.io/dotfiles/ultimate-guide-to-dotfiles/)
 [^999]: [s3-remote-git]({{site.baseurl}}{% link snippets/index.md %}#git-remote-s3)

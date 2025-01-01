@@ -1,3 +1,10 @@
+# POST CONTENT
+# empty yet
+
+# PYTHON LIB
+# ignore python virtual environment
+python-lib/my-test-env*
+
 # PYTHON LLM AI
 # ignore python virtual environment
 python-llm-ai/my-test-env*
@@ -18,3 +25,4 @@ python-llm-chunk/.*
 # NODE JS
 # ignore node_modules
 node_modules/
+*.heapsnapshot

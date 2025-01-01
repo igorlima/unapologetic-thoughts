@@ -14,3 +14,7 @@ python-llm-chunk/*.md
 !python-llm-chunk/README.md
 # hidden foldes and files
 python-llm-chunk/.*
+
+# NODE JS
+# ignore node_modules
+node_modules/

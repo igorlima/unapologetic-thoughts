@@ -15,6 +15,7 @@ import pudb; # pu.db
 # pip3 index versions xml2epub
 # pip3 list
 # pip3 install --no-cache --upgrade-strategy eager -I xml2epub==2.6.6
+# pip3 install git+https://github.com/igorlima/xml2epub.git@address-issue-40
 
 python3 -m venv my-test-env-2025a01m01d
 source my-test-env-2025a01m01d/bin/activate

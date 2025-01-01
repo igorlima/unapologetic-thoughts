@@ -73,9 +73,9 @@ The basic idea is to organize the day into events and tasks.
 
 - [web app](https://nautilus-omnibus.web.app/)
 
-![Nautilus Omnibus A](./data/nautilus-omnibus-1.png)
+![Nautilus Omnibus A](./data/nautilus-omnibus-1.jpg)
 
-![Nautilus Omnibus B](./data/nautilus-omnibus-2.png)
+![Nautilus Omnibus B](./data/nautilus-omnibus-2.jpg)
 
 
 ### Examples

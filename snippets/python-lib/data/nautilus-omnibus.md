@@ -38,7 +38,12 @@ The basic idea is to organize the day into events and tasks.
     - [ ] subtask
 - [ ] task
     - [ ] subtask
+    - [ ] subtask
+    - [ ] subtask
 - [ ] task
+    - [ ] subtask
+    - [ ] subtask
+    - [ ] subtask
 
 -------
 
@@ -72,6 +77,7 @@ The basic idea is to organize the day into events and tasks.
 ## Nautilus Omnibus
 
 - [web app](https://nautilus-omnibus.web.app/)
+    - :: [ilima thoughts](https://thoughts.ilima.xyz/) :: [ilima snippets](https://snippets.ilima.xyz/) ::
 
 ![Nautilus Omnibus A](./data/nautilus-omnibus-1.jpg)
 

@@ -26,3 +26,6 @@ python-llm-chunk/.*
 # ignore node_modules
 node_modules/
 *.heapsnapshot
+
+# SENSITIVE DATA
+*credentials.json

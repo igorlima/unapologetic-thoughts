@@ -547,6 +547,18 @@ can read aloud PDFs, websites, and books using natural AI voices.
 - _[steps to publish a notebook]({{site.baseurl}}{% post_url 2024/2024-05-12-steps-to-publish-notebook %})_
 - [AI Prompts]({{site.baseurl}}{% post_url 2023/2023-08-20-ai-writing-prompts %})
   - [ipynb]({{site.baseurl}}{% link notebooks/files/ai-prompts.ipynb %}) / [html]({{site.baseurl}}{% link notebooks/html/ai-prompts.html %}) / [nbviewer](https://nbviewer.org/urls/igorlima.github.io/unapologetic-thoughts/notebooks/files/ai-prompts.ipynb) / [colab](https://colab.research.google.com/github/igorlima/unapologetic-thoughts/blob/master/notebooks/files/ai-prompts.ipynb) / [github](https://github.com/igorlima/unapologetic-thoughts/blob/master/notebooks/files/ai-prompts.ipynb)
+- <details markdown="block"><summary><i>Jupyter Agent</i></summary>
+
+  Create a whole Python notebook with [a single prompt](https://ai.gopubby.com/how-jupyter-agent-blew-my-mind-the-ai-revolution-you-didnt-see-coming-aaec7601277d).
+
+  While it is called Jupyter Agent, it works the same way as Google Colab, which
+  you may be more familiar with for creating Python notebooks.
+
+  It is online, free, and accessible to all with no log-in!
+
+  The link to the agent: [https://huggingface.co/spaces/data-agents/jupyter-agent](https://huggingface.co/spaces/data-agents/jupyter-agent)
+  </details>
+
 
 ## Journaling
 

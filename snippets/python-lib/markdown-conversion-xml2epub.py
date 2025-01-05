@@ -4,6 +4,7 @@ import re
 # https://github.com/Python-Markdown/markdown
 # https://pypi.org/project/Markdown/
 # https://python-markdown.github.io/reference/
+# https://python-markdown.github.io/extensions/
 # https://python-markdown.github.io/extensions/tables/
 # https://python-markdown.github.io/changelog/#the-tables-extension-now-uses-a-style-attribute-instead-of-an-align-attribute-for-alignment
 # https://python-markdown.github.io/reference/markdown/extensions/tables/#markdown.extensions.tables
@@ -27,6 +28,7 @@ pip3 install typing-extensions==4.12.2
 pip3 install pudb
 """
 
+# https://python-markdown.github.io/extensions/
 def convert(html_text, extensions=[]):
   print("converting markdown to html...")
   output = markdown.markdown(html_text, extensions=extensions)
@@ -73,12 +75,12 @@ def split_markdown_in_chapters(md_text):
 MD_TEXT = open('./data/nautilus-omnibus.md', 'r').read()
 
 generate_html(
-  convert(MD_TEXT, extensions=['fenced_code', TableExtension(use_align_attribute=True)]),
+  convert(MD_TEXT, extensions=['fenced_code', 'tables', 'codehilite', 'nl2br', 'sane_lists']),
   # filepath = '/tmp/code-sample.html'
   filepath = './data/nautilus-omnibus.html'
 )
 generate_epub(
-  convert(MD_TEXT, extensions=['fenced_code', TableExtension(use_align_attribute=True)]),
+  convert(MD_TEXT, extensions=['fenced_code', 'tables', 'codehilite', 'nl2br', 'sane_lists']),
   title = 'Daily Planner',
   # output_directory = '/tmp/'
   output_directory = './data/',
@@ -86,7 +88,7 @@ generate_epub(
 )
 
 generate_epub(
-  chapters = [convert(chapter_text, extensions=['fenced_code', TableExtension(use_align_attribute=True)]) for chapter_text in split_markdown_in_chapters(MD_TEXT)],
+  chapters = [convert(chapter_text, extensions=['fenced_code', 'tables', 'codehilite', 'nl2br', 'sane_lists']) for chapter_text in split_markdown_in_chapters(MD_TEXT)],
   title = 'Daily Planner',
   # output_directory = '/tmp/'
   output_directory = './data/',

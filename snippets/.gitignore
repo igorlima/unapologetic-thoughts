@@ -5,6 +5,9 @@
 # ignore python virtual environment
 python-lib/my-test-env*
 
+# Media Files
+*.epub
+
 # PYTHON LLM AI
 # ignore python virtual environment
 python-llm-ai/my-test-env*

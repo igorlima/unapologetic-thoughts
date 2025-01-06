@@ -43,6 +43,9 @@ A complete list of all the HTTP codes can be found on [Wikipedia](https://en.wik
 𝐍𝐞𝐭𝐰𝐨𝐫𝐤 𝐒𝐞𝐫𝐯𝐢𝐜𝐞𝐬
 - 𝐍𝐓𝐏: Network time synchronization
 - Critical for system coordination
+
+![12 Network Protocols]({{site.baseurl}}{% link assets/2025/network-protocols.gif %})
+
 </details>
 
 

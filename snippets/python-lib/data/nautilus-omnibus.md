@@ -80,6 +80,44 @@ Ask yourself questions. Answer them. Or leave them open.
 5. How did I improve myself today?
 6. How did I love myself today?
 
+- 00h00 title of the entry
+    - Sentiment Analysis:
+        - Mood: what is your mood?
+        - Energy Level: how is your energy level?
+        - **Tone:** Calm, chill, indifferent.
+        - **Emotion:** Neutral, informative.
+    - Brief Summary
+        - lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    - Text:
+        - lorem ipsum dolor sit amet, consectetur adipiscing elit. sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat.
+- Energy Levels:
+    - 100% ██████████  COMPLETE: full, maximum, absolute, perfect, whole
+    -  95% █████████▒  NEARLY COMPLETE: nearly full, almost complete, almost full, exceptional, outstanding
+    -  60% ██████▒▒▒▒  MODERATE: more than half, majority, majority, substantial, considerable, significant
+    -  30% ███▒▒▒▒▒▒▒  LOW: less than half, minority, partial, limited, fractional, incomplete
+    -   0% ▒▒▒▒▒▒▒▒▒▒  EMPTY: none, minimum, empty, nonexistent, absent, null
+- Emotions:
+    - Negative Emotions: 😠 Angry/Mad/Upset 😞 Sad/Disappointed 😨 Anxious/Worried 😣 Tired
+    - Positive Emotions: 🙂 Happy/Smiley/Satisfied 🤩 Excited
+    - Neutral Emotions: 😌 Calm/Chill/Indifferent
+
+-------
+
+## Ideas Wishlist
+
+This session holds some wanted projects I'm looking forward to trying when I have more free time. I'm keeping the full list in my Git S3 Code Sketch bucket, but here are a few I'm currently dreaming about and refining:
+
+- Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+- Phasellus nisi ex, elementum non pellentesque id, auctor bibendum lectus.
+- Duis pellentesque mattis fringilla. Mauris accumsan maximus sem, a tincidunt odio vulputate in.
+- Ut porta mi nec eros eleifend laoreet. Ut vulputate sollicitudin egestas. Vivamus purus est, ultrices laoreet vehicula gravida, malesuada ut nunc.
+- Phasellus tincidunt molestie sapien, at lobortis enim euismod nec. Morbi tincidunt vel diam ac tincidunt.
+
+I'm excited to explore these more when my schedule allows!
+
 -------
 
 ## My Lambda Ideas Hub
@@ -112,17 +150,111 @@ automation tools I've drafted. Let me dive into each one!
     - **description**: creates audio from text.
     - **triggers**: `lambda/ai/tts/*.ai.txt`, `lambda/ai/txt/*.en.txt`, `lambda/ai/txt/*.pt.txt`, `lambda/ai/*.fredo.txt`
 - **AI-PROMPT**
-    - **description**: generates AI content upon an HTTP, and sends output via email. It uses the MyAiPrompt layer.
+    - **description**: generates AI content upon an HTTP request, and sends output via email. It uses the MyAiPrompt layer.
     - **triggers**: API Gateway
+```sh
+({
+export LAMBDA_URL=https://xyz.amazonaws.com/default/ai-prompt
+export API_KEY=xxxxxxxxxxx
+export OTP_SEED=XXXXXXXXXX
+curl -l -X POST $LAMBDA_URL \
+-H 'Content-Type: application/json' \
+-H 'x-api-key: '$API_KEY'' \
+-d '{
+  "code":"'$(python3 -c "
+import pyotp
+SECRET = \"$OTP_SEED\"
+totp = pyotp.TOTP(SECRET)
+code = totp.now()
+print(code)
+")'",
+  "sender":"hello@abc.com",
+  "recipient": "me@gmail.com",
+  "subject": "AI Writing",
+  "message": "...",
+  "llm": ["GEMINI", "PERPLEXITY"],
+  "prompt": "Proofread and improve the text below. Be positive and humble.\n\"\"\"\nSorry for the delay, I have been busy with something else that was timeconsuming me.\n\"\"\""
+}'
+})
+```
 - **SEND-ME-SMS**
     - **description**: sends SMS.
     - **triggers**: API Gateway
+```sh
+({
+export LAMBDA_URL=https://xyz.amazonaws.com/default/send-me-sms
+export API_KEY=xxxxxxxxxxx
+export OTP_SEED=XXXXXXXXXX
+curl -l -X POST $LAMBDA_URL \
+-H 'Content-Type: application/json' \
+-H 'x-api-key: '$API_KEY'' \
+-d '{
+  "code":"'$(python3 -c "
+import pyotp
+SECRET = \"$OTP_SEED\"
+totp = pyotp.TOTP(SECRET)
+code = totp.now()
+print(code)
+")'",
+  "message":"hello world",
+  "phone":"+5535999123456"
+}'
+})
+```
 - **SEND-ME-EMAIL**
     - **description**: sends email.
     - **triggers**: API Gateway
+```sh
+({
+export LAMBDA_URL=https://xyz.amazonaws.com/default/send-me-email
+export API_KEY=xxxxxxxxxxx
+export OTP_SEED=XXXXXXXXXX
+curl -l -X POST $LAMBDA_URL \
+-H 'Content-Type: application/json' \
+-H 'x-api-key: '$API_KEY'' \
+-d '{
+  "code":"'$(python3 -c "
+import pyotp
+SECRET = \"$OTP_SEED\"
+totp = pyotp.TOTP(SECRET)
+code = totp.now()
+print(code)
+")'",
+  "sender": "hello@abc.com",
+  "recipient": "me@gmail.com",
+  "subject": "hello world",
+  "message": "finally able to make it happen"
+}'
+})
+```
 - **SEND-ATTACHMENT**
     - **description**: sends attachment via email.
     - **triggers**: API Gateway
+    - sample
+```sh
+({
+# attachment should be in attachment folder
+export LAMBDA_URL=https://xyz.amazonaws.com/default/send-attachment
+export API_KEY=xxxxxxxxxxx
+export OTP_SEED=XXXXXXXXXX
+curl -l -X POST $LAMBDA_URL \
+-H 'Content-Type: application/json' \
+-H 'x-api-key: '$API_KEY'' \
+-d '{
+  "code":"'$(python3 -c "
+import pyotp
+SECRET = \"$OTP_SEED\"
+totp = pyotp.TOTP(SECRET)
+code = totp.now()
+print(code)
+")'",
+  "recipient": "me@gmail.com",
+  "subject": "AI Writing",
+  "message": "...",
+  "attachments": ["test-a.md", "test-a.txt"]
+}'
+})
+```
 
 -------
 

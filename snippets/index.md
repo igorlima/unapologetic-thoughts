@@ -95,6 +95,16 @@ git diff --no-color > patch.patch
         [Diff Text](https://difftext.com/): A Simple Online Diff Checker Tool — Lets you compare by words, characters, or lines and you can toggle show all lines or only changed lines.
         </details>
     </details>
+- <details markdown="block"> <summary> <i>Clean up hidden files</i> </summary>
+   
+  ```sh
+  # .DS_Store files
+  find . -type f -name ".DS_Store" | xargs -p -n1 rm -f
+
+  # vim swap files
+  find . -type f -name "*.sw[a-z]" | xargs -p -n1 rm -f
+  ```
+  </details>
 
 --------
 <!-- nap -->

@@ -558,6 +558,12 @@ can read aloud PDFs, websites, and books using natural AI voices.
 
   The link to the agent: [https://huggingface.co/spaces/data-agents/jupyter-agent](https://huggingface.co/spaces/data-agents/jupyter-agent)
   </details>
+- <details markdown="block"><summary><i>Online Notebook</i></summary>
+
+  - [Colab](https://colab.research.google.com) <sup>[+](https://colab.google/)</sup>
+  - [Kaggle](https://www.kaggle.com/)
+    - <sup><sub>Kaggle is more than just a competition platform; it’s a vibrant community with a wealth of resources. Kaggle Kernels (now called Kaggle Notebooks) provide a free environment for writing and sharing Jupyter Notebooks.</sub></sup>
+  </details>
 
 
 ## Journaling

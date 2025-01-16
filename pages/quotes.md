@@ -26,6 +26,9 @@ title: Quotes
       Citação sobre o inevitável e a ilusão de controle.
     </details>
 
+> "It does not matter how slowly you go as long as you do not stop."
+  - Confucius
+
 
 ![To Do](https://github.com/user-attachments/assets/efef6d4d-4190-4c81-b148-33ce9b73c44c)
 

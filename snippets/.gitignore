@@ -4,6 +4,7 @@
 # PYTHON LIB
 # ignore python virtual environment
 python-lib/my-test-env*
+python-lib/data/nautilus-omnibus.html
 
 # Media Files
 *.epub

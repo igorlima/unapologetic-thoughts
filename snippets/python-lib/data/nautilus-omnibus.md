@@ -43,28 +43,28 @@ _One page calendar for: **2025**_
 
 ### Events
 
-| Time  | Event | Task |
-| :---  | :---- | :--- |
-| 05:00 | event | task |
-| 06:00 | event | task |
-| 07:00 | event | task |
-| 08:00 | event | task |
-| 09:00 | event | task |
-| 10:00 | event | task |
-| 11:00 | event | task |
-| 12:00 | event | task |
-| 13:00 | event | task |
-| 14:00 | event | task |
-| 15:00 | event | task |
-| 16:00 | event | task |
-| 17:00 | event | task |
-| 18:00 | event | task |
-| 19:00 | event | task |
-| 20:00 | event | task |
-| 21:00 | event | task |
-| 22:00 | event | task |
-| 23:00 | event | task |
-| 00:00 | event | task |
+| Time  | Event       | Task       |
+| :---  | :----       | :---       |
+| 05:00 | event 01 02 | task 03 04 |
+| 06:00 | event 01 02 | task 03 04 |
+| 07:00 | event 01 02 | task 03 04 |
+| 08:00 | event 01 02 | task 03 04 |
+| 09:00 | event 01 02 | task 03 04 |
+| 10:00 | event 01 02 | task 03 04 |
+| 11:00 | event 01 02 | task 03 04 |
+| 12:00 | event 01 02 | task 03 04 |
+| 13:00 | event 01 02 | task 03 04 |
+| 14:00 | event 01 02 | task 03 04 |
+| 15:00 | event 01 02 | task 03 04 |
+| 16:00 | event 01 02 | task 03 04 |
+| 17:00 | event 01 02 | task 03 04 |
+| 18:00 | event 01 02 | task 03 04 |
+| 19:00 | event 01 02 | task 03 04 |
+| 20:00 | event 01 02 | task 03 04 |
+| 21:00 | event 01 02 | task 03 04 |
+| 22:00 | event 01 02 | task 03 04 |
+| 23:00 | event 01 02 | task 03 04 |
+| 00:00 | event 01 02 | task 03 04 |
 
 -------
 
@@ -117,6 +117,13 @@ This session holds some wanted projects I'm looking forward to trying when I hav
 - Phasellus tincidunt molestie sapien, at lobortis enim euismod nec. Morbi tincidunt vel diam ac tincidunt.
 
 I'm excited to explore these more when my schedule allows!
+
+
+### Unwind and Chill
+
+Finding mindful moments by embracing spare-time bliss through puzzles and pastimes.
+
+- [play Sudoku](https://sudoku.game/)
 
 -------
 

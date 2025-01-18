@@ -23,6 +23,21 @@ client = OpenAI(
   base_url=f"https://{GOOGLE_LOCATION}-aiplatform.googleapis.com/v1beta1/projects/{GOOGLE_PROJECT_ID}/locations/{GOOGLE_LOCATION}/endpoints/openapi",
   api_key=VERTEXAI_TOKEN,
 )
+"""
+Authenticate with Vertex AI generative AI API in cloud functions
+
+11:25pm on Thu, Jan 9
+
+- https://stackoverflow.com/questions/76621780/authenticate-with-vertex-ai-generative-ai-api-in-cloud-functions -
+
+- https://stackoverflow.com/questions/69843556/how-do-i-get-access-token-inside-node-js-google-cloud-function/69895524#69895524 -
+
+- https://github.com/googleapis/google-auth-library-python -
+
+- https://googleapis.dev/python/google-auth/latest/ -
+
+- https://pypi.org/project/google-auth-oauthlib/ -
+"""
 
 #  CHAT COMPLETIONS API
 response = client.chat.completions.create(

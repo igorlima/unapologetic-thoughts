@@ -57,6 +57,11 @@ title: Dots Mapping
     <br>
     <sub><sup> **The magic within .dotfiles**.[^4] _Dotfiles allow you to finely tune your tools and system to work exactly as you like. You can add custom aliases, tweak style preferences, enable plugins, and more. For developers and power users especially, dotfiles are an important way to boost productivity through customization._ [^4]</sup></sub>
     </details>
+  - <details markdown="block"><summary>unwind and chill</summary>
+
+    _<sub>Finding mindful moments by embracing spare-time bliss through puzzles and pastimes.</sub>_
+    - [Sudoku](https://sudoku.game/)
+    </details>
   - [greptile](https://app.greptile.com/) <sup>Talk to GitHub repo [^3]</sup>
   - internet archive
     - [Wayback Machine](https://web.archive.org/)

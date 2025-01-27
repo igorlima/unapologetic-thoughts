@@ -27,17 +27,17 @@ _One page calendar for: **2025**_
 ### Tasks
 
 - [ ] task lorem ipsum
-    - [ ] subtask lorem ipsum dolor sit amet
-    - [ ] subtask lorem ipsum dolor sit amet
+    - [ ] subtask: 01 02 03
+    - [ ] subtask: 01 02 03
 - [ ] task lorem ipsum
-    - [ ] subtask lorem ipsum dolor sit amet
-    - [ ] subtask lorem ipsum dolor sit amet
+    - [ ] subtask: 01 02 03
+    - [ ] subtask: 01 02 03
 - [ ] task lorem ipsum
-    - [ ] subtask lorem ipsum dolor sit amet
-    - [ ] subtask lorem ipsum dolor sit amet
+    - [ ] subtask: 01 02 03
+    - [ ] subtask: 01 02 03
 - [ ] task lorem ipsum
-    - [ ] subtask lorem ipsum dolor sit amet
-    - [ ] subtask lorem ipsum dolor sit amet
+    - [ ] subtask: 01 02 03
+    - [ ] subtask: 01 02 03
 
 -------
 
@@ -73,12 +73,13 @@ _One page calendar for: **2025**_
 Ask yourself questions. Answer them. Or leave them open.
 [+](https://igorlima.github.io/unapologetic-thoughts/journal-springboard#journaling)
 
-1. What was the most important moment of this day?
-2. What did I learn today?
-3. How was I helpful, friendly, or nice to others?
-4. How was I unfriendly, angry, or cold to others?
-5. How did I improve myself today?
-6. How did I love myself today?
+1. “I’m looking forward to today because ........ .”
+2. What was the most important moment of this day?
+3. What did I learn today?
+4. How was I helpful, friendly, or nice to others?
+5. How was I unfriendly, angry, or cold to others?
+6. How did I improve myself today?
+7. How did I love myself today?
 
 - 00h00 title of the entry
     - Sentiment Analysis:
@@ -118,6 +119,25 @@ This session holds some wanted projects I'm looking forward to trying when I hav
 
 I'm excited to explore these more when my schedule allows!
 
+- [the secret weapon](https://thesecretweapon.org/the-secret-weapon-manifesto/the-secret-weapon/amp/)
+    - WHEN
+        - now: 01 02 03 04
+            - next: 01 02 03
+        - soon: 01 02 03
+            - later: 01 02 03
+        - someday: 01 02 03
+    - WHO
+        - Blossom: 01 02 03
+        - Bubbles: 01 02 03
+        - Buttercup: 01 02 03
+    - WHAT
+        - Open-source: 01 02 03
+        - Community: 01 02 03
+        - Follow-up: 01 02 03
+    - WHERE
+        - Home: 01 02 03
+        - Work: 01 02 03
+        - School: 01 02 03
 
 ### Unwind and Chill
 

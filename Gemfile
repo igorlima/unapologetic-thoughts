@@ -7,6 +7,7 @@ gem "webrick"            # required when using Ruby >= 3 and Jekyll <= 4.2.2
 gem 'kramdown-parser-gfm', '~> 1.1.0'
 
 # https://rubygems.org/gems/no-style-please
+# https://github.com/riggraz/no-style-please
 # `gem list -r no-style-please`
 gem "no-style-please", "0.4.7" # pinned to the current release
 # gem "no-style-please"        # always download the latest release

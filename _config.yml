@@ -29,6 +29,15 @@ sass:
 feed:
   posts_limit: 1000
 
+exclude:
+  - my-env-jupyter/
+  - snippets/post-content/
+  - snippets/python-llm-ai/
+  - snippets/python-llm-chunk/
+  # https://stackoverflow.com/questions/39057405/unable-to-build-a-jekyll-site-invalid-date
+  # https://github.com/jekyll/jekyll/issues/3330#issuecomment-126547235
+  - vendor
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag

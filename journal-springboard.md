@@ -341,8 +341,13 @@ To further exploration, brainstorm, doodle, and journal:
     </details>
   </details>
 
-## Writing Prompts [<sup>+</sup>](https://igorlima.github.io/unapologetic-snippets/docs/algorithms-and-data-structures/ai/ai-prompts#journal-writing-prompts)
+## Writing Prompts [<sup>+</sup>](https://igorlima.github.io/unapologetic-snippets/docs/algorithms-and-data-structures/ai/ai-prompts#journal-writing-prompts) <a href="#writing-prompts"><sup>§</sup></a>
+
 <a id="writing-prompts"></a>
+
+- [further more <sup><sub>on writing</sub></sup>]({{site.baseurl}}{% link pages/writing.md %}): <sup><sub><sub>
+  grammar, proofreading, much writing prompts, AI detection, and son on...
+  </sub></sub></sup>
 
 ### English
 

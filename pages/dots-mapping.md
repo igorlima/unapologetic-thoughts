@@ -67,6 +67,13 @@ title: Dots Mapping
     - [Wayback Machine](https://web.archive.org/)
     - [Archive Today](https://archive.today/)
   </details>
+- <details markdown="block"><summary><sup><sub>quick notes <a href="#quick-notes">§</a> <sup><sup><a href="{{site.baseurl}}{% link pages/quick-notes.md %}">+</a></sup></sup> </sub></sup></summary>
+
+  <a id="quick-notes"></a>
+  <sup><sub>These notes are helpers for sparking creativity! They make it easy to find and see what I've jotted down before to connect random ideas and foster new insights.</sub></sup>
+  - why we can't remember everything we study? <sup><sup>[+]({{site.baseurl}}{% link pages/quick-notes.md %}#2025a02m27d-20250301045437)</sup></sup>
+  </details>
+
 
 As ideas grow and expand, with notes scattered here and there, finding a central point to anchor everything and connect the pieces makes a difference.
 

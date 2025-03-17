@@ -11,6 +11,8 @@ title: quick notes
 
 These notes are helpers for sparking creativity! They make it easy to find and see what I've jotted down before to connect random ideas and foster new insights.
 
+- Sun, Mar 16, 2025 - 2025a03m16d
+  - “The activist is not the man who says the river is dirty. The activist is the man who cleans up the river.” _by Ross Perot_
 - Thu, Feb 27, 2025 - 2025a02m27d
   - bizarre psychology fact that may change how we see people
     - people will judge us based on their mood, not logic

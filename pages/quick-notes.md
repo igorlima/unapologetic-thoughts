@@ -23,6 +23,16 @@ These notes are helpers for sparking creativity! They make it easy to find and s
   - __Shane Parrish__ on Procrastination: "Today, not tomorrow. What you avoid today is harder to do tomorrow. Today’s choices become tomorrow’s position. Don't wait till tomorrow; it's where dreams go to die."
     - __Today, Not Tomorrow__: Shane Parrish says, _"Today, not tomorrow. What you avoid today is harder to do tomorrow. Today's choices become tomorrow's position."_
     - __Act today, not tomorrow__. Shane Parrish emphasizes the importance of immediate action to avoid future burdens. Procrastination only adds to the list of tasks.
+- Mon, Mar 24, 2025 - 2025a03m24d
+  - Facts About Human Behavior
+    - People Believe What They Already Believe, Even If It’s Wrong
+      - Facts don’t change minds; feelings do. People decide first and justify later.
+    - The More Choices You Offer, The Less People Decide
+      - Too many options can overwhelm people. If you want them to choose, then simplify. Less is more.
+    - Always Give Someone a Way Out, Saving Face Defuses Disagreements
+      - No one likes being proven wrong. Give them a non-humiliating exit route, allowing them to rethink and change their mind without feeling embarrassed.
+    - Criticism Lands Better When Wrapped in Praise
+      - A compliment before and after makes feedback feel like advice instead of an attack.
 - Sat, Mar 22, 2025 - 2025a03m22d
   - Life isn't about figuring it all out–it's about letting yourself feel it all. That's the experience. That's the gift. That's the meaning.
 - Sun, Mar 16, 2025 - 2025a03m16d

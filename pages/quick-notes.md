@@ -11,6 +11,42 @@ title: quick notes
 
 These notes are helpers for sparking creativity! They make it easy to find and see what I've jotted down before to connect random ideas and foster new insights.
 
+- Sat, Apr 05, 2025 - 2025a04m05d 
+  - Quote from Daniel Schmachtenberger:
+    - "Traditional education and hyperspecialization is a way to make people subservient to the dominant paradigm/ system. Study the generalized principles of nature and be a deep generalist."
+      - It's unreasonable to expect individuals to know their life's purpose or career at age 18. Society often pushes people towards a traditional path of job, marriage, and conventional life milestones, which might not suit everyone, especially those with multiple interests.
+      - Individuals are not taught to think critically but to memorize and conform.
+      - This system prepares individuals for replaceable roles in society, not for personal freedom or creativity.
+    - The Role of AI in Specialization:
+      - AI is replacing predictable, repetitive tasks, reducing the need for specialists.
+      - Creative work requires taste, which AI cannot fully replicate.
+    - __Role of AI__: AI can replace repetitive tasks, but true creative work involves synthesizing unique ideas, which requires human taste and experience.
+  - Traditional education and hyperspecialization make people subservient to the dominant paradigm/system.
+    - It's insane to think that by age 18, one should know what they want to do with their life:
+      - What to study
+      - What career to pursue
+      - How their life will turn up
+    - Most follow a path set by their parents:
+      - A job-A spouse
+      - A mortgage
+      - A few vacations
+      - A few nice dinners
+      - Maybe a pet or kids
+    - Yet societal pressures push you towards a "safe" route:
+      - Become a doctor or lawyer
+      - Get a high-paying degree
+    - Society often discourages having multiple interests, labeling it as "shiny object syndrome."
+    - The system was designed to create obedient workers, not thinkers, which is still reflected in today's education:
+      - Students are taught to work, not think
+    - Employment vs. Entrepreneurship
+      - Employment : Often leads to a life of repetition, reducing the magic and challenge that drives personal growth.
+      - Entrepreneurship : Offers continuous challenges, fostering growth and agency.
+  - Have you ever worked with Chinese teams on global software projects?
+    - It's amazing–if you know how to do it.
+    - Hierarchy in Chinese teams stifles creativity (debunked)
+      - Respect for seniority: In our projects, Shenzhen engineers often looked to their senior counterparts for direction. It's not any different in Europe, everyone looks to their seniors. In China, it just felt a bit more pronounced, with an element of actual deference to their opinions.
+      - __Action over discussion__: When asked about adding a data quality alert, the Shenzhen team implemented the feature rather than discussing it first. We had to be careful with how we framed questions initially.
+        - Clarity in expectations for specific meetings: Framing meetings with clear agendas like "Brainstorming the orchestration sequencing of our ranking model" and preparing Miro boards allowed for open idea sharing.
 - Mon, Mar 31, 2025 - 2025a03m31d
   - What annoys us about other people often points to what we dislike about ourselves. Understanding what we dislike about ourselves is just as important for self-awareness as understanding what we like.
   - Ask for Targeted Feedback

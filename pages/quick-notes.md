@@ -11,6 +11,11 @@ title: quick notes
 
 These notes are helpers for sparking creativity! They make it easy to find and see what I've jotted down before to connect random ideas and foster new insights.
 
+- Mon, Apr 07, 2025 - 2025a04m07d 
+  - Brain Food
+    - The loudest signals come from the emptiest sources. __Those who truly possess something rarely need to announce it__.
+    - Those who fear appearing foolish rarely discover anything new. The genius of tomorrow often looks like an idiot today.
+    - "Success in investing isn't about making a lot of money in a short period of time. It's about earning reasonable returns over very long periods."
 - Sat, Apr 05, 2025 - 2025a04m05d 
   - Quote from Daniel Schmachtenberger:
     - "Traditional education and hyperspecialization is a way to make people subservient to the dominant paradigm/ system. Study the generalized principles of nature and be a deep generalist."

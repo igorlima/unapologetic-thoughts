@@ -46,9 +46,10 @@ title: Dots Mapping
       - [s3-remote-git]({{site.baseurl}}{% link snippets/index.md %}#git-remote-s3) [^999]
       </details>
     </details>
-  - <details markdown="block"><summary>resource configuration</summary>
+  - <details markdown="block"><summary>resource configuration <sup><sup><a href="{{site.baseurl}}{% link pages/dots-mapping.md %}#aichat-rag-rc-knowledge-base">+</a></sup></sup></summary>
      
     <a id="rc-resource-config"></a>
+
     - [vimrc]({{site.baseurl}}{% post_url 2024-11-24-vimrc %})
     - [tmux]({{site.baseurl}}{% post_url 2024-11-24-tmux %})
     - [tmuxp yaml]({{site.baseurl}}{% post_url 2013-01-01-tmuxp %})
@@ -56,6 +57,65 @@ title: Dots Mapping
     <sub><sup>The term `rc` stands for _"Run Commands"_ or _"Resource Configuration."_ It refers to configuration files that contain a series of commands or settings. While many of these commands are automatic and don't require user intervention, you can modify files like `.bashrc` or `.vimrc` to customize your environment. These files can store settings for various applications or systems.</sup></sub>
     <br>
     <sub><sup> **The magic within .dotfiles**.[^4] _Dotfiles allow you to finely tune your tools and system to work exactly as you like. You can add custom aliases, tweak style preferences, enable plugins, and more. For developers and power users especially, dotfiles are an important way to boost productivity through customization._ [^4]</sup></sub>
+    - <details markdown="block"><summary><sup><sub>Leveraging <strong>AIChat for RAG</strong> with Your RC File: Configuration Assistance Made Easy <a href="#aichat-rag-rc-knowledge-base">§</a></sub></sup></summary>
+
+      <a id="aichat-rag-rc-knowledge-base"></a>
+      **Leveraging AIChat for RAG with Your RC File: Configuration Assistance Made Easy**
+
+      <sup>This guide demonstrates how to use AIChat's built-in vector database and
+      full-text search capabilities to create a knowledge base from your RC
+      file (e.g., `.vimrc`). This enables Retrieval-Augmented Generation (RAG),
+      allowing you to ask questions about your configuration and receive
+      contextually relevant answers.</sup>
+
+      **Step-by-Step Guide:**
+
+      The following steps outline how to use AIChat to build a RAG-powered knowledge base from your RC file:
+
+      1.  **Initiate RAG:** Use the `.rag` command followed by the name you want to give your knowledge base (e.g., `vimrc`).
+
+          ```
+          > .rag vimrc
+          ```
+
+      2.  **Select Embedding Model:** Choose an embedding model.  The example shows `gemini:text-embedding-004`.  Note the model's limitations (max tokens, batch size, and price).
+
+          ```
+          > Select embedding model: gemini:text-embedding-004 (max-tokens:2048;max-batch:100;price:0)
+          ```
+
+      3.  **Configure Chunking:**  Set the chunk size and overlay. These parameters control how your RC file is divided for indexing.  Experiment to find optimal values.
+
+          ```
+          > Set chunk size: 1500
+          > Set chunk overlay: 100
+          ```
+
+      4.  **Add Your RC File:** Specify the path to your RC file.
+
+          ```
+          > Add documents: ~/.vimrc
+          ```
+
+      5.  **Exit RAG Mode:**  Use the `.exit rag` command to finalize the knowledge base creation.
+
+          ```
+          @vimrc> .exit rag
+          ```
+
+      **Post-Creation:**
+
+      *   **View RAG Sources:** To see the sources used in the last query, use the `.sources rag` command. This helps understand the context AIChat is using.
+
+          ```
+          > .sources rag
+          ```
+
+      **Further Information:**
+
+      *   **AIChat RAG Guide:**  For a more in-depth explanation, refer to the official AIChat RAG Guide <sup>[+](https://github.com/sigoden/aichat/wiki/RAG-Guide/900d5644a72b33a0adba0e420bc3e645177a9f68)</sup>: [https://github.com/sigoden/aichat/wiki/RAG-Guide](https://github.com/sigoden/aichat/wiki/RAG-Guide)
+      </details>
+
     </details>
   - <details markdown="block"><summary>unwind and chill</summary>
 

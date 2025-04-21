@@ -7,6 +7,85 @@ This is an example search page!
 
 Reference:
 - [Talk to github repo using AI]({{site.baseurl}}{% link journal-springboard.md %}#ai-tool-to-talk-to-github-repo)
+- <details markdown="block"><summary>Leveraging <strong>AIChat for RAG</strong> with ILIMA THOUGHTS <a href="#aichat-rag-rc-knowledge-base"> §</a></summary>
+
+  <a id="aichat-rag-rc-knowledge-base"></a>
+
+  **Leveraging AIChat for RAG with a GitHub Repository**
+
+  This guide demonstrates how to use AIChat's built-in vector database and full-text search capabilities to create a knowledge base from an entire GitHub repository. This enables Retrieval-Augmented Generation (RAG), allowing AIChat to provide more informed and contextually relevant responses based on the repository's content.
+
+  **Creating a RAG Knowledge Base from a GitHub Repository**
+
+  Follow these steps to create a RAG knowledge base using AIChat:
+
+  1.  **Initiate RAG:** Use the following command within AIChat, replacing `ilima-thoughts` with your desired RAG name:
+
+      ```
+      > .rag ilima-thoughts
+      ```
+
+  2.  **Configure Embedding Model:** AIChat will prompt you to select an embedding model. Choose the appropriate model based on your needs. For example:
+
+      ```
+      > Select embedding model: gemini:text-embedding-004 (max-tokens:2048; max-batch:100; price:0)
+      ```
+
+  3.  **Set Chunk Size and Overlay:** Configure the chunk size and overlay for optimal retrieval performance.  Experiment with these values to find what works best for your repository.
+
+      ```
+      > Set chunk size: 1500
+      > Set chunk overlay: 100
+      ```
+
+  4.  **Add Documents:**  Specify the paths to the relevant directories within your GitHub repository.  This example uses the `unapologetic-thoughts` repository.  Adjust the paths to match your repository's structure.  Use the `**` wildcard to include all files within the specified directories.
+
+      ```
+      > Add documents: https://github.com/igorlima/unapologetic-thoughts/tree/master/_posts/**; https://github.com/igorlima/unapologetic-thoughts/tree/master/snippets/**; https://github.com/igorlima/unapologetic-thoughts/tree/master/pages/**; https://github.com/igorlima/unapologetic-thoughts/tree/master/notebooks/**
+      ```
+
+  5.  **Exit RAG Configuration:**  Once you've added all the desired documents, exit the RAG configuration mode.
+
+      ```
+      @ilima-thoughts> .exit rag
+      ```
+
+  **Managing Your RAG Knowledge Base**
+
+  AIChat provides several commands for managing your RAG knowledge base:
+
+  *   **View Citation Sources:**  After a query, use the following command to see the sources used in the last query:
+
+      ```
+      .sources rag
+      ```
+      This helps you understand where AIChat is getting its information.
+
+  *   **Edit Documents:**  Add or remove documents from an existing RAG knowledge base:
+
+      ```
+      .edit rag-docs
+      ```
+
+  *   **Rebuild RAG:**  After making changes to the documents in your repository, rebuild the RAG knowledge base to reflect those changes:
+
+      ```
+      .rebuild rag
+      ```
+
+  *   **Show RAG Information:**  View information about your RAG knowledge base, such as the number of documents and the embedding model used:
+
+      ```
+      .info rag
+      ```
+
+  **Further Resources**
+
+  *  **AIChat RAG Guide:**  For a more in-depth explanation, refer to the official [AIChat RAG Guide](https://github.com/sigoden/aichat/wiki/RAG-Guide) <sup>[+](https://github.com/sigoden/aichat/wiki/RAG-Guide/900d5644a72b33a0adba0e420bc3e645177a9f68)</sup>.
+  *  Leveraging **AIChat for RAG** with Your RC File: [Configuration Assistance Made Easy]({{site.baseurl}}{% link pages/dots-mapping.md %}#aichat-rag-rc-knowledge-base)
+  <br> <br>
+  </details>
+
 - <details markdown="block"><summary>Fuse JS</summary>
 
   - [FuseJS Home Page](https://www.fusejs.io/)

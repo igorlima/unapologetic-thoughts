@@ -113,8 +113,9 @@ title: Dots Mapping
 
       **Further Information:**
 
-      *   **AIChat RAG Guide:**  For a more in-depth explanation, refer to the official [AIChat RAG Guide](https://github.com/sigoden/aichat/wiki/RAG-Guide) <sup>[+](https://github.com/sigoden/aichat/wiki/RAG-Guide/900d5644a72b33a0adba0e420bc3e645177a9f68)</sup>.
-      *   Leveraging **AIChat for RAG** with [ILIMA THOUGHTS]({{site.baseurl}}{% link pages/search.md %}#aichat-rag-rc-knowledge-base)
+      *  **AIChat RAG Guide:**  For a more in-depth explanation, refer to the official [AIChat RAG Guide](https://github.com/sigoden/aichat/wiki/RAG-Guide) <sup>[+](https://github.com/sigoden/aichat/wiki/RAG-Guide/900d5644a72b33a0adba0e420bc3e645177a9f68)</sup>.
+      *  Leveraging *AIChat RAG* with [ILIMA THOUGHTS]({{site.baseurl}}{% link pages/search.md %}#aichat-rag-rc-knowledge-base)
+      *  Leveraging *AIChat RAG* with [ILIMA SNIPPETS](https://igorlima.github.io/unapologetic-snippets/docs/search.html)
       <br><br>
       </details>
 

@@ -25,6 +25,17 @@ This is a centralized page to gather thoughts and ideas, draft, sketch, and jot 
 <!-- quick notes... -->
 </details>
 
+<details markdown="block"><summary><sup><sub>timeline <a href="#timeline">§</a> <sup><sup><a href="{{site.baseurl}}{% link pages/timeline.md %}">+</a></sup></sup> </sub></sup></summary>
+
+<a id="timeline"></a>
+<sup><sub> Use the timeline as a go-to spot to capture ideas, thoughts, news, and articles! This helps keep track of everything and revisit it later. Don't worry if some entries get a bit outdated </sub></sup>
+- new prompting guide <sup><sup>[+]({{site.baseurl}}{% link pages/timeline.md %}#2025a04m13d-20250425214325)</sup></sup>
+
+----
+<!-- timeline -->
+</details>
+
+
 To further exploration, brainstorm, doodle, and journal:
 - [Claude AI](https://claude.ai/) <sup>[+](#ai-model-anthropic-claude)</sup>
 - [ChatGPT](https://chat.openai.com/) <sup>[+](https://platform.openai.com/playground)</sup> <sup>[++](#llm-openai)</sup> <sup><sup>[canvas](#llm-openai-canvas)</sup></sup>

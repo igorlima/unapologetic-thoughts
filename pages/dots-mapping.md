@@ -130,6 +130,12 @@ title: Dots Mapping
     - [Wayback Machine](https://web.archive.org/)
     - [Archive Today](https://archive.today/)
   </details>
+- <details markdown="block"><summary><sup><sub>timeline <a href="#timeline">§</a> <sup><sup><a href="{{site.baseurl}}{% link pages/timeline.md %}">+</a></sup></sup> </sub></sup></summary>
+
+  <a id="timeline"></a>
+  <sup><sub> Use the timeline as a go-to spot to capture ideas, thoughts, news, and articles! This helps keep track of everything and revisit it later. Don't worry if some entries get a bit outdated </sub></sup>
+  - new prompting guide <sup><sup>[+]({{site.baseurl}}{% link pages/timeline.md %}#2025a04m13d-20250425214325)</sup></sup>
+  </details>
 - <details markdown="block"><summary><sup><sub>quick notes <a href="#quick-notes">§</a> <sup><sup><a href="{{site.baseurl}}{% link pages/quick-notes.md %}">+</a></sup></sup> </sub></sup></summary>
 
   <a id="quick-notes"></a>

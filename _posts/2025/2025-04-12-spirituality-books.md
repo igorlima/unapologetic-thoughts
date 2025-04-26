@@ -1,0 +1,92 @@
+---
+layout: post
+title: Spirituality Books
+category: inspiration
+---
+
+Almost all spirituality books talk about meaning, peace, joy, and awakening. [^1]
+- You are not your thoughts
+  - Watch your thoughts like clouds, from a distance.
+  - Detach. Observe. Don't obey.
+- The present is your only reality
+  - The future is a concept. The past is a memory.
+- Surrender is waking up
+  - Let go of the fight inside.
+  - When you let go, you space to be conscious.
+- You're already whole
+  - Stop fixing yourself like you're broken.
+- Pain is part of the path
+  - Don't run. Feel it.
+  - Growth won't happen in comfort.
+- Ego wants control. Spirit wants freedom
+  - Ego says: “More, better, mine.”
+  - Spirit says: “Be, connect, love.”
+  - Ego wants to win. Soul wants to grow.
+- Stillness is clarity
+  - Stop. Be and do nothing on purpose. Don't scroll.
+  - Sit in silence. Even for two minutes.
+  - Make space to hear it.
+- You are connected to everything
+  - We rise together. We fall together.
+  - It changes how you act. And love.
+- Meaning is made, not found
+  - Choose what matters to you.
+  - No one hands it to you.
+  - Suffering ceases once it finds a meaning.
+- Everything is changing
+  - Nothing stays.
+  - Feel joy? Savour it.
+  - Feel pain? It'll pass.
+  - Don't hold onto the wave. Learn to surf it.
+- Your intuition speaks truth
+  - You already know.
+  - The gut speaks when the mind stops yelling.
+  - It'll take you places logic can't.
+- Be kind—it's always the right choice
+  - It heals others. It heals you.
+  - People remember how you made them feel.
+- Gratitude changes your chemistry
+  - Say thank you out loud.
+  - Even for small things.
+  - Gratitude isn't just spiritual. It's science.
+- Let go of outcomes
+  - Do your best. Life will handle the rest.
+  - Obsession creates stress.
+  - Don't get attached to what you expect.
+  - Trust the process more than the prize.
+- Forgiveness sets you free
+  - It's not for them.
+  - It's for your soul and your mental health.
+  - Let the poison go.
+  - Forgiveness doesn't mean approval.
+  - It means freedom.
+- Your spiritual path is yours alone
+  - No one can walk it for you.
+  - Find your own rhythm.
+  - Take what resonates. Leave the rest.
+  - Truth should feel like peace, not pressure.
+- Simplicity is sacred
+  - Cut the noise.
+  - Too much thinking is noise to your soul.
+  - Make space for what really matters.
+  - A simple life gives clarity.
+  - Less, but better.
+- Help others—it's good for your soul
+  - We're wired to help.
+  - Acts of service heal you too.
+  - Look around. Someone needs you.
+  - Don't overthink it. Show up.
+- Joy is your birthright
+  - You don't need permission.
+  - You don't need a reason.
+- You are the miracle
+  - You're not broken.
+  - You're not late.
+  - You're not behind.
+  - You're the light you've been looking for.
+  - Make peace with yourself. You're already it.
+
+---
+{: data-content="footnotes"}
+
+[^1]: [All The Best-Selling Spirituality Books, Boiled Down to 20 Simple Rules](https://medium.com/personal-growth/all-the-best-selling-spirituality-books-boiled-down-to-20-simple-rules-f040c29cac80)

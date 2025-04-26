@@ -9,8 +9,49 @@ title: quick notes
 <sup><sub>[go journal springboard...]({{site.baseurl}}{% link journal-springboard.md %}#quick-notes)</sub></sup>
 <sup><sub> :: </sub></sup>
 
-These notes are helpers for sparking creativity! They make it easy to find and see what I've jotted down before to connect random ideas and foster new insights.
+These notes are helpers for sparking creativity! They make it easy to find and
+see what I've jotted down before to connect random ideas and foster new
+insights.
 
+<sup>Use the timeline **<sup>[+]({{site.baseurl}}{% link pages/timeline.md %})</sup>** as your go-to spot to capture other things like news and
+articles, enabling items to be tracked and revisited later, even if some
+entries eventually become outdated.</sup>
+
+- Fri, Apr 18, 2025 - 2025a04m18d
+  - We go to school primarily to learn how to be good workers, not good thinkers.
+    - If you want to be different and be more than a cog in a wheel, you need to think differently from most.
+- Thu, Apr 17, 2025 - 2025a04m17d
+  - **People Believe What They Already Believe**, Even If It's Wrong
+    - Facts don't change minds; feelings do. People decide first and justify later.
+  - **Fake it till you become it.** Every great speaker was once a mess. The difference? They knew how to act as if.
+      - Fake it till you make it. Even great speakers were once nervous; the difference is they learned to act confidently.
+- Tue, Apr 15, 2025 - 2025a04m15d
+  - Aurelius knew this 2,000 years ago: **"You suffer more in imagination than reality."**
+    - Quote from Paulo Coelho: _“You drown not by falling into a river, but by staying submerged in it."_
+    - "The reason people find it so hard to be happy is that they always see the past better than it was, the present worse than it is, and the future less resolved than it will be." - Marcel Pagnol
+- Mon, Apr 14, 2025 - 2025a04m14d
+  - The quality of our emotions is largely determined by the quality of our thinking.
+  - Psychology of Forgiveness
+    - Forgiveness Is Behavior, not a Feeling
+    - Forgiveness from a psychological perspective is a behavior, not a feeling—it's something you do, not something that happens to you.
+    - Forgiveness Is a Commitment, not an Event
+    - Forgiveness Is About the Future, not the Past
+- Sun, Apr 13, 2025 - 2025a04m13d
+  - Brain Food:
+    - Everyone dreams big until they see the price tag.
+    - “A man is a gregarious animal, and much more so in his mind than in his body. He may like to go alone for a walk, but he hates to stand alone in his opinions.”
+      - _by Philosopher George Santayana on why we follow the crowd_
+- Sat, Apr 12, 2025 - 2025a04m12d
+  - Stop Wasting Hours
+    - The problem isn't a lack of information, it's something much deeper
+        - not knowing how to organize it in a way that leads to real insight or action.
+    - "The biggest productivity challenge of the 21st century isn't finding information—it's managing the tsunami of data we create daily."
+    - Everything feels important, but all of it competes for our mental energy.
+    - The more we collect, the less we use.
+        - "Without context, information is just noise."
+        - We spend more time searching for information than using it.
+        - Most of the tools we use to organize knowledge are designed to store information, not transform it.
+    - "The goal isn't to manage information, it's to make it work for you." - Tiago Forte.
 - Mon, Apr 07, 2025 - 2025a04m07d 
   - Brain Food
     - The loudest signals come from the emptiest sources. __Those who truly possess something rarely need to announce it__.

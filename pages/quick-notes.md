@@ -17,6 +17,17 @@ foster new insights.
 articles, enabling items to be tracked and revisited later, even if some
 entries eventually become outdated.</sup>
 
+- Sun, Apr 27, 2025 - 2025a04m27d 
+  - The clearer you are about your priorities, the easier it is to say no.
+  - The quicker you want something, the easier it is to manipulate you.
+  - "To know what you are going to draw, you have to begin drawing." _Picasso_
+  - Thomas Mitchell on finding happiness where we are:
+    - _“People are always looking for happiness at some future time and in some new thing, or some new set of circumstances, in possession of which they some day expect to find themselves. But the fact is, if happiness is not found now, where we are, and as we are, there is little chance of it ever being found. There is a great deal more happiness around us day by day than we have the sense or the power to seek and find.”_
+  - Roger Federer on the kind of talent you can practice:
+    - _“Yes, talent matters. I’m not going to stand here and tell you it doesn’t. But talent has a broad definition. Most of the time, it’s not about having a gift. It’s about having grit. In tennis, like in life, discipline is also a talent. And so is patience. Trusting yourself is a talent. Embracing the process—loving the process—is a talent. Managing your life, managing yourself. These can be talents, too. Some people are born with them. Everybody has to work at them.”_
+  - There are two types of truth: <sup>[+]({{site.baseurl}}{% post_url 2025/2025-04-27-dividends-and-truth %})</sup>
+    - Political truth: true because many other people think they are.
+    - Technical truth: true for physical or technical reasons.
 - Fri, Apr 18, 2025 - 2025a04m18d
   - We go to school primarily to learn how to be good workers, not good thinkers.
     - If you want to be different and be more than a cog in a wheel, you need to think differently from most.

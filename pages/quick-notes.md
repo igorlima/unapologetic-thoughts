@@ -28,6 +28,9 @@ entries eventually become outdated.</sup>
   - There are two types of truth: <sup>[+]({{site.baseurl}}{% post_url 2025/2025-04-27-dividends-and-truth %})</sup>
     - Political truth: true because many other people think they are.
     - Technical truth: true for physical or technical reasons.
+- Sat, Apr 26, 2025 - 2025a04m26d
+  - Once you let others cross your boundaries, they'll keep doing it again and again until you are used completely for their own good.
+    - Why? Because you taught them it's okay. It was your fault all along and the worst part is, you knew.
 - Fri, Apr 18, 2025 - 2025a04m18d
   - We go to school primarily to learn how to be good workers, not good thinkers.
     - If you want to be different and be more than a cog in a wheel, you need to think differently from most.

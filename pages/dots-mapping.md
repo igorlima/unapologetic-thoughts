@@ -133,13 +133,13 @@ title: Dots Mapping
 - <details markdown="block"><summary><sup><sub>timeline <a href="#timeline">§</a> <sup><sup><a href="{{site.baseurl}}{% link pages/timeline.md %}">+</a></sup></sup> </sub></sup></summary>
 
   <a id="timeline"></a>
-  <sup><sub> Use the timeline as a go-to spot to capture ideas, thoughts, news, and articles! This helps keep track of everything and revisit it later. Don't worry if some entries get a bit outdated </sub></sup>
+  <sup><sub> Use the timeline as a go-to spot to capture notes, news, and articles! This helps keep track of everything and revisit it later. Don't worry if some entries get a bit outdated </sub></sup>
   - new prompting guide <sup><sup>[+]({{site.baseurl}}{% link pages/timeline.md %}#2025a04m13d-20250425214325)</sup></sup>
   </details>
 - <details markdown="block"><summary><sup><sub>quick notes <a href="#quick-notes">§</a> <sup><sup><a href="{{site.baseurl}}{% link pages/quick-notes.md %}">+</a></sup></sup> </sub></sup></summary>
 
   <a id="quick-notes"></a>
-  <sup><sub>These notes are helpers for sparking creativity! They make it easy to find and see what I've jotted down before to connect random ideas and foster new insights.</sub></sup>
+  <sup><sub>These notes are helpers for sparking creativity! They make it easy to find and see what I've jotted down before to connect random **tiny thoughts**, ideas and foster new insights.</sub></sup>
   - why we can't remember everything we study? <sup><sup>[+]({{site.baseurl}}{% link pages/quick-notes.md %}#2025a02m27d-20250301045437)</sup></sup>
   </details>
 

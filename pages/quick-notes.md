@@ -1,6 +1,6 @@
 ---
 layout: page
-title: quick notes
+title: tiny thoughts & quick notes
 ---
 
 <sup><sub> :: </sub></sup>
@@ -10,8 +10,8 @@ title: quick notes
 <sup><sub> :: </sub></sup>
 
 These notes are helpers for sparking creativity! They make it easy to find and
-see what I've jotted down before to connect random ideas and foster new
-insights.
+see what I've jotted down before to connect random tiny thoughts, ideas and
+foster new insights.
 
 <sup>Use the timeline **<sup>[+]({{site.baseurl}}{% link pages/timeline.md %})</sup>** as your go-to spot to capture other things like news and
 articles, enabling items to be tracked and revisited later, even if some

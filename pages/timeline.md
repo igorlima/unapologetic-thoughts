@@ -12,7 +12,7 @@ title: timeline
 This helps keep track of everything and revisit it later.
 
 <sup>Boost your creativity with quick notes **<sup>[+]({{site.baseurl}}{% link pages/quick-notes.md %})</sup>**,
-and use the timeline as a go-to spot to capture ideas, thoughts, news, and articles!</sup>
+and use the timeline as a go-to spot to capture notes, news, and articles!</sup>
 
 Don't worry if some entries get a bit outdated – that's totally okay!
 

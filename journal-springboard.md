@@ -71,6 +71,8 @@ To further exploration, brainstorm, doodle, and journal:
         </details>
     - [Claude AI](https://claude.ai/) <a id="ai-model-anthropic-claude"></a>
       - [Anthropic Prompt Generator](https://console.anthropic.com/dashboard) <sup>[+](#generate-prompt-tool)</sup>
+      - Anthropic's Claude Code <sup>[+](#ai-tool-anthropic-claude-code)</sup>
+        <a id="ai-llm-anthropic-claude-code" href="#ai-llm-anthropic-claude-code">§</a>
     - <details markdown="block"><summary>OpenAI</summary>
         
       <a id="llm-openai"></a>
@@ -274,6 +276,29 @@ To further exploration, brainstorm, doodle, and journal:
       - Most will agree that creating captivating content is the most challenging and time-consuming task in any workflow be it __marketing copy__, __blog posts__ or __social media captions__. Luckily, Copy.ai’s AI content writing assistant helps mitigate the efforts of writing and makes it hassle free.
     - CharacterAI <sup>[+](#ai-tool-character)</sup>
     <!-- Personal Assistant -->
+    </details>
+
+  - <details markdown="block"><summary>Code Assistant</summary>
+
+    - <details markdown="block"><summary>Github Copilot CLI <a id="ai-tool-gh-copilot-cli" href="#ai-tool-gh-copilot-cli">§</a></summary>
+
+      ```sh
+      # Getting command explanations
+      gh copilot explain "sudo apt-get"
+      
+      # Getting command suggestions
+      gh copilot suggest "Undo the last commit"
+      ```
+      - [Copilot for CLI](https://githubnext.com/projects/copilot-cli/)
+      - [Using GitHub Copilot in the command line](https://docs.github.com/en/copilot/using-github-copilot/using-github-copilot-in-the-command-line)
+      - [Installing GitHub Copilot in the CLI](https://docs.github.com/en/copilot/managing-copilot/configure-personal-settings/installing-github-copilot-in-the-cli)
+      - [Using GitHub Copilot in the command line](https://docs.github.com/en/copilot/using-github-copilot/using-github-copilot-in-the-command-line)
+      </details>
+    - <details markdown="block"><summary>Anthropic's Claude Code <sup><a href="#ai-llm-anthropic-claude-code">+</a></sup> <a id="ai-tool-anthropic-claude-code" href="#ai-tool-anthropic-claude-code">§</a></summary>
+
+      - [Overview](https://docs.anthropic.com/en/docs/claude-code/overview)
+      - [CLI usage and controls](https://docs.anthropic.com/en/docs/claude-code/cli-usage)
+      </details>
     </details>
   - <details markdown="block"><summary>miscellaneous</summary>
     

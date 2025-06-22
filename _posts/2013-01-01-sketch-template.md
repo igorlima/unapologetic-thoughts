@@ -47,12 +47,34 @@ category: sketch
         
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, ...
           <a id="ref-8c678ce8-89c1-45e1-834f-294729cb7d8e"></a>
+          ```
+          ref §: [A](#ref-8c678ce8-89c1-45e1-834f-294729cb7d8e)
+
+          <details markdown="block">
+          <summary>
+          ref sample A
+          <a href="#ref-8c678ce8-89c1-45e1-834f-294729cb7d8e">§</a>
+          </summary>
+          
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, ...
+          <a id="ref-8c678ce8-89c1-45e1-834f-294729cb7d8e"></a>
+          </details>
+          ```
         </details>
       - <details markdown="block">
           <summary> ref sample B </summary>
         
           <br/>
           <a id="ref-8b0314a0-da5f-4724-b013-a0af3ffe898d" href="#ref-8b0314a0-da5f-4724-b013-a0af3ffe898d">§</a>
+          ```
+          ref §: [B]({{site.baseurl}}{% post_url 2013-01-01-sketch-template %}#ref-8b0314a0-da5f-4724-b013-a0af3ffe898d)
+
+          <details markdown="block">
+          <summary> ref sample B </summary>
+          
+          <a id="ref-8b0314a0-da5f-4724-b013-a0af3ffe898d" href="#ref-8b0314a0-da5f-4724-b013-a0af3ffe898d">§</a>
+          </details>
+          ```
         </details>
       <!-- ref samples end -->
       </details>

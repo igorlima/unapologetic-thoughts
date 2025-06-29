@@ -48,7 +48,7 @@ To further exploration, brainstorm, doodle, and journal:
   
   - <details markdown="block"><summary>other AI models</summary>
     
-    - [Google Gemini](https://gemini.google.com/app) <a id="ai-model-google-gemini"></a>
+    - [Google Gemini](https://gemini.google.com/app) <a id="ai-model-google-gemini" href="#ai-model-google-gemini">§</a>
       - [Google AI Studio](https://aistudio.google.com/app/prompts/new_chat/)
       - [Google Notebook LM](https://notebooklm.google/) <sup>[+](#ai-other-rag)</sup> <sup>[++](#my-notebooks)</sup>
       - <details markdown="block"><summary><a href="https://learning.google.com/">Learn About</a></summary>
@@ -62,6 +62,7 @@ To further exploration, brainstorm, doodle, and journal:
         An example is provided: A prompt about running LLMs locally receives a structured answer, and a subsequent question about data privacy implications yields a relevant response. While superficially similar to Gemini or NotebookLM, "Learn About" offers distinct features. Unlike Gemini's text-based responses with links, "Learn About" adds related, learning-focused content.
          
         </details>
+      - Gemini CLI <sup>[+](#ai-tool-google-gemini-cli)</sup>
     - [Microsoft Copilot](https://copilot.microsoft.com/onboarding) <a id="ai-model-microsoft"></a>
       - [Enterprise AI](https://copilot.cloud.microsoft/en-us/prompts)
       - <details markdown="block"><summary>deprecated</summary>
@@ -278,7 +279,7 @@ To further exploration, brainstorm, doodle, and journal:
     <!-- Personal Assistant -->
     </details>
 
-  - <details markdown="block"><summary>Code Assistant</summary>
+  - <details markdown="block"><summary>Code Assistant <a id="ai-code-assistant" href="#ai-code-assistant">§</a></summary>
 
     - <details markdown="block"><summary>Github Copilot CLI <sup><a href="https://igorlima.github.io/unapologetic-snippets/docs/languages/shell/cli#ai-tool-gh-copilot-cli">+</a></sup> <a id="ai-tool-gh-copilot-cli" href="#ai-tool-gh-copilot-cli">§</a></summary>
 
@@ -294,12 +295,28 @@ To further exploration, brainstorm, doodle, and journal:
       - [Installing GitHub Copilot in the CLI](https://docs.github.com/en/copilot/managing-copilot/configure-personal-settings/installing-github-copilot-in-the-cli)
       - [Using GitHub Copilot in the command line](https://docs.github.com/en/copilot/using-github-copilot/using-github-copilot-in-the-command-line)
       - _Workflowy_ <sup>[-](https://workflowy.com/#/03c1658723e0)</sup> <sup>[--](https://workflowy.com/#/3412c6b84d65)</sup> 
+      <!-- Copilot CLI -->
       </details>
     - <details markdown="block"><summary>Anthropic's Claude Code <sup><a href="#ai-llm-anthropic-claude-code">+</a></sup> <sup><a href="https://igorlima.github.io/unapologetic-snippets/docs/languages/shell/cli#ai-tool-anthropic-claude-code">++</a></sup> <a id="ai-tool-anthropic-claude-code" href="#ai-tool-anthropic-claude-code">§</a></summary>
 
       - [Overview](https://docs.anthropic.com/en/docs/claude-code/overview)
       - [CLI usage and controls](https://docs.anthropic.com/en/docs/claude-code/cli-usage)
+      <!-- Anthropic's Claude Code -->
       </details>
+    - <details markdown="block"><summary>Google Gemini CLI <sup><a href="#ai-model-google-gemini">+</a></sup> <sup><a href="https://igorlima.github.io/unapologetic-snippets/docs/languages/shell/cli#ai-tool-google-gemini-cli">++</a></sup> <a id="ai-tool-google-gemini-cli" href="#ai-tool-google-gemini-cli">§</a></summary>
+
+      [Github link](https://github.com/google-gemini/gemini-cli)
+      ```sh
+      # Run the CLI
+      npx https://github.com/google-gemini/gemini-cli
+
+      # Or install it with
+      npm install -g @google/gemini-cli
+      gemini
+      ```
+      <!-- Google Gemini CLI -->
+      </details>
+    <!-- Code Assistant -->
     </details>
   - <details markdown="block"><summary>miscellaneous</summary>
     

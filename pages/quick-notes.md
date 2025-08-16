@@ -17,6 +17,12 @@ foster new insights.
 articles, enabling items to be tracked and revisited later, even if some
 entries eventually become outdated.</sup>
 
+- Sun, Aug 10, 2025 - 2025a08m10d
+  - _"Everything We Hear Is an Opinion, Not a Fact. Everything We See Is a Perspective, Not the Truth.”_ We don’t see the world as it is. We see it through our own window. Two people watch the same rain. One is glad for the crops. One curses the sky. Maybe your aunt’s Facebook status is cringe for you, but not to her and her friends. You conserve enormous energy by being mindful of the difference. Half of your arguments could be avoided if you simply say, _“This is my idea, not a law for everyone.”_
+  - Telling yourself you'll do it tomorrow is _**how dreams die**_.
+  - People think good decision-making is about being right all the time. **It's not**. It's about lowering the cost of being wrong and changing your mind. When the cost of mistakes is high, we're paralyzed with fear. **When the cost of mistakes is low, we can move fast and adapt**. Make mistakes cheap, not rare.
+- Sun, May 04, 2025 - 2025a05m04d
+  - What separates good work from great isn't talent but persistence. The most successful people aren't those who feel motivated all the time; they're the ones who work even when they don't feel like it.
 - Sun, Apr 27, 2025 - 2025a04m27d 
   - The clearer you are about your priorities, the easier it is to say no.
   - The quicker you want something, the easier it is to manipulate you.

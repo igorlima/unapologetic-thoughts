@@ -21,6 +21,9 @@ entries eventually become outdated.</sup>
   - _"Everything We Hear Is an Opinion, Not a Fact. Everything We See Is a Perspective, Not the Truth.”_ We don’t see the world as it is. We see it through our own window. Two people watch the same rain. One is glad for the crops. One curses the sky. Maybe your aunt’s Facebook status is cringe for you, but not to her and her friends. You conserve enormous energy by being mindful of the difference. Half of your arguments could be avoided if you simply say, _“This is my idea, not a law for everyone.”_
   - Telling yourself you'll do it tomorrow is _**how dreams die**_.
   - People think good decision-making is about being right all the time. **It's not**. It's about lowering the cost of being wrong and changing your mind. When the cost of mistakes is high, we're paralyzed with fear. **When the cost of mistakes is low, we can move fast and adapt**. Make mistakes cheap, not rare.
+- Tue, Aug 05, 2025 - 2025a08m05d 
+  - Similarities between the current AI boom and the dot-com crash. Do we live in a bubble? Most likely. Is it going to burst? History says yes. When it does, will AI vanish? Not at all. Markets always correct when expectations exceed reality, not because the technology is fake or ineffective. The dot-com crash destroyed the weaker companies, an AI correction would likely have the same effect. **The issue isn't the technology - it's the timeline and expectations.**
+  - _"No-Code is the New Technical Debt"._ As AI assists in every level of operations, parts of your business hidden behind other people's abstractions become blind spots. The more layers you rent from vendors, the more of your business you lose control over. <a href="#2025a08m05d-20250816081441">§</a> <a id="2025a08m05d-20250816081441"></a> <sup>[+](https://medium.com/@chrisdunlop_37984/no-code-is-the-new-technical-debt-c1160476333a)</sup>
 - Sun, May 04, 2025 - 2025a05m04d
   - What separates good work from great isn't talent but persistence. The most successful people aren't those who feel motivated all the time; they're the ones who work even when they don't feel like it.
 - Sun, Apr 27, 2025 - 2025a04m27d 
@@ -182,7 +185,7 @@ entries eventually become outdated.</sup>
   - our brains are forgetting machines
     - this is a concept from Quiroga's book "The Forgetting Machine"
     - there explains why remembering everything woulb be energetically and computationally impossible/expensive for our brains
-    - why we can't remember everything we study? __because__ we don't link informtion from __short-term__ to __long-term__ memory <a href="#2000a10m01d-20001001212101">§</a> <a id="2025a02m27d-20250301045437"></a>
+    - why we can't remember everything we study? __because__ we don't link information from __short-term__ to __long-term__ memory <a href="#2000a10m01d-20001001212101">§</a> <a id="2025a02m27d-20250301045437"></a>
 - Tue, Feb 11, 2025 - 2025a02m11d
   - A stupidly simple fix for procrastination
     - Little trick:

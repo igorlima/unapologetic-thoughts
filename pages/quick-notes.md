@@ -24,6 +24,18 @@ entries eventually become outdated.</sup>
 - Tue, Aug 05, 2025 - 2025a08m05d 
   - Similarities between the current AI boom and the dot-com crash. Do we live in a bubble? Most likely. Is it going to burst? History says yes. When it does, will AI vanish? Not at all. Markets always correct when expectations exceed reality, not because the technology is fake or ineffective. The dot-com crash destroyed the weaker companies, an AI correction would likely have the same effect. **The issue isn't the technology - it's the timeline and expectations.**
   - _"No-Code is the New Technical Debt"._ As AI assists in every level of operations, parts of your business hidden behind other people's abstractions become blind spots. The more layers you rent from vendors, the more of your business you lose control over. <a href="#2025a08m05d-20250816081441">§</a> <a id="2025a08m05d-20250816081441"></a> <sup>[+](https://medium.com/@chrisdunlop_37984/no-code-is-the-new-technical-debt-c1160476333a)</sup> <sup>[++](https://igorlima.github.io/unapologetic-snippets/docs/algorithms-and-data-structures/ai/no-code-platform)</sup>
+- Mon, Aug 04, 2025 - 2025a08m04d 
+  - There are aspiration-driven desires, and obligation-driven desires. <sup>[+](https://kadavy.net/love-mondays/aspirations-through-obligations/)</sup>
+    - Our obligations come from a sense of duty to ourselves and others.
+      - We want to make money and participate in society. We want to make our families feel proud. We want to stay consistent with our identities as reliable people.
+    - Our aspirations come from within.
+      - We often can’t put them into words. We want to write novels, make music, and build beautiful software, or just kinda ya know, do things.
+  - Aphorism: “Find what you love and let it kill you.” - Charles Bukowski
+  - Acknowledging the challenges of office politics. <a href="#2025a08m04d-20250817201616">§</a> <a id="2025a08m04d-20250817201616"></a> <sup>[++]({{site.baseurl}}{% post_url 2025/2025-08-04-office-politics %})
+    - Fairness is not always a determining factor in career advancement and that having leverage, such as a higher position, access to resources, or a good reputation, can significantly impact one's career.
+      - _**Understanding office politics doesn't mean you've sold your soul; it means you've bought a better map**_.
+      - We need to understand this game to get ahead. I know, it's gross. But we're not here to save souls; we're here to get a raise and better health insurance.
+        - You're probably not gonna like everything you read below but I don't make the rules. It's time to learn how to play the game better, how to be smarter with our behavior, and, above all, to be strategic.
 - Sun, May 04, 2025 - 2025a05m04d
   - What separates good work from great isn't talent but persistence. The most successful people aren't those who feel motivated all the time; they're the ones who work even when they don't feel like it.
 - Sun, Apr 27, 2025 - 2025a04m27d 

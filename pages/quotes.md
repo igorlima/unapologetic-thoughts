@@ -3,6 +3,12 @@ layout: page
 title: Quotes
 ---
 
+<sup><sub>
+  quick notes
+  <sup><sup><a href="{{site.baseurl}}{% link pages/dots-mapping.md %}#quick-notes">+</a></sup></sup>
+  <sup><sup><a href="{{site.baseurl}}{% link pages/quick-notes.md %}">++</a></sup></sup>
+</sub></sup>
+
 > "The three most harmful addictions are heroin, carbohydrates, and a monthly salary."
   - Nassim Nicholas Taleb
 

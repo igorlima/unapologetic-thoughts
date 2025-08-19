@@ -17,6 +17,8 @@ foster new insights.
 articles, enabling items to be tracked and revisited later, even if some
 entries eventually become outdated.</sup>
 
+- Mon, Aug 18, 2025 - 2025a08m18d 
+  - "If you only read the books that everyone else is reading, you can only think what everyone else is thinking." _by Author Haruki Murakami on **acquiring knowledge**_
 - Sun, Aug 10, 2025 - 2025a08m10d
   - _"Everything We Hear Is an Opinion, Not a Fact. Everything We See Is a Perspective, Not the Truth.”_ We don’t see the world as it is. We see it through our own window. Two people watch the same rain. One is glad for the crops. One curses the sky. Maybe your aunt’s Facebook status is cringe for you, but not to her and her friends. You conserve enormous energy by being mindful of the difference. Half of your arguments could be avoided if you simply say, _“This is my idea, not a law for everyone.”_
   - Telling yourself you'll do it tomorrow is _**how dreams die**_.
@@ -38,6 +40,10 @@ entries eventually become outdated.</sup>
         - You're probably not gonna like everything you read below but I don't make the rules. It's time to learn how to play the game better, how to be smarter with our behavior, and, above all, to be strategic.
 - Sun, May 04, 2025 - 2025a05m04d
   - What separates good work from great isn't talent but persistence. The most successful people aren't those who feel motivated all the time; they're the ones who work even when they don't feel like it.
+- Sun, Aug 03, 2025 - 2025a08m03d 
+  - Studies show that people need to hear a message at least seven times before it sticks.
+    - Over-Communicate Until It Feels Excessive
+      - _How to apply this_: **Use the Rule of 7**, make your message visual, and use different formats to reinforce your message.
 - Sun, Apr 27, 2025 - 2025a04m27d 
   - The clearer you are about your priorities, the easier it is to say no.
   - The quicker you want something, the easier it is to manipulate you.

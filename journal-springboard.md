@@ -537,7 +537,7 @@ Revise e melhore o seguinte texto. Seja casual e positivo.
     </details>
   </details>
 
-### A tool to help generate prompts <a id="generate-prompt-tool"></a>
+### A tool to help generate prompts <sup><a href="#generate-prompt-tool" id="generate-prompt-tool">§</a></sup>
 
 Super Secret Prompting: The tool writes highly detailed prompts based on your
 input. It’s free to use, and it’s created by

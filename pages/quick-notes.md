@@ -17,6 +17,62 @@ foster new insights.
 articles, enabling items to be tracked and revisited later, even if some
 entries eventually become outdated.</sup>
 
+- Sun, Sep 07, 2025 - 2025a09m07d 
+  - When your primary goal is to be liked, you can't take risks. You can't disagree. You can't push boundaries. You become a prisoner of other people's expectations.
+- Sun, Sep 07, 2025 - 2025a09m07d 
+  - AI degrades over time due to the loss of context and its inability to fill gaps in unstructured data.
+    - AI models are based on unstructured data, which is prone to degradation over time.
+    - By understanding these limitations and approaches, users can better leverage AI to achieve their goals without encountering unwanted outcomes.
+    - A key issue is that AI degrades data over time due to limitations in context window size and the difficulty of capturing all contextual details.
+- Sun, Sep 07, 2025 - 2025a09m07d 
+  - Core mindset shifts that help to go from burned out to bulletproof, including prioritizing clarity over hustle, cutting down on inputs, and designing environments that trigger focus.
+    - These mindset shifts can help with burnout and improve productivity.
+      - Time management is a trap. It assumes every hour is equal. It's not. Upgrade: Track your energy curve.
+      - "If you don't know what game you're playing, you'll always feel behind."
+      - We don't lack information–we drown in it.
+      - You don't need better focus. You need fewer distractions.
+      - "The most powerful story is the one you tell yourself when no one's watching."
+      - Want better strategy, leadership, or clarity? Start with hydration, movement, and sleep. They're not "health tips"–they're performance systems.
+    - Other key takeaways include the importance of self-talk, creating decision templates, and tracking energy levels to optimize productivity.
+- Fri, Sep 05, 2025 - 2025a09m05d 
+  - Simple one liners out of complicated truths.
+    - "The Big Money Is Not in the Buying and Selling, but in the Waiting.”
+    - "You Don't Have to Be Smarter Than the Rest; You Have to Be More Disciplined Than the Rest."
+- Tue, Sep 02, 2025 - 2025a09m02d 
+  - Respond with Stories, Not Statements.
+    - One of the biggest reasons someone runs out of things to say is they give dead-end answers.
+      - Instead, turn even the most boring questions into opportunities for connection.
+- Mon, Sep 01, 2025 - 2025a09m01d 
+  - Sensations are a quick, easy, effective way to change your mood.
+    - I’m talking about music. About movement. About the minor miracle of biting into something that tastes like happiness compressed into carbohydrate form.
+  - How to increase emotional intelligence...
+    - Sensation: The song, the walk, the mango, the dog. They bring you back to your body, back to the moment, back to a baseline of sanity.
+- Mon, Sep 01, 2025 - 2025a09m01d 
+  - Behaviors, such as routine, contemplation, humility, and gratitude, are rational and beneficial for individuals and society as a whole, regardless of belief in a higher power.
+    - Foundational behaviors common to dominant religions, such as routine, contemplation, humility, gratitude, accountability, compassion, sobriety, and judiciousness, are beneficial for individuals and society, regardless of religious belief.
+- Sun, Aug 31, 2025 - 2025a08m31d 
+  - Weird but Strangely Effective Tips for Life
+    - _**Invest in the things that keep you off the ground—beds, chairs, shoes.**_
+    - Be a good person, but don’t waste your time trying to prove it.
+    - If you’re the smartest one in the room, find a new room.
+    - **Never forget, you can be right - or you can be happy.**
+- Sun, Aug 31, 2025 - 2025a08m31d 
+  - **First And Foremost:** Address basic needs (hunger, tiredness, overstimulation) before anything else. Biology > Psychology.
+  - Give information instead of orders (e.g., "The iPad is very delicate" instead of "Don't be so rough!").
+  - Use "I" not "you" (e.g., "I'd like it if those toys were cleaned up").
+  - _These strategies won't eliminate all challenges, but they can reduce stress and improve the parent-child relationship._
+- Thu, Aug 21, 2025 - 2025a08m21d 
+  - **The One Who Wins Every Argument Often Loses the People Around Them**
+    - Imagine a man is always right. Razor sharp. Every conversation is a duel he must win.
+    - To value victory over connection is to walk alone.
+    - To silence others with your brilliance is to invite silence into your own life.
+    - Winning arguments often loses relationships.
+    - An argument is about belonging, not truth.
+    - Marcus Aurelius: be right and kind if possible. If you must choose, choose kindness. An argument is never about truth.
+    - You can be right, and you can be kind. Choose both if possible. If not, choose kind.—Marcus Aurelius
+    - Winning isn't worth it if it costs the people who matter.
+  - Prioritizing relationships over being right
+    - Winning arguments can lead to losing relationships, and it's more important to be kind and understanding.
 - Mon, Aug 18, 2025 - 2025a08m18d 
   - "If you only read the books that everyone else is reading, you can only think what everyone else is thinking." _by Author Haruki Murakami on **acquiring knowledge**_
 - Sun, Aug 10, 2025 - 2025a08m10d
@@ -38,12 +94,67 @@ entries eventually become outdated.</sup>
       - _**Understanding office politics doesn't mean you've sold your soul; it means you've bought a better map**_.
       - We need to understand this game to get ahead. I know, it's gross. But we're not here to save souls; we're here to get a raise and better health insurance.
         - You're probably not gonna like everything you read below but I don't make the rules. It's time to learn how to play the game better, how to be smarter with our behavior, and, above all, to be strategic.
-- Sun, May 04, 2025 - 2025a05m04d
-  - What separates good work from great isn't talent but persistence. The most successful people aren't those who feel motivated all the time; they're the ones who work even when they don't feel like it.
 - Sun, Aug 03, 2025 - 2025a08m03d 
   - Studies show that people need to hear a message at least seven times before it sticks.
     - Over-Communicate Until It Feels Excessive
       - _How to apply this_: **Use the Rule of 7**, make your message visual, and use different formats to reinforce your message.
+- Tue, Jul 22, 2025 - 2025a07m22d 
+  - The Distinction Most Men Miss
+    - Woman is never wrong about how she feels. That's the distinction most men miss—and it's a costly one.
+    - When someone tells us they're unhappy—especially someone we love—we don't hear them. We hear failure. And failure triggers fear.
+    - Stop trying to be right. Start trying to connect. Because the space between "I'm right" and "Woman is wrong" is where your relationship is either quietly dying… or where it can come roaring back to life.
+    - It highlights that women are never wrong about how they feel, and men often miss this distinction, leading to costly misunderstandings.
+    - It emphasizes the importance of improving emotional fluency rather than following blueprints or trying to fix problems.
+- Mon, Jul 21, 2025 - 2025a07m21d 
+  - "The people who are right most of the time," Bezos says, "are the people who change their minds the most."
+  - Bezos' leadership style emphasizes intellectual flexibility over consistency. He doesn’t view changing your mind as weakness but as a crucial success mindset.
+- Mon, Jul 21, 2025 - 2025a07m21d 
+  - Understood **reciprocity**: humans are biologically wired to return favors, even those that are unearned.
+- Mon, Jul 21, 2025 - 2025a07m21d 
+  - The same story can have different takeaways.
+    - This is roughly what a mental model is: it's the lens through which you view the world.
+    - Mental models matter because they help you see patterns that others don't.
+  - Mental Models
+    - Mental models are the lenses through which we view the world, influencing our decisions, relationships, work, and money.
+    - It introduces mental models to help think like a genius: Resistance, Fosbury Flop, Antifragility, Regret Minimization Framework, The 10/1 Rule, The 5/25 Rule, Exponential Thinking, and Information Arbitrage.
+    - Each model provides a unique perspective on how to approach challenges, make decisions, and grow.
+      - The 10/1 Rule
+        - The one that resonate to me most today.
+        - Be worth ten times what you ask for.
+        - The concept is easy to grasp: give 10x what you receive in exchange. Not in cash alone, in time, effort, value, surprise.
+        - You are trusted by others. And trust is the only proper currency.
+        - They know you. Even though they do not say so in words.
+        - Being good at something is great. But being generous gets people to care.
+- Sun, May 04, 2025 - 2025a05m04d
+  - What separates good work from great isn't talent but persistence. The most successful people aren't those who feel motivated all the time; they're the ones who work even when they don't feel like it.
+- Mon, Apr 28, 2025 - 2025a04m28d 
+  - Creativity isn't something you have or don't have - it's something you express.
+- Mon, Apr 28, 2025 - 2025a04m28d 
+  - Paradoxes That Are True - Save Your Time
+    - The More You Try to Control, the More You Lose Control
+      - Ask anyone who has tried to fix a teenager. Or a spouse. Or a friend. Or a bad haircut. The more you squeeze something with urgency, the sooner it wriggles away into your palms.
+    - Letting Go Often Brings You Closer
+    - True Freedom Requires Structure and Limits
+      - Too many choices overwhelm. Boundaries are what make freedom feel safe.
+        - Boundaries bring clarity
+        - Too much freedom overwhelms
+      - You need boundaries as a river needs banks.
+    - The Harder You Chase Happiness, the More It Eludes You
+      - Pursuit leads to pressure, not peace. Focus on meaning and joy follows quietly.
+    - Vulnerability Is Your Greatest Strength
+    - Rest Is What Makes You Productive
+    - Strength Looks Like Softness
+      - Toughness protects. Softness transforms. Power isn’t force; it’s presence.
+    - Growth Begins Where Certainty Ends
+  - Several paradoxes that are true, focusing on personal growth, relationships, and happiness. The main points include:
+    - The more you try to control things, the more you lose control.
+    - Letting go and giving space can bring people closer.
+    - True freedom requires structure and limits.
+    - Chasing happiness can make it more elusive; instead, focus on meaningful activities.
+    - Vulnerability is a strength, not a weakness.
+    - Rest is essential for productivity, and burnout is not something to be proud of.
+    - Strength is often associated with softness, kindness, and compassion.
+    - Growth and learning occur when we are uncomfortable and uncertain.
 - Sun, Apr 27, 2025 - 2025a04m27d 
   - The clearer you are about your priorities, the easier it is to say no.
   - The quicker you want something, the easier it is to manipulate you.
@@ -55,6 +166,30 @@ entries eventually become outdated.</sup>
   - There are two types of truth: <sup>[+]({{site.baseurl}}{% post_url 2025/2025-04-27-dividends-and-truth %})</sup>
     - Political truth: true because many other people think they are.
     - Technical truth: true for physical or technical reasons.
+- Sun, Apr 27, 2025 - 2025a04m27d 
+  - Time is not just numbers on a clock.
+    - Clock Time: The hours and minutes we schedule.
+      - Clock time is our method of organizing the day.
+      - It's the 9-to-5 schedule, the calendar appointments, and the deadlines that matter.
+      - It’s necessary for efficiency.
+    - Experience Time: How I feel time passing.
+      - This is subjective. It’s how time feels. An hour can fly by when you’re enjoying yourself or drag when you’re bored.
+      - Henri Bergson called this “duration”—the time we live, not just measure.
+      - When I’m fully engaged in an activity, like writing or better conversations, time feels different.
+        - I lose track of time.
+  - The book _Anti-Time Management_, Richie Norton argues that there are two ways to put time to good use now:
+    - Decide who you want to be.
+    - Act from that identity immediately.
+- Sun, Apr 27, 2025 - 2025a04m27d 
+  - "You come to understand that most people are neither for you nor against you; they are thinking about themselves.
+  - You learn that no matter how hard you try to please, some people in this world are not going to love you, a lesson that is at first troubling and then really quite relaxing."
+  - Most people I know or come across are not for me or against me. They are not plotting my success or downfall. They're not sitting around analyzing my choices or judging my every move. They are just thinking about themselves.
+  - If someone wouldn't text back–don't wonder what you did wrong. It's not you. It's them.
+  - **They will put their interests first.**
+    - It's natural and a basic human instinct.
+  - "It never ceases to amaze me: we all love ourselves more than other people, but care more about their opinion than our own." - Marcus Aurelius
+  - "I am not what you think I am. You are what you think I am."-Sociologist Charles Horton Cooley's "looking-glass self" explains that quote better.
+  - **People's opinions of you say more about them than they do about you.**
 - Sat, Apr 26, 2025 - 2025a04m26d
   - Once you let others cross your boundaries, they'll keep doing it again and again until you are used completely for their own good.
     - Why? Because you taught them it's okay. It was your fault all along and the worst part is, you knew.

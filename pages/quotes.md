@@ -3,6 +3,12 @@ layout: page
 title: Quotes
 ---
 
+<sup><sub>
+  quick notes
+  <sup><sup><a href="{{site.baseurl}}{% link pages/dots-mapping.md %}#quick-notes">+</a></sup></sup>
+  <sup><sup><a href="{{site.baseurl}}{% link pages/quick-notes.md %}">++</a></sup></sup>
+</sub></sup>
+
 > "The three most harmful addictions are heroin, carbohydrates, and a monthly salary."
   - Nassim Nicholas Taleb
 
@@ -19,6 +25,8 @@ title: Quotes
   - Henry Felsen, American writer
   - <details><summary>...</summary>
       "Quote about the inevitable and the illusion of control."
+      <a href="#2025a08m19d-20250819093820">§</a> <a id="2025a08m19d-20250819093820"></a>
+      <sup><a href="{{site.baseurl}}{% link pages/quotes.md %}#2025a08m19d-20250819093859">+</a></sup>
       <br>
       <br>
       <i>"Um resfriado adequadamente tratado dura sete dias, mas deixado a si mesmo, cura-se em uma semana."</i>
@@ -28,6 +36,29 @@ title: Quotes
 
 > "It does not matter how slowly you go as long as you do not stop."
   - Confucius
+
+> "You call it financial freedom. The market calls it profitable obedience."
+  - <details><summary>...</summary>
+      <ul>
+        <li>"If everyone thinks the same way, then no one is really thinking."</li>
+        <li>
+          "The most dangerous illusion is thinking that you are in control."
+          <a href="#2025a08m19d-20250819093859">§</a> <a id="2025a08m19d-20250819093859"></a>
+          <sup><a href="{{site.baseurl}}{% link pages/quotes.md %}#2025a08m19d-20250819093820">+</a></sup>
+        </li>
+        <li>"The key is not to be the smartest in the room but to be the most disciplined."</li>
+      </ul>
+      <details><summary>...</summary>
+        <ul>
+          <li>"Você chama de liberdade financeira. O mercado chama de obediência lucrativa."</li>
+          <ul>
+            <li>“Se todos pensam igual, então ninguém está pensando.”</li>
+            <li>“A ilusão mais perigosa é acreditar que se está no controle.”</li>
+            <li>“O segredo não é ser o mais esperto da sala, mas o mais disciplinado.”</li>
+          </ul>
+        </ul>
+      </details>
+    </details>
 
 
 ![To Do](https://github.com/user-attachments/assets/efef6d4d-4190-4c81-b148-33ce9b73c44c)

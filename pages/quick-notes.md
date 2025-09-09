@@ -73,6 +73,8 @@ entries eventually become outdated.</sup>
     - Winning isn't worth it if it costs the people who matter.
   - Prioritizing relationships over being right
     - Winning arguments can lead to losing relationships, and it's more important to be kind and understanding.
+- Mon, Aug 18, 2025 - 2025a08m18d 
+  - "If you only read the books that everyone else is reading, you can only think what everyone else is thinking." _by Author Haruki Murakami on **acquiring knowledge**_
 - Sun, Aug 10, 2025 - 2025a08m10d
   - _"Everything We Hear Is an Opinion, Not a Fact. Everything We See Is a Perspective, Not the Truth.”_ We don’t see the world as it is. We see it through our own window. Two people watch the same rain. One is glad for the crops. One curses the sky. Maybe your aunt’s Facebook status is cringe for you, but not to her and her friends. You conserve enormous energy by being mindful of the difference. Half of your arguments could be avoided if you simply say, _“This is my idea, not a law for everyone.”_
   - Telling yourself you'll do it tomorrow is _**how dreams die**_.
@@ -92,6 +94,10 @@ entries eventually become outdated.</sup>
       - _**Understanding office politics doesn't mean you've sold your soul; it means you've bought a better map**_.
       - We need to understand this game to get ahead. I know, it's gross. But we're not here to save souls; we're here to get a raise and better health insurance.
         - You're probably not gonna like everything you read below but I don't make the rules. It's time to learn how to play the game better, how to be smarter with our behavior, and, above all, to be strategic.
+- Sun, Aug 03, 2025 - 2025a08m03d 
+  - Studies show that people need to hear a message at least seven times before it sticks.
+    - Over-Communicate Until It Feels Excessive
+      - _How to apply this_: **Use the Rule of 7**, make your message visual, and use different formats to reinforce your message.
 - Tue, Jul 22, 2025 - 2025a07m22d 
   - The Distinction Most Men Miss
     - Woman is never wrong about how she feels. That's the distinction most men miss—and it's a costly one.

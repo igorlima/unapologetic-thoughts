@@ -62,7 +62,8 @@ entries eventually become outdated.</sup>
   - Use "I" not "you" (e.g., "I'd like it if those toys were cleaned up").
   - _These strategies won't eliminate all challenges, but they can reduce stress and improve the parent-child relationship._
 - Thu, Aug 21, 2025 - 2025a08m21d 
-  - **The One Who Wins Every Argument Often Loses the People Around Them**
+  - **The One Who Wins Every Argument Often Loses the People Around Them** <a href="#2025a08m21d-20250911110753">§</a> <a id="2025a08m21d-20250911110753"></a>
+    - [--](#2025a07m09d-20250911110908) [--](#2025a03m24d-20250911141327)
     - Imagine a man is always right. Razor sharp. Every conversation is a duel he must win.
     - To value victory over connection is to walk alone.
     - To silence others with your brilliance is to invite silence into your own life.
@@ -125,6 +126,13 @@ entries eventually become outdated.</sup>
         - You are trusted by others. And trust is the only proper currency.
         - They know you. Even though they do not say so in words.
         - Being good at something is great. But being generous gets people to care.
+- Wed, Jul 09, 2025 - 2025a07m09d 
+  - Nobody wants to be "taught"; they want to be affirmed.
+    - Readers respond better to a shared journey than a lecture.
+  - You don't win arguments by being intelligent; you win people over when they feel smart for agreeing with you. Most people don't like being told what to think, but they feel good when they figure something out by themselves or feel like they did. <a href="#2025a07m09d-20250911110908">§</a> <a id="2025a07m09d-20250911110908"></a>
+      - [--](#2025a08m21d-20250911110753) [--](#2025a03m24d-20250911141327)
+  - Most people don’t like being told what to think.
+    - The best way to explain something is to say just enough so the other person can figure out the rest by themselves.
 - Sun, May 04, 2025 - 2025a05m04d
   - What separates good work from great isn't talent but persistence. The most successful people aren't those who feel motivated all the time; they're the ones who work even when they don't feel like it.
 - Mon, Apr 28, 2025 - 2025a04m28d 
@@ -288,7 +296,8 @@ entries eventually become outdated.</sup>
     - The More Choices You Offer, The Less People Decide
       - Too many options can overwhelm people. If you want them to choose, then simplify. Less is more.
     - Always Give Someone a Way Out, Saving Face Defuses Disagreements
-      - No one likes being proven wrong. Give them a non-humiliating exit route, allowing them to rethink and change their mind without feeling embarrassed.
+      - No one likes being proven wrong. Give them a non-humiliating exit route, allowing them to rethink and change their mind without feeling embarrassed. <a href="#2025a03m24d-20250911141327">§</a> <a id="2025a03m24d-20250911141327"></a>
+        - [--](#2025a07m09d-20250911110908) [--](#2025a08m21d-20250911110753)
     - Criticism Lands Better When Wrapped in Praise
       - A compliment before and after makes feedback feel like advice instead of an attack.
 - Sun, Mar 23, 2025 -  2025a03m23d
@@ -395,6 +404,48 @@ entries eventually become outdated.</sup>
   <a href="#2000a10m01d-20001001212101">§</a> <a id="2000a10m01d-20001001212101"></a>
   ```
   - a vim shortcut to create a timestamp is `<c-k>ts`
+- RAG <a href="#2025a09m11d-20250911143229">§</a> <a id="2025a09m11d-20250911143229"></a> [<sup>+</sup>]({{site.baseurl}}{% link pages/search.md %}#aichat-rag-rc-knowledge-base)
+  <details markdown="block"><summary>...</summary>
+
+  ```sh
+  cd pages
+  aichat --rag quick-notes
+  # PROMPT example:
+  #  `list quick notes related to "[topic/keyword/text]"`
+  #  `list quick notes related to "Most people don’t like being told what to think"`
+  ```
+  - VIM commands:
+    - search
+      - `quick-notes.md` _(1-267,1-95,1-93,1-266,1-199)_
+        - `/^\s\+0:`
+          - `/^\s\+1:`
+          - `/^\s\+2:`
+          - `/^\s\+3:`
+        - `/^\s\{4}-`
+          - `5/^\s\{4}-`
+          - `15/^\s\{4}-`
+          - `95/^\s\{4}-`
+
+  ```
+  - lorem ipsum dolor sit amet <a href="#2000a10m01d-20001001212102">§</a> <a id="2000a10m01d-20001001212102"></a>
+    - [--](#2000a10m01d-20001001212101) [--](#2000a10m01d-20001001212100)
+  ```
+  ```
+  .sources rag
+  .rebuild rag
+  .info rag
+
+  vi ~/Library/Application\ Support/aichat/rags/quick-notes.yaml
+  rm ~/Library/Application\ Support/aichat/rags/quick-notes.yaml
+  :e ~/Library/Application Support/aichat/rags/quick-notes.yaml
+  ```
+  ```
+  > Select embedding model: gemini:text-embedding-004 (max-tokens:2048;max-batch:100;price:0)
+  > Set chunk size: 200
+  > Set chunk overlay: 50
+  > Add documents: quick-notes.md
+  ```
+  </details>
 - the sketch drafting and design section has some tips for creating internal cross-references [^1]
 
 ------

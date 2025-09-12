@@ -36,7 +36,7 @@ entries eventually become outdated.</sup>
     - Other key takeaways include the importance of self-talk, creating decision templates, and tracking energy levels to optimize productivity.
 - Fri, Sep 05, 2025 - 2025a09m05d 
   - Simple one liners out of complicated truths.
-    - "The Big Money Is Not in the Buying and Selling, but in the Waiting.”
+    - "The Big Money Is Not in the Buying and Selling, but in the Waiting."
     - "You Don't Have to Be Smarter Than the Rest; You Have to Be More Disciplined Than the Rest."
 - Tue, Sep 02, 2025 - 2025a09m02d 
   - Respond with Stories, Not Statements.
@@ -44,7 +44,7 @@ entries eventually become outdated.</sup>
       - Instead, turn even the most boring questions into opportunities for connection.
 - Mon, Sep 01, 2025 - 2025a09m01d 
   - Sensations are a quick, easy, effective way to change your mood.
-    - I’m talking about music. About movement. About the minor miracle of biting into something that tastes like happiness compressed into carbohydrate form.
+    - I'm talking about music. About movement. About the minor miracle of biting into something that tastes like happiness compressed into carbohydrate form.
   - How to increase emotional intelligence...
     - Sensation: The song, the walk, the mango, the dog. They bring you back to your body, back to the moment, back to a baseline of sanity.
 - Mon, Sep 01, 2025 - 2025a09m01d 
@@ -53,8 +53,8 @@ entries eventually become outdated.</sup>
 - Sun, Aug 31, 2025 - 2025a08m31d 
   - Weird but Strangely Effective Tips for Life
     - _**Invest in the things that keep you off the ground—beds, chairs, shoes.**_
-    - Be a good person, but don’t waste your time trying to prove it.
-    - If you’re the smartest one in the room, find a new room.
+    - Be a good person, but don't waste your time trying to prove it.
+    - If you're the smartest one in the room, find a new room.
     - **Never forget, you can be right - or you can be happy.**
 - Sun, Aug 31, 2025 - 2025a08m31d 
   - **First And Foremost:** Address basic needs (hunger, tiredness, overstimulation) before anything else. Biology > Psychology.
@@ -62,7 +62,8 @@ entries eventually become outdated.</sup>
   - Use "I" not "you" (e.g., "I'd like it if those toys were cleaned up").
   - _These strategies won't eliminate all challenges, but they can reduce stress and improve the parent-child relationship._
 - Thu, Aug 21, 2025 - 2025a08m21d 
-  - **The One Who Wins Every Argument Often Loses the People Around Them**
+  - **The One Who Wins Every Argument Often Loses the People Around Them** <a href="#2025a08m21d-20250911110753">§</a> <a id="2025a08m21d-20250911110753"></a>
+    - [--](#2025a07m09d-20250911110908) [--](#2025a03m24d-20250911141327)
     - Imagine a man is always right. Razor sharp. Every conversation is a duel he must win.
     - To value victory over connection is to walk alone.
     - To silence others with your brilliance is to invite silence into your own life.
@@ -76,7 +77,7 @@ entries eventually become outdated.</sup>
 - Mon, Aug 18, 2025 - 2025a08m18d 
   - "If you only read the books that everyone else is reading, you can only think what everyone else is thinking." _by Author Haruki Murakami on **acquiring knowledge**_
 - Sun, Aug 10, 2025 - 2025a08m10d
-  - _"Everything We Hear Is an Opinion, Not a Fact. Everything We See Is a Perspective, Not the Truth.”_ We don’t see the world as it is. We see it through our own window. Two people watch the same rain. One is glad for the crops. One curses the sky. Maybe your aunt’s Facebook status is cringe for you, but not to her and her friends. You conserve enormous energy by being mindful of the difference. Half of your arguments could be avoided if you simply say, _“This is my idea, not a law for everyone.”_
+  - _"Everything We Hear Is an Opinion, Not a Fact. Everything We See Is a Perspective, Not the Truth."_ We don't see the world as it is. We see it through our own window. Two people watch the same rain. One is glad for the crops. One curses the sky. Maybe your aunt's Facebook status is cringe for you, but not to her and her friends. You conserve enormous energy by being mindful of the difference. Half of your arguments could be avoided if you simply say, _"This is my idea, not a law for everyone."_
   - Telling yourself you'll do it tomorrow is _**how dreams die**_.
   - People think good decision-making is about being right all the time. **It's not**. It's about lowering the cost of being wrong and changing your mind. When the cost of mistakes is high, we're paralyzed with fear. **When the cost of mistakes is low, we can move fast and adapt**. Make mistakes cheap, not rare.
 - Tue, Aug 05, 2025 - 2025a08m05d 
@@ -87,8 +88,8 @@ entries eventually become outdated.</sup>
     - Our obligations come from a sense of duty to ourselves and others.
       - We want to make money and participate in society. We want to make our families feel proud. We want to stay consistent with our identities as reliable people.
     - Our aspirations come from within.
-      - We often can’t put them into words. We want to write novels, make music, and build beautiful software, or just kinda ya know, do things.
-  - Aphorism: “Find what you love and let it kill you.” - Charles Bukowski
+      - We often can't put them into words. We want to write novels, make music, and build beautiful software, or just kinda ya know, do things.
+  - Aphorism: "Find what you love and let it kill you." - Charles Bukowski
   - Acknowledging the challenges of office politics. <a href="#2025a08m04d-20250817201616">§</a> <a id="2025a08m04d-20250817201616"></a> <sup>[++]({{site.baseurl}}{% post_url 2025/2025-08-04-office-politics %})
     - Fairness is not always a determining factor in career advancement and that having leverage, such as a higher position, access to resources, or a good reputation, can significantly impact one's career.
       - _**Understanding office politics doesn't mean you've sold your soul; it means you've bought a better map**_.
@@ -107,7 +108,7 @@ entries eventually become outdated.</sup>
     - It emphasizes the importance of improving emotional fluency rather than following blueprints or trying to fix problems.
 - Mon, Jul 21, 2025 - 2025a07m21d 
   - "The people who are right most of the time," Bezos says, "are the people who change their minds the most."
-  - Bezos' leadership style emphasizes intellectual flexibility over consistency. He doesn’t view changing your mind as weakness but as a crucial success mindset.
+  - Bezos' leadership style emphasizes intellectual flexibility over consistency. He doesn't view changing your mind as weakness but as a crucial success mindset.
 - Mon, Jul 21, 2025 - 2025a07m21d 
   - Understood **reciprocity**: humans are biologically wired to return favors, even those that are unearned.
 - Mon, Jul 21, 2025 - 2025a07m21d 
@@ -125,6 +126,45 @@ entries eventually become outdated.</sup>
         - You are trusted by others. And trust is the only proper currency.
         - They know you. Even though they do not say so in words.
         - Being good at something is great. But being generous gets people to care.
+- Wed, Jul 09, 2025 - 2025a07m09d 
+  - Nobody wants to be "taught"; they want to be affirmed.
+    - Readers respond better to a shared journey than a lecture.
+  - You don't win arguments by being intelligent; you win people over when they feel smart for agreeing with you. Most people don't like being told what to think, but they feel good when they figure something out by themselves or feel like they did. <a href="#2025a07m09d-20250911110908">§</a> <a id="2025a07m09d-20250911110908"></a>
+      - [--](#2025a08m21d-20250911110753) [--](#2025a03m24d-20250911141327)
+  - Most people don't like being told what to think.
+    - The best way to explain something is to say just enough so the other person can figure out the rest by themselves.
+- Sun, Jul 06, 2025 - 2025a07m06d 
+  - Impatience is an expensive emotion.
+    - Every app wants your decision in seconds. Every employer wants results this quarter. Every investment platform profits when you trade. Meanwhile, the boring investor who indexed and touched nothing decades ago owns your neighborhood.
+    - Who's winning? The patient inherit everything the impatient leave behind.
+- Mon, Jun 30, 2025 - 2025a06m30d 
+  - Avoid everything that could ruin you. In your finances, health, relationships, everything.
+- Sun, Jun 29, 2025 - 2025a06m29d 
+  - The gift with the highest return: believing in someone before they believe in themselves.
+  - _Everyone wants the summary_. But **the summary is what's left after someone else decided what matters**.
+    - **Their priorities aren't yours. Their filters aren't yours.**
+    - When you operate on summaries, **you're thinking with someone else's brain**.
+- Mon, Jun 23, 2025 - 2025a06m23d 
+  - Tiny habits that quiet the mind
+    - Name the thing you're avoiding: Writing down the task and reason for avoidance helps calm the brain.
+    - Use your eyes like a calm animal: when you soften your gaze-looking wide instead of narrow-your nervous system shifts from a fight-or-flight response into a rest-and-digest state. So when I'm feeling tense, I stare out a window or at the horizon. It's subtle. But it works.
+      - Your eyes are not just for seeing. They're for regulating.
+    - Name the thing you're avoiding
+      - Just to name it. Sometimes that's all it takes.
+        - Not for to-do lists, but for unspoken fears. And the relief they feel, just from saying it out loud, is palpable.
+      - Uncertainty keeps the brain on high alert. Naming the fear is the first step toward calming it.
+- Fri, Jun 20, 2025 - 2025a06m20d 
+  - Consistency beats intensity, and small, daily choices shift everything.
+  - Habits are not hacks but anchors for improving mental well-being.
+- Wed, Jun 11, 2025 - 2025a06m11d 
+  - Data Scientists have long said (about ML models) that **"garbage in means garbage out"** - in other words, your models are only as good as the data you've used to train them.
+- Tue, May 27, 2025 - 2025a05m27d 
+  - Most people don't really want to know themselves.
+    - What they want is to feel good about their bad habits, see their past in a quote that makes them feel seen, and call that "healing".
+- Tue, May 27, 2025 - 2025a05m27d 
+  - When everything feels hard to do, focus on the "MAT" rule.
+    - The simple trick that changed how I get things done (and made it a habit) is what I call The Minimal Action Trigger (MAT).
+      - What's MAT? It's the smallest possible action that triggers motion. It's so simple your brain can't say no.
 - Sun, May 04, 2025 - 2025a05m04d
   - What separates good work from great isn't talent but persistence. The most successful people aren't those who feel motivated all the time; they're the ones who work even when they don't feel like it.
 - Mon, Apr 28, 2025 - 2025a04m28d 
@@ -144,7 +184,7 @@ entries eventually become outdated.</sup>
     - Vulnerability Is Your Greatest Strength
     - Rest Is What Makes You Productive
     - Strength Looks Like Softness
-      - Toughness protects. Softness transforms. Power isn’t force; it’s presence.
+      - Toughness protects. Softness transforms. Power isn't force; it's presence.
     - Growth Begins Where Certainty Ends
   - Several paradoxes that are true, focusing on personal growth, relationships, and happiness. The main points include:
     - The more you try to control things, the more you lose control.
@@ -160,9 +200,9 @@ entries eventually become outdated.</sup>
   - The quicker you want something, the easier it is to manipulate you.
   - "To know what you are going to draw, you have to begin drawing." _Picasso_
   - Thomas Mitchell on finding happiness where we are:
-    - _“People are always looking for happiness at some future time and in some new thing, or some new set of circumstances, in possession of which they some day expect to find themselves. But the fact is, if happiness is not found now, where we are, and as we are, there is little chance of it ever being found. There is a great deal more happiness around us day by day than we have the sense or the power to seek and find.”_
+    - _"People are always looking for happiness at some future time and in some new thing, or some new set of circumstances, in possession of which they some day expect to find themselves. But the fact is, if happiness is not found now, where we are, and as we are, there is little chance of it ever being found. There is a great deal more happiness around us day by day than we have the sense or the power to seek and find."_
   - Roger Federer on the kind of talent you can practice:
-    - _“Yes, talent matters. I’m not going to stand here and tell you it doesn’t. But talent has a broad definition. Most of the time, it’s not about having a gift. It’s about having grit. In tennis, like in life, discipline is also a talent. And so is patience. Trusting yourself is a talent. Embracing the process—loving the process—is a talent. Managing your life, managing yourself. These can be talents, too. Some people are born with them. Everybody has to work at them.”_
+    - _"Yes, talent matters. I'm not going to stand here and tell you it doesn't. But talent has a broad definition. Most of the time, it's not about having a gift. It's about having grit. In tennis, like in life, discipline is also a talent. And so is patience. Trusting yourself is a talent. Embracing the process—loving the process—is a talent. Managing your life, managing yourself. These can be talents, too. Some people are born with them. Everybody has to work at them."_
   - There are two types of truth: <sup>[+]({{site.baseurl}}{% post_url 2025/2025-04-27-dividends-and-truth %})</sup>
     - Political truth: true because many other people think they are.
     - Technical truth: true for physical or technical reasons.
@@ -171,11 +211,11 @@ entries eventually become outdated.</sup>
     - Clock Time: The hours and minutes we schedule.
       - Clock time is our method of organizing the day.
       - It's the 9-to-5 schedule, the calendar appointments, and the deadlines that matter.
-      - It’s necessary for efficiency.
+      - It's necessary for efficiency.
     - Experience Time: How I feel time passing.
-      - This is subjective. It’s how time feels. An hour can fly by when you’re enjoying yourself or drag when you’re bored.
-      - Henri Bergson called this “duration”—the time we live, not just measure.
-      - When I’m fully engaged in an activity, like writing or better conversations, time feels different.
+      - This is subjective. It's how time feels. An hour can fly by when you're enjoying yourself or drag when you're bored.
+      - Henri Bergson called this "duration"—the time we live, not just measure.
+      - When I'm fully engaged in an activity, like writing or better conversations, time feels different.
         - I lose track of time.
   - The book _Anti-Time Management_, Richie Norton argues that there are two ways to put time to good use now:
     - Decide who you want to be.
@@ -203,7 +243,7 @@ entries eventually become outdated.</sup>
       - Fake it till you make it. Even great speakers were once nervous; the difference is they learned to act confidently.
 - Tue, Apr 15, 2025 - 2025a04m15d
   - Aurelius knew this 2,000 years ago: **"You suffer more in imagination than reality."**
-    - Quote from Paulo Coelho: _“You drown not by falling into a river, but by staying submerged in it."_
+    - Quote from Paulo Coelho: _"You drown not by falling into a river, but by staying submerged in it."_
     - "The reason people find it so hard to be happy is that they always see the past better than it was, the present worse than it is, and the future less resolved than it will be." - Marcel Pagnol
 - Mon, Apr 14, 2025 - 2025a04m14d
   - The quality of our emotions is largely determined by the quality of our thinking.
@@ -215,7 +255,7 @@ entries eventually become outdated.</sup>
 - Sun, Apr 13, 2025 - 2025a04m13d
   - Brain Food:
     - Everyone dreams big until they see the price tag.
-    - “A man is a gregarious animal, and much more so in his mind than in his body. He may like to go alone for a walk, but he hates to stand alone in his opinions.”
+    - "A man is a gregarious animal, and much more so in his mind than in his body. He may like to go alone for a walk, but he hates to stand alone in his opinions."
       - _by Philosopher George Santayana on why we follow the crowd_
 - Sat, Apr 12, 2025 - 2025a04m12d
   - Stop Wasting Hours
@@ -278,21 +318,22 @@ entries eventually become outdated.</sup>
   - Quote: "The meaning of life is the experience of life," Michael Singer. Core Idea: Life isn't about achieving, fixing, or accumulating; it's about living and experiencing.
     - Accepting life as it is, not trying to control or arrange it, leads to wholeness.
 - Thu, Mar 27, 2025 - 2025a03m27d
-  - __Shane Parrish__ on Procrastination: "Today, not tomorrow. What you avoid today is harder to do tomorrow. Today’s choices become tomorrow’s position. Don't wait till tomorrow; it's where dreams go to die."
+  - __Shane Parrish__ on Procrastination: "Today, not tomorrow. What you avoid today is harder to do tomorrow. Today's choices become tomorrow's position. Don't wait till tomorrow; it's where dreams go to die."
     - __Today, Not Tomorrow__: Shane Parrish says, _"Today, not tomorrow. What you avoid today is harder to do tomorrow. Today's choices become tomorrow's position."_
     - __Act today, not tomorrow__. Shane Parrish emphasizes the importance of immediate action to avoid future burdens. Procrastination only adds to the list of tasks.
 - Mon, Mar 24, 2025 - 2025a03m24d
   - Facts About Human Behavior
-    - People Believe What They Already Believe, Even If It’s Wrong
-      - Facts don’t change minds; feelings do. People decide first and justify later.
+    - People Believe What They Already Believe, Even If It's Wrong
+      - Facts don't change minds; feelings do. People decide first and justify later.
     - The More Choices You Offer, The Less People Decide
       - Too many options can overwhelm people. If you want them to choose, then simplify. Less is more.
     - Always Give Someone a Way Out, Saving Face Defuses Disagreements
-      - No one likes being proven wrong. Give them a non-humiliating exit route, allowing them to rethink and change their mind without feeling embarrassed.
+      - No one likes being proven wrong. Give them a non-humiliating exit route, allowing them to rethink and change their mind without feeling embarrassed. <a href="#2025a03m24d-20250911141327">§</a> <a id="2025a03m24d-20250911141327"></a>
+        - [--](#2025a07m09d-20250911110908) [--](#2025a08m21d-20250911110753)
     - Criticism Lands Better When Wrapped in Praise
       - A compliment before and after makes feedback feel like advice instead of an attack.
 - Sun, Mar 23, 2025 -  2025a03m23d
-  - What did someone mean by __“put down roots like a tree”__?
+  - What did someone mean by __"put down roots like a tree"__?
     - __Trees don't rush__. They don't panic when winter comes. They don't waste energy fighting the indifferent weather. They just keep growing their roots, anchoring themselves before they reach higher.
       - When life feels stuck, instead of forcing movement, try going inward:
         - Reflect
@@ -304,7 +345,7 @@ entries eventually become outdated.</sup>
 - Wed, Mar 19, 2025 - 2025a03m19d
   - The Hot & Cold Method
     - A file organization system that helps you manage your digital files and folders.
-      - Hot Folder: For active projects and things you’re working on right now.
+      - Hot Folder: For active projects and things you're working on right now.
       - Cold Folder: For everything else like reference materials, templates, old projects, and anything you might need later.
     - Hot & Cold Method:
       - Also from Tiago Forte, this method reduces the organization to just two folders:
@@ -316,7 +357,7 @@ entries eventually become outdated.</sup>
       - Time Efficiency: Eliminates the need for extensive sorting.
       - Scalability: Allows for future refinement of the system.
 - Sun, Mar 16, 2025 - 2025a03m16d
-  - “The activist is not the man who says the river is dirty. The activist is the man who cleans up the river.” _by Ross Perot_
+  - "The activist is not the man who says the river is dirty. The activist is the man who cleans up the river." _by Ross Perot_
 - Tue, Mar 04, 2025 - 2025a03m04d
   - Naming Stressors:
     - Work Stress: Taught me I needed better boundaries.
@@ -325,13 +366,13 @@ entries eventually become outdated.</sup>
   - Naming your stressors is powerful. It takes away their power, turning them from monsters into teachers. Stress shows you where you need to change. Don't fight them; don't ignore them. Face them, learn from them.
     - Pain shows you where you need to grow and heal.
     - Naming your stressors is powerful. It takes away their power and turns them from monsters into teachers. Stress shows you where you need to change.
-    - “It’s not the load that breaks you down, it’s the way you carry it.”—Lena Horne
+    - "It's not the load that breaks you down, it's the way you carry it."—Lena Horne
 - Mon, Mar 03, 2025 - 2025a03m03d
   - The Magic of Starting Small
-    - __1-minute micro habits__ are so easy to do that they automatically eliminate our stupid excuses like “I don’t have time” or “It’s too hard.”
-    - It doesn't have to push yourself, and it seemed so easy to your brain that you couldn’t find an excuse to skip it.
-      - "It felt effortless because I wasn’t forcing the changes — they happened organically."
-      - "One of the biggest lessons I’ve learned is that consistency matters more than intensity."
+    - __1-minute micro habits__ are so easy to do that they automatically eliminate our stupid excuses like "I don't have time" or "It's too hard."
+    - It doesn't have to push yourself, and it seemed so easy to your brain that you couldn't find an excuse to skip it.
+      - "It felt effortless because I wasn't forcing the changes — they happened organically."
+      - "One of the biggest lessons I've learned is that consistency matters more than intensity."
 - Thu, Feb 27, 2025 - 2025a02m27d
   - bizarre psychology fact that may change how we see people
     - people will judge us based on their mood, not logic
@@ -343,8 +384,8 @@ entries eventually become outdated.</sup>
   - A stupidly simple fix for procrastination
     - Little trick:
       1. If something takes less than 2 minutes, just do it.
-      2. If it’s longer, just start for 2 minutes.
-    - That’s it. No commitment beyond that.
+      2. If it's longer, just start for 2 minutes.
+    - That's it. No commitment beyond that.
       - The __2-Minute Rule__
         - To overcome procrastination, start tasks with just a two-minute commitment. This small step can lead to continued action as the task becomes less daunting.
 - Mon, Feb 03, 2025 - 2025a02m03d
@@ -380,9 +421,9 @@ entries eventually become outdated.</sup>
   - Instead of organizing notes by where they should go, start organizing them by how I'd search for them later. Think of it like leaving a note for future-you in a language future-you will actually understand.
     - The best system isn't the most organized one, it's the one that works with your brain instead of against it.
 - Sun, Jan 19, 2025 - 2025a01m19d
-  - "Real integrity is doing the right thing, knowing that nobody's going to know whether you did it or not.”
+  - "Real integrity is doing the right thing, knowing that nobody's going to know whether you did it or not."
     - Adapting yourself to circumstances:
-      - “We should not try to alter circumstances but to adapt ourselves to them as they really are, just as sailors do. They don't try to change the winds or the sea but ensure that they are always ready to adapt themselves to conditions. In a flat calm they use the oars; with a following breeze they hoist full sail; in a head wind they shorten sail or heave to. Adapt yourself to circumstances in the same way."
+      - "We should not try to alter circumstances but to adapt ourselves to them as they really are, just as sailors do. They don't try to change the winds or the sea but ensure that they are always ready to adapt themselves to conditions. In a flat calm they use the oars; with a following breeze they hoist full sail; in a head wind they shorten sail or heave to. Adapt yourself to circumstances in the same way."
 - Sat, Jun 17, 2024 - 2024a06m17d
   - When rewarding the candor, it is more likely to get more of it.
   - Did you like what the colleague have done? Thanks them in public. Let them know. Both gain in this win-win game. It shows gratitude. Also, and a thankful word is a fuel to keep a good habit last.
@@ -395,6 +436,48 @@ entries eventually become outdated.</sup>
   <a href="#2000a10m01d-20001001212101">§</a> <a id="2000a10m01d-20001001212101"></a>
   ```
   - a vim shortcut to create a timestamp is `<c-k>ts`
+- RAG <a href="#2025a09m11d-20250911143229">§</a> <a id="2025a09m11d-20250911143229"></a> [<sup>+</sup>]({{site.baseurl}}{% link pages/search.md %}#aichat-rag-rc-knowledge-base)
+  <details markdown="block"><summary>...</summary>
+
+  ```sh
+  cd pages
+  aichat --rag quick-notes
+  # PROMPT example:
+  #  `list quick notes related to "[topic/keyword/text]"`
+  #  `list quick notes related to "Most people don't like being told what to think"`
+  ```
+  - VIM commands:
+    - search
+      - `quick-notes.md` _(1-267,1-95,1-93,1-266,1-199)_
+        - `/^\s\+0:`
+          - `/^\s\+1:`
+          - `/^\s\+2:`
+          - `/^\s\+3:`
+        - `/^\s\{4}-`
+          - `5/^\s\{4}-`
+          - `15/^\s\{4}-`
+          - `95/^\s\{4}-`
+
+  ```
+  - lorem ipsum dolor sit amet <a href="#2000a10m01d-20001001212102">§</a> <a id="2000a10m01d-20001001212102"></a>
+    - [--](#2000a10m01d-20001001212101) [--](#2000a10m01d-20001001212100)
+  ```
+  ```
+  .sources rag
+  .rebuild rag
+  .info rag
+
+  vi ~/Library/Application\ Support/aichat/rags/quick-notes.yaml
+  rm ~/Library/Application\ Support/aichat/rags/quick-notes.yaml
+  :e ~/Library/Application Support/aichat/rags/quick-notes.yaml
+  ```
+  ```
+  > Select embedding model: gemini:text-embedding-004 (max-tokens:2048;max-batch:100;price:0)
+  > Set chunk size: 200
+  > Set chunk overlay: 50
+  > Add documents: quick-notes.md
+  ```
+  </details>
 - the sketch drafting and design section has some tips for creating internal cross-references [^1]
 
 ------

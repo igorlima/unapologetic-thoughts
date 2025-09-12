@@ -11,6 +11,7 @@ category: sketch
   - inspiration
   - [technical]({{site.baseurl}}{% post_url 2013-01-01-technical %}) [^1]
     - [internal absolute html]({{site.baseurl}}{% link editable.html %}) [^2]
+    - [internal markdown page]({{site.baseurl}}{% link pages/search.md %}) [^5]
   - code-sample [^4]
     - <details markdown="block">
       <summary><i>a sample for a piece of block</i></summary>
@@ -104,3 +105,4 @@ function a () {
 [^2]: [another internal link]({{site.baseurl}}{% link editable.html %})
 [^3]: it's a footnote
 [^4]: [jekyll reference]({{site.baseurl}}{% post_url 2024/2024-07-11-jekyll %})
+[^5]: [another internal link to markdown page]({{site.baseurl}}{% link pages/search.md %})

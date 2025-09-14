@@ -102,7 +102,7 @@ entries eventually become outdated.</sup>
 - Tue, Jul 22, 2025 - 2025a07m22d 
   - The Distinction Most Men Miss
     - Woman is never wrong about how she feels. That's the distinction most men miss—and it's a costly one.
-    - When someone tells us they're unhappy—especially someone we love—we don't hear them. We hear failure. And failure triggers fear.
+    - When someone tells us they're unhappy - especially someone we love - we don't hear them. We hear failure. And failure triggers fear.
     - Stop trying to be right. Start trying to connect. Because the space between "I'm right" and "Woman is wrong" is where your relationship is either quietly dying… or where it can come roaring back to life.
     - It highlights that women are never wrong about how they feel, and men often miss this distinction, leading to costly misunderstandings.
     - It emphasizes the importance of improving emotional fluency rather than following blueprints or trying to fix problems.
@@ -158,6 +158,12 @@ entries eventually become outdated.</sup>
   - Habits are not hacks but anchors for improving mental well-being.
 - Wed, Jun 11, 2025 - 2025a06m11d 
   - Data Scientists have long said (about ML models) that **"garbage in means garbage out"** - in other words, your models are only as good as the data you've used to train them.
+- Mon, Jun 02, 2025 - 2025a06m02d
+  - The 3-word phrase that makes people instantly like you.
+    - The 3-word phrase: **"tell me more"** <a href="#2025a06m02d-20250913225424">§</a> <a id="2025a06m02d-20250913225424"></a>
+      - [--](#2025a02m03d-20250913225602) [++]({{site.baseurl}}{% post_url 2025/2025-06-02-tell-me-more %})
+      - "Tell me more" works because it validates the speaker, encourages reciprocity, and creates curiosity.
+      - "Tell me more" is a valuable tool for building rapport.
 - Tue, May 27, 2025 - 2025a05m27d 
   - Most people don't really want to know themselves.
     - What they want is to feel good about their bad habits, see their past in a quote that makes them feel seen, and call that "healing".
@@ -165,6 +171,28 @@ entries eventually become outdated.</sup>
   - When everything feels hard to do, focus on the "MAT" rule.
     - The simple trick that changed how I get things done (and made it a habit) is what I call The Minimal Action Trigger (MAT).
       - What's MAT? It's the smallest possible action that triggers motion. It's so simple your brain can't say no.
+- Tue, May 27, 2025 - 2025a05m27d 
+  - People will believe almost anything, and that's a dangerous reality. It's no wonder why con artists succeed or why crooked politicians can lie and increase in popularity. We tend to believe what we want to be true. We're all susceptible to sometimes letting self-interest, greed, fear, and ignorance get in the way of truth.
+    - The human tendency to believe what we want to be true, making us vulnerable to manipulation and misinformation.
+- Sun, May 25, 2025 - 2025a05m25d
+  - If you’re sacrificing everything else in your life - family ties, friends, community involvement, good activities - in service. you’ll likely stop work only to find you have nothing meaningful to fill your days.
+    - A healthy work-life balance during one's career is key to a good retirement.
+    - While money is important, sacrificing everything else for savings can lead to an empty and meaningless retirement.
+- Sun, May 25, 2025 - 2025a05m25d
+  - The best things in life - trust, talent, luck - have one thing in common: the harder you chase them, the faster they run.
+  - The best things in life - trust, talent, luck - have one thing in common: the harder you chase them, the faster they run. Your reputation is the only magnet strong enough to make them come to you.
+- Sun, May 25, 2025 - 2025a05m25d
+  - Don't rush any decision that isn't urgent. Don't let the relief of scratching something off your to-do list cause you to rush. Some things will go away on their own. And if you rush a decision, you might have to undo it later, or solve a problem that decision created.
+    - Think ahead, but don't overwhelm yourself. You don't have to figure everything out in one day. You won't be able to anyway.
+    - It emphasizes the importance of avoiding hasty choices, especially when something isn't urgent.
+    - Many problems resolve themselves naturally and rushing into decisions can lead to regret or further complications.
+- Sun, May 18, 2025 - 2025a05m18d
+  - Your emotions are not problems to fix. They’re messages to hear. Ignore them, and they’ll show up and make things worse. Listen to them. They will guide you back to yourself. You’re not weak for feeling. You’re human.
+- Sun, May 18, 2025 - 2025a05m18d
+  - You have two choices when something annoys you—ignore it or try to fix it.
+    - Two primary choices: ignoring the issue or attempting to fix it.
+      - Ignore it: Most things won’t be fixable, and wasting energy on them only drains you.
+      - It highlights that most problems are not fixable, and expending energy on them can be draining.
 - Sun, May 04, 2025 - 2025a05m04d
   - What separates good work from great isn't talent but persistence. The most successful people aren't those who feel motivated all the time; they're the ones who work even when they don't feel like it.
 - Mon, Apr 28, 2025 - 2025a04m28d 
@@ -398,7 +426,8 @@ entries eventually become outdated.</sup>
     - How to motivate teenagers with fewer tears?
       - The "Vegemite Method":
         - This four-step method improves compliance:
-          1. Ask, don't tell: Respects autonomy.
+          1. Ask, don't tell: Respects autonomy. <a href="#2025a02m03d-20250913225602">§</a> <a id="2025a02m03d-20250913225602"></a>
+            - [--](#2025a06m02d-20250913225424)
           2. Honor their competence: Let them decide the specifics.
           3. Validate their feelings: Acknowledge their difficulties.
           4. Presume agency: Treat them like co-workers.
@@ -445,9 +474,16 @@ entries eventually become outdated.</sup>
   # PROMPT example:
   #  `list quick notes related to "[topic/keyword/text]"`
   #  `list quick notes related to "Most people don't like being told what to think"`
+  #  ...
+  #  `give me contents related to "[topic/keyword/text]"`
+  #  `give me contents related to [topic/keyword/text] - e.g. [sample and explanation]`
+  #  `list notes that relates to "[topic/keyword/text]"`
+  #  `list notes that relates to "emontions"`
   ```
   - VIM commands:
     - search
+      - hashtags: `]]i` `[[i`
+        - e.g. `@bm` `#what`
       - `quick-notes.md` _(1-267,1-95,1-93,1-266,1-199)_
         - `/^\s\+0:`
           - `/^\s\+1:`

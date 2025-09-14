@@ -504,6 +504,10 @@ entries eventually become outdated.</sup>
   #  `list notes that relates to "[topic/keyword/text]"`
   #  `list notes that relates to "emontions"`
   ```
+  - GitHub tips:
+    - if a specific branch has been merged
+      - `is:pr is:merged base:target-branch head:source-branch`
+      - `is:pr is:merged base:master head:20250911-1558`
   - VIM commands:
     - search
       - hashtags: `]]i` `[[i`

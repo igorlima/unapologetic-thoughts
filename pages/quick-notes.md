@@ -158,6 +158,8 @@ entries eventually become outdated.</sup>
   - Habits are not hacks but anchors for improving mental well-being.
 - Wed, Jun 11, 2025 - 2025a06m11d 
   - Data Scientists have long said (about ML models) that **"garbage in means garbage out"** - in other words, your models are only as good as the data you've used to train them.
+- Tue, Jun 03, 2025 - 2025a06m03d 
+  - An apple a day keeps the doctor away. An article a day? That's how you keep the boss away.
 - Mon, Jun 02, 2025 - 2025a06m02d
   - The 3-word phrase that makes people instantly like you.
     - The 3-word phrase: **"tell me more"** <a href="#2025a06m02d-20250913225424">§</a> <a id="2025a06m02d-20250913225424"></a>

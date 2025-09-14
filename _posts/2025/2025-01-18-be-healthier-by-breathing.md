@@ -14,7 +14,7 @@ category: inspiration
 <sup><sub>To increase focus, most of us rely on caffeine, sheer panic, and the threat of imminent failure. But the Navy SEALs have another way...</sub></sup>
 
 <sup><sub>It’s called Box Breathing. SEALs use it to stay calm, drive attention, and enhance mental clarity in tense situations. If it’s good enough for someone under heavy enemy fire, it’s probably good enough for you, as you try not to cry during your boss’s weekly “touch base” meeting.</sub></sup>
-- The process is simple:
+- The process is simple: [^2]
   1. Breathe in for 4 seconds
   1. Hold it for 4 seconds
   1. Breathe out for 4 seconds
@@ -72,3 +72,4 @@ Breathe better, live better. Because apparently, the secret to happiness and hea
 {: data-content="footnotes"}
 
 [^1]: [How to Be Healthier Without Really Trying](https://bakadesuyo.com/2025/01/how-to-be-healthier/)
+[^2]: [The 4-Second Breath]({{site.baseurl}}{% post_url 2025/2025-06-02-four-second-breathing %})

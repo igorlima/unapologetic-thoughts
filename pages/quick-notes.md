@@ -156,8 +156,30 @@ entries eventually become outdated.</sup>
 - Fri, Jun 20, 2025 - 2025a06m20d 
   - Consistency beats intensity, and small, daily choices shift everything.
   - Habits are not hacks but anchors for improving mental well-being.
+- Sat, Jun 14, 2025 - 2025a06m14d 
+  - Not All Criticism Is Helpful
+    - Criticising for the sake of criticising is unproductive. Pointing out issues without offering solutions drains energy and motivation. As such, criticism should aim to better the initial idea, leaning in to help shape it.
+  - Don't Criticise. Challenge.
+    - Critics should become challengers, asking rather than exclaiming, and fuelling rather than draining momentum.
+- Fri, Jun 13, 2025 - 2025a06m13d 
+  - A quick history lesson - a quick lesson about AI:
+    - “Every major breakthrough in computing has been about doing more with less effort.”
+    - The 1880 census took nearly a decade to process by hand, so we invented machines to do the counting. Then we invented programming languages so we didn’t have to wire circuits. Then we created frameworks so we didn’t have to write everything from scratch. Now we have AI so we don’t have to write every line of code.
+    - The pattern is always the same: identify the tedious, repetitive work that humans are doing, then build tools to automate it so humans can focus on the creative, strategic thinking.
 - Wed, Jun 11, 2025 - 2025a06m11d 
   - Data Scientists have long said (about ML models) that **"garbage in means garbage out"** - in other words, your models are only as good as the data you've used to train them.
+- Sun, Jun 08, 2025 - 2025a06m08d
+  - Biggest mistakes killing your second brain:
+    - The collector's conundrum: You become a curator of other people's ideas, not your own. <a href="#2025a06m08d-20250914001505">§</a> <a id="2025a06m08d-20250914001505"></a>
+      - [--](#2025a06m04d-20250914000118) [++]({{site.baseurl}}{% post_url 2025/2025-06-08-biggest-mistakes-killing-your-second-brain %})
+    - This is a thinking problem: Avoiding the hard work of critical thinking, drafting, and shaping ideas.
+- Sun, Jun 08, 2025 - 2025a06m08d
+  - The courage isn't in taking on more, it's in cutting off everything that doesn't feed your goal.
+  - Focus requires subtraction.
+  - Conversation enriches the understanding, but solitude is the school of genius.
+- Wed, Jun 04, 2025 - 2025a06m04d
+  - Just collecting info is not thinking - pieces of info need to be connected and combined. <a href="#2025a06m04d-20250914000118">§</a> <a id="2025a06m04d-20250914000118"></a>
+    - [--](#2025a06m08d-20250914001505) [++]({{site.baseurl}}{% post_url 2025/2025-06-04-collecting-is-not-thinking %})
 - Tue, Jun 03, 2025 - 2025a06m03d 
   - An apple a day keeps the doctor away. An article a day? That's how you keep the boss away.
 - Mon, Jun 02, 2025 - 2025a06m02d

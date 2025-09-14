@@ -17,6 +17,40 @@ foster new insights.
 articles, enabling items to be tracked and revisited later, even if some
 entries eventually become outdated.</sup>
 
+- Sat, Sep 13, 2025 - 2025a09m13d
+  - Laws of Human Nature - dark psychology lessons
+    - Always Say Less Than Necessary
+      - “A man's best treasure is his thrifty tongue."
+      - A loose tongue can land you in trouble, and the more you say, the less in control you appear.
+      - Real power isn't about being loud and trying to force things with your words but about keeping things under wraps and saying less.
+      - The less you say, the more weight your words carry, and the more meaningful they become.
+    - Never Appear Too Perfect
+      - “People want you to do well, just not better than them.”
+      - People hate perfection because it makes them feel inferior. There are three ways to be "better" without appearing so: making your mistakes obvious, keeping things to yourself, and using self-deprecation.
+      - Three different ways to be 'better' but not appear to be so: (i) make your mistakes obvious, (ii) keep things to yourself, (iii) use self-deprecation.
+- Sat, Sep 13, 2025 - 2025a09m13d
+  - “Men are moved by two levers only: fear and self-interest.”
+    - A lot of the decisions we make as human beings boil down to two questions: What do I fear? And, What’s in it for me? We do everything we can to avoid pain, failure, and loss. And the truth is, and as harsh as it sounds, we humans are selfish creatures. Subconsciously (or consciously) we always want to know how we can benefit. We want to know how to gain power, status, and satisfaction from a situation. Is there anything wrong with that? Not always. That’s just who we are.
+- Sat, Sep 13, 2025 - 2025a09m13d
+  - Thoughts from Benjamin Franklin
+    - "You may delay, but time will not."
+      - Time doesn't wait for anyone, and it's essential to have a sense of urgency because sooner or later, our time will come to an abrupt end.
+    - "Well done is better than well said."
+      - Talk is cheap, and what matters is following through on actions.
+    - "The wise man draws more advantage from his enemies than the fool from his friends."
+      - Keep enemies closer and pay attention, as they can teach more than friends.
+- Fri, Sep 12, 2025 - 2025a09m12d
+  - Principles and importance of personal knowledge management (PKM)
+    - Nobody cares how many times you change your Obsidian theme or re-calibrate your Notion databases. They care about in what way you can help them out or improve their lives (we're selfish creatures).
+    - A good note-taking system should be simple, effective, and flexible, allowing individuals to focus on their work and create value for others.
+- Fri, Sep 12, 2025 - 2025a09m12d
+  - "The first rule of happiness is low expectations." A Charlie Munger classic. It never gets old!
+  - Money buys happiness in the same way drugs bring pleasure: incredible if done right, dangerous if used to mask a weakness, and disastrous when no amount is enough.
+    - At the end of the day, money is a tool. It's not the be-all and end-all of life. Money is one of those things you'd rather have than not have. Yet at the same time, it should never fully take over one's life.
+  - Big fast changes happen only when they're forced by necessity.
+    - They say diamonds are made under pressure, don't they? Well, as it turns out, so are we as human beings. When put under immense pressure, change happens at a tremendous speed, and we can accomplish things we never thought were possible.
+  - The best financial plan is to save like a pessimist and invest like an optimist.
+    - Save for the sake of saving and invest like you’re financial life depends on it, because in more ways than one, it does.
 - Sun, Sep 07, 2025 - 2025a09m07d
   - When your primary goal is to be liked, you can't take risks. You can't disagree. You can't push boundaries. You become a prisoner of other people's expectations.
 - Sun, Sep 07, 2025 - 2025a09m07d

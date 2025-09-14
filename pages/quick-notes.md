@@ -17,14 +17,14 @@ foster new insights.
 articles, enabling items to be tracked and revisited later, even if some
 entries eventually become outdated.</sup>
 
-- Sun, Sep 07, 2025 - 2025a09m07d 
+- Sun, Sep 07, 2025 - 2025a09m07d
   - When your primary goal is to be liked, you can't take risks. You can't disagree. You can't push boundaries. You become a prisoner of other people's expectations.
-- Sun, Sep 07, 2025 - 2025a09m07d 
+- Sun, Sep 07, 2025 - 2025a09m07d
   - AI degrades over time due to the loss of context and its inability to fill gaps in unstructured data.
     - AI models are based on unstructured data, which is prone to degradation over time.
     - By understanding these limitations and approaches, users can better leverage AI to achieve their goals without encountering unwanted outcomes.
     - A key issue is that AI degrades data over time due to limitations in context window size and the difficulty of capturing all contextual details.
-- Sun, Sep 07, 2025 - 2025a09m07d 
+- Sun, Sep 07, 2025 - 2025a09m07d
   - Core mindset shifts that help to go from burned out to bulletproof, including prioritizing clarity over hustle, cutting down on inputs, and designing environments that trigger focus.
     - These mindset shifts can help with burnout and improve productivity.
       - Time management is a trap. It assumes every hour is equal. It's not. Upgrade: Track your energy curve.
@@ -34,34 +34,34 @@ entries eventually become outdated.</sup>
       - "The most powerful story is the one you tell yourself when no one's watching."
       - Want better strategy, leadership, or clarity? Start with hydration, movement, and sleep. They're not "health tips"–they're performance systems.
     - Other key takeaways include the importance of self-talk, creating decision templates, and tracking energy levels to optimize productivity.
-- Fri, Sep 05, 2025 - 2025a09m05d 
+- Fri, Sep 05, 2025 - 2025a09m05d
   - Simple one liners out of complicated truths.
     - "The Big Money Is Not in the Buying and Selling, but in the Waiting."
     - "You Don't Have to Be Smarter Than the Rest; You Have to Be More Disciplined Than the Rest."
-- Tue, Sep 02, 2025 - 2025a09m02d 
+- Tue, Sep 02, 2025 - 2025a09m02d
   - Respond with Stories, Not Statements.
     - One of the biggest reasons someone runs out of things to say is they give dead-end answers.
       - Instead, turn even the most boring questions into opportunities for connection.
-- Mon, Sep 01, 2025 - 2025a09m01d 
+- Mon, Sep 01, 2025 - 2025a09m01d
   - Sensations are a quick, easy, effective way to change your mood.
     - I'm talking about music. About movement. About the minor miracle of biting into something that tastes like happiness compressed into carbohydrate form.
   - How to increase emotional intelligence...
     - Sensation: The song, the walk, the mango, the dog. They bring you back to your body, back to the moment, back to a baseline of sanity.
-- Mon, Sep 01, 2025 - 2025a09m01d 
+- Mon, Sep 01, 2025 - 2025a09m01d
   - Behaviors, such as routine, contemplation, humility, and gratitude, are rational and beneficial for individuals and society as a whole, regardless of belief in a higher power.
     - Foundational behaviors common to dominant religions, such as routine, contemplation, humility, gratitude, accountability, compassion, sobriety, and judiciousness, are beneficial for individuals and society, regardless of religious belief.
-- Sun, Aug 31, 2025 - 2025a08m31d 
+- Sun, Aug 31, 2025 - 2025a08m31d
   - Weird but Strangely Effective Tips for Life
     - _**Invest in the things that keep you off the ground—beds, chairs, shoes.**_
     - Be a good person, but don't waste your time trying to prove it.
     - If you're the smartest one in the room, find a new room.
     - **Never forget, you can be right - or you can be happy.**
-- Sun, Aug 31, 2025 - 2025a08m31d 
+- Sun, Aug 31, 2025 - 2025a08m31d
   - **First And Foremost:** Address basic needs (hunger, tiredness, overstimulation) before anything else. Biology > Psychology.
   - Give information instead of orders (e.g., "The iPad is very delicate" instead of "Don't be so rough!").
   - Use "I" not "you" (e.g., "I'd like it if those toys were cleaned up").
   - _These strategies won't eliminate all challenges, but they can reduce stress and improve the parent-child relationship._
-- Thu, Aug 21, 2025 - 2025a08m21d 
+- Thu, Aug 21, 2025 - 2025a08m21d
   - **The One Who Wins Every Argument Often Loses the People Around Them** <a href="#2025a08m21d-20250911110753">§</a> <a id="2025a08m21d-20250911110753"></a>
     - [--](#2025a07m09d-20250911110908) [--](#2025a03m24d-20250911141327)
     - Imagine a man is always right. Razor sharp. Every conversation is a duel he must win.
@@ -74,16 +74,16 @@ entries eventually become outdated.</sup>
     - Winning isn't worth it if it costs the people who matter.
   - Prioritizing relationships over being right
     - Winning arguments can lead to losing relationships, and it's more important to be kind and understanding.
-- Mon, Aug 18, 2025 - 2025a08m18d 
+- Mon, Aug 18, 2025 - 2025a08m18d
   - "If you only read the books that everyone else is reading, you can only think what everyone else is thinking." _by Author Haruki Murakami on **acquiring knowledge**_
 - Sun, Aug 10, 2025 - 2025a08m10d
   - _"Everything We Hear Is an Opinion, Not a Fact. Everything We See Is a Perspective, Not the Truth."_ We don't see the world as it is. We see it through our own window. Two people watch the same rain. One is glad for the crops. One curses the sky. Maybe your aunt's Facebook status is cringe for you, but not to her and her friends. You conserve enormous energy by being mindful of the difference. Half of your arguments could be avoided if you simply say, _"This is my idea, not a law for everyone."_
   - Telling yourself you'll do it tomorrow is _**how dreams die**_.
   - People think good decision-making is about being right all the time. **It's not**. It's about lowering the cost of being wrong and changing your mind. When the cost of mistakes is high, we're paralyzed with fear. **When the cost of mistakes is low, we can move fast and adapt**. Make mistakes cheap, not rare.
-- Tue, Aug 05, 2025 - 2025a08m05d 
+- Tue, Aug 05, 2025 - 2025a08m05d
   - Similarities between the current AI boom and the dot-com crash. Do we live in a bubble? Most likely. Is it going to burst? History says yes. When it does, will AI vanish? Not at all. Markets always correct when expectations exceed reality, not because the technology is fake or ineffective. The dot-com crash destroyed the weaker companies, an AI correction would likely have the same effect. **The issue isn't the technology - it's the timeline and expectations.**
   - _"No-Code is the New Technical Debt"._ As AI assists in every level of operations, parts of your business hidden behind other people's abstractions become blind spots. The more layers you rent from vendors, the more of your business you lose control over. <a href="#2025a08m05d-20250816081441">§</a> <a id="2025a08m05d-20250816081441"></a> <sup>[+](https://medium.com/@chrisdunlop_37984/no-code-is-the-new-technical-debt-c1160476333a)</sup> <sup>[++](https://igorlima.github.io/unapologetic-snippets/docs/algorithms-and-data-structures/ai/no-code-platform)</sup>
-- Mon, Aug 04, 2025 - 2025a08m04d 
+- Mon, Aug 04, 2025 - 2025a08m04d
   - There are aspiration-driven desires, and obligation-driven desires. <sup>[+](https://kadavy.net/love-mondays/aspirations-through-obligations/)</sup>
     - Our obligations come from a sense of duty to ourselves and others.
       - We want to make money and participate in society. We want to make our families feel proud. We want to stay consistent with our identities as reliable people.
@@ -95,23 +95,23 @@ entries eventually become outdated.</sup>
       - _**Understanding office politics doesn't mean you've sold your soul; it means you've bought a better map**_.
       - We need to understand this game to get ahead. I know, it's gross. But we're not here to save souls; we're here to get a raise and better health insurance.
         - You're probably not gonna like everything you read below but I don't make the rules. It's time to learn how to play the game better, how to be smarter with our behavior, and, above all, to be strategic.
-- Sun, Aug 03, 2025 - 2025a08m03d 
+- Sun, Aug 03, 2025 - 2025a08m03d
   - Studies show that people need to hear a message at least seven times before it sticks.
     - Over-Communicate Until It Feels Excessive
       - _How to apply this_: **Use the Rule of 7**, make your message visual, and use different formats to reinforce your message.
-- Tue, Jul 22, 2025 - 2025a07m22d 
+- Tue, Jul 22, 2025 - 2025a07m22d
   - The Distinction Most Men Miss
     - Woman is never wrong about how she feels. That's the distinction most men miss—and it's a costly one.
     - When someone tells us they're unhappy - especially someone we love - we don't hear them. We hear failure. And failure triggers fear.
     - Stop trying to be right. Start trying to connect. Because the space between "I'm right" and "Woman is wrong" is where your relationship is either quietly dying… or where it can come roaring back to life.
     - It highlights that women are never wrong about how they feel, and men often miss this distinction, leading to costly misunderstandings.
     - It emphasizes the importance of improving emotional fluency rather than following blueprints or trying to fix problems.
-- Mon, Jul 21, 2025 - 2025a07m21d 
+- Mon, Jul 21, 2025 - 2025a07m21d
   - "The people who are right most of the time," Bezos says, "are the people who change their minds the most."
   - Bezos' leadership style emphasizes intellectual flexibility over consistency. He doesn't view changing your mind as weakness but as a crucial success mindset.
-- Mon, Jul 21, 2025 - 2025a07m21d 
+- Mon, Jul 21, 2025 - 2025a07m21d
   - Understood **reciprocity**: humans are biologically wired to return favors, even those that are unearned.
-- Mon, Jul 21, 2025 - 2025a07m21d 
+- Mon, Jul 21, 2025 - 2025a07m21d
   - The same story can have different takeaways.
     - This is roughly what a mental model is: it's the lens through which you view the world.
     - Mental models matter because they help you see patterns that others don't.
@@ -126,25 +126,34 @@ entries eventually become outdated.</sup>
         - You are trusted by others. And trust is the only proper currency.
         - They know you. Even though they do not say so in words.
         - Being good at something is great. But being generous gets people to care.
-- Wed, Jul 09, 2025 - 2025a07m09d 
+- Wed, Jul 09, 2025 - 2025a07m09d
   - Nobody wants to be "taught"; they want to be affirmed.
     - Readers respond better to a shared journey than a lecture.
   - You don't win arguments by being intelligent; you win people over when they feel smart for agreeing with you. Most people don't like being told what to think, but they feel good when they figure something out by themselves or feel like they did. <a href="#2025a07m09d-20250911110908">§</a> <a id="2025a07m09d-20250911110908"></a>
       - [--](#2025a08m21d-20250911110753) [--](#2025a03m24d-20250911141327)
   - Most people don't like being told what to think.
     - The best way to explain something is to say just enough so the other person can figure out the rest by themselves.
-- Sun, Jul 06, 2025 - 2025a07m06d 
+- Sun, Jul 06, 2025 - 2025a07m06d
   - Impatience is an expensive emotion.
     - Every app wants your decision in seconds. Every employer wants results this quarter. Every investment platform profits when you trade. Meanwhile, the boring investor who indexed and touched nothing decades ago owns your neighborhood.
     - Who's winning? The patient inherit everything the impatient leave behind.
-- Mon, Jun 30, 2025 - 2025a06m30d 
+- Mon, Jun 30, 2025 - 2025a06m30d
   - Avoid everything that could ruin you. In your finances, health, relationships, everything.
-- Sun, Jun 29, 2025 - 2025a06m29d 
+- Sun, Jun 29, 2025 - 2025a06m29d
   - The gift with the highest return: believing in someone before they believe in themselves.
   - _Everyone wants the summary_. But **the summary is what's left after someone else decided what matters**.
     - **Their priorities aren't yours. Their filters aren't yours.**
     - When you operate on summaries, **you're thinking with someone else's brain**.
-- Mon, Jun 23, 2025 - 2025a06m23d 
+- Fri, Jun 27, 2025 - 2025a06m27d
+  - The concept of "cognitive offshoring" is where humans outsource thought and cognitive processes to machines.
+    - Automation can impact personal thought by reducing the need for individuals to engage in deep thinking and reflection. <a href="#2025a06m27d-20250914155712">§</a> <a id="2025a06m27d-20250914155712"></a>
+      - [++]({{site.baseurl}}{% post_url 2025/2025-06-27-cognitive-offshoring-the-impact-of-automation-on-thought %})
+- Thu, Jun 26, 2025 - 2025a06m26d
+  - Things about ourselves, our patterns, and our thoughts. <a href="#2025a06m26d-20250914151643">§</a> <a id="2025a06m26d-20250914151643"></a>
+    - [++]({{site.baseurl}}{% post_url 2025/2025-06-26-things-to-learn-after-falling-apart %})
+    - Everything that irritates us about others can lead us to an understanding of ourselves.
+    - Who looks outside, dreams; who looks inside, awakens.
+- Mon, Jun 23, 2025 - 2025a06m23d
   - Tiny habits that quiet the mind
     - Name the thing you're avoiding: Writing down the task and reason for avoidance helps calm the brain.
     - Use your eyes like a calm animal: when you soften your gaze-looking wide instead of narrow-your nervous system shifts from a fight-or-flight response into a rest-and-digest state. So when I'm feeling tense, I stare out a window or at the horizon. It's subtle. But it works.
@@ -153,21 +162,45 @@ entries eventually become outdated.</sup>
       - Just to name it. Sometimes that's all it takes.
         - Not for to-do lists, but for unspoken fears. And the relief they feel, just from saying it out loud, is palpable.
       - Uncertainty keeps the brain on high alert. Naming the fear is the first step toward calming it.
-- Fri, Jun 20, 2025 - 2025a06m20d 
+- Fri, Jun 20, 2025 - 2025a06m20d
   - Consistency beats intensity, and small, daily choices shift everything.
   - Habits are not hacks but anchors for improving mental well-being.
-- Sat, Jun 14, 2025 - 2025a06m14d 
+- Sat, Jun 14, 2025 - 2025a06m14d
   - Not All Criticism Is Helpful
     - Criticising for the sake of criticising is unproductive. Pointing out issues without offering solutions drains energy and motivation. As such, criticism should aim to better the initial idea, leaning in to help shape it.
   - Don't Criticise. Challenge.
     - Critics should become challengers, asking rather than exclaiming, and fuelling rather than draining momentum.
-- Fri, Jun 13, 2025 - 2025a06m13d 
+- Sat, Jun 14, 2025 - 2025a06m14d
+  - Who you choose to spend time with is important, as your close contacts will have a large influence on you.
+  - It takes courage to do what you want. Other people have a lot of plans for you.
+  - Deciding what kind of people you want to associate with is crucial, as they will significantly influence you, either positively or negatively.
+- Fri, Jun 13, 2025 - 2025a06m13d
+  - Let Silence Speak:
+    - Don't reply instantly to every message. People will learn that you're always available if you do. A delay creates spacing and resets expectations.
+    - Slight delay retrains people. It introduces a pause—and in that pause, expectations shift.
+    - You're not on standby. You're not tech support. You're a human being with rhythms, routines, and energy that deserves to be honored.
+  - Let Silence Train People Too:
+    - Silence can be a powerful tool for training others to respect one's time. By not responding immediately to every message or request, one can create space and set boundaries.
+    - Sometimes the most powerful boundary isn't something you say. It's what you don't say.
+    - The moment you reply instantly to everything, you've taught people a silent rule: "My time is free. I'm always available. Interrupt me anytime."
+    - Silence, on the other hand, creates spacing. It sends a message without friction: "This isn't urgent for me right now."
+- Fri, Jun 13, 2025 - 2025a06m13d
   - A quick history lesson - a quick lesson about AI:
     - “Every major breakthrough in computing has been about doing more with less effort.”
     - The 1880 census took nearly a decade to process by hand, so we invented machines to do the counting. Then we invented programming languages so we didn’t have to wire circuits. Then we created frameworks so we didn’t have to write everything from scratch. Now we have AI so we don’t have to write every line of code.
-    - The pattern is always the same: identify the tedious, repetitive work that humans are doing, then build tools to automate it so humans can focus on the creative, strategic thinking.
-- Wed, Jun 11, 2025 - 2025a06m11d 
+    - The pattern is always the same: identify the tedious, repetitive work that humans are doing, then build tools to automate it so humans can focus on the creative, strategic thinking. <a href="#2025a06m13d-20250914155811">§</a> <a id="2025a06m13d-20250914155811"></a>
+      - [++]({{site.baseurl}}{% post_url 2025/2025-06-27-cognitive-offshoring-the-impact-of-automation-on-thought %})
+- Wed, Jun 11, 2025 - 2025a06m11d
   - Data Scientists have long said (about ML models) that **"garbage in means garbage out"** - in other words, your models are only as good as the data you've used to train them.
+- Mon, Jun 09, 2025 - 2025a06m09d
+  - The way something is said often fuels relationship stress, and this is mostly governed by our nervous systems.
+    - Instead of rushing into resolutions, which can be counterproductive, try slowing down and regulating your nervous system jointly.
+    - Often, the real stress in a relationship isn't about what's said but how it's said. And the “how” is almost always shaped by the state of our nervous systems.
+  - See conflict not as a threat but as a compass pointing towards unresolved emotions.
+    - You're not reacting to the present; you're caught up in past stories and unmet needs.
+    - When caught in a conflict, try saying: "Neither of us has the full truth", and share your interpretation of the argument.
+    - The real stakes aren't “who's right.” The real question is: What can we invent together?
+      - Conflict resolution in relationships isn't about winning - it's about creating.
 - Sun, Jun 08, 2025 - 2025a06m08d
   - Biggest mistakes killing your second brain:
     - The collector's conundrum: You become a curator of other people's ideas, not your own. <a href="#2025a06m08d-20250914001505">§</a> <a id="2025a06m08d-20250914001505"></a>
@@ -180,7 +213,7 @@ entries eventually become outdated.</sup>
 - Wed, Jun 04, 2025 - 2025a06m04d
   - Just collecting info is not thinking - pieces of info need to be connected and combined. <a href="#2025a06m04d-20250914000118">§</a> <a id="2025a06m04d-20250914000118"></a>
     - [--](#2025a06m08d-20250914001505) [++]({{site.baseurl}}{% post_url 2025/2025-06-04-collecting-is-not-thinking %})
-- Tue, Jun 03, 2025 - 2025a06m03d 
+- Tue, Jun 03, 2025 - 2025a06m03d
   - An apple a day keeps the doctor away. An article a day? That's how you keep the boss away.
 - Mon, Jun 02, 2025 - 2025a06m02d
   - The 3-word phrase that makes people instantly like you.
@@ -188,14 +221,14 @@ entries eventually become outdated.</sup>
       - [--](#2025a02m03d-20250913225602) [++]({{site.baseurl}}{% post_url 2025/2025-06-02-tell-me-more %})
       - "Tell me more" works because it validates the speaker, encourages reciprocity, and creates curiosity.
       - "Tell me more" is a valuable tool for building rapport.
-- Tue, May 27, 2025 - 2025a05m27d 
+- Tue, May 27, 2025 - 2025a05m27d
   - Most people don't really want to know themselves.
     - What they want is to feel good about their bad habits, see their past in a quote that makes them feel seen, and call that "healing".
-- Tue, May 27, 2025 - 2025a05m27d 
+- Tue, May 27, 2025 - 2025a05m27d
   - When everything feels hard to do, focus on the "MAT" rule.
     - The simple trick that changed how I get things done (and made it a habit) is what I call The Minimal Action Trigger (MAT).
       - What's MAT? It's the smallest possible action that triggers motion. It's so simple your brain can't say no.
-- Tue, May 27, 2025 - 2025a05m27d 
+- Tue, May 27, 2025 - 2025a05m27d
   - People will believe almost anything, and that's a dangerous reality. It's no wonder why con artists succeed or why crooked politicians can lie and increase in popularity. We tend to believe what we want to be true. We're all susceptible to sometimes letting self-interest, greed, fear, and ignorance get in the way of truth.
     - The human tendency to believe what we want to be true, making us vulnerable to manipulation and misinformation.
 - Sun, May 25, 2025 - 2025a05m25d
@@ -217,11 +250,22 @@ entries eventually become outdated.</sup>
     - Two primary choices: ignoring the issue or attempting to fix it.
       - Ignore it: Most things won’t be fixable, and wasting energy on them only drains you.
       - It highlights that most problems are not fixable, and expending energy on them can be draining.
+- Fri, May 16, 2025 - 2025a05m16d
+  - Ancient Philosophies
+    - "What you think, you become. What you feel, you attract. What you do, you create" - Buddha
+    - "We suffer more in imagination than in reality."
+- Fri, May 16, 2025 - 2025a05m16d
+  - Meditation is an Information Fast
+    - Meditation is becoming practically a requirement for survival in our world. With the amount of information we encounter every day, and the speed at which we can use technology tools, it's essential to take time for silence and let your brain de-fragment:
+      - "Information is the food of the mind, and the same way that people have food diets, they need information diets... A very important part of any information diet is to have periods of fasting." - _Yuval Noah Harari_
+- Thu, May 15, 2025 - 2025a05m15d
+  - As you acquire new things and accomplish new goals, you lose something else: **time**.
+    - Make sure your pursuits are worth your time, otherwise why pursue them?
 - Sun, May 04, 2025 - 2025a05m04d
   - What separates good work from great isn't talent but persistence. The most successful people aren't those who feel motivated all the time; they're the ones who work even when they don't feel like it.
-- Mon, Apr 28, 2025 - 2025a04m28d 
+- Mon, Apr 28, 2025 - 2025a04m28d
   - Creativity isn't something you have or don't have - it's something you express.
-- Mon, Apr 28, 2025 - 2025a04m28d 
+- Mon, Apr 28, 2025 - 2025a04m28d
   - Paradoxes That Are True - Save Your Time
     - The More You Try to Control, the More You Lose Control
       - Ask anyone who has tried to fix a teenager. Or a spouse. Or a friend. Or a bad haircut. The more you squeeze something with urgency, the sooner it wriggles away into your palms.
@@ -247,7 +291,7 @@ entries eventually become outdated.</sup>
     - Rest is essential for productivity, and burnout is not something to be proud of.
     - Strength is often associated with softness, kindness, and compassion.
     - Growth and learning occur when we are uncomfortable and uncertain.
-- Sun, Apr 27, 2025 - 2025a04m27d 
+- Sun, Apr 27, 2025 - 2025a04m27d
   - The clearer you are about your priorities, the easier it is to say no.
   - The quicker you want something, the easier it is to manipulate you.
   - "To know what you are going to draw, you have to begin drawing." _Picasso_
@@ -258,7 +302,7 @@ entries eventually become outdated.</sup>
   - There are two types of truth: <sup>[+]({{site.baseurl}}{% post_url 2025/2025-04-27-dividends-and-truth %})</sup>
     - Political truth: true because many other people think they are.
     - Technical truth: true for physical or technical reasons.
-- Sun, Apr 27, 2025 - 2025a04m27d 
+- Sun, Apr 27, 2025 - 2025a04m27d
   - Time is not just numbers on a clock.
     - Clock Time: The hours and minutes we schedule.
       - Clock time is our method of organizing the day.
@@ -272,7 +316,7 @@ entries eventually become outdated.</sup>
   - The book _Anti-Time Management_, Richie Norton argues that there are two ways to put time to good use now:
     - Decide who you want to be.
     - Act from that identity immediately.
-- Sun, Apr 27, 2025 - 2025a04m27d 
+- Sun, Apr 27, 2025 - 2025a04m27d
   - "You come to understand that most people are neither for you nor against you; they are thinking about themselves.
   - You learn that no matter how hard you try to please, some people in this world are not going to love you, a lesson that is at first troubling and then really quite relaxing."
   - Most people I know or come across are not for me or against me. They are not plotting my success or downfall. They're not sitting around analyzing my choices or judging my every move. They are just thinking about themselves.
@@ -320,19 +364,20 @@ entries eventually become outdated.</sup>
         - We spend more time searching for information than using it.
         - Most of the tools we use to organize knowledge are designed to store information, not transform it.
     - "The goal isn't to manage information, it's to make it work for you." - Tiago Forte.
-- Mon, Apr 07, 2025 - 2025a04m07d 
+- Mon, Apr 07, 2025 - 2025a04m07d
   - Brain Food
     - The loudest signals come from the emptiest sources. __Those who truly possess something rarely need to announce it__.
     - Those who fear appearing foolish rarely discover anything new. The genius of tomorrow often looks like an idiot today.
     - "Success in investing isn't about making a lot of money in a short period of time. It's about earning reasonable returns over very long periods."
-- Sat, Apr 05, 2025 - 2025a04m05d 
+- Sat, Apr 05, 2025 - 2025a04m05d
   - Quote from Daniel Schmachtenberger:
     - "Traditional education and hyperspecialization is a way to make people subservient to the dominant paradigm/ system. Study the generalized principles of nature and be a deep generalist."
       - It's unreasonable to expect individuals to know their life's purpose or career at age 18. Society often pushes people towards a traditional path of job, marriage, and conventional life milestones, which might not suit everyone, especially those with multiple interests.
       - Individuals are not taught to think critically but to memorize and conform.
       - This system prepares individuals for replaceable roles in society, not for personal freedom or creativity.
     - The Role of AI in Specialization:
-      - AI is replacing predictable, repetitive tasks, reducing the need for specialists.
+      - AI is replacing predictable, repetitive tasks, reducing the need for specialists. <a href="#2025a04m05d-20250914155853">§</a> <a id="2025a04m05d-20250914155853"></a>
+        - [++]({{site.baseurl}}{% post_url 2025/2025-06-27-cognitive-offshoring-the-impact-of-automation-on-thought %})
       - Creative work requires taste, which AI cannot fully replicate.
     - __Role of AI__: AI can replace repetitive tasks, but true creative work involves synthesizing unique ideas, which requires human taste and experience.
   - Traditional education and hyperspecialization make people subservient to the dominant paradigm/system.
@@ -480,6 +525,8 @@ entries eventually become outdated.</sup>
 - Sat, Jun 17, 2024 - 2024a06m17d
   - When rewarding the candor, it is more likely to get more of it.
   - Did you like what the colleague have done? Thanks them in public. Let them know. Both gain in this win-win game. It shows gratitude. Also, and a thankful word is a fuel to keep a good habit last.
+- Tue, Jan 09, 2024 - 2024a01m09d
+  - "Remember, consistency is more important than intensity. It's about progress, not peefection."
 
 
 # other stuff

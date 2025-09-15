@@ -17,6 +17,8 @@ foster new insights.
 articles, enabling items to be tracked and revisited later, even if some
 entries eventually become outdated.</sup>
 
+- Sun, Sep 14, 2025 - 2025a09m14d
+  - “What we see in people is determined, in large part, by what we expect to find.” - Author Paul Smith, on seeing what we want to see.
 - Sat, Sep 13, 2025 - 2025a09m13d
   - Laws of Human Nature - dark psychology lessons
     - Always Say Less Than Necessary

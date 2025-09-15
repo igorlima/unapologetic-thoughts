@@ -14,8 +14,11 @@ title: Dots Mapping
       - Vector DB
       - <details markdown="block"><summary>RAG</summary>
           
-        - <details markdown="block"><summary>embeddings</summary>
+        - <details markdown="block"><summary>embeddings <sup><a href="#2025a09m14d-20250914204144">§</a></sup></summary>
            
+          <a id="2025a09m14d-20250914204144"></a>
+          - Gemini
+            [<sup>+</sup>]({{site.baseurl}}{% post_url 2025/2025-09-14-ai-embedding-models %})
           - Voyage AI
             [<sup>+</sup>]({{site.baseurl}}{% post_url 2024/2024-06-08-ai-embedding-models %})
           - AnyScale AI

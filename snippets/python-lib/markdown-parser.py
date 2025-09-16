@@ -76,7 +76,13 @@ REFERENCE:
   - https://markdown-it-py.readthedocs.io/en/latest/using.html
 
 ```sh
-# run it
+# RUN this file by:
 python3 markdown-parser.py
+
+# RENDER markdown to HTML with markdown-it-py from the command-line
+# type ctrl-d to complete input, or ctrl-c to exit.
+markdown-it
+# in batch
+markdown-it README.md README.footer.md > index.html
 ```
 """

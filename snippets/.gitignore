@@ -4,6 +4,7 @@
 # PYTHON LIB
 # ignore python virtual environment
 python-lib/my-test-env*
+python-lib/tmp-env*
 python-lib/data/nautilus-omnibus.html
 
 # Media Files
@@ -12,9 +13,11 @@ python-lib/data/nautilus-omnibus.html
 # PYTHON LLM AI
 # ignore python virtual environment
 python-llm-ai/my-test-env*
+python-llm-ai/tmp-env*
 # ignore media files
 python-llm-ai/*.mp4
 python-llm-ai/*.png
+python-llm-ai/output/*
 
 # PYTHON LLM CHUNK
 # ignore python virtual environment

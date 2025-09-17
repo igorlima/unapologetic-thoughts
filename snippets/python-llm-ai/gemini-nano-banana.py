@@ -1,9 +1,29 @@
-# HOW TO BUILD WITH NANO BANANA
+# HOW TO BUILD WITH NANO BANANA: Gemini 2.5 Flash Image
 """
 Google has recently released Gemini 2.5 Flash Image, a powerful new model for
 image generation and editing, also known by its codename, Nano Banana. This
 model introduces state-of-the-art capabilities for creating and manipulating
 images, unlocking a wide range of new applications.
+
+You can now build interactive, multimodal applications with powerful creative
+control that goes far beyond simple text-to-image.
+- Maintain character consistency: Preserve a subject’s appearance across
+  multiple generated images and scenes.
+- Perform intelligent editing: Enable precise, prompt-based edits like
+  inpainting (adding/changing objects), outpainting, and targeted
+  transformations within an image.
+- Compose and merge images: Intelligently combine elements from multiple images
+  into a single, photorealistic composite.
+- Leverage multimodal reasoning: Build features that understand visual context,
+  such as following complex instructions on a hand-drawn diagram.
+
+DOCUMENTATION
+Explore all model capabilities and get advanced prompting tips.
+- https://ai.google.dev/gemini-api/docs/image-generation
+
+COOKBOOKS
+Find more examples and code samples in the cookbook guide.
+- https://colab.research.google.com/github/google-gemini/cookbook/blob/main/quickstarts/Image_out.ipynb
 
 BEST PRACTICES and prompting tips for Nano Banana
 To achieve the best results with Nano Banana, follow these prompting
@@ -22,6 +42,11 @@ guidelines:
 - Control the Camera: Use photographic and cinematic terms to direct the
   composition, such as "wide-angle shot", "macro shot", or "low-angle
   perspective".
+
+CUT YOUR GEMINI API COSTS BY 50% 
+Cut costs and enjoy higher throughput rate limits by batching multiple images
+in a single request and automating image generation tasks.
+- https://ai.google.dev/gemini-api/docs/batch-api
 """
 
 """

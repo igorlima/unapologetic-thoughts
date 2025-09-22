@@ -98,6 +98,11 @@ cat /root/.cache/discordo/logs.txt
 ./discordo --token "xxxxxxxxxxxxxxxxxxxxxxxx"
 ```
 
+```sh
+export TZ="America/Sao_Paulo"
+export TZ="America/Los_Angeles"
+```
+
 ## MANUALLY GET TOKEN
 
 - https://github.com/terminal-discord/weechat-discord

@@ -1,6 +1,11 @@
 # POST CONTENT
 # empty yet
 
+# CLI AND TUI
+# ignore python virtual environment
+cli-and-tui/my-test-env*
+cli-and-tui/tmp-env*
+
 # PYTHON LIB
 # ignore python virtual environment
 python-lib/my-test-env*

@@ -64,16 +64,15 @@ lue --help
 ## Installation
 
 ```sh
-# mkdir $(date +%Ya%mm%dd-%Hh%M%S)
 # mkdir $(date +%Ya%mm%dd-%Hh%Mm%Ss)
+rm -rf tmp-env
 python3 -m venv tmp-env
 source tmp-env/bin/activate
 
 # `-I`  Ignore the installed packages, overwriting them.
 # `-U`  Upgrade all specified packages to the newest available version.
-
-pip3 install git+https://github.com/superstarryeyes/lue.git@8ff13674376fce811b2b59dad92f9f6ab45ce67f
-pip3 install git+https://github.com/superstarryeyes/lue.git
+# pip3 install git+https://github.com/superstarryeyes/lue.git@8ff13674376fce811b2b59dad92f9f6ab45ce67f
+# pip3 install git+https://github.com/superstarryeyes/lue.git
 pip3 install -U lue==0.1.0
 pip3 install -U kokoro==0.9.4
 pip3 install -U soundfile==0.13.1

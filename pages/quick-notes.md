@@ -20,6 +20,8 @@ entries eventually become outdated.</sup>
 - Sun, Sep 14, 2025 - 2025a09m14d
   - “What we see in people is determined, in large part, by what we expect to find.” - Author Paul Smith, on seeing what we want to see.
 - Sat, Sep 13, 2025 - 2025a09m13d
+  - While most devices are designed to do it all <sup><sub>_(a device with yet another display to distract you from what you’re doing)_</sub></sup>, the irony is, when they try to do everything all at once — including battling for your attention — the quality of your thinking or creativity can slip.
+- Sat, Sep 13, 2025 - 2025a09m13d
   - Laws of Human Nature - dark psychology lessons
     - Always Say Less Than Necessary
       - “A man's best treasure is his thrifty tongue."

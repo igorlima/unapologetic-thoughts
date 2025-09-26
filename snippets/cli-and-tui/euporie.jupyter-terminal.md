@@ -7,10 +7,13 @@
 ## Usage
 
 ```sh
-# Euporie Console
+# setup virtual environment
+source tmp-env/bin/activate
+
+# euporie console
 euporie-console
 
-# Notebooks
+# euporie notebook
 euporie-notebook notebook.ipynb
 euporie-notebook ../../notebooks/files/ai-prompts.ipynb
 euporie-notebook ../../notebooks/files/py-basics.ipynb
@@ -20,6 +23,8 @@ euporie-notebook ../../notebooks/files/go-basics.ipynb
 
 - `ctrl+space`: the command palette can be summoned with `ctrl+space`, which
   provides access to settings and various operations from within the console.
+- `ctrl+e`: run the current cell and move to the next one.
+  - it also works convert the raw text to markdown form.
 
 ## Instalation
 

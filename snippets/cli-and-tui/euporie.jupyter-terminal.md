@@ -12,6 +12,10 @@ euporie-console
 
 # Notebooks
 euporie-notebook notebook.ipynb
+euporie-notebook ../../notebooks/files/ai-prompts.ipynb
+euporie-notebook ../../notebooks/files/py-basics.ipynb
+euporie-notebook ../../notebooks/files/js-basics.ipynb
+euporie-notebook ../../notebooks/files/go-basics.ipynb
 ```
 
 - `ctrl+space`: the command palette can be summoned with `ctrl+space`, which

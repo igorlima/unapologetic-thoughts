@@ -17,6 +17,8 @@ euporie-console
 export EUPORIE_EXTERNAL_EDITOR=vim
 EUPORIE_EXTERNAL_EDITOR=vim euporie-notebook notebook.ipynb
 euporie-notebook notebook.ipynb
+# ...
+ls ../../notebooks/files/*.ipynb
 euporie-notebook ../../notebooks/files/ai-prompts.ipynb
 euporie-notebook ../../notebooks/files/py-basics.ipynb
 euporie-notebook ../../notebooks/files/js-basics.ipynb

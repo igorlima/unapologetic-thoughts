@@ -11,6 +11,7 @@ simpleUsage () {
     -e     | --init-env-py
     -x     | --deactivate-env-py
     -i     | --install-python-modules
+    -d     | --duplicate-ipynb-to-old
     -r     | --rename-ipynb-to-old
     -c     | --convert-notebook-to-html
     -o     | --open-jupyter-notebook
@@ -61,6 +62,20 @@ simpleUsage () {
         pip3 install --upgrade --force-reinstall jinja2==3.1.4
         pip3 install --upgrade --force-reinstall nbdime==4.0.1
         pip3 install --upgrade --force-reinstall jupyter-server==2.12.5
+        echo 'Done!'
+        exit 0
+        ;;
+      -d|--duplicate-ipynb-to-old)
+        # https://igorlima.github.io/unapologetic-thoughts/technical/2024/05/12/steps-to-publish-notebook.html
+        echo 'Going to the notebooks/files directory...'
+        cd notebooks/files
+        echo 'Duplicating all the `.ipynb` files to `-old.ipynb`...'
+        for x in *.ipynb; do
+          # duplicate all the `.ipynb` files to `-old.ipynb`
+          t=$(echo $x | sed 's/\.ipynb$//');
+          o="$t-old.ipynb"
+          cp $x $o  && echo "copied $x -> $o"
+        done
         echo 'Done!'
         exit 0
         ;;

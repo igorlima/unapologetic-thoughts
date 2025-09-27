@@ -14,6 +14,8 @@ source tmp-env/bin/activate
 euporie-console
 
 # euporie notebook
+export EUPORIE_EXTERNAL_EDITOR=vim
+EUPORIE_EXTERNAL_EDITOR=vim euporie-notebook notebook.ipynb
 euporie-notebook notebook.ipynb
 euporie-notebook ../../notebooks/files/ai-prompts.ipynb
 euporie-notebook ../../notebooks/files/py-basics.ipynb
@@ -25,6 +27,9 @@ euporie-notebook ../../notebooks/files/go-basics.ipynb
   provides access to settings and various operations from within the console.
 - `ctrl+e`: run the current cell and move to the next one.
   - it also works convert the raw text to markdown form.
+- `e`: open the current cell in an external editor.
+  - set the external editor with the `EUPORIE_EXTERNAL_EDITOR` environment variable.
+      - `EUPORIE_EXTERNAL_EDITOR=vim euporie-notebook notebook.ipynb`
 
 ## Instalation
 

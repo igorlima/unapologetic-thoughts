@@ -23,6 +23,7 @@ python-llm-ai/tmp-env*
 python-llm-ai/*.mp4
 python-llm-ai/*.png
 python-llm-ai/output/*
+!python-llm-ai/output/.keep
 
 # PYTHON LLM CHUNK
 # ignore python virtual environment

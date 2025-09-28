@@ -50,14 +50,13 @@ in a single request and automating image generation tasks.
 """
 
 """
-# mkdir $(date +%Ya%mm%dd-%Hh%M%S)
+# mkdir $(date +%Ya%mm%dd-%Hh%Mm)
 # mkdir $(date +%Ya%mm%dd-%Hh%Mm%Ss)
 python3 -m venv tmp-env
 source tmp-env/bin/activate
 
 # `-I`  Ignore the installed packages, overwriting them.
 # `-U`  Upgrade all specified packages to the newest available version.
-
 pip3 install -U google-genai==1.36.0
 pip3 install Pillow==11.3.0
 pip3 install --upgrade --force-reinstall google-genai
@@ -182,7 +181,7 @@ for part in response2.candidates[0].content.parts:
 HOW TO RUN THIS SCRIPT:
 ({
 export GEMINI_API_KEY="xxxxxxxxxxxxxxxxxxxx"
-python3 gemini-nano-banana.py
+python3 gemini-nano-banana-image-generation.py
 })
 
 GENERATE AN API KEY

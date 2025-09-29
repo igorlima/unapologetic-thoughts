@@ -7,6 +7,8 @@
 ## Usage
 
 ```sh
+# go to the snippets directory
+cd ~/workstation/github/unapologetic-thoughts/snippets/cli-and-tui/
 # setup virtual environment
 source tmp-env/bin/activate
 

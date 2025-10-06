@@ -63,6 +63,7 @@ To further exploration, brainstorm, doodle, and journal:
          
         </details>
       - Gemini CLI <sup>[+](#ai-tool-google-gemini-cli)</sup>
+      - Gemini Storybook <sup>[+](https://gemini.google.com/gem/storybook)</sup>
     - [Microsoft Copilot](https://copilot.microsoft.com/onboarding) <a id="ai-model-microsoft"></a>
       - [Enterprise AI](https://copilot.cloud.microsoft/en-us/prompts)
       - <details markdown="block"><summary>deprecated</summary>

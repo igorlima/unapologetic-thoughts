@@ -52,6 +52,7 @@ in a single request and automating image generation tasks.
 """
 # mkdir $(date +%Ya%mm%dd-%Hh%Mm)
 # mkdir $(date +%Ya%mm%dd-%Hh%Mm%Ss)
+rm -rf tmp-env
 python3 -m venv tmp-env
 source tmp-env/bin/activate
 

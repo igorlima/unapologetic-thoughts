@@ -60,6 +60,24 @@ title: Quotes
       </details>
     </details>
 
+> "Life is strange. We arrive with nothing and struggle for everything, and in the end, we leave with nothing and go on our way."
+  - <details><summary><sup><sub>The core idea is most famously attributed to...</sub></sup></summary>
+      <ol>
+        <li>
+          <strong>Buddhist Teachings:</strong> The concept of impermanence (anicca) and the detachment from material possessions is central to Buddhism. Many Buddhist teachings emphasize that we arrive with nothing and leave with nothing, and that attachment to worldly things leads to suffering. A common paraphrase often attributed to Buddha is: "We are born with nothing, we die with nothing, and in between, we fight for everything."
+        </li>
+        <li>
+          <strong>The Book of Ecclesiastes (Bible):</strong> This book, known for its philosophical reflections on the meaning of life, contains a very similar verse:
+          <br><i><strong>Ecclesiastes 5:15 (NIV):</strong> "Naked a person comes from his mother’s womb, and as he comes, so he departs. He takes nothing from his toil that he can carry in his hand."</i>
+        </li>
+      </ol>
+      <details><summary>pt-BR</summary>
+        <ul>
+          <li>A vida é estranha. Chegamos sem nada e lutamos por tudo, e no final, deixamos tudo e partimos sem nada.</li>
+        </ul>
+      </details>
+    </details>
+
 
 ![To Do](https://github.com/user-attachments/assets/efef6d4d-4190-4c81-b148-33ce9b73c44c)
 

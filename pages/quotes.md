@@ -60,6 +60,31 @@ title: Quotes
       </details>
     </details>
 
+> "Most of the amazing things in life make up over time. **Patience is a superpower**."
+  - Morgan Housel's quote
+  - <details><summary><sup><sub>...</sub></sup></summary>
+      <ul>
+        <li> Morgan Housel's quote, "Most of the amazing things in life make up over time. Patience is a superpower," emphasizes the importance of long-term thinking and delayed gratification in achieving success and fulfillment. He suggests that great things, whether in love, careers, or investments, gain their value from both patience in allowing growth and scarcity in appreciating the final result.  </li>
+        <li>
+          This quote highlights several key ideas: 
+          <ul>
+            <li>Compounding: Many aspects of life, like financial investments, relationships, and career growth, benefit from the principle of compounding, where small gains accumulate over time to create significant results. </li>
+            <li>Long-term perspective: Housel encourages readers to adopt a long-term perspective, recognizing that true success often requires sustained effort and patience. </li>
+            <li>The power of patience: The quote explicitly states that patience is a superpower, suggesting it is a valuable and often underestimated trait that can lead to remarkable achievements. </li>
+            <li> Avoiding instant gratification: Housel implies that the allure of quick fixes and instant results can be detrimental to achieving lasting success. </li>
+          </ul>
+        </li>
+        <li>
+          In essence, the quote encourages individuals to cultivate patience and embrace the process of growth, recognizing that the most rewarding things in life often take time to develop and mature
+        </li>
+      </ul>
+      <details><summary>pt-BR</summary>
+        <ul>
+          <li>“A maioria  das coisas incríveis da vida compõem com o tempo. Paciência é um superpoder.” - Morgan House, A Psicologia Financeira. </li>
+        </ul>
+      </details>
+    </details>
+
 > "Life is strange. We arrive with nothing and struggle for everything, and in the end, we leave with nothing and go on our way."
   - <details><summary><sup><sub>The core idea is most famously attributed to...</sub></sup></summary>
       <ol>

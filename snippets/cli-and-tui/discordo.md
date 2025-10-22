@@ -37,7 +37,8 @@ go build .
 
 ```sh
 uname -a
-curl -L -X GET https://nightly.link/ayn2op/discordo/workflows/ci/main/discordo_macOS_ARM64.zip -o discordo.zip
+# curl -k -L -X GET https://nightly.link/ayn2op/discordo/workflows/ci/main/discordo_macOS_X64.zip -o discordo.zip
+curl -k -L -X GET https://nightly.link/ayn2op/discordo/workflows/ci/main/discordo_macOS_ARM64.zip -o discordo.zip
 unzip discordo.zip
 # mkdir $(date +%Ya%mm%dd-%Hh%M%S)
 # mkdir $(date +%Ya%mm%dd-%Hh%Mm%Ss)
@@ -91,7 +92,7 @@ apt-get upgrade --allow-unauthenticated --fix-missing
 apt-get install -y curl wget git vim unzip libx11-dev
 
 uname -a
-curl -L -X GET https://nightly.link/ayn2op/discordo/workflows/ci/main/discordo_Linux_X64.zip -o discordo.zip
+curl -k -L -X GET https://nightly.link/ayn2op/discordo/workflows/ci/main/discordo_Linux_X64.zip -o discordo.zip
 unzip discordo.zip
 
 cat /root/.cache/discordo/logs.txt

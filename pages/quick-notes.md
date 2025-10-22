@@ -17,6 +17,14 @@ foster new insights.
 articles, enabling items to be tracked and revisited later, even if some
 entries eventually become outdated.</sup>
 
+- Tue, Oct 21, 2025 - 2025a10m21d
+  - People really and truly cannot read your mind.
+    - It’s easy to think that people are ignoring your wants or emotions because they don’t care about you. But it’s likely that they have no idea what those are. If you’ve told them, they’ve likely forgotten, and may need a reminder — they have their own whole crowded bubble of consciousness going on!
+  - Silence is an underused conversational tactic.
+    - It makes people more interesting and builds intimacy.
+  - Almost nobody hears too many sincere compliments.
+    - Compliment them to their face. Then, compliment them behind their back.
+    - Practice naming pleasant feelings you have about people, as soon as they bubble up, in the moment: “It’s always fun to see you.” Lower the resistance around this to zero.
 - Sun, Sep 14, 2025 - 2025a09m14d
   - “What we see in people is determined, in large part, by what we expect to find.” - Author Paul Smith, on seeing what we want to see.
 - Sat, Sep 13, 2025 - 2025a09m13d

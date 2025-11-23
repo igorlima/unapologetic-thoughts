@@ -17,6 +17,9 @@ foster new insights.
 articles, enabling items to be tracked and revisited later, even if some
 entries eventually become outdated.</sup>
 
+- Sun, Nov 23, 2025 - 2025a11m23d
+  - The Freedom of Less
+    - Eliminate the need to make many decisions. Eliminate the need to solve many problems. Eliminate the need for excessive communication. Eliminate the need to own many things. A mind full of desire breeds unhappiness. Fewer wants lead to fewer needs... and that freedom is happiness.
 - Tue, Oct 21, 2025 - 2025a10m21d
   - People really and truly cannot read your mind.
     - It’s easy to think that people are ignoring your wants or emotions because they don’t care about you. But it’s likely that they have no idea what those are. If you’ve told them, they’ve likely forgotten, and may need a reminder — they have their own whole crowded bubble of consciousness going on!

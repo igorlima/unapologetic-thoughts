@@ -36,6 +36,10 @@ euporie-notebook ../../notebooks/files/vim-basics.ipynb
 - `e`: open the current cell in an external editor.
   - set the external editor with the `EUPORIE_EXTERNAL_EDITOR` environment variable.
       - `EUPORIE_EXTERNAL_EDITOR=vim euporie-notebook notebook.ipynb`
+- `a` and `b`: insert a new cell above or below the current one.
+  - `m` to convert the current cell to markdown.
+  - `y` to convert the current cell to code.
+- `ctrl+q`: quit euporie.
 
 ## Instalation
 

@@ -17,6 +17,9 @@ foster new insights.
 articles, enabling items to be tracked and revisited later, even if some
 entries eventually become outdated.</sup>
 
+- Mon, Dec 29, 2025 - 2025a12m29d
+  - Wisdom isn’t just about knowing what to do—it’s also about acting on it.
+    - That takes self-control. Without it, the knowledge never gets applied. Wisdom means making decisions.
 - Sun, Nov 23, 2025 - 2025a11m23d
   - The Freedom of Less
     - Eliminate the need to make many decisions. Eliminate the need to solve many problems. Eliminate the need for excessive communication. Eliminate the need to own many things. A mind full of desire breeds unhappiness. Fewer wants lead to fewer needs... and that freedom is happiness.

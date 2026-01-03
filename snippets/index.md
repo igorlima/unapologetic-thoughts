@@ -186,6 +186,18 @@ git clone s3://my-git-bucket/my-repo
 <!-- git-remote-s3 -->
 </details>
 
+<details markdown="block"><summary>useful script</summary>
+
+```sh
+# find and remove .DS_Store files
+find . -type f -name ".DS_Store" | xargs -p -n1 rm -f
+
+# find and remove vim swap files
+find . -type f -name "*.sw[a-z]" | xargs -p -n1 rm -f
+```
+
+</details>
+
 
 <sub>Snippets code refers to small, reusable pieces of source code or text that can
 be easily inserted into a larger program or document. These snippets are

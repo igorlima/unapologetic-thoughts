@@ -170,6 +170,13 @@ REFERENCE:
     https://ai.google.dev/gemini-api/docs/
   Migrate to the Google GenAI SDK
     https://ai.google.dev/gemini-api/docs/migrate
+  Convert a PDF to Markdown Online: everything happens right in your browser
+    https://www.pdftomarkdown.co/
+    https://pdf2md.morethan.io/
+  A terminal EPUB Book Reader
+    https://github.com/bugzmanov/bookokrat
+    https://terminaltrove.com/bookokrat/
+
 
 HOW TO RUN THIS SCRIPT:
 python3 gemini-pdf2md.py --help

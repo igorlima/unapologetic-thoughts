@@ -45,7 +45,8 @@ args = parser.parse_args()
 print(f"Input File: {args.input_file}")
 print(f"Output Folder: {args.output}")
 
-
+# https://github.com/googleapis/python-genai
+# https://ai.google.dev/gemini-api/docs/libraries
 from google import genai
 from google.genai import types
 import pathlib
@@ -81,6 +82,7 @@ if not MD_FILEPATH.exists():
   - Charts & infographics must be interpreted to a markdown format
   - Non text based images must be replaced with [Description of image](image.png)
   """
+  # https://ai.google.dev/gemini-api/docs/document-processing#python
   response = client.models.generate_content(
     model="gemini-2.5-flash",
     contents=[

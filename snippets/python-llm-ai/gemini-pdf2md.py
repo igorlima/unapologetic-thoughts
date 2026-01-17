@@ -176,10 +176,79 @@ REFERENCE:
   A terminal EPUB Book Reader
     https://github.com/bugzmanov/bookokrat
     https://terminaltrove.com/bookokrat/
+     ┌─────────────────────────────────────────────────────────────────────────────┐
+     │ GLOBAL COMMANDS                                                             │
+     ├─────────────────────────────────────────────────────────────────────────────┤
+     │ q        Quit application                                                   │
+     │ Tab      Switch focus between library/TOC and content panels                │
+     │ Esc      Clear selection/search or dismiss popups                           │
+     │ Ctrl+z   Toggle zen mode (hide sidebar/status bar)                          │
+     │ ?        Show help screen                                                   │
+     │ Space+t  Open theme selector                                                │
+     │ + / -    Increase/decrease content margins                                  │
+     └─────────────────────────────────────────────────────────────────────────────┘
+     ┌─────────────────────────────────────────────────────────────────────────────┐
+     │ NAVIGATION (Vim-style)                                                      │
+     ├─────────────────────────────────────────────────────────────────────────────┤
+     │ j/k               Move down/up (works in all lists and reader)              │
+     │ h/l               Collapse/expand in TOC; previous/next chapter in reader   │
+     │ Ctrl+d / Ctrl+u   Scroll half-page down/up                                  │
+     │ gg                Jump to top                                               │
+     │ G                 Jump to bottom                                            │
+     │ Ctrl+o / Ctrl+i   Jump backward/forward in history                          │
+     └─────────────────────────────────────────────────────────────────────────────┘
+     ┌─────────────────────────────────────────────────────────────────────────────┐
+     │ SEARCH                                                                      │
+     ├─────────────────────────────────────────────────────────────────────────────┤
+     │ /         Start search (filter in library/TOC; search in reader)            │
+     │ n / N     Jump to next/previous match                                       │
+     │ Space+f   Reopen last book-wide search                                      │
+     │ Space+F   Start fresh book-wide search                                      │
+     └─────────────────────────────────────────────────────────────────────────────┘
+     ┌─────────────────────────────────────────────────────────────────────────────┐
+     │ LIBRARY & TOC PANEL                                                         │
+     ├─────────────────────────────────────────────────────────────────────────────┤
+     │ Enter   Open highlighted book or heading                                    │
+     │ h / l   Collapse/expand entry                                               │
+     │ H / L   Collapse/expand all                                                 │
+     └─────────────────────────────────────────────────────────────────────────────┘
+     ┌─────────────────────────────────────────────────────────────────────────────┐
+     │ READER PANEL                                                                │
+     ├─────────────────────────────────────────────────────────────────────────────┤
+     │ h / l                 Previous/next chapter                                 │
+     │ Space+s               Toggle raw HTML view                                  │
+     │ Space+c               Copy entire chapter                                   │
+     │ Space+z               Copy debug transcript                                 │
+     │ c or Ctrl+C           Copy selection                                        │
+     │ p                     Toggle profiler overlay                               │
+     │ n                     Toggle normal mode                                    │
+     │                       (Vim motions, visual selection, yanking)              │
+     │ v / V (normal mode)   Enter visual character/line selection;                │
+     │                       y to yank, Esc to exit                                │
+     └─────────────────────────────────────────────────────────────────────────────┘
+     ┌─────────────────────────────────────────────────────────────────────────────┐
+     │ COMMENTS & ANNOTATIONS                                                      │
+     ├─────────────────────────────────────────────────────────────────────────────┤
+     │ a   Create or edit comment on selection                                     │
+     │ d   Delete comment under cursor                                             │
+     └─────────────────────────────────────────────────────────────────────────────┘
+     ┌─────────────────────────────────────────────────────────────────────────────┐
+     │ POPUPS & EXTERNAL ACTIONS                                                   │
+     ├─────────────────────────────────────────────────────────────────────────────┤
+     │ Space+h   Toggle reading history popup                                      │
+     │ Space+d   Show book statistics popup                                        │
+     │ Space+a   Open comments/annotations viewer                                  │
+     │ Space+o   Open current book in OS viewer                                    │
+     │ Enter     Open image popup (when on image) or activate popup selection      │
+     └─────────────────────────────────────────────────────────────────────────────┘
+
 
 
 HOW TO RUN THIS SCRIPT:
+export GEMINI_API_KEY="xxxxxxxxxxxxxxxxxxxx"
 python3 gemini-pdf2md.py --help
+python3 gemini-pdf2md.py --input-file="~/Downloads/terminal-reading/pdf/" --output="~/Downloads/terminal-reading/epub/"
+python3 gemini-pdf2md.py --input-file ~/Downloads/terminal-reading/pdf/2026a01m05d.pdf --output ~/Downloads/terminal-reading/epub/
 ({
 export GEMINI_API_KEY="xxxxxxxxxxxxxxxxxxxx"
 python3 gemini-pdf2md.py --input-file="./data/vision-pdf-test.pdf" --output="./output/"

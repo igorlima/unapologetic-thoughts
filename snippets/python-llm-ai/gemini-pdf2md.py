@@ -80,16 +80,16 @@ if not OUTPUT_FOLDER_PATH.exists():
 
 if args.force_ai_extraction or not MD_FILEPATH.exists():
   PROMPT = """
-  You will be given PDF file that you need to process in three steps: extract it in markdown format, organize it for better readability, and provide a summary. 
-  
+  You will be given PDF file that you need to process in three steps: extract it in markdown format, organize it for better readability, and provide a summary.
+
   Your task has three parts:
-  
+
   **Part 1: Extract to Markdown Format**
   Convert the PDF content into clean markdown format. Ensure that:
   - Text formatting is preserved (bold, italics, etc.)
   - Any special characters or symbols are properly rendered
   - The content is presented exactly as it appears in the PDF, but in markdown syntax and **structure in a readable way**
-  
+
   **Part 2: Organize the Content**
   Take the markdown content and reorganize it for improved readability:
   - Identify and properly separate distinct paragraphs or sections
@@ -101,7 +101,7 @@ if args.force_ai_extraction or not MD_FILEPATH.exists():
   - Format lists and bullet points properly using markdown list syntax (-, or numbered lists)
   - Clearly delineate tables or figures from the main text using appropriate markdown table syntax or code blocks
   - Ensure logical flow and visual hierarchy in the document structure
-  
+
   **Part 3: Summarize the Content**
   Create a concise summary that captures the essence of the text:
   - Identify and state the main topic or theme
@@ -110,19 +110,19 @@ if args.force_ai_extraction or not MD_FILEPATH.exists():
   - Capture the overall conclusion or message
   - Keep your summary concise, aiming for approximately 10-15% of the original text length
   - Ensure the summary is coherent and can stand alone as a brief overview
-  
+
   **Output Format:**
   Present your complete response using the following structure:
-  
+
   # Markdown PDF Content
   [Write the extracted PDF content in markdown format here]
-  
+
   # Organized Context
   [Write your organized and reformatted version here]
-  
+
   # Summary
   [Write your concise summary here]
-  
+
   **Important reminders:**
   - Maintain the original meaning and intent of the text throughout all three parts
   - Respond in the same language as the provided PDF content
@@ -276,8 +276,9 @@ REFERENCE:
      ┌─────────────────────────────────────────────────────────────────────────────┐
      │ COMMENTS & ANNOTATIONS                                                      │
      ├─────────────────────────────────────────────────────────────────────────────┤
-     │ a   Create or edit comment on selection                                     │
-     │ d   Delete comment under cursor                                             │
+     │ a         Create or edit comment on selection                               │
+     │ d         Delete comment under cursor                                       │
+     │ Space+a   Open comments/annotations viewer                                  │
      └─────────────────────────────────────────────────────────────────────────────┘
      ┌─────────────────────────────────────────────────────────────────────────────┐
      │ POPUPS & EXTERNAL ACTIONS                                                   │

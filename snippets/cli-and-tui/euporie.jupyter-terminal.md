@@ -23,6 +23,7 @@ euporie-notebook notebook.ipynb
 ls ../../notebooks/files/*.ipynb
 euporie-notebook ../../notebooks/files/ai-prompts.ipynb
 euporie-notebook ../../notebooks/files/py-basics.ipynb
+euporie-notebook ../../notebooks/files/py-boto3.ipynb
 euporie-notebook ../../notebooks/files/js-basics.ipynb
 euporie-notebook ../../notebooks/files/go-basics.ipynb
 euporie-notebook ../../notebooks/files/sh-basics.ipynb

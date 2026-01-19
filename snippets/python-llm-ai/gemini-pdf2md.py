@@ -36,6 +36,12 @@ parser.add_argument(
   help="The path to the input file."
 )
 parser.add_argument(
+  "-f", "--force-ai-extraction",
+  action=argparse.BooleanOptionalAction,
+  default=False,
+  help="Force AI extraction even if markdown file exists."
+)
+parser.add_argument(
   "-o", "--output",
   type=str,
   required=True,
@@ -72,15 +78,56 @@ MD_FILEPATH = OUTPUT_FOLDER_PATH / pathlib.Path(FILENAME + '.md')
 if not OUTPUT_FOLDER_PATH.exists():
   OUTPUT_FOLDER_PATH.mkdir(parents=True, exist_ok=True)
 
-if not MD_FILEPATH.exists():
+if args.force_ai_extraction or not MD_FILEPATH.exists():
   PROMPT = """
-  Convert the following PDF page to markdown.
-  Return only the markdown with no explanation text. Do not include deliminators like '''markdown.
-
-  RULES:
-  - You MUST include all information on the page. Do NOT exclude headers, footers, or subtext.
-  - Charts & infographics must be interpreted to a markdown format
-  - Non text based images must be replaced with [Description of image](image.png)
+  You will be given PDF file that you need to process in three steps: extract it in markdown format, organize it for better readability, and provide a summary. 
+  
+  Your task has three parts:
+  
+  **Part 1: Extract to Markdown Format**
+  Convert the PDF content into clean markdown format. Ensure that:
+  - Text formatting is preserved (bold, italics, etc.)
+  - Any special characters or symbols are properly rendered
+  - The content is presented exactly as it appears in the PDF, but in markdown syntax and **structure in a readable way**
+  
+  **Part 2: Organize the Content**
+  Take the markdown content and reorganize it for improved readability:
+  - Identify and properly separate distinct paragraphs or sections
+  - Make headings and subheadings stand out using appropriate markdown heading levels (## for main headings, ### for subheadings, etc.)
+  - Correct any obvious formatting issues such as:
+    - Line breaks that occur in the middle of sentences
+    - Inconsistent spacing between sections
+    - Improperly formatted text
+  - Format lists and bullet points properly using markdown list syntax (-, or numbered lists)
+  - Clearly delineate tables or figures from the main text using appropriate markdown table syntax or code blocks
+  - Ensure logical flow and visual hierarchy in the document structure
+  
+  **Part 3: Summarize the Content**
+  Create a concise summary that captures the essence of the text:
+  - Identify and state the main topic or theme
+  - Highlight the key points or arguments presented
+  - Note any important data, statistics, or examples that support the main ideas
+  - Capture the overall conclusion or message
+  - Keep your summary concise, aiming for approximately 10-15% of the original text length
+  - Ensure the summary is coherent and can stand alone as a brief overview
+  
+  **Output Format:**
+  Present your complete response using the following structure:
+  
+  # Markdown PDF Content
+  [Write the extracted PDF content in markdown format here]
+  
+  # Organized Context
+  [Write your organized and reformatted version here]
+  
+  # Summary
+  [Write your concise summary here]
+  
+  **Important reminders:**
+  - Maintain the original meaning and intent of the text throughout all three parts
+  - Respond in the same language as the provided PDF content
+  - Do not add information that wasn't in the original content
+  - Focus on clarity and readability in your organization
   """
   # https://ai.google.dev/gemini-api/docs/document-processing#python
   response = client.models.generate_content(

@@ -13,6 +13,7 @@ simpleUsage () {
     -i     | --install-python-modules
     -d     | --duplicate-ipynb-to-old
     -r     | --rename-ipynb-to-old
+             you can easily restore the original files with Git and compare them to the new versions
     -c     | --convert-notebook-to-html
     -o     | --open-jupyter-notebook
     --rm   | --remove-old-ipynb

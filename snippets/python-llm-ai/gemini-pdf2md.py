@@ -279,6 +279,7 @@ REFERENCE:
      │ a         Create or edit comment on selection                               │
      │ d         Delete comment under cursor                                       │
      │ Space+a   Open comments/annotations viewer                                  │
+     │ dd        Delete highlighted comment (in comments viewer)                   │
      └─────────────────────────────────────────────────────────────────────────────┘
      ┌─────────────────────────────────────────────────────────────────────────────┐
      │ POPUPS & EXTERNAL ACTIONS                                                   │

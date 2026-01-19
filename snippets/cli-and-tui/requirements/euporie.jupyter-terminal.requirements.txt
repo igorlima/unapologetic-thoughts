@@ -1,0 +1,28 @@
+# :set syntax=requirements
+# mkdir $(date +%Ya%mm%dd-%Hh%Mm)
+# mkdir $(date +%Ya%mm%dd-%Hh%Mm%Ss)
+# pip3 install -r euporie.jupyter-terminal.requirements.txt
+
+# rm -rf tmp-env
+# python3 -m venv tmp-env
+# source tmp-env/bin/activate
+euporie==2.8.13
+
+pudb==2024.1
+ipdb==0.13.13
+
+# `-I`  Ignore the installed packages, overwriting them.
+# `-U`  Upgrade all specified packages to the newest available version.
+# pip3 install git+https://github.com/joouha/euporie.git@9e71398d06ae21b6a523df1d82cd3b74d6fab007
+# pip3 install git+https://github.com/joouha/euporie.git
+# pip3 install -U euporie==2.8.13
+# pip3 install --upgrade --force-reinstall euporie
+# pip3 install --no-cache --upgrade-strategy eager -I euporie
+# pip3 list
+# pip3 show euporie
+# pip3 index versions euporie
+
+# :set syntax=requirements
+# :echom &syntax
+# :echom &filetype
+# :messages

@@ -1,0 +1,32 @@
+# :set syntax=requirements
+# mkdir $(date +%Ya%mm%dd-%Hh%Mm)
+# mkdir $(date +%Ya%mm%dd-%Hh%Mm%Ss)
+# pip3 install -r gemini-pdf2md.requirements.txt
+
+# rm -rf tmp-env
+# python3 -m venv tmp-env
+# python3 -m venv my-test-env-2026a01m02d
+# source my-test-env-2026a01m02d/bin/activate
+google-genai==1.56.0
+xml2epub==2.6.10
+markdown==3.10
+
+pudb==2024.1
+ipdb==0.13.13
+
+# `-I`  Ignore the installed packages, overwriting them.
+# `-U`  Upgrade all specified packages to the newest available version.
+# pip3 install pudb
+# pip3 install -U google-genai==1.56.0
+# pip3 install -U xml2epub==2.6.10
+# pip3 install -U markdown==3.10
+# pip3 install --upgrade --force-reinstall google-genai
+# pip3 install --no-cache --upgrade-strategy eager -I google-genai==1.56.0
+# pip3 list
+# pip3 show google-genai
+# pip3 index versions google-genai
+
+# :set syntax=requirements
+# :echom &syntax
+# :echom &filetype
+# :messages

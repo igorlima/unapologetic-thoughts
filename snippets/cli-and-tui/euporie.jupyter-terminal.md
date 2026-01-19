@@ -61,3 +61,5 @@ pip3 show euporie
 pip3 index versions euporie
 ```
 
+**Also**, see requirements to set up a virtual environment and install the necessary packages:
+- `./requirements/euporie.jupyter-terminal.requirements.txt`

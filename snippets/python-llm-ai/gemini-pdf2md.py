@@ -1,25 +1,7 @@
 # How I use Gemini on my PDF files using Python
 """
-# mkdir $(date +%Ya%mm%dd-%Hh%Mm)
-# mkdir $(date +%Ya%mm%dd-%Hh%Mm%Ss)
-rm -rf tmp-env
-python3 -m venv tmp-env
-source tmp-env/bin/activate
-
-python3 -m venv my-test-env-2026a01m02d
-source my-test-env-2026a01m02d/bin/activate
-
-# `-I`  Ignore the installed packages, overwriting them.
-# `-U`  Upgrade all specified packages to the newest available version.
-pip3 install pudb
-pip3 install -U google-genai==1.56.0
-pip3 install -U xml2epub==2.6.10
-pip3 install -U markdown==3.10
-pip3 install --upgrade --force-reinstall google-genai
-pip3 install --no-cache --upgrade-strategy eager -I google-genai==1.56.0
-pip3 list
-pip3 show google-genai
-pip3 index versions google-genai
+See requirements to set up a virtual environment and install the necessary packages:
+- `./requirements/gemini-pdf2md.requirements.txt`
 """
 
 import argparse
@@ -50,6 +32,7 @@ parser.add_argument(
 args = parser.parse_args()
 print(f"Input File: {args.input_file}")
 print(f"Output Folder: {args.output}")
+
 
 # https://github.com/googleapis/python-genai
 # https://ai.google.dev/gemini-api/docs/libraries

@@ -612,7 +612,7 @@ can read aloud PDFs, websites, and books using natural AI voices.
 - for talking and speaking
   - _Inflection pi AI_ <sup>[+](#ai-model-inflection-pi)</sup>
 
-## My Notebooks  <a id="my-notebooks"></a>
+## My Notebooks  <a id="my-notebooks"></a> <sup><sup><a href="{{site.baseurl}}{% link pages/dots-mapping.md %}#my-notebooks">+</a></sup></sup>
 
 - _[steps to publish a notebook]({{site.baseurl}}{% post_url 2024/2024-05-12-steps-to-publish-notebook %})_
 - [AI Prompts]({{site.baseurl}}{% post_url 2023/2023-08-20-ai-writing-prompts %})

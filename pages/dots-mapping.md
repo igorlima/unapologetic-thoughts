@@ -49,6 +49,40 @@ title: Dots Mapping
       - [s3-remote-git]({{site.baseurl}}{% link snippets/index.md %}#git-remote-s3) [^999]
       </details>
     </details>
+
+  - <details markdown="block"><summary>notebook <sup><sup><a href="#my-notebooks">§</a> <a href="{{site.baseurl}}{% link journal-springboard.md %}#my-notebooks">+</a></sup></sup></summary>
+
+    <a id="my-notebooks"></a>
+    - <details markdown="block"><summary>ai-prompts</summary>
+
+      - [ipynb]({{site.baseurl}}{% link notebooks/files/ai-prompts.ipynb %}) / [html]({{site.baseurl}}{% link notebooks/html/ai-prompts.html %}) / [nbviewer](https://nbviewer.org/urls/igorlima.github.io/unapologetic-thoughts/notebooks/files/ai-prompts.ipynb) / [colab](https://colab.research.google.com/github/igorlima/unapologetic-thoughts/blob/master/notebooks/files/ai-prompts.ipynb) / [github](https://github.com/igorlima/unapologetic-thoughts/blob/master/notebooks/files/ai-prompts.ipynb)
+      </details>
+    - <details markdown="block"><summary>py-basics</summary>
+
+      - [ipynb]({{site.baseurl}}{% link notebooks/files/py-basics.ipynb %}) / [html]({{site.baseurl}}{% link notebooks/html/py-basics.html %}) / [nbviewer](https://nbviewer.org/urls/igorlima.github.io/unapologetic-thoughts/notebooks/files/py-basics.ipynb) / [colab](https://colab.research.google.com/github/igorlima/unapologetic-thoughts/blob/master/notebooks/files/py-basics.ipynb) / [github](https://github.com/igorlima/unapologetic-thoughts/blob/master/notebooks/files/py-basics.ipynb)
+      </details>
+    - <details markdown="block"><summary>py-boto3</summary>
+
+      - [ipynb]({{site.baseurl}}{% link notebooks/files/py-boto3.ipynb %}) / [html]({{site.baseurl}}{% link notebooks/html/py-boto3.html %}) / [nbviewer](https://nbviewer.org/urls/igorlima.github.io/unapologetic-thoughts/notebooks/files/py-boto3.ipynb) / [colab](https://colab.research.google.com/github/igorlima/unapologetic-thoughts/blob/master/notebooks/files/py-boto3.ipynb) / [github](https://github.com/igorlima/unapologetic-thoughts/blob/master/notebooks/files/py-boto3.ipynb)
+      </details>
+    - <details markdown="block"><summary>js-basics</summary>
+
+      - [ipynb]({{site.baseurl}}{% link notebooks/files/js-basics.ipynb %}) / [html]({{site.baseurl}}{% link notebooks/html/js-basics.html %}) / [nbviewer](https://nbviewer.org/urls/igorlima.github.io/unapologetic-thoughts/notebooks/files/js-basics.ipynb) / [colab](https://colab.research.google.com/github/igorlima/unapologetic-thoughts/blob/master/notebooks/files/js-basics.ipynb) / [github](https://github.com/igorlima/unapologetic-thoughts/blob/master/notebooks/files/js-basics.ipynb)
+      </details>
+    - <details markdown="block"><summary>go-basics</summary>
+
+      - [ipynb]({{site.baseurl}}{% link notebooks/files/go-basics.ipynb %}) / [html]({{site.baseurl}}{% link notebooks/html/go-basics.html %}) / [nbviewer](https://nbviewer.org/urls/igorlima.github.io/unapologetic-thoughts/notebooks/files/go-basics.ipynb) / [colab](https://colab.research.google.com/github/igorlima/unapologetic-thoughts/blob/master/notebooks/files/go-basics.ipynb) / [github](https://github.com/igorlima/unapologetic-thoughts/blob/master/notebooks/files/go-basics.ipynb)
+      </details>
+    - <details markdown="block"><summary>sh-basics</summary>
+
+      - [ipynb]({{site.baseurl}}{% link notebooks/files/sh-basics.ipynb %}) / [html]({{site.baseurl}}{% link notebooks/html/sh-basics.html %}) / [nbviewer](https://nbviewer.org/urls/igorlima.github.io/unapologetic-thoughts/notebooks/files/sh-basics.ipynb) / [colab](https://colab.research.google.com/github/igorlima/unapologetic-thoughts/blob/master/notebooks/files/sh-basics.ipynb) / [github](https://github.com/igorlima/unapologetic-thoughts/blob/master/notebooks/files/sh-basics.ipynb)
+      </details>
+    - <details markdown="block"><summary>vim-basics</summary>
+
+      - [ipynb]({{site.baseurl}}{% link notebooks/files/vim-basics.ipynb %}) / [html]({{site.baseurl}}{% link notebooks/html/vim-basics.html %}) / [nbviewer](https://nbviewer.org/urls/igorlima.github.io/unapologetic-thoughts/notebooks/files/vim-basics.ipynb) / [colab](https://colab.research.google.com/github/igorlima/unapologetic-thoughts/blob/master/notebooks/files/vim-basics.ipynb) / [github](https://github.com/igorlima/unapologetic-thoughts/blob/master/notebooks/files/vim-basics.ipynb)
+      </details>
+    </details>
+
   - <details markdown="block"><summary>resource configuration <sup><sup><a href="{{site.baseurl}}{% link pages/dots-mapping.md %}#aichat-rag-rc-knowledge-base">+</a></sup></sup></summary>
      
     <a id="rc-resource-config"></a>

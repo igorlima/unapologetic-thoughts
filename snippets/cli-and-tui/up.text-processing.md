@@ -24,3 +24,4 @@ echo 'This is my 1st index.1.2.md file' | up
 
 - https://terminaltrove.com/up
 - https://github.com/akavel/up
+- http://wiki.ilima.xyz/#!bash-up.md

@@ -1,0 +1,23 @@
+# :set syntax=requirements
+# mkdir $(date +%Ya%mm%dd-%Hh%Mm)
+# mkdir $(date +%Ya%mm%dd-%Hh%Mm%Ss)
+# pip3 install -r cmus.music-player.requirements.txt
+
+# rm -rf tmp-env
+# python3 -m venv tmp-env
+# source tmp-env/bin/activate
+yt-dlp==2026.1.31
+
+# `-I`  Ignore the installed packages, overwriting them.
+# `-U`  Upgrade all specified packages to the newest available version.
+# pip3 install -U yt-dlp==2.8.13
+# pip3 install --upgrade --force-reinstall yt-dlp
+# pip3 install --no-cache --upgrade-strategy eager -I yt-dlp
+# pip3 list
+# pip3 show yt-dlp
+# pip3 index versions yt-dlp
+
+# :set syntax=requirements
+# :echom &syntax
+# :echom &filetype
+# :messages

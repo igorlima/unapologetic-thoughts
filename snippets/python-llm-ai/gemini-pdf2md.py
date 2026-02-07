@@ -274,6 +274,37 @@ REFERENCE:
      │ Enter     Open image popup (when on image) or activate popup selection      │
      └─────────────────────────────────────────────────────────────────────────────┘
 
+  GITHUB CLI
+     ┌─────────────────────────────────────────────────────────────────────────────┐
+     │ LIST OF PRS INVOLVING ME                                                    │
+     ├─────────────────────────────────────────────────────────────────────────────┤
+     │ PAGER=less gh pr view 13992                                                 │
+     │   view PR using a pager                                                     │
+     │ gh search prs --state=open --involves=@me                                   │
+     │   list of prs involving me                                                  │
+     │ gh pr list -S "state:open type:pr in:name IPM"                              │
+     │   search by PR title                                                        │
+     │ gh pr list -S "is:open type:pr involves:@me"                                │
+     │   looking for things related to me                                          │
+     └─────────────────────────────────────────────────────────────────────────────┘
+     ┌─────────────────────────────────────────────────────────────────────────────┐
+     │ COMMANDS                                                                    │
+     ├─────────────────────────────────────────────────────────────────────────────┤
+     │ gh auth login                                                               │
+     │ gh repo --help                                                              │
+     │ gh pr view [<number> | <url> | <branch>] [flags]                            │
+     │    -c, --comments   View pull request comments                              │
+     │ gh pr list [flags]                                                          │
+     │    https://cli.github.com/manual/gh_pr_list                                 │
+     │    -a, --assignee <string>                                                  │
+     │    -A, --author <string>                                                    │
+     │    -L, --limit <int>                                                        │
+     │    -S, --search <query>                                                     │
+     │    -s, --state <string>                                                     │
+     │      filter by state: {open|closed|merged|all}                              │
+     └─────────────────────────────────────────────────────────────────────────────┘
+
+
 
 
 HOW TO RUN THIS SCRIPT:

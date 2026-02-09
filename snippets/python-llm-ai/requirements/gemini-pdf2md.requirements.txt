@@ -10,6 +10,7 @@
 google-genai==1.56.0
 xml2epub==2.6.10
 markdown==3.10
+mdv==1.7.5
 
 pudb==2024.1
 ipdb==0.13.13

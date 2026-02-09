@@ -304,6 +304,49 @@ REFERENCE:
      │      filter by state: {open|closed|merged|all}                              │
      └─────────────────────────────────────────────────────────────────────────────┘
 
+  MARKDOWN VIEWER TERMINAL
+     Terminal Markdown Viewer
+     https://github.com/axiros/terminal_markdown_viewer
+     $> mkdir -p ~/Downloads/terminal-reading/md
+     $> vi ~/Downloads/terminal-reading/md/$(date +%Ya%mm%dd-%Hh%Mm%Ss).md
+     ┌─────────────────────────────────────────────────────────────────────────────┐
+     │ MDV CLI USAGE                                                               │
+     ├─────────────────────────────────────────────────────────────────────────────┤
+     │ mdv - << EOF                                                                │
+     │ This is a longer text                                                       │
+     │ that spans multiple lines.                                                  │
+     │ It is being provided via a here-document.                                   │
+     │ EOF                                                                         │
+     │                                                                             │
+     │ cat << EOF | mdv -                                                          │
+     │ This is line one.                                                           │
+     │ This is line two with a pattern.                                            │
+     │ This is line three.                                                         │
+     │ EOF                                                                         │
+     └─────────────────────────────────────────────────────────────────────────────┘
+     ┌────────────────────────────────────────────────────────────────────────────────────────┐
+     │ GLOW                                                                                   │
+     ├────────────────────────────────────────────────────────────────────────────────────────┤
+     │ brew install glow                                                                      │
+     │                                                                                        │
+     │ glow README.md                                                                         │
+     │ # to use pager                                                                         │
+     │ glow -p README.md                                                                      │
+     │ glow README.md -p                                                                      │
+     │                                                                                        │
+     │ glow 'http://wiki.ilima.xyz/index.md'                                                  │
+     │ curl -X GET 'http://wiki.ilima.xyz/index.md' | glow -                                  │
+     │ glow 'https://ilima-reading.s3.us-east-2.amazonaws.com/how-to-vim.md'                  │
+     │ curl -X GET 'https://ilima-reading.s3.us-east-2.amazonaws.com/how-to-vim.md' | glow -  │
+     │                                                                                        │
+     │ glow - << EOF                                                                          │
+     │ This is a longer text                                                                  │
+     │ EOF                                                                                    │
+     │                                                                                        │
+     │ cat << EOF | glow -                                                                    │
+     │ This is line one.                                                                      │
+     │ EOF                                                                                    │
+     └────────────────────────────────────────────────────────────────────────────────────────┘
 
 
 

@@ -203,6 +203,14 @@ REFERENCE:
   Convert a PDF to Markdown Online: everything happens right in your browser
     https://www.pdftomarkdown.co/
     https://pdf2md.morethan.io/
+  Convert a Markdown file to EPUB: 
+    - https://workflowy.com/#/1f4d050fae3d
+    $> brew install pandoc
+    $> pandoc -s -r markdown index.md -o index.epub
+    $> pandoc -s -r markdown index.md -o index.epub --metadata title="My Book Title" --metadata author="Author Name"
+    # to specifically claim the README.md is in Github-Flavored Markdown:
+    $> pandoc -s -r gfm README.md -o README.epub
+    $> pandoc --from=gfm --to=epub -o README.md README.epub
   A terminal EPUB Book Reader
     https://github.com/bugzmanov/bookokrat
     https://terminaltrove.com/bookokrat/

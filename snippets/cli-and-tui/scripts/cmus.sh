@@ -14,6 +14,8 @@ FOLDER=~/Downloads/yt-dlp/
 # Commands to remove files with a specific extension interactively:
 # $> rm -i -- *.webm.part
 # $> find . -maxdepth 1 -name "*.webm.part" -print0 | xargs -0 -p -n1 rm -f
+# $> rm -i -- ~/Downloads/yt-dlp/*.webm.part
+# $> find ~/Downloads/yt-dlp/ -maxdepth 1 -name "*.webm.part" -print0 | xargs -0 -p -n1 rm -f
 #
 whatIsMissingInTheList() {
   # This function takes a list of YouTube video IDs as input, checks which of

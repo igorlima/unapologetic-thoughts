@@ -217,6 +217,24 @@ EOF
 chmod +x script.sh
 ```
 
+### How to use yt-dlp to download video from YouTube
+
+```sh
+( VIDEO_ID=rBdhqBGqiMc && \
+  yt-dlp --js node \
+  --remote-components ejs:github \
+  --cookies-from-browser chrome \
+  -t mp4 \
+  "https://www.youtube.com/watch?v=$VIDEO_ID" -P ~/Downloads/ \
+)
+```
+
+- Other references:
+  - Instagram downloader:
+    - https://snapinsta.to/en2
+    - https://fastdl.app/en2
+
+
 ## Other
 
 ```tmux

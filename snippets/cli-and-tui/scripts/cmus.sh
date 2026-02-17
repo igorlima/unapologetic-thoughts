@@ -41,5 +41,9 @@ for VIDEO_ID in QRqLg5Iq4bA L3joz294TVw LrRmAQx5TVw Y9mRoCerrpY; do
   yt-dlp --js node --cookies-from-browser chrome --extract-audio --audio-format mp3 "$LINK" -P ${FOLDER}
 done
 
+# UPDATE yt-dlp:
 # pip3 install --no-cache --upgrade-strategy eager -I yt-dlp
+# DOWNLOAD the audio in mp3 format:
 # (VIDEO_ID=E42TfodDzUk && yt-dlp --js node --remote-components ejs:npm --cookies-from-browser chrome --extract-audio --audio-format mp3 "https://www.youtube.com/watch?v=$VIDEO_ID" -P ~/Downloads/yt-dlp/)
+# DOWNLOAD the video in mp4 format (instead of audio only):
+# (VIDEO_ID=rBdhqBGqiMc && yt-dlp --js node --remote-components ejs:github --cookies-from-browser chrome -t mp4 "https://www.youtube.com/watch?v=$VIDEO_ID" -P ~/Downloads/)

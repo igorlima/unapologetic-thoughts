@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+  <head>
+    <title>My Podcast Subscriptions</title>
+    <dateCreated>Mon, 16 Feb 2026 10:00:00 GMT</dateCreated>
+    <ownerName>Lima, Igor</ownerName>
+  </head>
+  <body>
+
+    <outline
+      text="Radio Headspace"
+      title="Radio Headspace"
+      type="rss"
+      xmlUrl="https://feeds.megaphone.fm/ADL5417720568"
+      htmlUrl="https://cms.megaphone.fm/channel/ADL5417720568"
+      />
+
+    <outline 
+      text="The Daily"
+      title="The Daily"
+      type="rss"
+      xmlUrl="https://feeds.simplecast.com/54nAGcIl"
+      htmlUrl="https://www.nytimes.com/column/the-daily"
+      />
+
+    <outline 
+      text="Syntax Podcast"
+      title="Syntax Podcast"
+      type="rss"
+      xmlUrl="https://feed.syntax.fm/rss"
+      htmlUrl="https://syntax.fm/"
+      />
+
+    <outline 
+      text="My Custom Podcast"
+      title="My Custom Podcast"
+      type="rss"
+      xmlUrl="https://example.com/podcast-feed.xml"
+      htmlUrl="https://example.com"
+      />
+
+  </body>
+</opml>

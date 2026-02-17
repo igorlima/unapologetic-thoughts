@@ -1,4 +1,6 @@
-# cmus - music player
+# Audio 
+
+## cmus - music player
 
 cmus is a small, fast and powerful console music player for Unix-like operating systems.
 
@@ -7,7 +9,7 @@ cmus is a small, fast and powerful console music player for Unix-like operating 
   - https://github.com/cmus/cmus
   - https://man.archlinux.org/man/extra/cmus/cmus-tutorial.7.en
 
-## Usage
+### cmus usage
 
 Press *5* to switch to the file-browser view
 Press *c* to pause/unpause
@@ -44,7 +46,7 @@ seek [+-](<num>[mh] | [HH:]MM:SS)
 :seek +1:30
 	Seek 90 seconds forward
 
-### Playlist editing
+#### cmus playlist editing
 
 To play a playlist in cmus, press `3` to open the playlist view, navigate to
 your desired playlist using the arrow keys, and press `Enter` to start
@@ -76,7 +78,7 @@ To SEARCH your library in the `cmus` console music player:
   - Press `n` to jump to the next match.
   - Press `N` (`shift` + `n`) to jump to the previous match. 
 
-### Track Management
+#### cmus track Management
 
 - a      copy tracks to the library (1-2)
 - y      copy tracks to the playlist (3)
@@ -112,13 +114,69 @@ v      player-stop
 t      toggle show_remaining_time
 C      toggle continue
 
-## Install cmus
+### Install cmus
 
 ```sh
 # OS X
 # https://cmus.github.io/#documentation
 brew install cmus
 ```
+
+## Podcast
+
+### castero
+
+- commands
+  - h           - show this help screen
+  - q           - exit the client
+  - a           - add a feed
+  - d           - delete the selected feed
+  - r           - reload/refresh feeds
+  - s           - save episode for offline playback
+
+```bash
+# run
+castero
+# help
+castero --help
+# import OPML file
+castero --import other/podcast-list.opml
+```
+
+- reference:
+  - about castero:
+    - https://github.com/xgi/castero
+    - https://terminaltrove.com/castero/
+
+### podliner
+
+```bash
+# run
+~/bin/podliner --version
+~/bin/podliner --help
+# import OPML file
+~/bin/podliner --opml-import other/podcast-list.opml
+# install macOS
+bash <(curl -fsSL https://github.com/timkicker/podliner/releases/latest/download/install-macos.sh)
+```
+
+- reference
+  - about podliner:
+    - https://github.com/timkicker/podliner
+    - https://terminaltrove.com/podliner/
+
+### podcast feed
+
+```bash
+./scripts/extract-opml-podcast-feeds.sh --episodes 3 --selector "enclosure url" "https://feeds.megaphone.fm/ADL5417720568"
+```
+
+- Radio Headspace
+  - https://feeds.megaphone.fm/ADL5417720568
+    - https://www.headspace.com/podcasts
+    - https://cms.megaphone.fm/channel/ADL5417720568
+
+## How-to session
 
 ### How to set up yt-dlp to download audio from YouTube
 

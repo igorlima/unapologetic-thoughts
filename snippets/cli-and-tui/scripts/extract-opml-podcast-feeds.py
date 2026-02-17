@@ -107,14 +107,23 @@ def fetch_bytes(url: str) -> bytes:
         return response.read()
 
 
-def print_feeds(feeds: Iterable[PodcastFeed]) -> None:
+def print_feeds(
+    feeds: Iterable[PodcastFeed],
+    start_episode: int | None = None,
+    end_episode: int | None = None,
+) -> None:
+    feed_list = list(feeds)
+    total = len(feed_list)
+    start = start_episode if start_episode is not None else 1
+    end = end_episode if end_episode is not None else total
     print("Extracted podcast feeds:")
-    for i, feed in enumerate(feeds, start=1):
+    for i, feed in enumerate(feed_list[start - 1:end], start=start):
         print(f"{i}.")
         print(f"   Title: {feed.title}")
         print(f"   Published: {feed.publication_date}" if feed.publication_date else "   Publication date: N/A")
         print(f"   URL: {feed.url}")
         print("\n")
+    print(f"Printed episodes {start} to {end}: {end - start + 1} of {total} feeds.")
 
 
 def prompt_yes_no(prompt: str) -> bool:
@@ -164,6 +173,18 @@ def parse_args() -> argparse.Namespace:
         help="1-based feed index to download (used with --download)",
     )
     parser.add_argument(
+        "--start-episode",
+        type=int,
+        default=1,
+        help="Start episode number (1-based) to display",
+    )
+    parser.add_argument(
+        "--end-episode",
+        type=int,
+        default=10,
+        help="End episode number (1-based) to display",
+    )
+    parser.add_argument(
         "--output-dir",
         type=Path,
         default=DEFAULT_OUTPUT_DIR,
@@ -185,7 +206,11 @@ def main() -> int:
         print("No podcast feed URLs found in OPML file.")
         return 0
 
-    print_feeds(feeds)
+    print_feeds(
+        feeds,
+        start_episode=args.start_episode,
+        end_episode=args.end_episode,
+    )
     # print(f"\nExample podcast feed URL: {EXAMPLE_FEED_URL}")
 
     should_download = args.download

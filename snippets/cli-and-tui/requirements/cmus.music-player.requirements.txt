@@ -1,12 +1,14 @@
 # :set syntax=requirements
 # mkdir $(date +%Ya%mm%dd-%Hh%Mm)
 # mkdir $(date +%Ya%mm%dd-%Hh%Mm%Ss)
+# pip3 install -r requirements/cmus.music-player.requirements.txt
 # pip3 install -r cmus.music-player.requirements.txt
 
 # rm -rf tmp-env
 # python3 -m venv tmp-env
 # source tmp-env/bin/activate
 yt-dlp==2026.1.31
+castero==0.9.5
 
 # `-I`  Ignore the installed packages, overwriting them.
 # `-U`  Upgrade all specified packages to the newest available version.

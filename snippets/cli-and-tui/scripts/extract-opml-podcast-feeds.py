@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+from datetime import datetime
 import re
 import sys
 import urllib.error
@@ -89,6 +90,15 @@ def sanitize_filename(name: str) -> str:
     if not cleaned:
         return "podcast"
     return cleaned[:120]
+
+
+def publication_date_to_filename_prefix(publication_date: str | None) -> str:
+    if not publication_date:
+        return "unknown-date"
+    try:
+        return datetime.strptime(publication_date, "%a, %d %b %Y %H:%M:%S %z").strftime("%Y-%m-%d")
+    except ValueError:
+        return "unknown-date"
 
 
 def download_file(url: str, output_path: Path) -> None:
@@ -236,7 +246,8 @@ def main() -> int:
     print(f"\nFetching feed: {feed.title}")
 
     ext = Path(urllib.parse.urlparse(feed.url).path).suffix or ".mp3"
-    filename = f"{sanitize_filename(feed.title)}{ext}"
+    date_prefix = publication_date_to_filename_prefix(feed.publication_date)
+    filename = f"{date_prefix} {sanitize_filename(feed.title)}{ext}"
     output_path = args.output_dir / filename
 
     print(f"Downloading episode:\n  {feed.title}\n  {feed.url}\n  {output_path}")

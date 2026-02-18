@@ -31,6 +31,7 @@ EXAMPLE_FEED_URL = "https://feeds.megaphone.fm/ADL5417720568"
 @dataclass
 class PodcastFeed:
     title: str
+    description: str
     publication_date: str
     url: str
 
@@ -51,7 +52,13 @@ def parse_opml_root(root: ET.Element) -> list[PodcastFeed]:
 
         title = channel_item.find('title').text
         pub_date = channel_item.find('pubDate').text if channel_item.find('pubDate') is not None else None
-        feeds.append(PodcastFeed(title=title.strip(), url=xml_url.strip(), publication_date=pub_date.strip() if pub_date else None))
+        description = channel_item.find('description').text if channel_item.find('description') is not None else ""
+        feeds.append(PodcastFeed(
+            title=title.strip(),
+            url=xml_url.strip(),
+            publication_date=pub_date.strip() if pub_date else None,
+            description=description.strip(),
+        ))
     return feeds
 
 
@@ -131,6 +138,7 @@ def print_feeds(
         print(f"{i}.")
         print(f"   Title: {feed.title}")
         print(f"   Published: {feed.publication_date}" if feed.publication_date else "   Publication date: N/A")
+        print(f"   Description: {feed.description}" if feed.description else "   Description: N/A")
         print(f"   URL: {feed.url}")
         print("\n")
     print(f"Printed episodes {start} to {end}: {end - start + 1} of {total} feeds.")

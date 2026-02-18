@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+"""Script to convert PDF files to markdown and then to EPUB using Google Gemini API."""
+
 # How I use Gemini on my PDF files using Python
 """
 See requirements to set up a virtual environment and install the necessary packages:
@@ -6,10 +9,15 @@ See requirements to set up a virtual environment and install the necessary packa
 
 import argparse
 parser = argparse.ArgumentParser(
-  description="""
+  description=("""
   A script to convert PDF files to markdown and then to EPUB using Google Gemini API.
   If the markdown file already exists, it will be reused to generate the EPUB.
   """
+  ),
+  epilog=(
+    "Before running the script, make sure to set your Gemini API key in the environment variable:\n"
+    f'  export GEMINI_API_KEY="your_api_key_here"'
+  ),
 )
 parser.add_argument(
   "-i", "--input-file",

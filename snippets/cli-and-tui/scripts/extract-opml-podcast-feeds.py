@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+from datetime import datetime
 import re
 import sys
 import urllib.error
@@ -30,6 +31,7 @@ EXAMPLE_FEED_URL = "https://feeds.megaphone.fm/ADL5417720568"
 @dataclass
 class PodcastFeed:
     title: str
+    description: str
     publication_date: str
     url: str
 
@@ -50,7 +52,13 @@ def parse_opml_root(root: ET.Element) -> list[PodcastFeed]:
 
         title = channel_item.find('title').text
         pub_date = channel_item.find('pubDate').text if channel_item.find('pubDate') is not None else None
-        feeds.append(PodcastFeed(title=title.strip(), url=xml_url.strip(), publication_date=pub_date.strip() if pub_date else None))
+        description = channel_item.find('description').text if channel_item.find('description') is not None else ""
+        feeds.append(PodcastFeed(
+            title=title.strip(),
+            url=xml_url.strip(),
+            publication_date=pub_date.strip() if pub_date else None,
+            description=description.strip(),
+        ))
     return feeds
 
 
@@ -91,6 +99,15 @@ def sanitize_filename(name: str) -> str:
     return cleaned[:120]
 
 
+def publication_date_to_filename_prefix(publication_date: str | None) -> str:
+    if not publication_date:
+        return "unknown-date"
+    try:
+        return datetime.strptime(publication_date, "%a, %d %b %Y %H:%M:%S %z").strftime("%Y-%m-%d")
+    except ValueError:
+        return "unknown-date"
+
+
 def download_file(url: str, output_path: Path) -> None:
     """Download a URL to the given output path."""
     output_path.parent.mkdir(parents=True, exist_ok=True)
@@ -121,6 +138,7 @@ def print_feeds(
         print(f"{i}.")
         print(f"   Title: {feed.title}")
         print(f"   Published: {feed.publication_date}" if feed.publication_date else "   Publication date: N/A")
+        print(f"   Description: {feed.description}" if feed.description else "   Description: N/A")
         print(f"   URL: {feed.url}")
         print("\n")
     print(f"Printed episodes {start} to {end}: {end - start + 1} of {total} feeds.")
@@ -236,7 +254,8 @@ def main() -> int:
     print(f"\nFetching feed: {feed.title}")
 
     ext = Path(urllib.parse.urlparse(feed.url).path).suffix or ".mp3"
-    filename = f"{sanitize_filename(feed.title)}{ext}"
+    date_prefix = publication_date_to_filename_prefix(feed.publication_date)
+    filename = f"{date_prefix} {sanitize_filename(feed.title)}{ext}"
     output_path = args.output_dir / filename
 
     print(f"Downloading episode:\n  {feed.title}\n  {feed.url}\n  {output_path}")

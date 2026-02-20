@@ -393,13 +393,12 @@ Follow these steps:
 # in an output directory.
 ({
 #!/bin/bash
-
 PDF_DIR=~/Downloads/terminal-reading/pdf
 OUTPUT_DIR=~/Downloads/terminal-reading/epub
-
 for pdf_file in "$PDF_DIR"/*.pdf; do
   filename=$(basename "$pdf_file" .pdf)
   ./gemini-pdf2md.py -i "$pdf_file" -o "$OUTPUT_DIR"
+  echo "Processed: ${filename}"
   sleep 5  # waits 5 seconds before processing the next file
 done
 })

@@ -170,6 +170,7 @@ bash <(curl -fsSL https://github.com/timkicker/podliner/releases/latest/download
 ```bash
 ./scripts/extract-rss-podcast-feeds.py --help
 ./scripts/extract-rss-podcast-feeds.py https://feeds.megaphone.fm/ADL5417720568 --end-episode 5
+./scripts/extract-rss-podcast-feeds.py "other/2026-02-20 headspace-podcast-feed.xml" --end-episode 5
 ./scripts/extract-rss-podcast-feeds.sh --episodes 3 --selector "enclosure url" "https://feeds.megaphone.fm/ADL5417720568"
 
 # extract the podcast feed and save it to a file

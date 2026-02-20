@@ -2,10 +2,10 @@
 set -euo pipefail
 
 # Usage:
-#   ./extract-opml-podcast-feeds.sh [url]
-#   ./extract-opml-podcast-feeds.sh --episodes [count] [url]
-#   ./extract-opml-podcast-feeds.sh --selector "xmlUrl" [url]
-#   ./extract-opml-podcast-feeds.sh --selector "enclosure url" [url]
+#   ./extract-rss-podcast-feeds.sh [url]
+#   ./extract-rss-podcast-feeds.sh --episodes [count] [url]
+#   ./extract-rss-podcast-feeds.sh --selector "xmlUrl" [url]
+#   ./extract-rss-podcast-feeds.sh --selector "enclosure url" [url]
 #
 # Default mode:
 #   Outputs one URL per line based on URL_SELECTOR.
@@ -15,7 +15,7 @@ set -euo pipefail
 #
 # Episodes mode:
 #   Prints the latest N episodes (title, publication date, description) from an RSS feed.
-#   If the input is OPML, the first xmlUrl feed is used.
+#   If the input is XML, the first xmlUrl feed is used.
 
 SOURCE_URL="https://feeds.megaphone.fm/ADL5417720568"
 MODE="feeds"

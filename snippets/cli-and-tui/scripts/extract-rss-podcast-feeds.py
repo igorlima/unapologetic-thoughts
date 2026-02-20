@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Extract podcast feeds from an OPML file and optionally download episodes."""
+"""Extract podcast feeds from an RSS XML file and optionally download episodes."""
 
 from __future__ import annotations
 
@@ -36,8 +36,8 @@ class PodcastFeed:
     url: str
 
 
-def parse_opml_root(root: ET.Element) -> list[PodcastFeed]:
-    """Return unique podcast feeds from an OPML XML root."""
+def parse_xml_root(root: ET.Element) -> list[PodcastFeed]:
+    """Return unique podcast feeds from an RSS XML root."""
 
     feeds: list[PodcastFeed] = []
     seen: set[str] = set()
@@ -62,32 +62,32 @@ def parse_opml_root(root: ET.Element) -> list[PodcastFeed]:
     return feeds
 
 
-def parse_opml_source(opml_source: str) -> list[PodcastFeed]:
-    """Parse OPML from either a local file path or an http(s) URL."""
-    parsed = urllib.parse.urlparse(opml_source)
+def parse_xml_source(xml_source: str) -> list[PodcastFeed]:
+    """Parse RSS XML from either a local file path or an http(s) URL."""
+    parsed = urllib.parse.urlparse(xml_source)
 
     if parsed.scheme in {"http", "https"}:
         try:
-            opml_bytes = fetch_bytes(opml_source)
+            xml_bytes = fetch_bytes(xml_source)
         except urllib.error.URLError as exc:
-            raise ValueError(f"could not fetch OPML URL {opml_source}: {exc}") from exc
+            raise ValueError(f"could not fetch RSS XML URL {xml_source}: {exc}") from exc
         try:
-            root = ET.fromstring(opml_bytes)
+            root = ET.fromstring(xml_bytes)
         except ET.ParseError as exc:
-            raise ValueError(f"invalid OPML XML from URL: {exc}") from exc
-        return parse_opml_root(root)
+            raise ValueError(f"invalid RSS XML from URL: {exc}") from exc
+        return parse_xml_root(root)
 
     if parsed.scheme == "file":
-        opml_source = urllib.request.url2pathname(parsed.path)
+        xml_source = urllib.request.url2pathname(parsed.path)
 
-    opml_path = Path(opml_source)
-    if not opml_path.exists():
-        raise ValueError(f"OPML file not found: {opml_path}")
+    xml_path = Path(xml_source)
+    if not xml_path.exists():
+        raise ValueError(f"RSS XML file not found: {xml_path}")
     try:
-        tree = ET.parse(opml_path)
+        tree = ET.parse(xml_path)
     except ET.ParseError as exc:
-        raise ValueError(f"invalid OPML XML: {exc}") from exc
-    return parse_opml_root(tree.getroot())
+        raise ValueError(f"invalid RSS XML: {exc}") from exc
+    return parse_xml_root(tree.getroot())
 
 
 def sanitize_filename(name: str) -> str:
@@ -167,7 +167,7 @@ def choose_feed_index(max_index: int) -> int | None:
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description=(
-            "Extract podcast feed URLs from an OPML file and optionally download "
+            "Extract podcast feed URLs from an RSS XML file and optionally download "
             "the episode from a selected feed."
         ),
         epilog=(
@@ -176,8 +176,8 @@ def parse_args() -> argparse.Namespace:
         ),
     )
     parser.add_argument(
-        "opml_source",
-        help="OPML source: local file path or http(s) URL",
+        "xml_source",
+        help="RSS XML source: local file path or http(s) URL",
     )
     parser.add_argument(
         "--download",
@@ -215,13 +215,13 @@ def main() -> int:
     args = parse_args()
 
     try:
-        feeds = parse_opml_source(args.opml_source)
+        feeds = parse_xml_source(args.xml_source)
     except ValueError as exc:
         print(f"Error: {exc}", file=sys.stderr)
         return 1
 
     if not feeds:
-        print("No podcast feed URLs found in OPML file.")
+        print("No podcast feed URLs found in RSS XML file.")
         return 0
 
     print_feeds(

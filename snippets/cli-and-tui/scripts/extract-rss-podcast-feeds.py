@@ -21,8 +21,9 @@ EXAMPLE_FEED_URL = "https://feeds.megaphone.fm/ADL5417720568"
 # import pdb
 # pdb.set_trace()
 
-#  Silence curl stderr:
+# Silence curl stderr:
 #  curl -fsSL "https://feeds.megaphone.fm/ADL5417720568" 2>/dev/null | awk ...
+#  curl -fsSL "https://feeds.megaphone.fm/ADL5417720568" -o "other/$(date +%Y-%m-%d) headspace-podcast-feed.xml"
 
 # curl -fsSL "https://feeds.megaphone.fm/ADL5417720568" | tr '\n' ' ' | grep -oE "xmlUrl=('([^']*)'|\"([^\"]*)\")" | sed -E "s/^xmlUrl=['\"](.*)['\"]$/\1/" | awk '!seen[$0]++'
 # curl -fsSL "https://feeds.megaphone.fm/ADL5417720568" | tr '\n' ' ' | grep -oE "enclosure url=('([^']*)'|\"([^\"]*)\")" | sed -E "s/^enclosure url=['\"](.*)['\"]$/\1/"

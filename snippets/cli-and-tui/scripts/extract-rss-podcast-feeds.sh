@@ -2,10 +2,10 @@
 set -euo pipefail
 
 # Usage:
-#   ./extract-opml-podcast-feeds.sh [url]
-#   ./extract-opml-podcast-feeds.sh --episodes [count] [url]
-#   ./extract-opml-podcast-feeds.sh --selector "xmlUrl" [url]
-#   ./extract-opml-podcast-feeds.sh --selector "enclosure url" [url]
+#   ./extract-rss-podcast-feeds.sh [url]
+#   ./extract-rss-podcast-feeds.sh --episodes [count] [url]
+#   ./extract-rss-podcast-feeds.sh --selector "xmlUrl" [url]
+#   ./extract-rss-podcast-feeds.sh --selector "enclosure url" [url]
 #
 # Default mode:
 #   Outputs one URL per line based on URL_SELECTOR.
@@ -15,7 +15,7 @@ set -euo pipefail
 #
 # Episodes mode:
 #   Prints the latest N episodes (title, publication date, description) from an RSS feed.
-#   If the input is OPML, the first xmlUrl feed is used.
+#   If the input is XML, the first xmlUrl feed is used.
 
 SOURCE_URL="https://feeds.megaphone.fm/ADL5417720568"
 MODE="feeds"
@@ -48,8 +48,9 @@ while [[ $# -gt 0 ]]; do
   esac
 done
 
-#  Silence curl stderr:
+# Silence curl stderr:
 #  curl -fsSL "https://feeds.megaphone.fm/ADL5417720568" 2>/dev/null | awk ...
+#  curl -fsSL "https://feeds.megaphone.fm/ADL5417720568" -o "other/$(date +%Y-%m-%d) headspace-podcast-feed.xml"
 
 # curl -fsSL "https://feeds.megaphone.fm/ADL5417720568" | tr '\n' ' ' | grep -oE "xmlUrl=('([^']*)'|\"([^\"]*)\")" | sed -E "s/^xmlUrl=['\"](.*)['\"]$/\1/" | awk '!seen[$0]++'
 # curl -fsSL "https://feeds.megaphone.fm/ADL5417720568" | tr '\n' ' ' | grep -oE "enclosure url=('([^']*)'|\"([^\"]*)\")" | sed -E "s/^enclosure url=['\"](.*)['\"]$/\1/"

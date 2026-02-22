@@ -2,10 +2,10 @@
 set -euo pipefail
 
 # Usage:
-#   ./extract-rss-podcast-feeds.sh [url]
-#   ./extract-rss-podcast-feeds.sh --episodes [count] [url]
-#   ./extract-rss-podcast-feeds.sh --selector "xmlUrl" [url]
-#   ./extract-rss-podcast-feeds.sh --selector "enclosure url" [url]
+#   ./audio.extract-rss-podcast-feeds.sh [url]
+#   ./audio.extract-rss-podcast-feeds.sh --episodes [count] [url]
+#   ./audio.extract-rss-podcast-feeds.sh --selector "xmlUrl" [url]
+#   ./audio.extract-rss-podcast-feeds.sh --selector "enclosure url" [url]
 #
 # Default mode:
 #   Outputs one URL per line based on URL_SELECTOR.

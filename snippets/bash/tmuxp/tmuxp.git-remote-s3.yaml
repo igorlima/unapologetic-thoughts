@@ -1,0 +1,88 @@
+# .tmuxp.git-remote-s3.yaml
+# https://github.com/igorlima/unapologetic-thoughts/blob/master/_posts/2013-01-01-tmuxp.md
+# https://igorlima.github.io/unapologetic-thoughts/technical/2013/01/01/tmuxp.html
+#
+# -------------------------
+# A FEW COMMAND FOR TESTING
+# -------------------------
+# tmuxp load .tmuxp.git-remote-s3.yaml -L git-remote-s3
+# ls -la /tmp/tmux*
+# tmux -L git-remote-s3 ls
+# tmux -L git-remote-s3 kill-server
+# 
+# tmux -S ~/workstation/git-remote-s3/tmux-tmp ls
+# tmuxp load .tmuxp.yaml -S ~/workstation/workstation/git-remote-s3/tmux-tmp
+# 
+# tmuxp load .tmuxp.git-remote-s3.yaml -L test
+# tmux -L test a -d
+# tmux -L test ls
+# tmux -L test kill-server
+# -------------------------
+description: >
+  ---
+  Git Remote S3 - Tmuxp
+  ---
+  
+# :windo diffthis
+# :windo diffoff
+# :diffget :diffput
+session_name: git-s3
+start_directory: ~/workstation/git-remote-s3
+shell_command_before:
+  - bash
+  - python3 -m venv my-s3-git-env
+  - . my-s3-git-env/bin/activate
+windows:
+  - window_name: ai-ide
+    start_directory: s3-ilima-ai
+    focus: true
+    shell_command_before:
+      - pip3 install -r requirements.txt
+    panes:
+      - vim -c ":NERDTree" index.md
+  - window_name: ai-cmd
+    start_directory: s3-ilima-ai
+    layout: even-vertical
+    shell_command_before:
+      - set -a
+      - . .env
+      - set +a
+    panes:
+      - environment:
+          MY_APP_ENVS: ENV=dev
+        shell_command:
+          - cmd: aichat
+            enter: true
+        focus: true
+      - git fetch --all -p
+  - window_name: code-sketch-cmd
+    start_directory: s3-code-sketch
+    layout: even-horizontal
+    shell_command_before:
+      - set -a
+      - . .env
+      - set +a
+    panes:
+      - environment:
+          MY_APP_ENVS: ENV=dev
+        shell_command:
+          - cmd: ls
+            enter: true
+        focus: true
+      - git fetch --all -p
+  - window_name: code-sketch-ide
+    start_directory: s3-code-sketch
+    shell_command_before:
+      - pip3 install -r requirements.txt
+    panes:
+      - vim -c ":NERDTree"
+  
+# -------------------------
+# REFERENCES:
+# -------------------------
+# - Github: https://github.com/tmux-python/tmuxp
+# - Examples:
+#   - https://tmuxp.git-pull.com/configuration/examples.html
+#   - https://github.com/tmux-python/tmuxp/tree/1428190968208d68324a4f71a95b23a1449f957d/examples
+# - Author's tmuxp configs: https://github.com/tmux-python/tmuxp/blob/1428190968208d68324a4f71a95b23a1449f957d/.tmuxp.yaml
+# -------------------------

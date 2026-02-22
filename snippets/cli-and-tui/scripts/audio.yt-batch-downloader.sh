@@ -1,8 +1,8 @@
 #!/bin/bash
 #!/usr/bin/env bash
 
-# chmod +x scripts/cmus.sh
-# ./scripts/cmus.sh
+# chmod +x scripts/audio.yt-batch-downloader.sh
+# ./scripts/audio.yt-batch-downloader.sh
 FOLDER=~/Downloads/yt-dlp/
 
 # The command below lists all files in the current directory, extracts YouTube video IDs from filenames enclosed in square brackets, and excludes specific video IDs from the output.

@@ -19,6 +19,7 @@ python-lib/data/nautilus-omnibus.html
 # ignore python virtual environment
 python-llm-ai/my-test-env*
 python-llm-ai/tmp-env*
+python-llm-ai/bookokrat.log
 # ignore media files
 python-llm-ai/*.mp4
 python-llm-ai/*.png

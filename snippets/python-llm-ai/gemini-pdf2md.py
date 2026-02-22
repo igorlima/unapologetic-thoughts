@@ -386,22 +386,13 @@ Follow these steps:
 
 # vi "$HOME/Library/Application Support/aichat/config.yaml"
 
-
-```bash
-# The script processes all PDF files in a specified folder by converting each
-# to markdown format using the `gemini-pdf2md.py` script and saves the results
-# in an output directory.
-({
-#!/bin/bash
-PDF_DIR=~/Downloads/terminal-reading/pdf
-OUTPUT_DIR=~/Downloads/terminal-reading/epub
-for pdf_file in "$PDF_DIR"/*.pdf; do
-  filename=$(basename "$pdf_file" .pdf)
-  ./gemini-pdf2md.py -i "$pdf_file" -o "$OUTPUT_DIR"
-  echo "Processed: ${filename}"
-  sleep 5  # waits 5 seconds before processing the next file
-done
-})
-```
+OTHER scripts:
+- batch converts PDFs in a folder `gemini-pdf2md.py`, saving outputs to a directory
+  - `../cli-and-tui/scripts/reading.batch-convert-pdf2md2epub.sh`
+- to iterate over all PDFs in the current directory and uploads confirmed files to S3
+  - `~/workstation/git-remote-s3/s3-code-sketch/bash/scripts/reading.upload_pdfs_to_s3_with_confirm.sh`
+- shortcuts:
+  - `ctrl-w f` to open the script in Vim
+  - `ctrl-w T` to open the script in a new tab in Vim
 """
 

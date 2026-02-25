@@ -11,3 +11,8 @@ for pdf_file in "$PDF_DIR"/*.pdf; do
   echo "Processed: ${filename}"
   sleep 60  # waits 60 seconds before processing the next file
 done
+
+: << 'END_COMMENT'
+REFERENCE:
+- ../python-llm-ai/gemini-pdf2md.py
+END_COMMENT

@@ -389,6 +389,8 @@ Follow these steps:
 OTHER scripts:
 - batch converts PDFs in a folder `gemini-pdf2md.py`, saving outputs to a directory
   - `../cli-and-tui/scripts/reading.batch-convert-pdf2md2epub.sh`
+- rename files in a folder to a consistent format with date and time
+  - `../cli-and-tui/scripts/reading.rename-files.sh
 - to iterate over all PDFs in the current directory and uploads confirmed files to S3
   - `~/workstation/git-remote-s3/s3-code-sketch/bash/scripts/reading.upload_pdfs_to_s3_with_confirm.sh`
 - shortcuts:

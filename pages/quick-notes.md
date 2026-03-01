@@ -17,6 +17,9 @@ foster new insights.
 articles, enabling items to be tracked and revisited later, even if some
 entries eventually become outdated.</sup>
 
+- Sun, Mar 01, 2026 - 2026a03m01d
+  - "They laugh at me because I'm different; I laugh at them because they're all the same"
+    - by Singer Kurt Cobain
 - Wed, Feb 18, 2026 - 2026a02m18d
   - Ask yourself three simple questions: What are you saying? Why does it matter? What comes next? <a href="#2026a02m18d-20260218112218">§</a> <a id="2026a02m18d-20260218112226"></a>
     - These questions help sharpen your message and make spontaneous communication easier to navigate.

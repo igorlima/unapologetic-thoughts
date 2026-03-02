@@ -8,7 +8,7 @@
 # be useful for organizing files or preparing them for further processing.
 
 PDF_DIR=~/Downloads/terminal-reading/pdf
-OUTPUT_DIR=~/Downloads/terminal-reading/epub
+# OUTPUT_DIR=~/Downloads/terminal-reading/epub
 
 # Process each PDF file in the specified directory
 for pdf_file in "$PDF_DIR"/*.pdf; do
@@ -29,4 +29,5 @@ done
 : << 'END_COMMENT'
 REFERENCE:
 - ../python-llm-ai/gemini-pdf2md.py
+- ~/workstation/git-remote-s3/s3-code-sketch/bash/scripts/reading.upload_pdfs_to_s3_with_confirm.sh
 END_COMMENT

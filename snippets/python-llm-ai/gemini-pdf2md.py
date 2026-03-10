@@ -211,7 +211,7 @@ REFERENCE:
   Convert a PDF to Markdown Online: everything happens right in your browser
     https://www.pdftomarkdown.co/
     https://pdf2md.morethan.io/
-  Convert a Markdown file to EPUB: 
+  Convert a Markdown file to EPUB:
     - https://workflowy.com/#/1f4d050fae3d
     $> brew install pandoc
     $> pandoc -s -r markdown index.md -o index.epub
@@ -328,6 +328,9 @@ REFERENCE:
      ┌─────────────────────────────────────────────────────────────────────────────┐
      │ MDV CLI USAGE                                                               │
      ├─────────────────────────────────────────────────────────────────────────────┤
+     │ pip install mdv                                                             │
+     │ https://github.com/axiros/terminal_markdown_viewer                          │
+     │                                                                             │
      │ mdv - << EOF                                                                │
      │ This is a longer text                                                       │
      │ that spans multiple lines.                                                  │
@@ -344,6 +347,7 @@ REFERENCE:
      │ GLOW                                                                                   │
      ├────────────────────────────────────────────────────────────────────────────────────────┤
      │ brew install glow                                                                      │
+     │ https://github.com/charmbracelet/glow                                                  │
      │                                                                                        │
      │ glow README.md                                                                         │
      │ # to use pager                                                                         │
@@ -362,6 +366,53 @@ REFERENCE:
      │ cat << EOF | glow -                                                                    │
      │ This is line one.                                                                      │
      │ EOF                                                                                    │
+     └────────────────────────────────────────────────────────────────────────────────────────┘
+     ┌────────────────────────────────────────────────────────────────────────────────────────┐
+     │ TREEMD                                                                                 │
+     ├────────────────────────────────────────────────────────────────────────────────────────┤
+     │ brew install treemd                                                                    │
+     │ https://github.com/epistates/treemd                                                    │
+     │                                                                                        │
+     │ treemd README.md        # Open specific file                                           │
+     │ treemd .                # Open file picker in current directory                        │
+     │ treemd docs/            # Open file picker in specified directory                      │
+     │ treemd *.md             # Open file picker with matched files                          │
+     │                                                                                        │
+     │ Navigate cells with vim keys (hjkl), edit in-place, copy cells/rows/tables             │
+     │                                                                                        │
+     │ Navigation                                                                             │
+     │ - `j` / `k` or `↓` / `↑`: Move down/up                                                 │
+     │ - `g` / `G` or `Home` / `End`: Jump to top/bottom                                      │
+     │ - `p`: Jump to parent heading                                                          │
+     │ - `d` / `u` or `PageDown` / `PageUp`: Page down/up                                     │
+     │ - `Tab`: Switch focus (outline ↔ content)                                              │
+     │ - `1`–`9`: Jump to heading number                                                      │
+     │                                                                                        │
+     │ Tree Operations                                                                        │
+     │ - `Enter` / `Space`: Expand/collapse heading                                           │
+     │ - `h` / `l` or `←` / `→`: Collapse/expand heading                                      │
+     │ - `w`: Toggle outline visibility                                                       │
+     │ - `[` / `]`: Adjust outline width                                                      │
+     │                                                                                        │
+     │ Search                                                                                 │
+     │ - `s`: Search/filter headings                                                          │
+     │ - `/`: Search document content                                                         │
+     │ - `n` / `N`: Next/previous match                                                       │
+     │ - `Esc`: Exit search mode                                                              │
+     │                                                                                        │
+     │ Links                                                                                  │
+     │ - `f`: Enter link-follow mode                                                          │
+     │ - `Tab` / `Shift+Tab`: Navigate links                                                  │
+     │ - `1`–`9`: Jump to link by number                                                      │
+     │ - `Enter`: Follow link                                                                 │
+     │ - `b` / `Backspace`: Go back                                                           │
+     │                                                                                        │
+     │ Bookmarks & Help                                                                       │
+     │ - `m`: Set bookmark                                                                    │
+     │ - `'`: Jump to bookmark                                                                │
+     │ - `?`: Show help overlay                                                               │
+     │ - `q` / `Esc`: Quit                                                                    │
+     │                                                                                        │
      └────────────────────────────────────────────────────────────────────────────────────────┘
 
 

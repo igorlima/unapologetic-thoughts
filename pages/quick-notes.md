@@ -17,6 +17,9 @@ foster new insights.
 articles, enabling items to be tracked and revisited later, even if some
 entries eventually become outdated.</sup>
 
+- Sun, Mar 15, 2026 - 2026a03m15d 
+  - We protect money because it's visible and throw away time because it's not.
+    - If you burn money, people call you crazy. If you burn time, they call you busy. We treat money as valuable because it's quantifiable and time as disposable because it's not.
 - Sun, Mar 01, 2026 - 2026a03m01d
   - "They laugh at me because I'm different; I laugh at them because they're all the same"
     - by Singer Kurt Cobain

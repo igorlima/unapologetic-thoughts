@@ -8,15 +8,18 @@ See requirements to set up a virtual environment and install the necessary packa
 """
 
 import argparse
+import os
 parser = argparse.ArgumentParser(
   description=("""
   A script to convert PDF files to markdown and then to EPUB using Google Gemini API.
   If the markdown file already exists, it will be reused to generate the EPUB.
   """
   ),
-  epilog=(
-    "Before running the script, make sure to set your Gemini API key in the environment variable:\n"
-    f'  export GEMINI_API_KEY="your_api_key_here"'
+  epilog=("""
+  Before running the script, make sure to set your Gemini API key in the environment variable:\n
+  `export GEMINI_API_KEY="your_api_key_here"` or
+  `export HF_TOKEN="your_huggingface_token_here"` (if using docling extraction method)
+  """
   ),
 )
 parser.add_argument(
@@ -37,20 +40,26 @@ parser.add_argument(
   required=True,
   help="The output folder where the markdown and EPUB file will be saved."
 )
+parser.add_argument(
+  "--extraction-method",
+  choices=["genai", "docling"],
+  default="genai",
+  help=(
+    "PDF text extraction backend to use when generating markdown. "
+    "For docling, set HF_TOKEN in your environment before running. "
+    "If docling model downloads fail due to a corrupted Hugging Face cache, "
+    "clear it with: rm -rf ~/.cache/huggingface/hub ~/.cache/huggingface/xet"
+  )
+)
 args = parser.parse_args()
 print(f"Input File: {args.input_file}")
 print(f"Output Folder: {args.output}")
+print(f"Extraction Method: {args.extraction_method}")
 
 
-# https://github.com/googleapis/python-genai
-# https://ai.google.dev/gemini-api/docs/libraries
-from google import genai
-from google.genai import types
 import pathlib
 # import pudb; pu.db
 # import pudb;
-
-client = genai.Client()
 
 # retrieve and encode the PDF byte
 PDF_FILEPATH = pathlib.Path(args.input_file)
@@ -70,66 +79,81 @@ if not OUTPUT_FOLDER_PATH.exists():
   OUTPUT_FOLDER_PATH.mkdir(parents=True, exist_ok=True)
 
 if args.force_ai_extraction or not MD_FILEPATH.exists():
-  PROMPT = """
-  You will be given PDF file that you need to process in three steps: extract it in markdown format, organize it for better readability, and provide a summary.
+  if args.extraction_method == "docling":
+    os.environ["HF_HUB_DISABLE_XET"] = "1"
 
-  Your task has three parts:
+    from docling.document_converter import DocumentConverter
 
-  **Part 1: Extract to Markdown Format**
-  Convert the PDF content into clean markdown format. Ensure that:
-  - Text formatting is preserved (bold, italics, etc.)
-  - Any special characters or symbols are properly rendered
-  - The content is presented exactly as it appears in the PDF, but in markdown syntax and **structure in a readable way**
+    converter = DocumentConverter()
+    result = converter.convert(str(PDF_FILEPATH))
+    MARKDOWN_TEXT = result.document.export_to_markdown()
+  else:
+    # https://github.com/googleapis/python-genai
+    # https://ai.google.dev/gemini-api/docs/libraries
+    from google import genai
+    from google.genai import types
 
-  **Part 2: Organize the Content**
-  Take the markdown content and reorganize it for improved readability:
-  - Identify and properly separate distinct paragraphs or sections
-  - Make headings and subheadings stand out using appropriate markdown heading levels (## for main headings, ### for subheadings, etc.)
-  - Correct any obvious formatting issues such as:
-    - Line breaks that occur in the middle of sentences
-    - Inconsistent spacing between sections
-    - Improperly formatted text
-  - Format lists and bullet points properly using markdown list syntax (-, or numbered lists)
-  - Clearly delineate tables or figures from the main text using appropriate markdown table syntax or code blocks
-  - Ensure logical flow and visual hierarchy in the document structure
+    client = genai.Client()
+    PROMPT = """
+    You will be given PDF file that you need to process in three steps: extract it in markdown format, organize it for better readability, and provide a summary.
 
-  **Part 3: Summarize the Content**
-  Create a concise summary that captures the essence of the text:
-  - Identify and state the main topic or theme
-  - Highlight the key points or arguments presented
-  - Note any important data, statistics, or examples that support the main ideas
-  - Capture the overall conclusion or message
-  - Keep your summary concise, aiming for approximately 10-15% of the original text length
-  - Ensure the summary is coherent and can stand alone as a brief overview
+    Your task has three parts:
 
-  **Output Format:**
-  Present your complete response using the following structure:
+    **Part 1: Extract to Markdown Format**
+    Convert the PDF content into clean markdown format. Ensure that:
+    - Text formatting is preserved (bold, italics, etc.)
+    - Any special characters or symbols are properly rendered
+    - The content is presented exactly as it appears in the PDF, but in markdown syntax and **structure in a readable way**
 
-  # Markdown PDF Content
-  [Write the extracted PDF content in markdown format here]
+    **Part 2: Organize the Content**
+    Take the markdown content and reorganize it for improved readability:
+    - Identify and properly separate distinct paragraphs or sections
+    - Make headings and subheadings stand out using appropriate markdown heading levels (## for main headings, ### for subheadings, etc.)
+    - Correct any obvious formatting issues such as:
+      - Line breaks that occur in the middle of sentences
+      - Inconsistent spacing between sections
+      - Improperly formatted text
+    - Format lists and bullet points properly using markdown list syntax (-, or numbered lists)
+    - Clearly delineate tables or figures from the main text using appropriate markdown table syntax or code blocks
+    - Ensure logical flow and visual hierarchy in the document structure
 
-  # Organized Context
-  [Write your organized and reformatted version here]
+    **Part 3: Summarize the Content**
+    Create a concise summary that captures the essence of the text:
+    - Identify and state the main topic or theme
+    - Highlight the key points or arguments presented
+    - Note any important data, statistics, or examples that support the main ideas
+    - Capture the overall conclusion or message
+    - Keep your summary concise, aiming for approximately 10-15% of the original text length
+    - Ensure the summary is coherent and can stand alone as a brief overview
 
-  # Summary
-  [Write your concise summary here]
+    **Output Format:**
+    Present your complete response using the following structure:
 
-  **Important reminders:**
-  - Maintain the original meaning and intent of the text throughout all three parts
-  - Respond in the same language as the provided PDF content
-  - Do not add information that wasn't in the original content
-  - Focus on clarity and readability in your organization
-  """
-  # https://ai.google.dev/gemini-api/docs/document-processing#python
-  response = client.models.generate_content(
-    model="gemini-2.5-flash",
-    contents=[
-        types.Part.from_bytes(
-          data=PDF_FILEPATH.read_bytes(),
-          mime_type='application/pdf',
-        ),
-        PROMPT])
-  MARKDOWN_TEXT = response.text
+    # Markdown PDF Content
+    [Write the extracted PDF content in markdown format here]
+
+    # Organized Context
+    [Write your organized and reformatted version here]
+
+    # Summary
+    [Write your concise summary here]
+
+    **Important reminders:**
+    - Maintain the original meaning and intent of the text throughout all three parts
+    - Respond in the same language as the provided PDF content
+    - Do not add information that wasn't in the original content
+    - Focus on clarity and readability in your organization
+    """
+    # https://ai.google.dev/gemini-api/docs/document-processing#python
+    response = client.models.generate_content(
+      model="gemini-2.5-flash",
+      contents=[
+          types.Part.from_bytes(
+            data=PDF_FILEPATH.read_bytes(),
+            mime_type='application/pdf',
+          ),
+          PROMPT])
+    MARKDOWN_TEXT = response.text
   # print(MARKDOWN_TEXT)
   with open(MD_FILEPATH, 'w', encoding='utf-8') as file:
     file.write(MARKDOWN_TEXT)
@@ -380,6 +404,9 @@ REFERENCE:
      │                                                                                        │
      │ Navigate cells with vim keys (hjkl), edit in-place, copy cells/rows/tables             │
      │                                                                                        │
+     │ Other                                                                                  │
+     │ - `e` edit the markdown file in-place (opens in $EDITOR)                               │
+     │                                                                                        │
      │ Navigation                                                                             │
      │ - `j` / `k` or `↓` / `↑`: Move down/up                                                 │
      │ - `g` / `G` or `Home` / `End`: Jump to top/bottom                                      │
@@ -427,11 +454,13 @@ REFERENCE:
 
 HOW TO RUN THIS SCRIPT:
 export GEMINI_API_KEY="xxxxxxxxxxxxxxxxxxxx"
+export HF_TOKEN="xxxxxxxxxxxxxxxxxxxx"
 python3 gemini-pdf2md.py --help
 python3 gemini-pdf2md.py --input-file="~/Downloads/terminal-reading/pdf/" --output="~/Downloads/terminal-reading/epub/"
 python3 gemini-pdf2md.py --input-file ~/Downloads/terminal-reading/pdf/2026a01m05d.pdf --output ~/Downloads/terminal-reading/epub/
 ({
 export GEMINI_API_KEY="xxxxxxxxxxxxxxxxxxxx"
+export HF_TOKEN="xxxxxxxxxxxxxxxxxxxx"
 python3 gemini-pdf2md.py --input-file="./data/vision-pdf-test.pdf" --output="./output/"
 })
 
@@ -456,4 +485,3 @@ OTHER scripts:
   - `ctrl-w f` to open the script in Vim
   - `ctrl-w T` to open the script in a new tab in Vim
 """
-

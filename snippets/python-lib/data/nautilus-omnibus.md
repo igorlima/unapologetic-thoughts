@@ -4,15 +4,15 @@ The basic idea is to organize the day into events and tasks.
 
 -------
 
-## Calendar 2025
+## Calendar 2026
 
-_One page calendar for: **2025**_
+_One page calendar for: **2026**_
 
 | - | - | - | - | - | - | - | - | - | - | - | - |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| . | . | . | . | . |Jun|Sep|Apr|Jan|May|Aug|Feb|
-| . | . | . | . | . |   |Dec|Jul|Oct|   |   |Mar|
-| . | . | . | . | . |   |   |   |   |   |   |Nov|
+| . | . | . | . | . |Feb|Jun|Sep|Apr|Jan|May|Aug|
+| . | . | . | . | . |Mar|   |Dec|Jul|Oct|   |   |
+| . | . | . | . | . |Nov|   |   |   |   |   |   |
 | - | - | - | - | - | - | - | - | - | - | - | - |
 | 1 | 8 | 15| 22| 29|Sun|Mon|Tue|Wed|Thu|Fri|Sat|
 | 2 | 9 | 16| 23| 30|Mon|Tue|Wed|Thu|Fri|Sat|Sun|
@@ -24,47 +24,51 @@ _One page calendar for: **2025**_
 
 -------
 
-### Tasks
+## Tasks
 
-- [ ] task lorem ipsum
-    - [ ] subtask: 01 02 03
-    - [ ] subtask: 01 02 03
-- [ ] task lorem ipsum
-    - [ ] subtask: 01 02 03
-    - [ ] subtask: 01 02 03
-- [ ] task lorem ipsum
-    - [ ] subtask: 01 02 03
-    - [ ] subtask: 01 02 03
-- [ ] task lorem ipsum
-    - [ ] subtask: 01 02 03
-    - [ ] subtask: 01 02 03
+### Top 3
+- [ ] most important task
+    - [ ] one thing that would make today feel successful
+- [ ] second important task
+    - [ ] one thing that supports my health, like reducing stress
+- [ ] third important task
+    - [ ] one thing that moves life or work forward
+
+### Next
+- [ ] follow-up item
+- [ ] quick win
+- [ ] something to start later
+- [ ] something easy to start
+- [ ] something that takes less than 15 minutes
+- [ ] something important but not urgent
+- [ ] something worth preparing now
+
+### Waiting
+- [ ] response from someone
+- [ ] approval or confirmation
+- [ ] result from a previous action
 
 -------
 
-### Events
+## Events
 
-| Time  | Event       | Task       |
-| :---  | :----       | :---       |
-| 05:00 | event 01 02 | task 03 04 |
-| 06:00 | event 01 02 | task 03 04 |
-| 07:00 | event 01 02 | task 03 04 |
-| 08:00 | event 01 02 | task 03 04 |
-| 09:00 | event 01 02 | task 03 04 |
-| 10:00 | event 01 02 | task 03 04 |
-| 11:00 | event 01 02 | task 03 04 |
-| 12:00 | event 01 02 | task 03 04 |
-| 13:00 | event 01 02 | task 03 04 |
-| 14:00 | event 01 02 | task 03 04 |
-| 15:00 | event 01 02 | task 03 04 |
-| 16:00 | event 01 02 | task 03 04 |
-| 17:00 | event 01 02 | task 03 04 |
-| 18:00 | event 01 02 | task 03 04 |
-| 19:00 | event 01 02 | task 03 04 |
-| 20:00 | event 01 02 | task 03 04 |
-| 21:00 | event 01 02 | task 03 04 |
-| 22:00 | event 01 02 | task 03 04 |
-| 23:00 | event 01 02 | task 03 04 |
-| 00:00 | event 01 02 | task 03 04 |
+### Fixed Time
+- [ ] time-specific event
+- [ ] appointment or meeting
+- [ ] planned commitment
+
+### Flexible Blocks
+- [ ] morning: start well
+    - [ ] morning: focus on one important thing
+- [ ] afternoon: make progress
+    - [ ] afternoon: continue or complete something meaningful
+- [ ] evening: review, rest, or reset
+    - [ ] evening: slow down and close the day
+
+### Notes
+- what matters this morning
+- what to remember this afternoon
+- what to reflect on this evening
 
 -------
 
@@ -307,7 +311,7 @@ Change default task duration 60min
 Recolor important task to red with !
 16-17:20 Relax
 Review what you accomplished
-Click on Example 2
+Open Example 2 for more syntax
 ```
 
 **Example 2**
@@ -318,7 +322,7 @@ Click on Example 2
 [x] Finish tasks by inserting the x
 [ ] Control task progress by adding the indicator d50% 90m
   The task will be narrower and dotted. This one is half-done.
-[ ] Click on the task in spiral! 60m
+[ ] Click on a task in the spiral view! 60m
 [x] Add a timestamp like d10:30 to a finished task
   The task will be grayed and anchored in the spiral at the 
   specified time.
@@ -330,4 +334,3 @@ Click on Example 2
 ```
 
 -------
-

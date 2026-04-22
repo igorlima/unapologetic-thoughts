@@ -27,6 +27,7 @@ _One page calendar for: **2026**_
 ## Tasks
 
 ### Top 3
+
 - [ ] most important task
     - [ ] one thing that would make today feel successful
 - [ ] second important task
@@ -35,6 +36,7 @@ _One page calendar for: **2026**_
     - [ ] one thing that moves life or work forward
 
 ### Next
+
 - [ ] follow-up item
 - [ ] quick win
 - [ ] something to start later
@@ -44,6 +46,7 @@ _One page calendar for: **2026**_
 - [ ] something worth preparing now
 
 ### Waiting
+
 - [ ] response from someone
 - [ ] approval or confirmation
 - [ ] result from a previous action
@@ -53,11 +56,13 @@ _One page calendar for: **2026**_
 ## Events
 
 ### Fixed Time
+
 - [ ] time-specific event
 - [ ] appointment or meeting
 - [ ] planned commitment
 
 ### Flexible Blocks
+
 - [ ] morning: start well
     - [ ] morning: focus on one important thing
 - [ ] afternoon: make progress
@@ -66,6 +71,7 @@ _One page calendar for: **2026**_
     - [ ] evening: slow down and close the day
 
 ### Notes
+
 - what matters this morning
 - what to remember this afternoon
 - what to reflect on this evening

@@ -20,11 +20,11 @@ import pudb; # pu.db
 
 python3 -m venv my-test-env-2025a01m01d
 source my-test-env-2025a01m01d/bin/activate
-pip3 install xml2epub==2.6.6
+pip3 install xml2epub==2.6.11
 pip3 install standard-imghdr==3.13.0
-pip3 install markdown==3.7
-pip3 install importlib-metadata==8.5.0
-pip3 install typing-extensions==4.12.2
+pip3 install markdown==3.10.2
+pip3 install importlib-metadata==9.0.0
+pip3 install typing-extensions==4.15.0
 pip3 install pudb
 """
 

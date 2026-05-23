@@ -258,14 +258,30 @@ REFERENCE:
      │ + / -    Increase/decrease content margins                                  │
      └─────────────────────────────────────────────────────────────────────────────┘
      ┌─────────────────────────────────────────────────────────────────────────────┐
+     │ MY FAVORITE shortcuts                                                       │
+     ├─────────────────────────────────────────────────────────────────────────────┤
+     │ Ctrl+z   Toggle zen mode (hide sidebar/status bar)                          │
+     │ Ctrl+d / Ctrl+u   Scroll half-page down/up                                  │
+     │ n                     Toggle normal mode                                    │
+     │                       (Vim motions, visual selection, yanking)              │
+     │ v / V (normal mode)   Enter visual character/line selection;                │
+     │                       y to yank, Esc to exit                                │
+     └─────────────────────────────────────────────────────────────────────────────┘
+     ┌─────────────────────────────────────────────────────────────────────────────┐
      │ NAVIGATION (Vim-style)                                                      │
      ├─────────────────────────────────────────────────────────────────────────────┤
      │ j/k               Move down/up (works in all lists and reader)              │
      │ h/l               Collapse/expand in TOC; previous/next chapter in reader   │
      │ Ctrl+d / Ctrl+u   Scroll half-page down/up                                  │
+     │ Ctrl+f / Ctrl+b   Scroll full-page down/up                                  │
      │ gg                Jump to top                                               │
      │ G                 Jump to bottom                                            │
      │ Ctrl+o / Ctrl+i   Jump backward/forward in history                          │
+     ├─────────────────────────────────────────────────────────────────────────────┤
+     │ n                     Toggle normal mode                                    │
+     │                       (Vim motions, visual selection, yanking)              │
+     │ v / V (normal mode)   Enter visual character/line selection;                │
+     │                       y to yank, Esc to exit                                │
      └─────────────────────────────────────────────────────────────────────────────┘
      ┌─────────────────────────────────────────────────────────────────────────────┐
      │ SEARCH                                                                      │
@@ -283,9 +299,16 @@ REFERENCE:
      │ H / L   Collapse/expand all                                                 │
      └─────────────────────────────────────────────────────────────────────────────┘
      ┌─────────────────────────────────────────────────────────────────────────────┐
-     │ READER PANEL                                                                │
+     │ READER PANEL (press n to enter/exit)                                        │
      ├─────────────────────────────────────────────────────────────────────────────┤
      │ h / l                 Previous/next chapter                                 │
+     │ ........................................................................... │
+     │ { / }                 Jump to previous / next paragraph                     │
+     │ w/W/b/e               Word motions (small/Big)                              │      
+     │ 0/^/$                 Line start / first non-space / end                    │
+     │ Ctrl+d/u/f/b          Half / full page scroll                               │
+     │ f/F/t/T ;             Find/till char and repeat                             │
+     │ ........................................................................... │
      │ Space+s               Toggle raw HTML view                                  │
      │ Space+c               Copy entire chapter                                   │
      │ Space+z               Copy debug transcript                                 │
@@ -295,6 +318,8 @@ REFERENCE:
      │                       (Vim motions, visual selection, yanking)              │
      │ v / V (normal mode)   Enter visual character/line selection;                │
      │                       y to yank, Esc to exit                                │
+     │ ........................................................................... │
+     │ Esc                   Exit visual mode                                      │
      └─────────────────────────────────────────────────────────────────────────────┘
      ┌─────────────────────────────────────────────────────────────────────────────┐
      │ COMMENTS & ANNOTATIONS                                                      │

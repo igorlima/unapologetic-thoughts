@@ -504,6 +504,8 @@ OTHER scripts:
   - `../cli-and-tui/scripts/reading.batch-convert-pdf2md2epub.sh`
 - rename files in a folder to a consistent format with date and time
   - `../cli-and-tui/scripts/reading.rename-files.sh`
+    - absolute path:
+      - `~/workstation/github/unapologetic-thoughts/snippets/cli-and-tui/scripts/reading.rename-files.sh`
 - to iterate over all PDFs in the current directory and uploads confirmed files to S3
   - `~/workstation/git-remote-s3/s3-code-sketch/bash/scripts/reading.upload_pdfs_to_s3_with_confirm.sh`
   - `~/workstation/git-remote-s3/s3-code-sketch/bash/scripts/reading.upload_markdowns_to_s3_with_confirm.sh`

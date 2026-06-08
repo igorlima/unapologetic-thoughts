@@ -1,0 +1,26 @@
+# :set syntax=requirements
+# mkdir $(date +%Ya%mm%dd-%Hh%Mm)
+# mkdir $(date +%Ya%mm%dd-%Hh%Mm%Ss)
+# pip3 install -r md2epub.requirements.txt
+
+# rm -rf tmp-env
+# python3 -m venv tmp-env
+# python3 -m venv my-test-env-2026a01m02d
+# source my-test-env-2026a01m02d/bin/activate
+xml2epub==2.6.10
+markdown==3.10.2
+
+# `-I`  Ignore the installed packages, overwriting them.
+# `-U`  Upgrade all specified packages to the newest available version.
+# pip3 install -U xml2epub==2.6.10
+# pip3 install -U markdown==3.10.2
+# pip3 list
+# pip3 show xml2epub
+# pip3 show markdown
+# pip3 index versions xml2epub
+# pip3 index versions markdown
+
+# :set syntax=requirements
+# :echom &syntax
+# :echom &filetype
+# :messages

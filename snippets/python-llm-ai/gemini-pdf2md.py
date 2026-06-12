@@ -489,6 +489,14 @@ export HF_TOKEN="xxxxxxxxxxxxxxxxxxxx"
 python3 gemini-pdf2md.py --input-file="./data/vision-pdf-test.pdf" --output="./output/"
 })
 
+CONVERT MARKDOWN TO EPUB (standalone):
+python3 md2epub.py --help
+python3 md2epub.py --input-file ./notes.md --output ./output/
+({
+python3 md2epub.py -i ./notes.md -o ./output/
+python3 md2epub.py --input-file="./data/sample.md" --output="./output/"
+})
+
 GENERATE AN API KEY
 Follow these steps:
 - In Google AI Studio, click Get API key in the left navigation panel.

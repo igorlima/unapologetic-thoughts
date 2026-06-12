@@ -153,12 +153,12 @@ cd ~/workstation/git-remote-s3
 # pip3 install -r requirements.txt
 #
 
-pip3 install git-remote-s3==0.2.0
+pip3 install git-remote-s3==0.3.2
 
 # VIM dependencies plugin
-pip3 install awscli==1.36.4
-pip3 install click==8.1.7
-pip3 install rich==13.9.4
+pip3 install awscli==1.45.18
+pip3 install click==8.4.1
+pip3 install rich==15.0.0
 ```
 
 ```sh

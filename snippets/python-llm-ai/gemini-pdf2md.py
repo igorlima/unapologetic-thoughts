@@ -417,6 +417,57 @@ REFERENCE:
      │ EOF                                                                                    │
      └────────────────────────────────────────────────────────────────────────────────────────┘
      ┌────────────────────────────────────────────────────────────────────────────────────────┐
+     │ LEAF                                                                                   │
+     ├────────────────────────────────────────────────────────────────────────────────────────┤
+     │ npm update -g @rivolink/leaf                                                           │
+     │ https://github.com/rivolink/leaf                                                       │
+     │ https://terminaltrove.com/leaf                                                         │
+     │                                                                                        │
+     │ leaf TESTING.md                          # Open a Markdown file                        │
+     │ leaf --picker                            # Open the classic directory browser picker   │
+     │ cat TESTING.md | leaf                    # Preview a local file through stdin          │
+     │ leaf                                     # Open the fuzzy Markdown picker              │
+     │ leaf --auto-complete                     # Enable Tab completion for all arguments     │
+     │ fzf --preview 'leaf --inline ansi {}'    # Use as a fzf preview                        │
+     │ fzf --preview 'leaf --inline ansi:$FZF_PREVIEW_COLUMNS {}' # Use as a fzf preview      │
+     │                                                                                        │
+     │ " Preview the current Markdown file in a vertical split using leaf                     │
+     │ ```vim                                                                                 │
+     │ nnoremap <Leader>md :vertical botright terminal leaf -w %<CR>                          │
+     │ ```                                                                                    │
+     │                                                                                        │
+     │ Key Bindings (default)                                                                 │
+     │ |-------------------|--------------------------------|                                 │
+     │ | Key               | Action                         |                                 │
+     │ |-------------------|--------------------------------|                                 │
+     │ | j / ↓             | Scroll down                    |                                 │
+     │ | k / ↑             | Scroll up                      |                                 │
+     │ | d / PgDn          | Page down (20 lines)           |                                 │
+     │ | u / PgUp          | Page up (20 lines)             |                                 │
+     │ | g / Home          | Top                            |                                 │
+     │ | G / End           | Bottom                         |                                 │
+     │ | Ctrl+L            | Go to line                     |                                 │
+     │ | Ctrl+F / /        | Find                           |                                 │
+     │ | n / N             | Next / prev match              |                                 │
+     │ | w                 | Toggle watch mode              |                                 │
+     │ | r                 | Force reload (watch mode)      |                                 │
+     │ | q                 | Quit                           |                                 │
+     │ | ?                 | Show help popup                |                                 │
+     │ | t                 | Toggle TOC sidebar             |                                 │
+     │ | Shift+L           | Toggle line numbers            |                                 │
+     │ | Shift+T           | Open theme picker              |                                 │
+     │ | Shift+E           | Open editor picker             |                                 │
+     │ | Shift+P           | Open file browser              |                                 │
+     │ | Ctrl+P            | Open fuzzy picker              |                                 │
+     │ | Ctrl+E            | Open in editor                 |                                 │
+     │ | Ctrl+Click        | Open link                      |                                 │
+     │ | Double-Click      | Copy link                      |                                 │
+     │ | Shift+Drag        | Select text                    |                                 │
+     │ | Option+Drag       | Select text (iTerm2)           |                                 │
+     │ |-------------------|--------------------------------|                                 │
+     │                                                                                        │
+     └────────────────────────────────────────────────────────────────────────────────────────┘
+     ┌────────────────────────────────────────────────────────────────────────────────────────┐
      │ TREEMD                                                                                 │
      ├────────────────────────────────────────────────────────────────────────────────────────┤
      │ brew install treemd                                                                    │

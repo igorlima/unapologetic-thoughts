@@ -17,6 +17,11 @@ foster new insights.
 articles, enabling items to be tracked and revisited later, even if some
 entries eventually become outdated.</sup>
 
+- Sun, Jul 12, 2026 - 2026a07m12d
+  - I never allow myself to have an opinion on anything that I don’t know the other side’s argument better than they do.
+    - Charlie Munger
+  - You cannot be sure that you are right unless you understand the arguments against your views better than your opponents do.
+    - Economist Milton Friedman [+](https://fs.blog/the-work-required-to-have-an-opinion/)
 - Sun, May 10, 2026 - 2026a05m10d
   - Most success comes from 50 small things moving in the same direction, not one big thing.
 - Sun, Mar 15, 2026 - 2026a03m15d 

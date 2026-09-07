@@ -17,6 +17,12 @@ foster new insights.
 articles, enabling items to be tracked and revisited later, even if some
 entries eventually become outdated.</sup>
 
+- Sun, Sep 06, 2026 - 2026a09m06d
+  - “It’s not what you are capable of; it’s what you are willing to do. Plenty of people are capable. Fewer people are willing.”
+    - _Coach Mike Tomlin on what you choose to do_
+- Sun, Jul 26, 2026 - 2026a07m26d
+  - "When you talk, you are only repeating what you already know. But if you listen, you may learn something new."
+    - the Dalai Lama on listening
 - Sun, Jul 12, 2026 - 2026a07m12d
   - I never allow myself to have an opinion on anything that I don’t know the other side’s argument better than they do.
     - Charlie Munger

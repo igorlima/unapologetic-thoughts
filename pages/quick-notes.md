@@ -20,6 +20,8 @@ entries eventually become outdated.</sup>
 - Sun, Sep 06, 2026 - 2026a09m06d
   - “It’s not what you are capable of; it’s what you are willing to do. Plenty of people are capable. Fewer people are willing.”
     - _Coach Mike Tomlin on what you choose to do_
+- Sun, Aug 16, 2026 - 2026a08m16d
+  - It’s hard to see what you’re not looking for and it’s easy to see what you’re looking for.
 - Sun, Jul 26, 2026 - 2026a07m26d
   - "When you talk, you are only repeating what you already know. But if you listen, you may learn something new."
     - the Dalai Lama on listening

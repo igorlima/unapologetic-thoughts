@@ -17,6 +17,9 @@ foster new insights.
 articles, enabling items to be tracked and revisited later, even if some
 entries eventually become outdated.</sup>
 
+- Sun, Oct 11, 2026 - 2026a10m11d
+  - "One reason the best in the world make consistently good decisions is they rarely find themselves forced into a decision by circumstances. You don’t need to be smarter than others to outperform them if you can out-position them. Anyone looks like a genius when they’re in a good position, and even the smartest person looks like an idiot when they’re in a bad one."
+    - a great reminder from the book Clear Thinking
 - Sun, Sep 06, 2026 - 2026a09m06d
   - “It’s not what you are capable of; it’s what you are willing to do. Plenty of people are capable. Fewer people are willing.”
     - _Coach Mike Tomlin on what you choose to do_
